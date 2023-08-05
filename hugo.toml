@@ -55,12 +55,12 @@ title = ""
 noClasses = false
 
 [params.social]
-[params.social.Mastodon]
+[params.social.Twitter]
 # weight when arranging icons (the greater the weight, the later the icon is positioned)
 weight = 0
 # your social ID
-id = "@xxxx"
+id = "adamgell"
 # prefix of your social link
-prefix = "https://mastodon.social/"
+prefix = "https://twitter.com/"
 # content hovering on the icon
-title = "Mastodon"
+title = "Twitter"
