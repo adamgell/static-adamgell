@@ -32,19 +32,11 @@ url = "/posts/"
 title = ""
 [[menu.main]]
 weight = 2
-identifier = "tags"
+identifier = "about"
 pre = ""
 post = ""
-name = "Tags"
-url = "/tags/"
-title = ""
-[[menu.main]]
-weight = 3
-identifier = "categories"
-pre = ""
-post = ""
-name = "Categories"
-url = "/categories/"
+name = "about"
+url = "/about/"
 title = ""
 
 # Markup related configuration in Hugo
