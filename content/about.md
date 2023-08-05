@@ -34,6 +34,7 @@ math:
   enable: false
   # ...
 mapbox:
+  enable: true
   # ...
 share:
   enable: true
