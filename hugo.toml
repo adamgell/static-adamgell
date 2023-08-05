@@ -64,3 +64,7 @@ id = "adamgell"
 prefix = "https://twitter.com/"
 # content hovering on the icon
 title = "Twitter"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
