@@ -4,7 +4,7 @@ baseURL = "https://static.adamgell.com"
 theme = "LoveIt"
 
 # website title
-title = "My New Hugo Site"
+title = "🏎️ intune tips"
 
 # language code ["en", "zh-CN", "fr", "pl", ...]
 languageCode = "en"
