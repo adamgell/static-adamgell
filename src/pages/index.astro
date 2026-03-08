@@ -1,0 +1,40 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout title="Adam Gell">
+  <div class="max-w-5xl mx-auto px-6 py-24">
+    <h1 class="text-4xl font-bold tracking-tight mb-4">
+      Hey, I'm Adam Gell
+    </h1>
+    <p class="text-lg text-zinc-400 max-w-xl mb-12">
+      I build tools and write about IT infrastructure, device management, and automation.
+    </p>
+
+    <div class="grid gap-6 sm:grid-cols-2 max-w-2xl">
+      <a
+        href="/tools/autopilot-flow"
+        class="group block border border-zinc-800 rounded-lg p-6 hover:border-zinc-600 transition-colors"
+      >
+        <h2 class="text-lg font-semibold mb-2 group-hover:text-white transition-colors">
+          Tools &amp; Diagrams
+        </h2>
+        <p class="text-sm text-zinc-400">
+          Interactive visualizations for IT workflows and device enrollment flows.
+        </p>
+      </a>
+
+      <a
+        href="/blog"
+        class="group block border border-zinc-800 rounded-lg p-6 hover:border-zinc-600 transition-colors"
+      >
+        <h2 class="text-lg font-semibold mb-2 group-hover:text-white transition-colors">
+          Blog
+        </h2>
+        <p class="text-sm text-zinc-400">
+          Posts on Intune, Autopilot, and modern device management.
+        </p>
+      </a>
+    </div>
+  </div>
+</BaseLayout>

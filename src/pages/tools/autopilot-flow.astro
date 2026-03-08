@@ -1,0 +1,20 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import AutopilotFlow from "../../components/AutopilotFlow";
+---
+
+<BaseLayout
+  title="Autopilot Enrollment Flow — Adam Gell"
+  description="Interactive Windows Autopilot / Intune device enrollment flow diagram"
+>
+  <div class="max-w-6xl mx-auto px-6 py-16">
+    <h1 class="text-3xl font-bold tracking-tight mb-2">
+      Windows Autopilot Enrollment Flow
+    </h1>
+    <p class="text-zinc-400 mb-8">
+      Interactive diagram showing the device enrollment process through Windows Autopilot and Intune.
+    </p>
+
+    <AutopilotFlow client:load />
+  </div>
+</BaseLayout>
