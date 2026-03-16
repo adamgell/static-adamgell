@@ -1,0 +1,21 @@
+{
+  "slug": "defenderui",
+  "title": "DefenderUI",
+  "vendor": "VoodooSoft, LLC",
+  "sourceUrl": "https://silentinstallhq.com/defenderui-silent-install-how-to-guide",
+  "lastScraped": "2026-03-16T21:26:42.066Z",
+  "variants": [
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "**InstallDefenderUI.exe /VERYSILENT /NORESTART**",
+      "silentUninstall": "**\"%ProgramFiles%\\DefenderUI\\unins000.exe\" /VERYSILENT /NORESTART**",
+      "repair": null,
+      "downloadUrl": "https://www.cyberlock.tech/downloads/InstallDefenderUI.exe",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": "**InstallDefenderUI.exe /VERYSILENT /NORESTART /LOG=\"%WINDIR%\\Temp\\DefenderUI-Install.log\"**",
+      "logUninstall": null
+    }
+  ]
+}

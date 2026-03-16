@@ -1,0 +1,33 @@
+{
+  "slug": "forticlient-vpn",
+  "title": "FortiClient VPN",
+  "vendor": "Fortinet Technologies Inc",
+  "sourceUrl": "https://silentinstallhq.com/forticlient-vpn-silent-install-how-to-guide",
+  "lastScraped": "2026-03-16T21:30:23.753Z",
+  "variants": [
+    {
+      "architecture": "x86\\_x64",
+      "installerType": "EXE",
+      "silentInstall": "**FortiClientVPN.exe /quiet /norestart**",
+      "silentUninstall": "**MsiExec.exe /x {FF46D152-9845-4ACE-8258-DBA7E3BE9785} REBOOT=ReallySuppress /qn**",
+      "repair": "**MsiExec.exe /fa {FF46D152-9845-4ACE-8258-DBA7E3BE9785} REBOOT=ReallySuppress /qn**",
+      "downloadUrl": "https://www.fortinet.com/support/product-downloads",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": "**FortiClientVPN.exe /quiet /norestart /log \"%WINDIR%\\Temp\\FortiClientVPN-Install.log\"**",
+      "logUninstall": null
+    },
+    {
+      "architecture": "x86\\_x64",
+      "installerType": "MSI",
+      "silentInstall": "**MsiExec.exe /i FortiClientVPN.msi REBOOT=ReallySuppress /qn**",
+      "silentUninstall": "**MsiExec.exe /x {FF46D152-9845-4ACE-8258-DBA7E3BE9785} REBOOT=ReallySuppress /qn**",
+      "repair": "**MsiExec.exe /fa {FF46D152-9845-4ACE-8258-DBA7E3BE9785} REBOOT=ReallySuppress /qn**",
+      "downloadUrl": "https://www.fortinet.com/support/product-downloads",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ]
+}

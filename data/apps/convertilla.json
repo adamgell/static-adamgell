@@ -1,0 +1,21 @@
+{
+  "slug": "convertilla",
+  "title": "Convertilla",
+  "vendor": "Convertilla",
+  "sourceUrl": "https://silentinstallhq.com/convertilla-silent-install-how-to-guide",
+  "lastScraped": "2026-03-16T21:26:02.271Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "**convertilla.exe /VERYSILENT /NORESTART**",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://convertilla.com/download/convertilla.exe",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": "**convertilla.exe /VERYSILENT /NORESTART /LOG=\"%WINDIR%\\Temp\\Convertilla-Install.log\"**",
+      "logUninstall": null
+    }
+  ]
+}

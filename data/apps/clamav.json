@@ -1,0 +1,33 @@
+{
+  "slug": "clamav",
+  "title": "ClamAV",
+  "vendor": "Cisco Systems, Inc.",
+  "sourceUrl": "https://silentinstallhq.com/clamav-silent-install-how-to-guide",
+  "lastScraped": "2026-03-16T21:25:31.703Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "MSI",
+      "silentInstall": "**MsiExec.exe /i clamav-x.y.z.win.win32.msi ALLUSERS=1 /qn**",
+      "silentUninstall": "**MsiExec.exe /x clamav-x.y.z.win.win32.msi /qn**",
+      "repair": "**MsiExec.exe /fa clamav-x.y.z.win.win32.msi /qn**",
+      "downloadUrl": "https://github.com/Cisco-Talos/clamav/releases/latest",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x64",
+      "installerType": "MSI",
+      "silentInstall": "**MsiExec.exe /i clamav-x.y.z.win.x64.msi ALLUSERS=1 /qn**",
+      "silentUninstall": "**MsiExec.exe /x clamav-x.y.z.win.x64.msi /qn**",
+      "repair": "**MsiExec.exe /fa clamav-x.y.z.win.x64.msi /qn**",
+      "downloadUrl": "https://github.com/Cisco-Talos/clamav/releases/latest",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ]
+}

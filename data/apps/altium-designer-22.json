@@ -1,0 +1,22 @@
+{
+  "slug": "altium-designer-22",
+  "title": "Altium Designer 22",
+  "vendor": "Altium Limited",
+  "sourceUrl": "https://silentinstallhq.com/altium-designer-22-silent-install-how-to-guide",
+  "lastScraped": "2026-03-16T21:30:11.025Z",
+  "variants": [
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "AltiumDesigner22Setup.exe -Install -AutoInstall -UI:None",
+      "silentUninstall": "See Uninstall Section Below",
+      "repair": null,
+      "downloadUrl": "https://www.altium.com/products/downloads",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

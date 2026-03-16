@@ -1,0 +1,21 @@
+{
+  "slug": "bitwarden-directory-connector",
+  "title": "Bitwarden Directory Connector",
+  "vendor": "8bit Solutions LLC",
+  "sourceUrl": "https://silentinstallhq.com/bitwarden-directory-connector-silent-install-how-to-guide",
+  "lastScraped": "2026-03-16T21:23:54.866Z",
+  "variants": [
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "**Bitwarden-Connector-Installer-x.y.z.exe /allusers /S**",
+      "silentUninstall": "**\"%ProgramFiles%\\Bitwarden Directory Connector\\Uninstall Bitwarden Directory Connector.exe\" /allusers /S**",
+      "repair": null,
+      "downloadUrl": "https://github.com/bitwarden/directory-connector/releases/latest",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ]
+}

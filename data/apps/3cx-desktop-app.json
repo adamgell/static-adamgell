@@ -1,0 +1,22 @@
+{
+  "slug": "3cx-desktop-app",
+  "title": "3CX Desktop App",
+  "vendor": "3CX Ltd.",
+  "sourceUrl": "https://silentinstallhq.com/3cx-desktop-app-silent-install-how-to-guide",
+  "lastScraped": "2026-03-16T21:29:50.655Z",
+  "variants": [
+    {
+      "architecture": "x86\\_x64",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i 3CXDesktopApp-x.y.z.msi TRANSFORMS=3CXDesktopApp.mst /qn",
+      "silentUninstall": "MsiExec.exe /x 3CXDesktopApp-x.y.z.msi /qn",
+      "repair": "MsiExec.exe /fa 3CXDesktopApp-x.y.z.msi /qn",
+      "downloadUrl": "https://1243.3cx.cloud/webclient/api/app/windows",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

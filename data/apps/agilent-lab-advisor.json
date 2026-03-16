@@ -1,0 +1,22 @@
+{
+  "slug": "agilent-lab-advisor",
+  "title": "Agilent Lab Advisor",
+  "vendor": "Agilent Technologies",
+  "sourceUrl": "https://silentinstallhq.com/agilent-lab-advisor-silent-install-how-to-guide",
+  "lastScraped": "2026-03-16T21:30:07.755Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i AgilentLabAdvisor.msi /qn",
+      "silentUninstall": "MsiExec.exe /x AgilentLabAdvisor.msi /qn",
+      "repair": "MsiExec.exe /fa AgilentLabAdvisor.msi /qn",
+      "downloadUrl": "https://labadvisor.pl29.agilent.com/latest",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

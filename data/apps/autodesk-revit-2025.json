@@ -1,0 +1,21 @@
+{
+  "slug": "autodesk-revit-2025",
+  "title": "Autodesk Revit 2025",
+  "vendor": "Autodesk",
+  "sourceUrl": "https://silentinstallhq.com/autodesk-revit-2025-silent-install-how-to-guide",
+  "lastScraped": "2026-03-16T21:22:43.710Z",
+  "variants": [
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "**Setup.exe -q**",
+      "silentUninstall": "[CLICK HERE FOR DETAILS](https://silentinstallhq.com/autodesk-revit-2025-silent-install-how-to-guide/#Autodesk_Revit_2025_Uninstall)",
+      "repair": null,
+      "downloadUrl": "https://www.autodesk.com/products/revit/",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "3df-zephyr-free",
+  "title": "3DF Zephyr Free",
+  "vendor": "3Dflow",
+  "sourceUrl": "https://silentinstallhq.com/3df-zephyr-free-silent-install-how-to-guide",
+  "lastScraped": "2026-03-16T21:29:53.136Z",
+  "variants": [
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "\"3DF Zephyr Free vx.xxx (x64).exe\" /VERYSILENT /NORESTART",
+      "silentUninstall": "\"%ProgramFiles%\\3DF Zephyr Free\\unins000.exe\" /VERYSILENT /NORESTART",
+      "repair": null,
+      "downloadUrl": "https://www.3dflow.net/3df-zephyr-free/",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": "\"3DF Zephyr Free vx.xxx (x64).exe\" /VERYSILENT /NORESTART /LOG=\"%WINDIR%\\Temp\\3DFZephyrFree-Install.log\"",
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "bitrix24",
+  "title": "Bitrix24",
+  "vendor": "Bitrix",
+  "sourceUrl": "https://silentinstallhq.com/bitrix24-silent-install-how-to-guide",
+  "lastScraped": "2026-03-16T21:23:48.124Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "**bitrix24_desktop.exe /S**",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://dl.bitrix24.com/b24/bitrix24_desktop.exe",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x86",
+      "installerType": "MSI",
+      "silentInstall": "**MsiExec.exe /i bitrix24_desktop.msi ALLUSERS=1 /qn**",
+      "silentUninstall": "**MsiExec.exe /x bitrix24_desktop.msi /qn**",
+      "repair": "**MsiExec.exe /fa bitrix24_desktop.msi /qn**",
+      "downloadUrl": "https://dl.bitrix24.com/b24/bitrix24_desktop.msi",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ]
+}

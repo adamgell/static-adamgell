@@ -1,0 +1,21 @@
+{
+  "slug": "charles",
+  "title": "Charles",
+  "vendor": "XK72 Ltd",
+  "sourceUrl": "https://silentinstallhq.com/charles-silent-install-how-to-guide",
+  "lastScraped": "2026-03-16T21:24:54.520Z",
+  "variants": [
+    {
+      "architecture": "x64",
+      "installerType": "MSI",
+      "silentInstall": "**MsiExec.exe /i charles-proxy-x.y.z-win64.msi ALLUSERS=1 /qn**",
+      "silentUninstall": "**MsiExec.exe /x charles-proxy-x.y.z-win64.msi /qn**",
+      "repair": "**MsiExec.exe /fa charles-proxy-x.y.z-win64.msi /qn**",
+      "downloadUrl": "https://www.charlesproxy.com/download/",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ]
+}

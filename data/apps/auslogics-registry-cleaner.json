@@ -1,0 +1,22 @@
+{
+  "slug": "auslogics-registry-cleaner",
+  "title": "Auslogics Registry Cleaner",
+  "vendor": "Auslogics Labs Pty Ltd",
+  "sourceUrl": "https://silentinstallhq.com/auslogics-registry-cleaner-silent-install-how-to-guide",
+  "lastScraped": "2026-03-16T21:30:55.265Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "auslogics-registry-cleaner-setup.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://www.auslogics.com/software/registry-cleaner/after-download/?m=affiliate_paypro12292&utm_medium=affiliate&utm_source=paypro&utm_campaign=12292&coupon=ACTUAL15&sidstart",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": "auslogics-registry-cleaner-setup.exe /VERYSILENT /NORESTART /LOG=\"%WINDIR%\\Temp\\RegistryCleaner-Install.log\"",
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

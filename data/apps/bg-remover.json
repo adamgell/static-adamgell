@@ -1,0 +1,21 @@
+{
+  "slug": "bg-remover",
+  "title": "BG Remover",
+  "vendor": "DeveloperSharif",
+  "sourceUrl": "https://silentinstallhq.com/bg-remover-silent-install-how-to-guide",
+  "lastScraped": "2026-03-16T21:23:38.217Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "**bg-remover-setup-x.y.z.exe /VERYSILENT /NORESTART**",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://github.com/developersharif/bgremover-app#bg-remover-app-offline",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": "**bg-remover-setup-x.y.z.exe /VERYSILENT /NORESTART /LOG=\"%WINDIR%\\Temp\\BGRemover-Install.log\"**",
+      "logUninstall": null
+    }
+  ]
+}

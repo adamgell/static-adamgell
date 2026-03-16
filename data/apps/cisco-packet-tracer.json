@@ -1,0 +1,33 @@
+{
+  "slug": "cisco-packet-tracer",
+  "title": "Cisco Packet Tracer 32-bit",
+  "vendor": "Cisco Systems, Inc.",
+  "sourceUrl": "https://silentinstallhq.com/cisco-packet-tracer-silent-install-how-to-guide",
+  "lastScraped": "2026-03-16T21:25:12.255Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "**CiscoPacketTracer_XXX_Windows_32bit_setup.exe /VERYSILENT /NORESTART**",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://www.netacad.com/courses/packet-tracer",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": "**CiscoPacketTracer_XXX_Windows_64bit_setup.exe /VERYSILENT /NORESTART /LOG=\"%WINDIR%\\Temp\\PacketTracer-Install.log\"**",
+      "logUninstall": null
+    },
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "**CiscoPacketTracer_XXX_Windows_64bit_setup.exe /VERYSILENT /NORESTART**",
+      "silentUninstall": "**\"%ProgramFiles%\\Cisco Packet Tracer x.x.x\\unins000.exe\" /VERYSILENT /NORESTART**",
+      "repair": null,
+      "downloadUrl": "https://www.netacad.com/courses/packet-tracer",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ]
+}

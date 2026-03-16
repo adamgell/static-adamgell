@@ -1,0 +1,22 @@
+{
+  "slug": "acronis-ransomware-protection",
+  "title": "Acronis Ransomware Protection",
+  "vendor": "Acronis International GmbH",
+  "sourceUrl": "https://silentinstallhq.com/acronis-ransomware-protection-silent-install-how-to-guide",
+  "lastScraped": "2026-03-16T21:29:58.751Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "AcronisProtectionSetup.exe /install /quiet /norestart",
+      "silentUninstall": "AcronisProtectionSetup.exe /uninstall /quiet /norestart",
+      "repair": "AcronisProtectionSetup.exe /repair /quiet /norestart",
+      "downloadUrl": "https://dl.acronis.com/u/AcronisProtectionSetup.exe",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": "AcronisProtectionSetup.exe /install /quiet /norestart /log \"%WINDIR%\\Temp\\AcronisRansomwareProtection-Install.log\"",
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

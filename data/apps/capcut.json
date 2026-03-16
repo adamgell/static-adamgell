@@ -1,0 +1,21 @@
+{
+  "slug": "capcut",
+  "title": "CapCut",
+  "vendor": "Bytedance Pte. Ltd.",
+  "sourceUrl": "https://silentinstallhq.com/capcut-silent-install-how-to-guide",
+  "lastScraped": "2026-03-16T21:24:39.803Z",
+  "variants": [
+    {
+      "architecture": "x86\\_x64",
+      "installerType": "EXE",
+      "silentInstall": "**CapCut_w_x_y_z.exe /silent_install=1**",
+      "silentUninstall": "**See Uninstall Section Below**",
+      "repair": null,
+      "downloadUrl": "https://lf16-capcut.faceulv.com/obj/capcutpc-packages-sg/packages/CapCut_6_8_0_2740_capcutpc_0_creatortool.exe",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "andreamosaic",
+  "title": "AndreaMosaic",
+  "vendor": "Unyma",
+  "sourceUrl": "https://silentinstallhq.com/andreamosaic-silent-install-how-to-guide",
+  "lastScraped": "2026-03-16T21:30:19.085Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "AndreaMosaicSetup.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://teramosaic.com/andreamosaic/AndreaMosaicSetup.exe",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": "AndreaMosaicSetup.exe /VERYSILENT /NORESTART /LOG=\"%WINDIR%\\Temp\\AndreaMosaic-Install.log\"",
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

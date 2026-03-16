@@ -1,0 +1,21 @@
+{
+  "slug": "autodesk-navisworks-exporters-2025",
+  "title": "Autodesk Navisworks Exporters 2025",
+  "vendor": "Autodesk",
+  "sourceUrl": "https://silentinstallhq.com/autodesk-navisworks-exporters-2025-silent-install-how-to-guide",
+  "lastScraped": "2026-03-16T21:22:21.880Z",
+  "variants": [
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "**Setup.exe -q**",
+      "silentUninstall": "[CLICK HERE FOR DETAILS](https://silentinstallhq.com/autodesk-navisworks-exporters-2025-silent-install-how-to-guide/#Autodesk_Navisworks_Exporters_2025_Uninstall)",
+      "repair": null,
+      "downloadUrl": "https://www.autodesk.com/products/navisworks/3d-viewers",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ]
+}

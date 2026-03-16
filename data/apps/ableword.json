@@ -1,0 +1,22 @@
+{
+  "slug": "ableword",
+  "title": "AbleWord",
+  "vendor": "AbleWord",
+  "sourceUrl": "https://silentinstallhq.com/ableword-silent-install-how-to-guide",
+  "lastScraped": "2026-03-16T21:29:55.278Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "ableword.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "http://www.ableword.net/ableword.exe",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": "ableword.exe /VERYSILENT /NORESTART /LOG=\"%WINDIR%\\Temp\\AbleWord-Install.log\"",
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "affinity-designer",
+  "title": "Affinity Designer",
+  "vendor": "Serif (Europe) Ltd",
+  "sourceUrl": "https://silentinstallhq.com/affinity-designer-silent-install-how-to-guide",
+  "lastScraped": "2026-03-16T21:30:04.877Z",
+  "variants": [
+    {
+      "architecture": "x86\\_x64",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i Affinity.msi /qn",
+      "silentUninstall": "MsiExec.exe /x Affinity.msi /qn",
+      "repair": "MsiExec.exe /fa Affinity.msi /qn",
+      "downloadUrl": "https://affinity.serif.com/en-us/designer/",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

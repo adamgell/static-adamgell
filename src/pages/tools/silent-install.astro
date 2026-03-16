@@ -1,0 +1,28 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import SilentInstallLibrary from "../../components/SilentInstallLibrary";
+---
+
+<BaseLayout
+  title="Silent Install Library — Adam Gell"
+  description="Searchable silent install and uninstall commands for Windows software, automatically scraped nightly."
+>
+  <div class="max-w-7xl mx-auto px-6 py-16">
+    <h1 class="text-3xl font-bold tracking-tight mb-2">
+      Silent Install Library
+    </h1>
+    <p class="text-slate-400 mb-8">
+      Silent install &amp; uninstall commands for Windows software — automatically scraped nightly from{" "}
+      <a
+        href="https://silentinstallhq.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="text-slate-300 hover:text-white underline underline-offset-2 transition-colors"
+      >
+        silentinstallhq.com
+      </a>.
+    </p>
+
+    <SilentInstallLibrary client:load />
+  </div>
+</BaseLayout>

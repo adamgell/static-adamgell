@@ -1,0 +1,21 @@
+{
+  "slug": "carbide-create",
+  "title": "Carbide Create",
+  "vendor": "Carbide 3D LLC",
+  "sourceUrl": "https://silentinstallhq.com/carbide-create-silent-install-how-to-guide",
+  "lastScraped": "2026-03-16T21:24:44.123Z",
+  "variants": [
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "**CarbideCreate-xxx.exe /VERYSILENT /NORESTART**",
+      "silentUninstall": "**\"%ProgramFiles%\\CarbideCreateV7\\unins000.exe\" /VERYSILENT /NORESTART**",
+      "repair": null,
+      "downloadUrl": "https://carbide3d.com/carbidecreate/download/",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": "**CarbideCreate-xxx.exe /VERYSILENT /NORESTART /LOG=\"%WINDIR%\\Temp\\CarbideCreate-Install.log\"**",
+      "logUninstall": null
+    }
+  ]
+}

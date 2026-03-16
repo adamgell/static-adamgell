@@ -1,0 +1,34 @@
+{
+  "slug": "adobe-reader-dc",
+  "title": "Adobe Acrobat Reader DC",
+  "vendor": "Adobe Systems Incorporated",
+  "sourceUrl": "https://silentinstallhq.com/adobe-reader-dc-silent-install-how-to-guide",
+  "lastScraped": "2026-03-16T21:30:02.542Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "AcroRdrDC2500120432_en_US.exe /sAll /rs /msi EULA_ACCEPT=YES",
+      "silentUninstall": "MsiExec.exe /x {AC76BA86-7AD7-1033-7B44-AC0F074E4100} /qn",
+      "repair": "MsiExec.exe /fa {AC76BA86-7AD7-1033-7B44-AC0F074E4100} /qn",
+      "downloadUrl": null,
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x86",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i \"%~dp0AcroRead.msi\" PATCH=\"%~dp0AcroRdrDCUpd2500120432.msp\" /qn",
+      "silentUninstall": "MsiExec.exe /x {AC76BA86-7AD7-1033-7B44-AC0F074E4100} /qn",
+      "repair": "MsiExec.exe /fa {AC76BA86-7AD7-1033-7B44-AC0F074E4100} /qn",
+      "downloadUrl": null,
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

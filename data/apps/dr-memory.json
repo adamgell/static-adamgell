@@ -1,0 +1,21 @@
+{
+  "slug": "dr-memory",
+  "title": "Dr. Memory",
+  "vendor": "Google",
+  "sourceUrl": "https://silentinstallhq.com/dr-memory-silent-install-how-to-guide",
+  "lastScraped": "2026-03-16T21:27:14.020Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "MSI",
+      "silentInstall": "**MsiExec.exe /i DrMemory-Windows-x.y.z.msi ALLUSERS=1 /qn**",
+      "silentUninstall": "**MsiExec.exe /x DrMemory-Windows-x.y.z.msi /qn**",
+      "repair": "**MsiExec.exe /fa DrMemory-Windows-x.y.z.msi /qn**",
+      "downloadUrl": "https://github.com/DynamoRIO/drmemory/releases/latest",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ]
+}

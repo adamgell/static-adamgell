@@ -1,0 +1,21 @@
+{
+  "slug": "ccextractor",
+  "title": "CCExtractor",
+  "vendor": "CCExtractor Development",
+  "sourceUrl": "https://silentinstallhq.com/ccextractor-silent-install-how-to-guide",
+  "lastScraped": "2026-03-16T21:24:47.722Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "MSI",
+      "silentInstall": "**MsiExec.exe /i CCExtractor.msi /qn**",
+      "silentUninstall": "**MsiExec.exe /x CCExtractor.msi /qn**",
+      "repair": "**MsiExec.exe /fa CCExtractor.msi /qn**",
+      "downloadUrl": "https://github.com/CCExtractor/ccextractor/releases/latest",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ]
+}
