@@ -24,12 +24,12 @@ jobs:
           cache: 'npm'
 
       - name: Install dependencies
-        run: npm ci --workspace=scraper
+        run: cd scraper && npm ci
 
       - name: Run scraper
         env:
           FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}
-        run: npm run scrape:all
+        run: cd scraper && node crawl.js
 
       - name: Commit data changes
         run: |
