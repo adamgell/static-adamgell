@@ -1,0 +1,3838 @@
+{
+  "generatedAt": "2026-03-16T23:33:35.101Z",
+  "count": 133,
+  "apps": [
+    {
+      "slug": "net-core-desktop-runtime-3-0",
+      "title": ".NET Core Desktop Runtime 3.0",
+      "vendor": "Microsoft Corporation",
+      "sourceUrl": "https://silentinstallhq.com/net-core-desktop-runtime-3-0-silent-install-how-to-guide/",
+      "lastScraped": "2026-03-16T21:00:00.000Z",
+      "variants": [
+        {
+          "architecture": "x86",
+          "installerType": "EXE",
+          "silentInstall": "windowsdesktop-runtime-3.0.x-win-x86.exe /install /quiet /norestart",
+          "silentUninstall": "windowsdesktop-runtime-3.0.x-win-x86.exe /uninstall /quiet /norestart",
+          "repair": "windowsdesktop-runtime-3.0.x-win-x86.exe /repair /quiet /norestart",
+          "downloadUrl": "https://dotnet.microsoft.com/download/dotnet/3.0",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        },
+        {
+          "architecture": "x64",
+          "installerType": "EXE",
+          "silentInstall": "windowsdesktop-runtime-3.0.x-win-x64.exe /install /quiet /norestart",
+          "silentUninstall": "windowsdesktop-runtime-3.0.x-win-x64.exe /uninstall /quiet /norestart",
+          "repair": "windowsdesktop-runtime-3.0.x-win-x64.exe /repair /quiet /norestart",
+          "downloadUrl": "https://dotnet.microsoft.com/download/dotnet/3.0",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ]
+    },
+    {
+      "slug": "net-runtime-8-0",
+      "title": ".NET Runtime 8.0.x (x86)",
+      "vendor": "Microsoft Corporation",
+      "sourceUrl": "https://silentinstallhq.com/net-runtime-8-0-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:26:05.174Z",
+      "variants": [
+        {
+          "architecture": "x86",
+          "installerType": "EXE",
+          "silentInstall": "dotnet-runtime-8.0.x-win-x86.exe /install /quiet /norestart",
+          "silentUninstall": "dotnet-runtime-8.0.x-win-x86.exe /uninstall /quiet /norestart",
+          "repair": "dotnet-runtime-8.0.x-win-x86.exe /repair /quiet /norestart",
+          "downloadUrl": "https://dotnet.microsoft.com/en-us/download/dotnet/8.0",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": "dotnet-runtime-8.0.x-win-x86.exe /install /quiet /norestart /log \"%WINDIR%\\Temp\\DotNet80x86-Install.log\"",
+          "logUninstall": null
+        },
+        {
+          "architecture": "x64",
+          "installerType": "EXE",
+          "silentInstall": "dotnet-runtime-8.0.x-win-x64.exe /install /quiet /norestart",
+          "silentUninstall": "dotnet-runtime-8.0.x-win-x64.exe /uninstall /quiet /norestart",
+          "repair": "dotnet-runtime-8.0.x-win-x64.exe /repair /quiet /norestart",
+          "downloadUrl": "https://dotnet.microsoft.com/en-us/download/dotnet/8.0",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": "dotnet-runtime-8.0.x-win-x64.exe /install /quiet /norestart /log \"%WINDIR%\\Temp\\DotNet80x64-Install.log\"",
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "360-total-security",
+      "title": "360 Total Security",
+      "vendor": "360 Security Center",
+      "sourceUrl": "https://silentinstallhq.com/360-total-security-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T21:29:48.786Z",
+      "variants": [
+        {
+          "architecture": "x86",
+          "installerType": "EXE",
+          "silentInstall": "360TS_Setup_w.z.y.z.exe /S",
+          "silentUninstall": "Unavailable (Requires Scripting)",
+          "repair": null,
+          "downloadUrl": "https://www.360totalsecurity.com/en/download-free-antivirus/360-total-security/?offline=1",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "3cx-desktop-app",
+      "title": "3CX Desktop App",
+      "vendor": "3CX Ltd.",
+      "sourceUrl": "https://silentinstallhq.com/3cx-desktop-app-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T21:29:50.655Z",
+      "variants": [
+        {
+          "architecture": "x86\\_x64",
+          "installerType": "MSI",
+          "silentInstall": "MsiExec.exe /i 3CXDesktopApp-x.y.z.msi TRANSFORMS=3CXDesktopApp.mst /qn",
+          "silentUninstall": "MsiExec.exe /x 3CXDesktopApp-x.y.z.msi /qn",
+          "repair": "MsiExec.exe /fa 3CXDesktopApp-x.y.z.msi /qn",
+          "downloadUrl": "https://1243.3cx.cloud/webclient/api/app/windows",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "3df-zephyr-free",
+      "title": "3DF Zephyr Free",
+      "vendor": "3Dflow",
+      "sourceUrl": "https://silentinstallhq.com/3df-zephyr-free-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T21:29:53.136Z",
+      "variants": [
+        {
+          "architecture": "x64",
+          "installerType": "EXE",
+          "silentInstall": "\"3DF Zephyr Free vx.xxx (x64).exe\" /VERYSILENT /NORESTART",
+          "silentUninstall": "\"%ProgramFiles%\\3DF Zephyr Free\\unins000.exe\" /VERYSILENT /NORESTART",
+          "repair": null,
+          "downloadUrl": "https://www.3dflow.net/3df-zephyr-free/",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": "\"3DF Zephyr Free vx.xxx (x64).exe\" /VERYSILENT /NORESTART /LOG=\"%WINDIR%\\Temp\\3DFZephyrFree-Install.log\"",
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "ableword",
+      "title": "AbleWord",
+      "vendor": "AbleWord",
+      "sourceUrl": "https://silentinstallhq.com/ableword-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T21:29:55.278Z",
+      "variants": [
+        {
+          "architecture": "x86",
+          "installerType": "EXE",
+          "silentInstall": "ableword.exe /VERYSILENT /NORESTART",
+          "silentUninstall": "",
+          "repair": null,
+          "downloadUrl": "http://www.ableword.net/ableword.exe",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": "ableword.exe /VERYSILENT /NORESTART /LOG=\"%WINDIR%\\Temp\\AbleWord-Install.log\"",
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "acronis-ransomware-protection",
+      "title": "Acronis Ransomware Protection",
+      "vendor": "Acronis International GmbH",
+      "sourceUrl": "https://silentinstallhq.com/acronis-ransomware-protection-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T21:29:58.751Z",
+      "variants": [
+        {
+          "architecture": "x86",
+          "installerType": "EXE",
+          "silentInstall": "AcronisProtectionSetup.exe /install /quiet /norestart",
+          "silentUninstall": "AcronisProtectionSetup.exe /uninstall /quiet /norestart",
+          "repair": "AcronisProtectionSetup.exe /repair /quiet /norestart",
+          "downloadUrl": "https://dl.acronis.com/u/AcronisProtectionSetup.exe",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": "AcronisProtectionSetup.exe /install /quiet /norestart /log \"%WINDIR%\\Temp\\AcronisRansomwareProtection-Install.log\"",
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "adobe-reader-dc",
+      "title": "Adobe Acrobat Reader DC",
+      "vendor": "Adobe Systems Incorporated",
+      "sourceUrl": "https://silentinstallhq.com/adobe-reader-dc-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T21:30:02.542Z",
+      "variants": [
+        {
+          "architecture": "x86",
+          "installerType": "EXE",
+          "silentInstall": "AcroRdrDC2500120432_en_US.exe /sAll /rs /msi EULA_ACCEPT=YES",
+          "silentUninstall": "MsiExec.exe /x {AC76BA86-7AD7-1033-7B44-AC0F074E4100} /qn",
+          "repair": "MsiExec.exe /fa {AC76BA86-7AD7-1033-7B44-AC0F074E4100} /qn",
+          "downloadUrl": null,
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        },
+        {
+          "architecture": "x86",
+          "installerType": "MSI",
+          "silentInstall": "MsiExec.exe /i \"%~dp0AcroRead.msi\" PATCH=\"%~dp0AcroRdrDCUpd2500120432.msp\" /qn",
+          "silentUninstall": "MsiExec.exe /x {AC76BA86-7AD7-1033-7B44-AC0F074E4100} /qn",
+          "repair": "MsiExec.exe /fa {AC76BA86-7AD7-1033-7B44-AC0F074E4100} /qn",
+          "downloadUrl": null,
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "affinity-designer",
+      "title": "Affinity Designer",
+      "vendor": "Serif (Europe) Ltd",
+      "sourceUrl": "https://silentinstallhq.com/affinity-designer-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T21:30:04.877Z",
+      "variants": [
+        {
+          "architecture": "x86\\_x64",
+          "installerType": "MSI",
+          "silentInstall": "MsiExec.exe /i Affinity.msi /qn",
+          "silentUninstall": "MsiExec.exe /x Affinity.msi /qn",
+          "repair": "MsiExec.exe /fa Affinity.msi /qn",
+          "downloadUrl": "https://affinity.serif.com/en-us/designer/",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "agilent-lab-advisor",
+      "title": "Agilent Lab Advisor",
+      "vendor": "Agilent Technologies",
+      "sourceUrl": "https://silentinstallhq.com/agilent-lab-advisor-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T21:30:07.755Z",
+      "variants": [
+        {
+          "architecture": "x86",
+          "installerType": "MSI",
+          "silentInstall": "MsiExec.exe /i AgilentLabAdvisor.msi /qn",
+          "silentUninstall": "MsiExec.exe /x AgilentLabAdvisor.msi /qn",
+          "repair": "MsiExec.exe /fa AgilentLabAdvisor.msi /qn",
+          "downloadUrl": "https://labadvisor.pl29.agilent.com/latest",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "altium-designer-22",
+      "title": "Altium Designer 22",
+      "vendor": "Altium Limited",
+      "sourceUrl": "https://silentinstallhq.com/altium-designer-22-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T21:30:11.025Z",
+      "variants": [
+        {
+          "architecture": "x64",
+          "installerType": "EXE",
+          "silentInstall": "AltiumDesigner22Setup.exe -Install -AutoInstall -UI:None",
+          "silentUninstall": "See Uninstall Section Below",
+          "repair": null,
+          "downloadUrl": "https://www.altium.com/products/downloads",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "amazon-ec2launch",
+      "title": "Amazon EC2Launch",
+      "vendor": "Amazon Web Services",
+      "sourceUrl": "https://silentinstallhq.com/amazon-ec2launch-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T21:30:15.748Z",
+      "variants": [
+        {
+          "architecture": "x64",
+          "installerType": "MSI",
+          "silentInstall": "MsiExec.exe /i AmazonEC2Launch.msi /qn",
+          "silentUninstall": "MsiExec.exe /x AmazonEC2Launch.msi /qn",
+          "repair": "MsiExec.exe /fa AmazonEC2Launch.msi /qn",
+          "downloadUrl": "https://s3.amazonaws.com/amazon-ec2launch-v2/windows/amd64/latest/AmazonEC2Launch.msi",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "andreamosaic",
+      "title": "AndreaMosaic",
+      "vendor": "Unyma",
+      "sourceUrl": "https://silentinstallhq.com/andreamosaic-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T21:30:19.085Z",
+      "variants": [
+        {
+          "architecture": "x86",
+          "installerType": "EXE",
+          "silentInstall": "AndreaMosaicSetup.exe /VERYSILENT /NORESTART",
+          "silentUninstall": "",
+          "repair": null,
+          "downloadUrl": "https://teramosaic.com/andreamosaic/AndreaMosaicSetup.exe",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": "AndreaMosaicSetup.exe /VERYSILENT /NORESTART /LOG=\"%WINDIR%\\Temp\\AndreaMosaic-Install.log\"",
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "araxis-merge",
+      "title": "Araxis Merge",
+      "vendor": "Araxis",
+      "sourceUrl": "https://silentinstallhq.com/araxis-merge-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T21:20:26.201Z",
+      "variants": [
+        {
+          "architecture": "x64",
+          "installerType": "MSI",
+          "silentInstall": "**MsiExec.exe /i Merge202x.xxxx-x64.msi /qn**",
+          "silentUninstall": "**MsiExec.exe /x Merge202x.xxxx-x64.msi /qn**",
+          "repair": "**MsiExec.exe /fa Merge202x.xxxx-x64.msi /qn**",
+          "downloadUrl": "https://www.araxis.com/merge/download.en",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ]
+    },
+    {
+      "slug": "asp-net-core-runtime-8-0",
+      "title": "ASP.NET Core Runtime 8.0.x Hosting Bundle",
+      "vendor": "Microsoft Corporation",
+      "sourceUrl": "https://silentinstallhq.com/asp-net-core-runtime-8-0-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T21:30:51.948Z",
+      "variants": [
+        {
+          "architecture": "x86\\_x64",
+          "installerType": "EXE",
+          "silentInstall": "dotnet-hosting-8.0.x-win.exe /install /quiet /norestart",
+          "silentUninstall": "dotnet-hosting-8.0.x-win.exe /uninstall /quiet /norestart",
+          "repair": "dotnet-hosting-8.0.x-win.exe /repair /quiet /norestart",
+          "downloadUrl": "https://dotnet.microsoft.com/en-us/download/dotnet/8.0",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": "dotnet-hosting-8.0.x-win.exe /install /quiet /norestart /log \"%WINDIR%\\Temp\\DotNetHosting80.log\"",
+          "logUninstall": null
+        },
+        {
+          "architecture": "x86",
+          "installerType": "EXE",
+          "silentInstall": "aspnetcore-runtime-8.0.x-win-x86.exe /install /quiet /norestart",
+          "silentUninstall": "aspnetcore-runtime-8.0.x-win-x86.exe /uninstall /quiet /norestart",
+          "repair": "aspnetcore-runtime-8.0.x-win-x86.exe /repair /quiet /norestart",
+          "downloadUrl": "https://dotnet.microsoft.com/en-us/download/dotnet/8.0",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": "aspnetcore-runtime-8.0.x-win-x86.exe /install /quiet /norestart /log \"%WINDIR%\\Temp\\ASPDotNetCore80x86.log\"",
+          "logUninstall": null
+        },
+        {
+          "architecture": "x64",
+          "installerType": "EXE",
+          "silentInstall": "aspnetcore-runtime-8.0.x-win-x64.exe /install /quiet /norestart",
+          "silentUninstall": "aspnetcore-runtime-8.0.x-win-x64.exe /uninstall /quiet /norestart",
+          "repair": "aspnetcore-runtime-8.0.x-win-x64.exe /repair /quiet /norestart",
+          "downloadUrl": "https://dotnet.microsoft.com/en-us/download/dotnet/8.0",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": "aspnetcore-runtime-8.0.x-win-x64.exe /install /quiet /norestart /log \"%WINDIR%\\Temp\\ASPDotNetCore80x64-Install.log\"",
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "auslogics-registry-cleaner",
+      "title": "Auslogics Registry Cleaner",
+      "vendor": "Auslogics Labs Pty Ltd",
+      "sourceUrl": "https://silentinstallhq.com/auslogics-registry-cleaner-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T21:30:55.265Z",
+      "variants": [
+        {
+          "architecture": "x86",
+          "installerType": "EXE",
+          "silentInstall": "auslogics-registry-cleaner-setup.exe /VERYSILENT /NORESTART",
+          "silentUninstall": "",
+          "repair": null,
+          "downloadUrl": "https://www.auslogics.com/software/registry-cleaner/after-download/?m=affiliate_paypro12292&utm_medium=affiliate&utm_source=paypro&utm_campaign=12292&coupon=ACTUAL15&sidstart",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": "auslogics-registry-cleaner-setup.exe /VERYSILENT /NORESTART /LOG=\"%WINDIR%\\Temp\\RegistryCleaner-Install.log\"",
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "autodesk-autocad-2025",
+      "title": "Autodesk AutoCAD 2025",
+      "vendor": "Autodesk",
+      "sourceUrl": "https://silentinstallhq.com/autodesk-autocad-2025-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T21:30:59.273Z",
+      "variants": [
+        {
+          "architecture": "x64",
+          "installerType": "EXE",
+          "silentInstall": "Setup.exe -q",
+          "silentUninstall": "[CLICK HERE FOR DETAILS](https://silentinstallhq.com/autodesk-autocad-2025-silent-install-how-to-guide/#AutoCAD_2025_Uninstall)",
+          "repair": null,
+          "downloadUrl": "https://www.autodesk.com/products/autocad",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "autodesk-dwg-trueview-2025",
+      "title": "Autodesk DWG TrueView 2025",
+      "vendor": "Autodesk",
+      "sourceUrl": "https://silentinstallhq.com/autodesk-dwg-trueview-2025-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T21:31:08.665Z",
+      "variants": [
+        {
+          "architecture": "x64",
+          "installerType": "EXE",
+          "silentInstall": "Setup.exe -q",
+          "silentUninstall": "\"%ProgramFiles%\\Autodesk\\AdODIS\\V1\\Installer.exe\" -i uninstall -q -m C:\\ProgramData\\Autodesk\\ODIS\\metadata\\{69B610D6-9CC3-37A3-A083-17E4FCFEC474}\\bundleManifest.xml",
+          "repair": null,
+          "downloadUrl": "https://www.autodesk.com/products/dwg-trueview/overview",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "autodesk-navisworks-exporters-2025",
+      "title": "Autodesk Navisworks Exporters 2025",
+      "vendor": "Autodesk",
+      "sourceUrl": "https://silentinstallhq.com/autodesk-navisworks-exporters-2025-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T21:22:21.880Z",
+      "variants": [
+        {
+          "architecture": "x64",
+          "installerType": "EXE",
+          "silentInstall": "**Setup.exe -q**",
+          "silentUninstall": "[CLICK HERE FOR DETAILS](https://silentinstallhq.com/autodesk-navisworks-exporters-2025-silent-install-how-to-guide/#Autodesk_Navisworks_Exporters_2025_Uninstall)",
+          "repair": null,
+          "downloadUrl": "https://www.autodesk.com/products/navisworks/3d-viewers",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ]
+    },
+    {
+      "slug": "autodesk-revit-2025",
+      "title": "Autodesk Revit 2025",
+      "vendor": "Autodesk",
+      "sourceUrl": "https://silentinstallhq.com/autodesk-revit-2025-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T21:22:43.710Z",
+      "variants": [
+        {
+          "architecture": "x64",
+          "installerType": "EXE",
+          "silentInstall": "**Setup.exe -q**",
+          "silentUninstall": "[CLICK HERE FOR DETAILS](https://silentinstallhq.com/autodesk-revit-2025-silent-install-how-to-guide/#Autodesk_Revit_2025_Uninstall)",
+          "repair": null,
+          "downloadUrl": "https://www.autodesk.com/products/revit/",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ]
+    },
+    {
+      "slug": "azure-connected-machine-agent",
+      "title": "Azure Connected Machine Agent",
+      "vendor": "Microsoft Corporation",
+      "sourceUrl": "https://silentinstallhq.com/azure-connected-machine-agent-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T21:23:13.844Z",
+      "variants": [
+        {
+          "architecture": "x64",
+          "installerType": "MSI",
+          "silentInstall": "**MsiExec.exe /i AzureConnectedMachineAgent.msi /qn**",
+          "silentUninstall": "**MsiExec.exe /x AzureConnectedMachineAgent.msi /qn**",
+          "repair": "**MsiExec.exe /fa AzureConnectedMachineAgent.msi /qn**",
+          "downloadUrl": "https://aka.ms/AzureConnectedMachineAgent",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ]
+    },
+    {
+      "slug": "azure-monitor-agent",
+      "title": "Azure Monitor Agent",
+      "vendor": "Microsoft Corporation",
+      "sourceUrl": "https://silentinstallhq.com/azure-monitor-agent-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T21:23:20.330Z",
+      "variants": [
+        {
+          "architecture": "x86\\_x64",
+          "installerType": "MSI",
+          "silentInstall": "**MsiExec.exe /i AzureMonitorAgentClientSetup.msi /qn**",
+          "silentUninstall": "**MsiExec.exe /x AzureMonitorAgentClientSetup.msi /qn**",
+          "repair": "**MsiExec.exe /fa AzureMonitorAgentClientSetup.msi /qn**",
+          "downloadUrl": "https://learn.microsoft.com/en-us/azure/azure-monitor/agents/azure-monitor-agent-windows-client#install-the-agent",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ]
+    },
+    {
+      "slug": "bg-remover",
+      "title": "BG Remover",
+      "vendor": "DeveloperSharif",
+      "sourceUrl": "https://silentinstallhq.com/bg-remover-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T21:23:38.217Z",
+      "variants": [
+        {
+          "architecture": "x86",
+          "installerType": "EXE",
+          "silentInstall": "**bg-remover-setup-x.y.z.exe /VERYSILENT /NORESTART**",
+          "silentUninstall": "",
+          "repair": null,
+          "downloadUrl": "https://github.com/developersharif/bgremover-app#bg-remover-app-offline",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": "**bg-remover-setup-x.y.z.exe /VERYSILENT /NORESTART /LOG=\"%WINDIR%\\Temp\\BGRemover-Install.log\"**",
+          "logUninstall": null
+        }
+      ]
+    },
+    {
+      "slug": "bitrix24",
+      "title": "Bitrix24",
+      "vendor": "Bitrix",
+      "sourceUrl": "https://silentinstallhq.com/bitrix24-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T21:23:48.124Z",
+      "variants": [
+        {
+          "architecture": "x86",
+          "installerType": "EXE",
+          "silentInstall": "**bitrix24_desktop.exe /S**",
+          "silentUninstall": "",
+          "repair": null,
+          "downloadUrl": "https://dl.bitrix24.com/b24/bitrix24_desktop.exe",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        },
+        {
+          "architecture": "x86",
+          "installerType": "MSI",
+          "silentInstall": "**MsiExec.exe /i bitrix24_desktop.msi ALLUSERS=1 /qn**",
+          "silentUninstall": "**MsiExec.exe /x bitrix24_desktop.msi /qn**",
+          "repair": "**MsiExec.exe /fa bitrix24_desktop.msi /qn**",
+          "downloadUrl": "https://dl.bitrix24.com/b24/bitrix24_desktop.msi",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ]
+    },
+    {
+      "slug": "bitwarden-directory-connector",
+      "title": "Bitwarden Directory Connector",
+      "vendor": "8bit Solutions LLC",
+      "sourceUrl": "https://silentinstallhq.com/bitwarden-directory-connector-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T21:23:54.866Z",
+      "variants": [
+        {
+          "architecture": "x64",
+          "installerType": "EXE",
+          "silentInstall": "**Bitwarden-Connector-Installer-x.y.z.exe /allusers /S**",
+          "silentUninstall": "**\"%ProgramFiles%\\Bitwarden Directory Connector\\Uninstall Bitwarden Directory Connector.exe\" /allusers /S**",
+          "repair": null,
+          "downloadUrl": "https://github.com/bitwarden/directory-connector/releases/latest",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ]
+    },
+    {
+      "slug": "bluej",
+      "title": "BlueJ",
+      "vendor": "BlueJ Team",
+      "sourceUrl": "https://silentinstallhq.com/bluej-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T21:24:03.485Z",
+      "variants": [
+        {
+          "architecture": "x64",
+          "installerType": "MSI",
+          "silentInstall": "**MsiExec.exe /i BlueJ-windows-xxx.msi ALLUSERS=1 /qn**",
+          "silentUninstall": "**MsiExec.exe /x BlueJ-windows-xxx.msi /qn**",
+          "repair": "**MsiExec.exe /fa BlueJ-windows-xxx.msi /qn**",
+          "downloadUrl": "https://www.bluej.org/",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ]
+    },
+    {
+      "slug": "cad-reader",
+      "title": "CAD Reader",
+      "vendor": "Glodon Co. Ltd",
+      "sourceUrl": "https://silentinstallhq.com/cad-reader-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T21:24:27.925Z",
+      "variants": [
+        {
+          "architecture": "x86",
+          "installerType": "EXE",
+          "silentInstall": "**CADReaderIntl.exe /VERYSILENT /NORESTART**",
+          "silentUninstall": "",
+          "repair": null,
+          "downloadUrl": "https://yuntu-f.glodon.com/app/CADReaderIntl.exe",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": "**CADReaderIntl.exe /VERYSILENT /NORESTART /LOG=\"%WINDIR%\\Temp\\CADReader-Install.log\"**",
+          "logUninstall": null
+        }
+      ]
+    },
+    {
+      "slug": "capcut",
+      "title": "CapCut",
+      "vendor": "Bytedance Pte. Ltd.",
+      "sourceUrl": "https://silentinstallhq.com/capcut-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T21:24:39.803Z",
+      "variants": [
+        {
+          "architecture": "x86\\_x64",
+          "installerType": "EXE",
+          "silentInstall": "**CapCut_w_x_y_z.exe /silent_install=1**",
+          "silentUninstall": "**See Uninstall Section Below**",
+          "repair": null,
+          "downloadUrl": "https://lf16-capcut.faceulv.com/obj/capcutpc-packages-sg/packages/CapCut_6_8_0_2740_capcutpc_0_creatortool.exe",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ]
+    },
+    {
+      "slug": "carbide-create",
+      "title": "Carbide Create",
+      "vendor": "Carbide 3D LLC",
+      "sourceUrl": "https://silentinstallhq.com/carbide-create-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T21:24:44.123Z",
+      "variants": [
+        {
+          "architecture": "x64",
+          "installerType": "EXE",
+          "silentInstall": "**CarbideCreate-xxx.exe /VERYSILENT /NORESTART**",
+          "silentUninstall": "**\"%ProgramFiles%\\CarbideCreateV7\\unins000.exe\" /VERYSILENT /NORESTART**",
+          "repair": null,
+          "downloadUrl": "https://carbide3d.com/carbidecreate/download/",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": "**CarbideCreate-xxx.exe /VERYSILENT /NORESTART /LOG=\"%WINDIR%\\Temp\\CarbideCreate-Install.log\"**",
+          "logUninstall": null
+        }
+      ]
+    },
+    {
+      "slug": "ccextractor",
+      "title": "CCExtractor",
+      "vendor": "CCExtractor Development",
+      "sourceUrl": "https://silentinstallhq.com/ccextractor-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T21:24:47.722Z",
+      "variants": [
+        {
+          "architecture": "x86",
+          "installerType": "MSI",
+          "silentInstall": "**MsiExec.exe /i CCExtractor.msi /qn**",
+          "silentUninstall": "**MsiExec.exe /x CCExtractor.msi /qn**",
+          "repair": "**MsiExec.exe /fa CCExtractor.msi /qn**",
+          "downloadUrl": "https://github.com/CCExtractor/ccextractor/releases/latest",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ]
+    },
+    {
+      "slug": "charles",
+      "title": "Charles",
+      "vendor": "XK72 Ltd",
+      "sourceUrl": "https://silentinstallhq.com/charles-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T21:24:54.520Z",
+      "variants": [
+        {
+          "architecture": "x64",
+          "installerType": "MSI",
+          "silentInstall": "**MsiExec.exe /i charles-proxy-x.y.z-win64.msi ALLUSERS=1 /qn**",
+          "silentUninstall": "**MsiExec.exe /x charles-proxy-x.y.z-win64.msi /qn**",
+          "repair": "**MsiExec.exe /fa charles-proxy-x.y.z-win64.msi /qn**",
+          "downloadUrl": "https://www.charlesproxy.com/download/",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ]
+    },
+    {
+      "slug": "cisco-packet-tracer",
+      "title": "Cisco Packet Tracer 32-bit",
+      "vendor": "Cisco Systems, Inc.",
+      "sourceUrl": "https://silentinstallhq.com/cisco-packet-tracer-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T21:25:12.255Z",
+      "variants": [
+        {
+          "architecture": "x86",
+          "installerType": "EXE",
+          "silentInstall": "**CiscoPacketTracer_XXX_Windows_32bit_setup.exe /VERYSILENT /NORESTART**",
+          "silentUninstall": "",
+          "repair": null,
+          "downloadUrl": "https://www.netacad.com/courses/packet-tracer",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": "**CiscoPacketTracer_XXX_Windows_64bit_setup.exe /VERYSILENT /NORESTART /LOG=\"%WINDIR%\\Temp\\PacketTracer-Install.log\"**",
+          "logUninstall": null
+        },
+        {
+          "architecture": "x64",
+          "installerType": "EXE",
+          "silentInstall": "**CiscoPacketTracer_XXX_Windows_64bit_setup.exe /VERYSILENT /NORESTART**",
+          "silentUninstall": "**\"%ProgramFiles%\\Cisco Packet Tracer x.x.x\\unins000.exe\" /VERYSILENT /NORESTART**",
+          "repair": null,
+          "downloadUrl": "https://www.netacad.com/courses/packet-tracer",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ]
+    },
+    {
+      "slug": "clamav",
+      "title": "ClamAV",
+      "vendor": "Cisco Systems, Inc.",
+      "sourceUrl": "https://silentinstallhq.com/clamav-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T21:25:31.703Z",
+      "variants": [
+        {
+          "architecture": "x86",
+          "installerType": "MSI",
+          "silentInstall": "**MsiExec.exe /i clamav-x.y.z.win.win32.msi ALLUSERS=1 /qn**",
+          "silentUninstall": "**MsiExec.exe /x clamav-x.y.z.win.win32.msi /qn**",
+          "repair": "**MsiExec.exe /fa clamav-x.y.z.win.win32.msi /qn**",
+          "downloadUrl": "https://github.com/Cisco-Talos/clamav/releases/latest",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        },
+        {
+          "architecture": "x64",
+          "installerType": "MSI",
+          "silentInstall": "**MsiExec.exe /i clamav-x.y.z.win.x64.msi ALLUSERS=1 /qn**",
+          "silentUninstall": "**MsiExec.exe /x clamav-x.y.z.win.x64.msi /qn**",
+          "repair": "**MsiExec.exe /fa clamav-x.y.z.win.x64.msi /qn**",
+          "downloadUrl": "https://github.com/Cisco-Talos/clamav/releases/latest",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ]
+    },
+    {
+      "slug": "class",
+      "title": "Class",
+      "vendor": "Class Technologies, Inc.",
+      "sourceUrl": "https://silentinstallhq.com/class-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T21:25:35.951Z",
+      "variants": [
+        {
+          "architecture": "x64",
+          "installerType": "MSI",
+          "silentInstall": "**MsiExec.exe /i Class.msi /qn**",
+          "silentUninstall": "**MsiExec.exe /x Class.msi /qn**",
+          "repair": "**MsiExec.exe /fa Class.msi /qn**",
+          "downloadUrl": "https://download.class.com/windows/Class.msi",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ]
+    },
+    {
+      "slug": "cocos-dashboard",
+      "title": "Cocos Dashboard",
+      "vendor": "Xiamen Yaji Software Co., Ltd.",
+      "sourceUrl": "https://silentinstallhq.com/cocos-dashboard-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T21:25:43.879Z",
+      "variants": [
+        {
+          "architecture": "x86",
+          "installerType": "EXE",
+          "silentInstall": "**CocosDashboard-x.y.z-win-xxx.exe /exenoui /qn**",
+          "silentUninstall": "**CocosDashboard-x.y.z-win-xxx.exe /exenoui /qn REMOVE=ALL**",
+          "repair": null,
+          "downloadUrl": "https://www.cocos.com/en/creator-download",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ]
+    },
+    {
+      "slug": "conemu",
+      "title": "ConEmu (32-bit)",
+      "vendor": "Maximus5",
+      "sourceUrl": "https://silentinstallhq.com/conemu-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T21:25:55.810Z",
+      "variants": [
+        {
+          "architecture": "x86",
+          "installerType": "EXE",
+          "silentInstall": "**ConEmuSetup.xxxx.exe /p:x86,adm /qn**",
+          "silentUninstall": "**See Uninstall Section Below**",
+          "repair": null,
+          "downloadUrl": "https://conemu.github.io/en/Downloads.html",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        },
+        {
+          "architecture": "x64",
+          "installerType": "EXE",
+          "silentInstall": "**ConEmuSetup.xxxx.exe /p:x64,adm /qn**",
+          "silentUninstall": "**See Uninstall Section Below**",
+          "repair": null,
+          "downloadUrl": "https://conemu.github.io/en/Downloads.html",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        },
+        {
+          "architecture": "x86",
+          "installerType": "MSI",
+          "silentInstall": "**MsiExec.exe /i ConEmu.201011.x86.msi /qn**",
+          "silentUninstall": "**MsiExec.exe /x ConEmu.201011.x86.msi /qn**",
+          "repair": "**MsiExec.exe /fa ConEmu.201011.x86.msi /qn**",
+          "downloadUrl": "https://conemu.github.io/en/Downloads.html",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        },
+        {
+          "architecture": "x64",
+          "installerType": "MSI",
+          "silentInstall": "**MsiExec.exe /i ConEmu.xxxx.x64.msi /qn**",
+          "silentUninstall": "**MsiExec.exe /x ConEmu.xxxx.x64.msi /qn**",
+          "repair": "**MsiExec.exe /fa ConEmu.xxxx.x64.msi /qn**",
+          "downloadUrl": "https://conemu.github.io/en/Downloads.html",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ]
+    },
+    {
+      "slug": "convertilla",
+      "title": "Convertilla",
+      "vendor": "Convertilla",
+      "sourceUrl": "https://silentinstallhq.com/convertilla-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T21:26:02.271Z",
+      "variants": [
+        {
+          "architecture": "x86",
+          "installerType": "EXE",
+          "silentInstall": "**convertilla.exe /VERYSILENT /NORESTART**",
+          "silentUninstall": "",
+          "repair": null,
+          "downloadUrl": "https://convertilla.com/download/convertilla.exe",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": "**convertilla.exe /VERYSILENT /NORESTART /LOG=\"%WINDIR%\\Temp\\Convertilla-Install.log\"**",
+          "logUninstall": null
+        }
+      ]
+    },
+    {
+      "slug": "defenderui",
+      "title": "DefenderUI",
+      "vendor": "VoodooSoft, LLC",
+      "sourceUrl": "https://silentinstallhq.com/defenderui-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T21:26:42.066Z",
+      "variants": [
+        {
+          "architecture": "x64",
+          "installerType": "EXE",
+          "silentInstall": "**InstallDefenderUI.exe /VERYSILENT /NORESTART**",
+          "silentUninstall": "**\"%ProgramFiles%\\DefenderUI\\unins000.exe\" /VERYSILENT /NORESTART**",
+          "repair": null,
+          "downloadUrl": "https://www.cyberlock.tech/downloads/InstallDefenderUI.exe",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": "**InstallDefenderUI.exe /VERYSILENT /NORESTART /LOG=\"%WINDIR%\\Temp\\DefenderUI-Install.log\"**",
+          "logUninstall": null
+        }
+      ]
+    },
+    {
+      "slug": "dell-os-recovery-tool",
+      "title": "Dell OS Recovery Tool",
+      "vendor": "Dell Inc.",
+      "sourceUrl": "https://silentinstallhq.com/dell-os-recovery-tool-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T21:26:49.685Z",
+      "variants": [
+        {
+          "architecture": "x86\\_x64",
+          "installerType": "EXE",
+          "silentInstall": "**DellOSRecoveryTool.exe /install /quiet /norestart**",
+          "silentUninstall": "**DellOSRecoveryTool.exe /uninstall /quiet /norestart**",
+          "repair": "**DellOSRecoveryTool.exe /repair /quiet /norestart**",
+          "downloadUrl": "https://www.dell.com/support/home/us-en/drivers/osiso/recoverytool/win",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": "**DellOSRecoveryTool.exe /install /quiet /norestart /log \"%WINDIR%\\Temp\\DellOSRecoveryTool-Install.log\"**",
+          "logUninstall": null
+        }
+      ]
+    },
+    {
+      "slug": "devicetrust-client-extension",
+      "title": "deviceTRUST Client Extension",
+      "vendor": "deviceTRUST GmbH",
+      "sourceUrl": "https://silentinstallhq.com/devicetrust-client-extension-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T21:26:55.586Z",
+      "variants": [
+        {
+          "architecture": "x86\\_x64",
+          "installerType": "EXE",
+          "silentInstall": "**dtclient-extension-release-w.x.y.z.exe /install /quiet /norestart**",
+          "silentUninstall": "**dtclient-extension-release-w.x.y.z.exe /uninstall /quiet /norestart**",
+          "repair": "**dtclient-extension-release-w.x.y.z.exe /repair /quiet /norestart**",
+          "downloadUrl": "https://devicetrust.com/download/download-windows/",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": "**dtclient-extension-release-w.x.y.z.exe /install /quiet /norestart /log \"%WINDIR%\\Temp\\deviceTRUST-Install.log\"**",
+          "logUninstall": null
+        }
+      ]
+    },
+    {
+      "slug": "digiseal-reader",
+      "title": "digiSeal Reader",
+      "vendor": "secrypt GmbH",
+      "sourceUrl": "https://silentinstallhq.com/digiseal-reader-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T21:27:01.924Z",
+      "variants": [
+        {
+          "architecture": "x86",
+          "installerType": "EXE",
+          "silentInstall": "**setup_digiSeal_reader.exe -silent**",
+          "silentUninstall": "",
+          "repair": null,
+          "downloadUrl": "https://www.secrypt.de/downloads/setup_digiSeal_reader.exe",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ]
+    },
+    {
+      "slug": "dr-memory",
+      "title": "Dr. Memory",
+      "vendor": "Google",
+      "sourceUrl": "https://silentinstallhq.com/dr-memory-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T21:27:14.020Z",
+      "variants": [
+        {
+          "architecture": "x86",
+          "installerType": "MSI",
+          "silentInstall": "**MsiExec.exe /i DrMemory-Windows-x.y.z.msi ALLUSERS=1 /qn**",
+          "silentUninstall": "**MsiExec.exe /x DrMemory-Windows-x.y.z.msi /qn**",
+          "repair": "**MsiExec.exe /fa DrMemory-Windows-x.y.z.msi /qn**",
+          "downloadUrl": "https://github.com/DynamoRIO/drmemory/releases/latest",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ]
+    },
+    {
+      "slug": "edrawmax",
+      "title": "EdrawMax",
+      "vendor": "EdrawSoft Co.,Ltd.",
+      "sourceUrl": "https://silentinstallhq.com/edrawmax-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T21:28:51.470Z",
+      "variants": [
+        {
+          "architecture": "x86",
+          "installerType": "EXE",
+          "silentInstall": "**edraw-max_fullxxxx.exe /VERYSILENT /NORESTART**",
+          "silentUninstall": "",
+          "repair": null,
+          "downloadUrl": "https://www.edrawsoft.com/edraw-max/",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": "**edraw-max_fullxxxx.exe /VERYSILENT /NORESTART /LOG=\"%WINDIR%\\Temp\\EdrawMax-Install.log\"**",
+          "logUninstall": null
+        }
+      ]
+    },
+    {
+      "slug": "edrawmind",
+      "title": "EdrawMind",
+      "vendor": "EdrawSoft Co.,Ltd.",
+      "sourceUrl": "https://silentinstallhq.com/edrawmind-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T21:28:57.058Z",
+      "variants": [
+        {
+          "architecture": "x86",
+          "installerType": "EXE",
+          "silentInstall": "**edrawmind_fullxxxx.exe /VERYSILENT /NORESTART**",
+          "silentUninstall": "",
+          "repair": null,
+          "downloadUrl": "https://www.edrawsoft.com/edrawmind/",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": "**edrawmind_fullxxxx.exe /VERYSILENT /NORESTART /LOG=\"%WINDIR%\\Temp\\EdrawMind-Install.log\"**",
+          "logUninstall": null
+        }
+      ]
+    },
+    {
+      "slug": "fluke-connect",
+      "title": "Fluke Connect",
+      "vendor": "Fluke",
+      "sourceUrl": "https://silentinstallhq.com/fluke-connect-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T21:30:16.139Z",
+      "variants": [
+        {
+          "architecture": "x86\\_x64",
+          "installerType": "MSI",
+          "silentInstall": "**MsiExec.exe /i FlukeConnectSetup.Installer.msi /qn**",
+          "silentUninstall": "**MsiExec.exe /x FlukeConnectSetup.Installer.msi /qn**",
+          "repair": "**MsiExec.exe /fa FlukeConnectSetup.Installer.msi /qn**",
+          "downloadUrl": "https://installer.connect.fluke.com/prod/Installer/FlukeConnectSetup.Installer.msi",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ]
+    },
+    {
+      "slug": "forticlient-vpn",
+      "title": "FortiClient VPN",
+      "vendor": "Fortinet Technologies Inc",
+      "sourceUrl": "https://silentinstallhq.com/forticlient-vpn-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T21:30:23.753Z",
+      "variants": [
+        {
+          "architecture": "x86\\_x64",
+          "installerType": "EXE",
+          "silentInstall": "**FortiClientVPN.exe /quiet /norestart**",
+          "silentUninstall": "**MsiExec.exe /x {FF46D152-9845-4ACE-8258-DBA7E3BE9785} REBOOT=ReallySuppress /qn**",
+          "repair": "**MsiExec.exe /fa {FF46D152-9845-4ACE-8258-DBA7E3BE9785} REBOOT=ReallySuppress /qn**",
+          "downloadUrl": "https://www.fortinet.com/support/product-downloads",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": "**FortiClientVPN.exe /quiet /norestart /log \"%WINDIR%\\Temp\\FortiClientVPN-Install.log\"**",
+          "logUninstall": null
+        },
+        {
+          "architecture": "x86\\_x64",
+          "installerType": "MSI",
+          "silentInstall": "**MsiExec.exe /i FortiClientVPN.msi REBOOT=ReallySuppress /qn**",
+          "silentUninstall": "**MsiExec.exe /x {FF46D152-9845-4ACE-8258-DBA7E3BE9785} REBOOT=ReallySuppress /qn**",
+          "repair": "**MsiExec.exe /fa {FF46D152-9845-4ACE-8258-DBA7E3BE9785} REBOOT=ReallySuppress /qn**",
+          "downloadUrl": "https://www.fortinet.com/support/product-downloads",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ]
+    },
+    {
+      "slug": "fotosketcher",
+      "title": "FotoSketcher",
+      "vendor": "David THOIRON",
+      "sourceUrl": "https://silentinstallhq.com/fotosketcher-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:23:32.647Z",
+      "variants": [
+        {
+          "architecture": "x64",
+          "installerType": "EXE",
+          "silentInstall": "FotoSketcher_x.xx_setup_64bit.exe /VERYSILENT /NORESTART",
+          "silentUninstall": "\"%ProgramFiles%\\FotoSketcher\\unins000.exe\" /VERYSILENT /NORESTART",
+          "repair": null,
+          "downloadUrl": "https://fotosketcher.com/download-fotosketcher/",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": "FotoSketcher_x.xx_setup_64bit.exe /VERYSILENT /NORESTART /LOG=\"%WINDIR%\\Temp\\FotoSketcher-Install.log\"",
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "foxit-pdf-reader-12",
+      "title": "Foxit PDF Reader",
+      "vendor": "Foxit Software Inc.",
+      "sourceUrl": "https://silentinstallhq.com/foxit-pdf-reader-12-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:23:34.929Z",
+      "variants": [
+        {
+          "architecture": "x86",
+          "installerType": "EXE",
+          "silentInstall": "FoxitPDFReader12xx_L10N_Setup_Prom.exe /VERYSILENT /NORESTART",
+          "silentUninstall": "",
+          "repair": null,
+          "downloadUrl": "https://cdn01.foxitsoftware.com/product/reader/desktop/win/12.1.3/FoxitPDFReader1213_L10N_Setup_Prom.exe",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": "FoxitPDFReader12xx_L10N_Setup_Prom.exe /VERYSILENT /NORESTART /LOG=\"%WINDIR%\\Temp\\FoxitReader12-Install.log\"",
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "google-chrome-msi-v119",
+      "title": "Google Chrome Enterprise (32-bit)",
+      "vendor": "Google LLC",
+      "sourceUrl": "https://silentinstallhq.com/google-chrome-msi-v119-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:23:37.093Z",
+      "variants": [
+        {
+          "architecture": "x86",
+          "installerType": "MSI",
+          "silentInstall": "MsiExec.exe /i googlechromestandaloneenterprise.msi /qn",
+          "silentUninstall": "MsiExec.exe /x googlechromestandaloneenterprise.msi /qn",
+          "repair": "MsiExec.exe /fa googlechromestandaloneenterprise.msi /qn",
+          "downloadUrl": "https://chromeenterprise.google/browser/download/",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        },
+        {
+          "architecture": "x64",
+          "installerType": "MSI",
+          "silentInstall": "MsiExec.exe /i googlechromestandaloneenterprise64.msi /qn",
+          "silentUninstall": "MsiExec.exe /x googlechromestandaloneenterprise64.msi /qn",
+          "repair": "MsiExec.exe /fa googlechromestandaloneenterprise64.msi /qn",
+          "downloadUrl": "https://chromeenterprise.google/browser/download/",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "google-chrome-msi-v120",
+      "title": "Google Chrome Enterprise (32-bit)",
+      "vendor": "Google LLC",
+      "sourceUrl": "https://silentinstallhq.com/google-chrome-msi-v120-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:23:40.873Z",
+      "variants": [
+        {
+          "architecture": "x86",
+          "installerType": "MSI",
+          "silentInstall": "MsiExec.exe /i googlechromestandaloneenterprise.msi /qn",
+          "silentUninstall": "MsiExec.exe /x googlechromestandaloneenterprise.msi /qn",
+          "repair": "MsiExec.exe /fa googlechromestandaloneenterprise.msi /qn",
+          "downloadUrl": "https://chromeenterprise.google/browser/download/",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        },
+        {
+          "architecture": "x64",
+          "installerType": "MSI",
+          "silentInstall": "MsiExec.exe /i googlechromestandaloneenterprise64.msi /qn",
+          "silentUninstall": "MsiExec.exe /x googlechromestandaloneenterprise64.msi /qn",
+          "repair": "MsiExec.exe /fa googlechromestandaloneenterprise64.msi /qn",
+          "downloadUrl": "https://chromeenterprise.google/browser/download/",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "google-chrome-msi-v121",
+      "title": "Google Chrome Enterprise (32-bit)",
+      "vendor": "Google LLC",
+      "sourceUrl": "https://silentinstallhq.com/google-chrome-msi-v121-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:23:44.263Z",
+      "variants": [
+        {
+          "architecture": "x86",
+          "installerType": "MSI",
+          "silentInstall": "MsiExec.exe /i googlechromestandaloneenterprise.msi /qn",
+          "silentUninstall": "MsiExec.exe /x googlechromestandaloneenterprise.msi /qn",
+          "repair": "MsiExec.exe /fa googlechromestandaloneenterprise.msi /qn",
+          "downloadUrl": "https://chromeenterprise.google/browser/download/",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        },
+        {
+          "architecture": "x64",
+          "installerType": "MSI",
+          "silentInstall": "MsiExec.exe /i googlechromestandaloneenterprise64.msi /qn",
+          "silentUninstall": "MsiExec.exe /x googlechromestandaloneenterprise64.msi /qn",
+          "repair": "MsiExec.exe /fa googlechromestandaloneenterprise64.msi /qn",
+          "downloadUrl": "https://chromeenterprise.google/browser/download/",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "google-chrome-msi-v122",
+      "title": "Google Chrome Enterprise (32-bit)",
+      "vendor": "Google LLC",
+      "sourceUrl": "https://silentinstallhq.com/google-chrome-msi-v122-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:23:47.128Z",
+      "variants": [
+        {
+          "architecture": "x86",
+          "installerType": "MSI",
+          "silentInstall": "MsiExec.exe /i googlechromestandaloneenterprise.msi /qn",
+          "silentUninstall": "MsiExec.exe /x googlechromestandaloneenterprise.msi /qn",
+          "repair": "MsiExec.exe /fa googlechromestandaloneenterprise.msi /qn",
+          "downloadUrl": "https://chromeenterprise.google/browser/download/",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        },
+        {
+          "architecture": "x64",
+          "installerType": "MSI",
+          "silentInstall": "MsiExec.exe /i googlechromestandaloneenterprise64.msi /qn",
+          "silentUninstall": "MsiExec.exe /x googlechromestandaloneenterprise64.msi /qn",
+          "repair": "MsiExec.exe /fa googlechromestandaloneenterprise64.msi /qn",
+          "downloadUrl": "https://chromeenterprise.google/browser/download/",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "google-chrome-msi-v123",
+      "title": "Google Chrome Enterprise (32-bit)",
+      "vendor": "Google LLC",
+      "sourceUrl": "https://silentinstallhq.com/google-chrome-msi-v123-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:23:50.097Z",
+      "variants": [
+        {
+          "architecture": "x86",
+          "installerType": "MSI",
+          "silentInstall": "MsiExec.exe /i googlechromestandaloneenterprise.msi /qn",
+          "silentUninstall": "MsiExec.exe /x googlechromestandaloneenterprise.msi /qn",
+          "repair": "MsiExec.exe /fa googlechromestandaloneenterprise.msi /qn",
+          "downloadUrl": "https://chromeenterprise.google/browser/download/",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        },
+        {
+          "architecture": "x64",
+          "installerType": "MSI",
+          "silentInstall": "MsiExec.exe /i googlechromestandaloneenterprise64.msi /qn",
+          "silentUninstall": "MsiExec.exe /x googlechromestandaloneenterprise64.msi /qn",
+          "repair": "MsiExec.exe /fa googlechromestandaloneenterprise64.msi /qn",
+          "downloadUrl": "https://chromeenterprise.google/browser/download/",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "google-talk",
+      "title": "Google Talk",
+      "vendor": "Google",
+      "sourceUrl": "https://silentinstallhq.com/google-talk-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:23:53.789Z",
+      "variants": [
+        {
+          "architecture": "x86",
+          "installerType": "EXE",
+          "silentInstall": "googletalk-setup.exe /S",
+          "silentUninstall": "",
+          "repair": null,
+          "downloadUrl": "https://dl.google.com/googletalk/googletalk-setup.exe",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "gsmartcontrol",
+      "title": "GSmartControl",
+      "vendor": "Alexander Shaduri",
+      "sourceUrl": "https://silentinstallhq.com/gsmartcontrol-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:23:56.143Z",
+      "variants": [
+        {
+          "architecture": "x86",
+          "installerType": "EXE",
+          "silentInstall": "gsmartcontrol-x.y.z-win32.exe /S",
+          "silentUninstall": "\"%ProgramFiles%\\GSmartControl\\gsmartcontrol_uninst.exe\" /S",
+          "repair": null,
+          "downloadUrl": "https://gsmartcontrol.shaduri.dev/downloads",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        },
+        {
+          "architecture": "x64",
+          "installerType": "EXE",
+          "silentInstall": "gsmartcontrol-x.y.z-win64.exe /S",
+          "silentUninstall": "\"%ProgramFiles%\\GSmartControl\\gsmartcontrol_uninst.exe\" /S",
+          "repair": null,
+          "downloadUrl": "https://gsmartcontrol.shaduri.dev/downloads",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "inno-script-studio",
+      "title": "Inno Script Studio",
+      "vendor": "Kymoto Solutions",
+      "sourceUrl": "https://silentinstallhq.com/inno-script-studio-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:23:59.126Z",
+      "variants": [
+        {
+          "architecture": "x86",
+          "installerType": "EXE",
+          "silentInstall": "ISStudio_Latest.exe /VERYSILENT /NORESTART",
+          "silentUninstall": "",
+          "repair": null,
+          "downloadUrl": "https://www.kymoto.org/downloads/ISStudio_Latest.exe",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": "ISStudio_Latest.exe /VERYSILENT /NORESTART /LOG=\"%WINDIR%\\Temp\\InnoScriptStudio-Install.log\"",
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "intel-hpc-toolkit",
+      "title": "Intel HPC Toolkit",
+      "vendor": "Intel Corporation",
+      "sourceUrl": "https://silentinstallhq.com/intel-hpc-toolkit-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:24:01.982Z",
+      "variants": [
+        {
+          "architecture": "x86",
+          "installerType": "EXE",
+          "silentInstall": "w_HPCKit_xxxx.x.x.xx_offline.exe --silent --eula accept",
+          "silentUninstall": "\"%ProgramFiles(x86)%\\Intel\\oneAPI\\Installer\\installer.exe\" --action remove --product-id intel.oneapi.win.hpckit.product --silent",
+          "repair": null,
+          "downloadUrl": "https://www.intel.com/content/www/us/en/developer/tools/oneapi/hpc-toolkit-download.html?operatingsystem=window&distributions=offline",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "iobit-driver-booster",
+      "title": "IObit Driver Booster",
+      "vendor": "IObit",
+      "sourceUrl": "https://silentinstallhq.com/iobit-driver-booster-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:24:05.791Z",
+      "variants": [
+        {
+          "architecture": "x86",
+          "installerType": "EXE",
+          "silentInstall": "driver_booster_setup.exe /VERYSILENT /NORESTART /NoAutoRun",
+          "silentUninstall": "",
+          "repair": null,
+          "downloadUrl": "https://cdn.iobit.com/dl/driver_booster_setup.exe",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": "driver_booster_setup.exe /VERYSILENT /NORESTART /NoAutoRun /LOG=\"%WINDIR%\\Temp\\DriverBooster-Install.log\"",
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "iobit-software-updater",
+      "title": "IObit Software Updater",
+      "vendor": "IObit",
+      "sourceUrl": "https://silentinstallhq.com/iobit-software-updater-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:24:08.323Z",
+      "variants": [
+        {
+          "architecture": "x86",
+          "installerType": "EXE",
+          "silentInstall": "iobit-software-updater-setup.exe /SP- /VERYSILENT /SUPPRESSMSGBOXES /NORESTART",
+          "silentUninstall": "",
+          "repair": null,
+          "downloadUrl": "https://cdn.iobit.com/dl/iobit-software-updater-setup.exe",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": "iobit-software-updater-setup.exe /SP- /VERYSILENT /SUPPRESSMSGBOXES /NORESTART /LOG=\"%WINDIR%\\Temp\\IObitSoftwareUpdater-Install.log\"",
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "jabra-direct",
+      "title": "Jabra Direct",
+      "vendor": "GN Audio A/S",
+      "sourceUrl": "https://silentinstallhq.com/jabra-direct-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:24:10.907Z",
+      "variants": [
+        {
+          "architecture": "x86\\_x64",
+          "installerType": "EXE",
+          "silentInstall": "JabraDirectSetup.exe /install /quiet /norestart",
+          "silentUninstall": "JabraDirectSetup.exe /uninstall /quiet /norestart",
+          "repair": "JabraDirectSetup.exe /repair /quiet /norestart",
+          "downloadUrl": "https://jabraxpressonlineprdstor.blob.core.windows.net/jdo/JabraDirectSetup.exe",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": "JabraDirectSetup.exe /install /quiet /norestart /log \"%WINDIR%\\Temp\\JabraDirect-Install.log\"",
+          "logUninstall": "JabraDirectSetup.exe /uninstall /quiet /norestart /log \"%WINDIR%\\Temp\\JabraDirect-Uninstall.log\""
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "jmars-5",
+      "title": "JMARS 5",
+      "vendor": "Mars Space Flight Facility, Arizona State University",
+      "sourceUrl": "https://silentinstallhq.com/jmars-5-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:24:14.289Z",
+      "variants": [
+        {
+          "architecture": "x64",
+          "installerType": "EXE",
+          "silentInstall": "jmars_5_public.exe -q",
+          "silentUninstall": "\"%ProgramFiles%\\JMARS 5 PUBLIC\\uninstall_jmars.exe\" -q",
+          "repair": null,
+          "downloadUrl": "https://jmars.asu.edu/downloads/jmars_5/jmars_public/jmars_5_public.exe",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "josm",
+      "title": "JOSM",
+      "vendor": "OpenStreetMap JOSM Team",
+      "sourceUrl": "https://silentinstallhq.com/josm-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:24:17.950Z",
+      "variants": [
+        {
+          "architecture": "x86",
+          "installerType": "EXE",
+          "silentInstall": "josm-setup.exe /S",
+          "silentUninstall": "",
+          "repair": null,
+          "downloadUrl": "https://josm.openstreetmap.de/download/windows/josm-setup.exe",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "leapfrog-viewer-2019",
+      "title": "Leapfrog Viewer 2019",
+      "vendor": "Seequent Ltd",
+      "sourceUrl": "https://silentinstallhq.com/leapfrog-viewer-2019-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:24:20.296Z",
+      "variants": [
+        {
+          "architecture": "x64",
+          "installerType": "EXE",
+          "silentInstall": "LeapfrogViewer4.14.0Setup.exe /VERYSILENT /NORESTART",
+          "silentUninstall": "\"%ProgramFiles%\\Seequent\\Leapfrog Viewer 4.14\\unins000.exe\" /VERYSILENT /NORESTART",
+          "repair": null,
+          "downloadUrl": "https://downloads.seequent.com/Leapfrog/LeapfrogViewer4.14.0Setup.exe",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": "LeapfrogViewer4.14.0Setup.exe /VERYSILENT /NORESTART /LOG=\"%WINDIR%\\Temp\\LeapfrogViewer2019-Install.log\"",
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "leapfrog-viewer-2023",
+      "title": "Leapfrog Viewer 2023",
+      "vendor": "Seequent Ltd",
+      "sourceUrl": "https://silentinstallhq.com/leapfrog-viewer-2023-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:24:22.975Z",
+      "variants": [
+        {
+          "architecture": "x64",
+          "installerType": "EXE",
+          "silentInstall": "LeapfrogSetup-2023.x.x.exe /VERYSILENT /NORESTART",
+          "silentUninstall": "\"%ProgramFiles%\\Seequent\\Leapfrog 2023.x\\unins000.exe\" /VERYSILENT /NORESTART",
+          "repair": null,
+          "downloadUrl": "https://my.seequent.com/products/leapfrog-viewer",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": "LeapfrogSetup-2023.x.x.exe /VERYSILENT /NORESTART /LOG=\"%WINDIR%\\Temp\\LeapfrogViewer2023-Install.log\"",
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "lince-plus",
+      "title": "Lince PLUS",
+      "vendor": "Alberto Soto Fernández",
+      "sourceUrl": "https://silentinstallhq.com/lince-plus-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:24:26.357Z",
+      "variants": [
+        {
+          "architecture": "x64",
+          "installerType": "EXE",
+          "silentInstall": "Lince-plus_windows-x64_x_y_z.exe -q",
+          "silentUninstall": "\"%ProgramFiles%\\Lince-plus\\uninstall.exe\" -q",
+          "repair": null,
+          "downloadUrl": "https://github.com/observesport/lince-plus/releases/latest",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "lm-studio",
+      "title": "LM Studio",
+      "vendor": "LM Studio",
+      "sourceUrl": "https://silentinstallhq.com/lm-studio-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:24:29.014Z",
+      "variants": [
+        {
+          "architecture": "x86\\_x64",
+          "installerType": "EXE",
+          "silentInstall": "LM-Studio-x.y.z-Setup.exe -s",
+          "silentUninstall": "\"%LocalAppData%\\LM-Studio\\Update.exe\" --uninstall -s",
+          "repair": null,
+          "downloadUrl": "https://lmstudio.ai/",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "logitech-solar-app",
+      "title": "Logitech Solar App",
+      "vendor": "Logitech",
+      "sourceUrl": "https://silentinstallhq.com/logitech-solar-app-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:24:31.948Z",
+      "variants": [
+        {
+          "architecture": "x86",
+          "installerType": "EXE",
+          "silentInstall": "SolarApp_x.y.z_x32.exe /S",
+          "silentUninstall": "See Uninstall Section Below",
+          "repair": null,
+          "downloadUrl": "https://download01.logi.com/web/ftp/pub/techsupport/keyboards/SolarApp_1.20.28_x32.exe",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": "[Logitech Solar App Silent Uninstall (PowerShell)](https://silentinstallhq.com/logitech-solar-app-silent-uninstall-powershell/)"
+        },
+        {
+          "architecture": "x64",
+          "installerType": "EXE",
+          "silentInstall": "SolarApp_x.y.z_x64.exe /S",
+          "silentUninstall": "See Uninstall Section Below",
+          "repair": null,
+          "downloadUrl": "https://download01.logi.com/web/ftp/pub/techsupport/keyboards/SolarApp_1.20.28_x64.exe",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "marktext",
+      "title": "MarkText",
+      "vendor": "Jocs",
+      "sourceUrl": "https://silentinstallhq.com/marktext-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:24:35.370Z",
+      "variants": [
+        {
+          "architecture": "x64",
+          "installerType": "EXE",
+          "silentInstall": "marktext-setup.exe /allusers /S",
+          "silentUninstall": "\"%ProgramFiles%\\MarkText\\Uninstall MarkText.exe\" /allusers /S",
+          "repair": null,
+          "downloadUrl": "https://github.com/marktext/marktext/releases/latest/download/marktext-setup.exe",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "math-mechanixs",
+      "title": "Math Mechanixs",
+      "vendor": "Math Mechanixs, LLC",
+      "sourceUrl": "https://silentinstallhq.com/math-mechanixs-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:24:38.229Z",
+      "variants": [
+        {
+          "architecture": "x86",
+          "installerType": "EXE",
+          "silentInstall": "mathmechsetup.exe /VERYSILENT /NORESTART",
+          "silentUninstall": "",
+          "repair": null,
+          "downloadUrl": "https://www.mathmechanixs.com/download/mathmechsetup.exe",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": "mathmechsetup.exe /VERYSILENT /NORESTART /LOG=\"%WINDIR%\\Temp\\MathMechanixs-Install.log\"",
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "measure-killer",
+      "title": "Measure Killer",
+      "vendor": "Brunner BI GmbH",
+      "sourceUrl": "https://silentinstallhq.com/measure-killer-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:24:40.891Z",
+      "variants": [
+        {
+          "architecture": "x86",
+          "installerType": "EXE",
+          "silentInstall": "Measure_Killer_Setup.exe /VERYSILENT /NORESTART",
+          "silentUninstall": "",
+          "repair": null,
+          "downloadUrl": "https://www.measurekiller.com/downloads/",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": "Measure_Killer_Setup.exe /VERYSILENT /NORESTART /LOG=\"%WINDIR%\\Temp\\MeasureKiller-Install.log\"",
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "meld",
+      "title": "Meld",
+      "vendor": "Kai Willadsen",
+      "sourceUrl": "https://silentinstallhq.com/meld-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:24:44.586Z",
+      "variants": [
+        {
+          "architecture": "x86\\_x64",
+          "installerType": "MSI",
+          "silentInstall": "MsiExec.exe /i Meld-x.y.z-mingw.msi ALLUSERS=1 /qn",
+          "silentUninstall": "MsiExec.exe /x Meld-x.y.z-mingw.msi /qn",
+          "repair": "MsiExec.exe /fa Meld-x.y.z-mingw.msi /qn",
+          "downloadUrl": "https://meldmerge.org/",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "memento-database-desktop",
+      "title": "Memento Database Desktop",
+      "vendor": "MementoDB Inc.",
+      "sourceUrl": "https://silentinstallhq.com/memento-database-desktop-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:24:47.241Z",
+      "variants": [
+        {
+          "architecture": "x86",
+          "installerType": "EXE",
+          "silentInstall": "mementodb-x.y.z-win.exe /VERYSILENT /NORESTART",
+          "silentUninstall": "",
+          "repair": null,
+          "downloadUrl": "https://mementodatabase.com/download.html",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": "mementodb-x.y.z-win64.exe /VERYSILENT /NORESTART /LOG=\"%WINDIR%\\Temp\\MementoDB-Install.log\"",
+          "logUninstall": null
+        },
+        {
+          "architecture": "x64",
+          "installerType": "EXE",
+          "silentInstall": "mementodb-x.y.z-win64.exe /VERYSILENT /NORESTART",
+          "silentUninstall": "\"%ProgramFiles%\\Memento Database\\unins000.exe\" /VERYSILENT /NORESTART",
+          "repair": null,
+          "downloadUrl": "https://mementodatabase.com/download.html",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "meshlab",
+      "title": "MeshLab",
+      "vendor": "Paolo Cignoni",
+      "sourceUrl": "https://silentinstallhq.com/meshlab-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:24:49.921Z",
+      "variants": [
+        {
+          "architecture": "x64",
+          "installerType": "EXE",
+          "silentInstall": "MeshLab202x.xx-windows.exe /S",
+          "silentUninstall": "\"%ProgramFiles%\\VCG\\MeshLab\\uninstall.exe\" /S",
+          "repair": null,
+          "downloadUrl": "https://www.meshlab.net/#download",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "microsoft-net-sdk-8-0",
+      "title": "Microsoft .NET SDK 8.0.x (x86)",
+      "vendor": "Microsoft Corporation",
+      "sourceUrl": "https://silentinstallhq.com/microsoft-net-sdk-8-0-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:25:25.982Z",
+      "variants": [
+        {
+          "architecture": "x86",
+          "installerType": "EXE",
+          "silentInstall": "dotnet-sdk-8.0.x-win-x86.exe /install /quiet /norestart",
+          "silentUninstall": "dotnet-sdk-8.0.x-win-x86.exe /uninstall /quiet /norestart",
+          "repair": "dotnet-sdk-8.0.x-win-x86.exe /repair /quiet /norestart",
+          "downloadUrl": "https://dotnet.microsoft.com/en-us/download/dotnet/8.0",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": "dotnet-sdk-8.0.x-win-x86.exe /install /quiet /norestart /log \"%WINDIR%\\Temp\\NETSDK80x86-Install.log\"",
+          "logUninstall": null
+        },
+        {
+          "architecture": "x64",
+          "installerType": "EXE",
+          "silentInstall": "dotnet-sdk-8.0.x-win-x64.exe /install /quiet /norestart",
+          "silentUninstall": "dotnet-sdk-8.0.x-win-x64.exe /uninstall /quiet /norestart",
+          "repair": "dotnet-sdk-8.0.x-win-x64.exe /repair /quiet /norestart",
+          "downloadUrl": "https://dotnet.microsoft.com/en-us/download/dotnet/8.0",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": "dotnet-sdk-8.0.x-win-x64.exe /install /quiet /norestart /log \"%WINDIR%\\Temp\\NETSDK80x64-Install.log\"",
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "microsoft-edge-version-115",
+      "title": "Microsoft Edge (32-bit)",
+      "vendor": "Microsoft Corporation",
+      "sourceUrl": "https://silentinstallhq.com/microsoft-edge-version-115-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:24:53.290Z",
+      "variants": [
+        {
+          "architecture": "x86",
+          "installerType": "MSI",
+          "silentInstall": "MsiExec.exe /i MicrosoftEdgeEnterpriseX86.msi /qn",
+          "silentUninstall": "MsiExec.exe /x MicrosoftEdgeEnterpriseX86.msi /qn",
+          "repair": "MsiExec.exe /fa MicrosoftEdgeEnterpriseX86.msi /qn",
+          "downloadUrl": "https://www.microsoft.com/en-us/edge/business/download",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        },
+        {
+          "architecture": "x64",
+          "installerType": "MSI",
+          "silentInstall": "MsiExec.exe /i MicrosoftEdgeEnterpriseX64.msi /qn",
+          "silentUninstall": "MsiExec.exe /x MicrosoftEdgeEnterpriseX64.msi /qn",
+          "repair": "MsiExec.exe /fa MicrosoftEdgeEnterpriseX64.msi /qn",
+          "downloadUrl": "https://www.microsoft.com/en-us/edge/business/download",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "microsoft-purview-information-protection-viewer",
+      "title": "Microsoft Purview Information Protection Viewer",
+      "vendor": "Microsoft Corporation",
+      "sourceUrl": "https://silentinstallhq.com/microsoft-purview-information-protection-viewer-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:25:29.136Z",
+      "variants": [
+        {
+          "architecture": "x86\\_x64",
+          "installerType": "EXE",
+          "silentInstall": "PurviewInfoProtectionViewer.exe /install /quiet /norestart",
+          "silentUninstall": "PurviewInfoProtectionViewer.exe /uninstall /quiet /norestart",
+          "repair": "PurviewInfoProtectionViewer.exe /repair /quiet /norestart",
+          "downloadUrl": "https://www.microsoft.com/en-us/download/details.aspx?id=54536",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": "PurviewInfoProtectionViewer.exe /install /quiet /norestart /log \"%WINDIR%\\Temp\\PurviewInfoProtectionViewer-Install.log\"",
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "visual-c-redistributable",
+      "title": "Microsoft Visual C++ 2005 Redistributable (x86)",
+      "vendor": "Microsoft Corporation",
+      "sourceUrl": "https://silentinstallhq.com/visual-c-redistributable-silent-install-master-list",
+      "lastScraped": "2026-03-16T22:28:20.674Z",
+      "variants": [
+        {
+          "architecture": "32-bit",
+          "installerType": "EXE",
+          "silentInstall": "vcredist_x86.EXE /Q",
+          "silentUninstall": "MsiExec.exe /x {710f4c1c-cc18-4c49-8cbf-51240c89a1a2} /qn",
+          "repair": null,
+          "downloadUrl": "https://www.microsoft.com/en-us/download/details.aspx?id=26347",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        },
+        {
+          "architecture": "64-bit",
+          "installerType": "EXE",
+          "silentInstall": "vcredist_x64.EXE /Q",
+          "silentUninstall": "MsiExec.exe /x {ad8a2fa1-06e7-4b0d-927d-6e54b3d31028} /qn",
+          "repair": null,
+          "downloadUrl": "https://www.microsoft.com/en-us/download/details.aspx?id=26347",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        },
+        {
+          "architecture": "32-bit",
+          "installerType": "EXE",
+          "silentInstall": "vcredist_x86.exe /q",
+          "silentUninstall": "MsiExec.exe /x {9BE518E6-ECC6-35A9-88E4-87755C07200F} /qn",
+          "repair": null,
+          "downloadUrl": "https://www.microsoft.com/en-us/download/details.aspx?id=26368",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        },
+        {
+          "architecture": "64-bit",
+          "installerType": "EXE",
+          "silentInstall": "vcredist_x64.exe /q",
+          "silentUninstall": "MsiExec.exe /x {5FCE6D76-F5DC-37AB-B2B8-22AB8CEDB1D4} /qn",
+          "repair": null,
+          "downloadUrl": "https://www.microsoft.com/en-us/download/details.aspx?id=26368",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        },
+        {
+          "architecture": "32-bit",
+          "installerType": "EXE",
+          "silentInstall": "vcredist_x86.exe /q /norestart",
+          "silentUninstall": "MsiExec.exe /x {F0C3E5D1-1ADE-321E-8167-68EF0DE699A5} /qn",
+          "repair": null,
+          "downloadUrl": "https://www.microsoft.com/en-us/download/details.aspx?id=26999",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        },
+        {
+          "architecture": "64-bit",
+          "installerType": "EXE",
+          "silentInstall": "vcredist_x64.exe /q /norestart",
+          "silentUninstall": "MsiExec.exe /x {1D8E6291-B0D5-35EC-8441-6616F567A0F7} /qn",
+          "repair": null,
+          "downloadUrl": "https://www.microsoft.com/en-us/download/details.aspx?id=26999",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        },
+        {
+          "architecture": "32-bit",
+          "installerType": "EXE",
+          "silentInstall": "vcredist_x86.exe /install /quiet /norestart",
+          "silentUninstall": "\"%ProgramData%\\Package Cache\\{33d1fd90-4274-48a1-9bc1-97e33d9c2d6f}\\vcredist_x86.exe\" /uninstall /quiet /norestart",
+          "repair": null,
+          "downloadUrl": "https://www.microsoft.com/en-us/download/details.aspx?id=30679",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        },
+        {
+          "architecture": "64-bit",
+          "installerType": "EXE",
+          "silentInstall": "vcredist_x64.exe /install /quiet /norestart",
+          "silentUninstall": "\"%ProgramData%\\Package Cache\\{ca67548a-5ebe-413a-b50c-4b9ceb6d66c6}\\vcredist_x64.exe\" /uninstall /quiet /norestart",
+          "repair": null,
+          "downloadUrl": "https://www.microsoft.com/en-us/download/details.aspx?id=30679",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        },
+        {
+          "architecture": "32-bit",
+          "installerType": "EXE",
+          "silentInstall": "vcredist_x86.exe /install /quiet /norestart",
+          "silentUninstall": "\"%ProgramData%\\Package Cache\\{9dff3540-fc85-4ed5-ac84-9e3c7fd8bece}\\vcredist_x86.exe\" /uninstall /quiet /norestart",
+          "repair": null,
+          "downloadUrl": "https://aka.ms/highdpimfc2013x86enu",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        },
+        {
+          "architecture": "64-bit",
+          "installerType": "EXE",
+          "silentInstall": "vcredist_x64.exe /install /quiet /norestart",
+          "silentUninstall": "\"%ProgramData%\\Package Cache\\{042d26ef-3dbe-4c25-95d3-4c1b11b235a7}\\vcredist_x64.exe\" /uninstall /quiet /norestart",
+          "repair": null,
+          "downloadUrl": "https://aka.ms/highdpimfc2013x64enu",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        },
+        {
+          "architecture": "32-bit",
+          "installerType": "EXE",
+          "silentInstall": "VC_redist.x86.exe /install /quiet /norestart",
+          "silentUninstall": "\"%ProgramData%\\Package Cache\\{45231ab4-69fd-486a-859d-7a59fcd11013}\\VC_redist.x86.exe\" /uninstall /quiet /norestart",
+          "repair": null,
+          "downloadUrl": "https://aka.ms/vs/16/release/vc_redist.x86.exe",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        },
+        {
+          "architecture": "64-bit",
+          "installerType": "EXE",
+          "silentInstall": "VC_redist.x64.exe /install /quiet /norestart",
+          "silentUninstall": "\"%ProgramData%\\Package Cache\\{852adda4-4c78-4a38-b583-c0b360a329d6}\\VC_redist.x64.exe\" /uninstall /quiet /norestart",
+          "repair": null,
+          "downloadUrl": "https://aka.ms/vs/16/release/vc_redist.x64.exe",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        },
+        {
+          "architecture": "32-bit",
+          "installerType": "EXE",
+          "silentInstall": "VC_redist.x86.exe /install /quiet /norestart",
+          "silentUninstall": "\"%ProgramData%\\Package Cache\\{4d8dcf8c-a72a-43e1-9833-c12724db736e}\\VC_redist.x86.exe\" /uninstall /quiet /norestart",
+          "repair": null,
+          "downloadUrl": "https://aka.ms/vs/17/release/vc_redist.x86.exe",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        },
+        {
+          "architecture": "64-bit",
+          "installerType": "EXE",
+          "silentInstall": "VC_redist.x64.exe /install /quiet /norestart",
+          "silentUninstall": "\"%ProgramData%\\Package Cache\\{57a73df6-4ba9-4c1d-bbbb-517289ff6c13}\\VC_redist.x64.exe\" /uninstall /quiet /norestart",
+          "repair": null,
+          "downloadUrl": "https://aka.ms/vs/17/release/vc_redist.x64.exe",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "minizinc-ide",
+      "title": "MiniZinc IDE",
+      "vendor": "Data61 and Monash University",
+      "sourceUrl": "https://silentinstallhq.com/minizinc-ide-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:25:35.679Z",
+      "variants": [
+        {
+          "architecture": "x64",
+          "installerType": "EXE",
+          "silentInstall": "MiniZincIDE-x.y.z-bundled-setup-win64.exe /VERYSILENT /NORESTART /ALLUSERS",
+          "silentUninstall": "\"%ProgramFiles%\\MiniZinc\\unins000.exe\" /VERYSILENT /NORESTART",
+          "repair": null,
+          "downloadUrl": "https://github.com/MiniZinc/MiniZincIDE/releases/latest",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": "MiniZincIDE-x.y.z-bundled-setup-win64.exe /VERYSILENT /NORESTART /ALLUSERS /LOG=\"%WINDIR%\\Temp\\MiniZincIDE-Install.log\"",
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "mozilla-firefox-115",
+      "title": "Mozilla Firefox 115.0 (x86)",
+      "vendor": "Mozilla",
+      "sourceUrl": "https://silentinstallhq.com/mozilla-firefox-115-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:25:38.354Z",
+      "variants": [
+        {
+          "architecture": "32-bit",
+          "installerType": "EXE",
+          "silentInstall": "\"Firefox Setup 115.0.exe\" -ms",
+          "silentUninstall": "",
+          "repair": null,
+          "downloadUrl": "https://ftp.mozilla.org/pub/firefox/releases/115.0/win32/en-US/",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        },
+        {
+          "architecture": "64-bit",
+          "installerType": "EXE",
+          "silentInstall": "\"Firefox Setup 115.0.exe\" -ms",
+          "silentUninstall": "\"%ProgramFiles%\\Mozilla Firefox\\uninstall\\helper.exe\" /S",
+          "repair": null,
+          "downloadUrl": "https://ftp.mozilla.org/pub/firefox/releases/115.0/win64/en-US/",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        },
+        {
+          "architecture": "32-bit",
+          "installerType": "MSI",
+          "silentInstall": "MsiExec.exe /i \"Firefox Setup 115.0.msi\" /qn",
+          "silentUninstall": "",
+          "repair": null,
+          "downloadUrl": "https://ftp.mozilla.org/pub/firefox/releases/115.0/win32/en-US/",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        },
+        {
+          "architecture": "64-bit",
+          "installerType": "MSI",
+          "silentInstall": "MsiExec.exe /i \"Firefox Setup 115.0.msi\" /qn",
+          "silentUninstall": "\"%ProgramFiles%\\Mozilla Firefox\\uninstall\\helper.exe\" /S",
+          "repair": null,
+          "downloadUrl": "https://ftp.mozilla.org/pub/firefox/releases/115.0/win64/en-US/",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "mozilla-firefox-116",
+      "title": "Mozilla Firefox 116.0 (x86)",
+      "vendor": "Mozilla",
+      "sourceUrl": "https://silentinstallhq.com/mozilla-firefox-116-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:25:41.838Z",
+      "variants": [
+        {
+          "architecture": "32-bit",
+          "installerType": "EXE",
+          "silentInstall": "\"Firefox Setup 116.0.exe\" -ms",
+          "silentUninstall": "",
+          "repair": null,
+          "downloadUrl": "https://ftp.mozilla.org/pub/firefox/releases/116.0/win32/en-US/",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        },
+        {
+          "architecture": "64-bit",
+          "installerType": "EXE",
+          "silentInstall": "\"Firefox Setup 116.0.exe\" -ms",
+          "silentUninstall": "\"%ProgramFiles%\\Mozilla Firefox\\uninstall\\helper.exe\" /S",
+          "repair": null,
+          "downloadUrl": "https://ftp.mozilla.org/pub/firefox/releases/116.0/win64/en-US/",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        },
+        {
+          "architecture": "32-bit",
+          "installerType": "MSI",
+          "silentInstall": "MsiExec.exe /i \"Firefox Setup 116.0.msi\" /qn",
+          "silentUninstall": "",
+          "repair": null,
+          "downloadUrl": "https://ftp.mozilla.org/pub/firefox/releases/116.0/win32/en-US/",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        },
+        {
+          "architecture": "64-bit",
+          "installerType": "MSI",
+          "silentInstall": "MsiExec.exe /i \"Firefox Setup 116.0.msi\" /qn",
+          "silentUninstall": "\"%ProgramFiles%\\Mozilla Firefox\\uninstall\\helper.exe\" /S",
+          "repair": null,
+          "downloadUrl": "https://ftp.mozilla.org/pub/firefox/releases/116.0/win64/en-US/",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "mozilla-firefox-117",
+      "title": "Mozilla Firefox 117.0 (x86)",
+      "vendor": "Mozilla",
+      "sourceUrl": "https://silentinstallhq.com/mozilla-firefox-117-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:25:44.242Z",
+      "variants": [
+        {
+          "architecture": "32-bit",
+          "installerType": "EXE",
+          "silentInstall": "\"Firefox Setup 117.0.exe\" -ms",
+          "silentUninstall": "",
+          "repair": null,
+          "downloadUrl": "https://ftp.mozilla.org/pub/firefox/releases/117.0/win32/en-US/",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        },
+        {
+          "architecture": "64-bit",
+          "installerType": "EXE",
+          "silentInstall": "\"Firefox Setup 117.0.exe\" -ms",
+          "silentUninstall": "\"%ProgramFiles%\\Mozilla Firefox\\uninstall\\helper.exe\" /S",
+          "repair": null,
+          "downloadUrl": "https://ftp.mozilla.org/pub/firefox/releases/117.0/win64/en-US/",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        },
+        {
+          "architecture": "32-bit",
+          "installerType": "MSI",
+          "silentInstall": "MsiExec.exe /i \"Firefox Setup 117.0.msi\" /qn",
+          "silentUninstall": "",
+          "repair": null,
+          "downloadUrl": "https://ftp.mozilla.org/pub/firefox/releases/117.0/win32/en-US/",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        },
+        {
+          "architecture": "64-bit",
+          "installerType": "MSI",
+          "silentInstall": "MsiExec.exe /i \"Firefox Setup 117.0.msi\" /qn",
+          "silentUninstall": "\"%ProgramFiles%\\Mozilla Firefox\\uninstall\\helper.exe\" /S",
+          "repair": null,
+          "downloadUrl": "https://ftp.mozilla.org/pub/firefox/releases/117.0/win64/en-US/",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "mozilla-firefox-118",
+      "title": "Mozilla Firefox 118.0 (x86)",
+      "vendor": "Mozilla",
+      "sourceUrl": "https://silentinstallhq.com/mozilla-firefox-118-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:25:48.134Z",
+      "variants": [
+        {
+          "architecture": "32-bit",
+          "installerType": "EXE",
+          "silentInstall": "\"Firefox Setup 118.0.exe\" -ms",
+          "silentUninstall": "",
+          "repair": null,
+          "downloadUrl": "https://ftp.mozilla.org/pub/firefox/releases/118.0/win32/en-US/",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        },
+        {
+          "architecture": "64-bit",
+          "installerType": "EXE",
+          "silentInstall": "\"Firefox Setup 118.0.exe\" -ms",
+          "silentUninstall": "\"%ProgramFiles%\\Mozilla Firefox\\uninstall\\helper.exe\" /S",
+          "repair": null,
+          "downloadUrl": "https://ftp.mozilla.org/pub/firefox/releases/118.0/win64/en-US/",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        },
+        {
+          "architecture": "32-bit",
+          "installerType": "MSI",
+          "silentInstall": "MsiExec.exe /i \"Firefox Setup 118.0.msi\" /qn",
+          "silentUninstall": "",
+          "repair": null,
+          "downloadUrl": "https://ftp.mozilla.org/pub/firefox/releases/118.0/win32/en-US/",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        },
+        {
+          "architecture": "64-bit",
+          "installerType": "MSI",
+          "silentInstall": "MsiExec.exe /i \"Firefox Setup 118.0.msi\" /qn",
+          "silentUninstall": "\"%ProgramFiles%\\Mozilla Firefox\\uninstall\\helper.exe\" /S",
+          "repair": null,
+          "downloadUrl": "https://ftp.mozilla.org/pub/firefox/releases/118.0/win64/en-US/",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "mozilla-firefox-119",
+      "title": "Mozilla Firefox 119.0 (x86)",
+      "vendor": "Mozilla",
+      "sourceUrl": "https://silentinstallhq.com/mozilla-firefox-119-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:25:50.681Z",
+      "variants": [
+        {
+          "architecture": "32-bit",
+          "installerType": "EXE",
+          "silentInstall": "\"Firefox Setup 119.0.exe\" -ms",
+          "silentUninstall": "",
+          "repair": null,
+          "downloadUrl": "https://ftp.mozilla.org/pub/firefox/releases/119.0/win32/en-US/",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        },
+        {
+          "architecture": "64-bit",
+          "installerType": "EXE",
+          "silentInstall": "\"Firefox Setup 119.0.exe\" -ms",
+          "silentUninstall": "\"%ProgramFiles%\\Mozilla Firefox\\uninstall\\helper.exe\" /S",
+          "repair": null,
+          "downloadUrl": "https://ftp.mozilla.org/pub/firefox/releases/119.0/win64/en-US/",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        },
+        {
+          "architecture": "32-bit",
+          "installerType": "MSI",
+          "silentInstall": "MsiExec.exe /i \"Firefox Setup 119.0.msi\" /qn",
+          "silentUninstall": "",
+          "repair": null,
+          "downloadUrl": "https://ftp.mozilla.org/pub/firefox/releases/119.0/win32/en-US/",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        },
+        {
+          "architecture": "64-bit",
+          "installerType": "MSI",
+          "silentInstall": "MsiExec.exe /i \"Firefox Setup 119.0.msi\" /qn",
+          "silentUninstall": "\"%ProgramFiles%\\Mozilla Firefox\\uninstall\\helper.exe\" /S",
+          "repair": null,
+          "downloadUrl": "https://ftp.mozilla.org/pub/firefox/releases/119.0/win64/en-US/",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "mozilla-firefox-120",
+      "title": "Mozilla Firefox 120.0 (x86)",
+      "vendor": "Mozilla",
+      "sourceUrl": "https://silentinstallhq.com/mozilla-firefox-120-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:25:53.521Z",
+      "variants": [
+        {
+          "architecture": "32-bit",
+          "installerType": "EXE",
+          "silentInstall": "\"Firefox Setup 120.0.exe\" -ms",
+          "silentUninstall": "",
+          "repair": null,
+          "downloadUrl": "https://ftp.mozilla.org/pub/firefox/releases/120.0/win32/en-US/",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        },
+        {
+          "architecture": "64-bit",
+          "installerType": "EXE",
+          "silentInstall": "\"Firefox Setup 120.0.exe\" -ms",
+          "silentUninstall": "\"%ProgramFiles%\\Mozilla Firefox\\uninstall\\helper.exe\" /S",
+          "repair": null,
+          "downloadUrl": "https://ftp.mozilla.org/pub/firefox/releases/120.0/win64/en-US/",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        },
+        {
+          "architecture": "32-bit",
+          "installerType": "MSI",
+          "silentInstall": "MsiExec.exe /i \"Firefox Setup 120.0.msi\" /qn",
+          "silentUninstall": "",
+          "repair": null,
+          "downloadUrl": "https://ftp.mozilla.org/pub/firefox/releases/120.0/win32/en-US/",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        },
+        {
+          "architecture": "64-bit",
+          "installerType": "MSI",
+          "silentInstall": "MsiExec.exe /i \"Firefox Setup 120.0.msi\" /qn",
+          "silentUninstall": "\"%ProgramFiles%\\Mozilla Firefox\\uninstall\\helper.exe\" /S",
+          "repair": null,
+          "downloadUrl": "https://ftp.mozilla.org/pub/firefox/releases/120.0/win64/en-US/",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "mozilla-firefox-121",
+      "title": "Mozilla Firefox 121.0 (x86)",
+      "vendor": "Mozilla",
+      "sourceUrl": "https://silentinstallhq.com/mozilla-firefox-121-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:25:56.205Z",
+      "variants": [
+        {
+          "architecture": "32-bit",
+          "installerType": "EXE",
+          "silentInstall": "\"Firefox Setup 121.0.exe\" -ms",
+          "silentUninstall": "",
+          "repair": null,
+          "downloadUrl": "https://ftp.mozilla.org/pub/firefox/releases/121.0/win32/en-US/",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        },
+        {
+          "architecture": "64-bit",
+          "installerType": "EXE",
+          "silentInstall": "\"Firefox Setup 121.0.exe\" -ms",
+          "silentUninstall": "\"%ProgramFiles%\\Mozilla Firefox\\uninstall\\helper.exe\" /S",
+          "repair": null,
+          "downloadUrl": "https://ftp.mozilla.org/pub/firefox/releases/121.0/win64/en-US/",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        },
+        {
+          "architecture": "32-bit",
+          "installerType": "MSI",
+          "silentInstall": "MsiExec.exe /i \"Firefox Setup 121.0.msi\" /qn",
+          "silentUninstall": "",
+          "repair": null,
+          "downloadUrl": "https://ftp.mozilla.org/pub/firefox/releases/121.0/win32/en-US/",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        },
+        {
+          "architecture": "64-bit",
+          "installerType": "MSI",
+          "silentInstall": "MsiExec.exe /i \"Firefox Setup 121.0.msi\" /qn",
+          "silentUninstall": "\"%ProgramFiles%\\Mozilla Firefox\\uninstall\\helper.exe\" /S",
+          "repair": null,
+          "downloadUrl": "https://ftp.mozilla.org/pub/firefox/releases/121.0/win64/en-US/",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "mozilla-firefox-122",
+      "title": "Mozilla Firefox 122.0 (x86)",
+      "vendor": "Mozilla",
+      "sourceUrl": "https://silentinstallhq.com/mozilla-firefox-122-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:25:59.145Z",
+      "variants": [
+        {
+          "architecture": "32-bit",
+          "installerType": "EXE",
+          "silentInstall": "\"Firefox Setup 122.0.exe\" -ms",
+          "silentUninstall": "",
+          "repair": null,
+          "downloadUrl": "https://www.mozilla.org/en-US/firefox/all/",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        },
+        {
+          "architecture": "64-bit",
+          "installerType": "EXE",
+          "silentInstall": "\"Firefox Setup 122.0.exe\" -ms",
+          "silentUninstall": "\"%ProgramFiles%\\Mozilla Firefox\\uninstall\\helper.exe\" /S",
+          "repair": null,
+          "downloadUrl": "https://www.mozilla.org/en-US/firefox/all/",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        },
+        {
+          "architecture": "32-bit",
+          "installerType": "MSI",
+          "silentInstall": "MsiExec.exe /i \"Firefox Setup 122.0.msi\" /qn",
+          "silentUninstall": "",
+          "repair": null,
+          "downloadUrl": "https://www.mozilla.org/en-US/firefox/all/",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        },
+        {
+          "architecture": "64-bit",
+          "installerType": "MSI",
+          "silentInstall": "MsiExec.exe /i \"Firefox Setup 122.0.msi\" /qn",
+          "silentUninstall": "\"%ProgramFiles%\\Mozilla Firefox\\uninstall\\helper.exe\" /S",
+          "repair": null,
+          "downloadUrl": "https://www.mozilla.org/en-US/firefox/all/",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "msi-kombustor",
+      "title": "MSI Kombustor",
+      "vendor": "MSI and Geeks3D (FurMark)",
+      "sourceUrl": "https://silentinstallhq.com/msi-kombustor-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:26:02.595Z",
+      "variants": [
+        {
+          "architecture": "x64",
+          "installerType": "EXE",
+          "silentInstall": "MSI_Kombustor4_Setup_vw.x.y.z_x64.exe /VERYSILENT /NORESTART",
+          "silentUninstall": "\"%ProgramFiles%\\Geeks3D\\MSI Kombustor 4 x64\\unins000.exe\" /VERYSILENT /NORESTART",
+          "repair": null,
+          "downloadUrl": "https://geeks3d.com/furmark/kombustor/downloads/",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": "MSI_Kombustor4_Setup_vw.x.y.z_x64.exe /VERYSILENT /NORESTART /LOG=\"%WINDIR%\\Temp\\MSIKombustor-Install.log\"",
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "notepad-8-5-8",
+      "title": "Notepad++ 8.5.8 (32-bit)",
+      "vendor": "Notepad++ Team",
+      "sourceUrl": "https://silentinstallhq.com/notepad-8-5-8-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:26:08.152Z",
+      "variants": [
+        {
+          "architecture": "x86",
+          "installerType": "",
+          "silentInstall": "npp.8.5.8.Installer.exe /S",
+          "silentUninstall": "",
+          "repair": null,
+          "downloadUrl": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.5.8/npp.8.5.8.Installer.exe",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        },
+        {
+          "architecture": "x64",
+          "installerType": "",
+          "silentInstall": "npp.8.5.8.Installer.x64.exe /S",
+          "silentUninstall": "\"%ProgramFiles%\\Notepad++\\uninstall.exe\" /S",
+          "repair": null,
+          "downloadUrl": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.5.8/npp.8.5.8.Installer.x64.exe",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "notepad-8-6",
+      "title": "Notepad++ 8.6 (32-bit)",
+      "vendor": "Notepad++ Team",
+      "sourceUrl": "https://silentinstallhq.com/notepad-8-6-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:26:11.419Z",
+      "variants": [
+        {
+          "architecture": "x86",
+          "installerType": "",
+          "silentInstall": "npp.8.6.Installer.exe /S",
+          "silentUninstall": "",
+          "repair": null,
+          "downloadUrl": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.6/npp.8.6.Installer.exe",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        },
+        {
+          "architecture": "x64",
+          "installerType": "",
+          "silentInstall": "npp.8.6.Installer.x64.exe /S",
+          "silentUninstall": "\"%ProgramFiles%\\Notepad++\\uninstall.exe\" /S",
+          "repair": null,
+          "downloadUrl": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.6/npp.8.6.Installer.x64.exe",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "ntlite",
+      "title": "NTLite",
+      "vendor": "Nlitesoft d.o.o.",
+      "sourceUrl": "https://silentinstallhq.com/ntlite-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:26:17.154Z",
+      "variants": [
+        {
+          "architecture": "x86",
+          "installerType": "EXE",
+          "silentInstall": "NTLite_setup_x86.exe /VERYSILENT /NORESTART",
+          "silentUninstall": "\"%ProgramFiles%\\NTLite\\unins000.exe\" /VERYSILENT /SUPPRESSMSGBOXES /NORESTART",
+          "repair": null,
+          "downloadUrl": "https://downloads.ntlite.com/files/NTLite_setup_x86.exe",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        },
+        {
+          "architecture": "x64",
+          "installerType": "EXE",
+          "silentInstall": "NTLite_setup_x64.exe /VERYSILENT /NORESTART",
+          "silentUninstall": "\"%ProgramFiles%\\NTLite\\unins000.exe\" /VERYSILENT /SUPPRESSMSGBOXES /NORESTART",
+          "repair": null,
+          "downloadUrl": "https://downloads.ntlite.com/files/NTLite_setup_x64.exe",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": "NTLite_setup_x64.exe /VERYSILENT /NORESTART /LOG=\"%WINDIR%\\Temp\\NTLite-Install.log\"",
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "oculus",
+      "title": "Oculus",
+      "vendor": "Facebook Technologies, LLC",
+      "sourceUrl": "https://silentinstallhq.com/oculus-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:26:20.539Z",
+      "variants": [
+        {
+          "architecture": "x64",
+          "installerType": "EXE",
+          "silentInstall": "Setup.exe --unattended",
+          "silentUninstall": "\"%ProgramFiles%\\Meta Horizon\\Setup.exe\" --unattended /uninstall",
+          "repair": null,
+          "downloadUrl": "https://securecdn.oculus.com/binaries/download/?id=4281594222121950",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "pandoc",
+      "title": "Pandoc",
+      "vendor": "John MacFarlane",
+      "sourceUrl": "https://silentinstallhq.com/pandoc-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:26:23.402Z",
+      "variants": [
+        {
+          "architecture": "x64",
+          "installerType": "MSI",
+          "silentInstall": "MsiExec.exe /i pandoc-x.y.z-windows-x86_64.msi ALLUSERS=1 /qn",
+          "silentUninstall": "MsiExec.exe /x pandoc-x.y.z-windows-x86_64.msi /qn",
+          "repair": "MsiExec.exe /fa pandoc-x.y.z-windows-x86_64.msi /qn",
+          "downloadUrl": "https://github.com/jgm/pandoc/releases/latest",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "papercut-mobility-print",
+      "title": "PaperCut Mobility Print",
+      "vendor": "PaperCut Software International Pty Ltd",
+      "sourceUrl": "https://silentinstallhq.com/papercut-mobility-print-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:26:26.934Z",
+      "variants": [
+        {
+          "architecture": "x86",
+          "installerType": "EXE",
+          "silentInstall": "pc-mobility-print-x.y.z.exe /VERYSILENT /NORESTART",
+          "silentUninstall": "",
+          "repair": null,
+          "downloadUrl": "https://www.papercut.com/products/ng/mobility-print/download/server/win/",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": "pc-mobility-print-x.y.z.exe /VERYSILENT /NORESTART /LOG=\"%WINDIR%\\Temp\\PCMobilityPrint-Install.log\"",
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "pdfgear",
+      "title": "PDFgear",
+      "vendor": "PDFgear",
+      "sourceUrl": "https://silentinstallhq.com/pdfgear-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:26:29.647Z",
+      "variants": [
+        {
+          "architecture": "x86\\_x64",
+          "installerType": "EXE",
+          "silentInstall": "pdfgear_setup_x.y.z.exe /VERYSILENT /NORESTART",
+          "silentUninstall": "\"%ProgramFiles%\\PDFgear\\unins000.exe\" /VERYSILENT /NORESTART",
+          "repair": null,
+          "downloadUrl": "https://www.pdfgear.com/download/",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": "pdfgear_setup_x.y.z.exe /VERYSILENT /NORESTART /LOG=\"%WINDIR%\\Temp\\PDFgear-Install.log\"",
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "perfecttableplan",
+      "title": "PerfectTablePlan",
+      "vendor": "Oryx Digital Ltd",
+      "sourceUrl": "https://silentinstallhq.com/perfecttableplan-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:26:35.173Z",
+      "variants": [
+        {
+          "architecture": "x64",
+          "installerType": "EXE",
+          "silentInstall": "PerfectTablePlan_x_y_z.exe /VERYSILENT /NORESTART",
+          "silentUninstall": "\"%Program Files%\\PerfectTablePlan_x_y_z\\unins000.exe\" /VERYSILENT /NORESTART",
+          "repair": null,
+          "downloadUrl": "https://www.perfecttableplan.com/html/download.html",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": "PerfectTablePlan_x_y_z.exe /VERYSILENT /NORESTART /LOG=\"%WINDIR%\\Temp\\PerfectTablePlan-Install.log\"",
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "plantronics-hub-software",
+      "title": "Plantronics Hub Software",
+      "vendor": "Plantronics, Inc.",
+      "sourceUrl": "https://silentinstallhq.com/plantronics-hub-software-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:26:38.262Z",
+      "variants": [
+        {
+          "architecture": "x86\\_x64",
+          "installerType": "EXE",
+          "silentInstall": "PlantronicsHubInstaller.exe /install /quiet /norestart",
+          "silentUninstall": "PlantronicsHubInstaller.exe /uninstall /quiet /norestart",
+          "repair": "PlantronicsHubInstaller.exe /repair /quiet /norestart",
+          "downloadUrl": "https://downloads.poly.com/headsets/PlantronicsHubInstaller.exe",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": "PlantronicsHubInstaller.exe /install /quiet /norestart /log \"%WINDIR%\\Temp\\PlantronicsHub-Install.log\"",
+          "logUninstall": "PlantronicsHubInstaller.exe /uninstall /quiet /norestart /log \"%WINDIR%\\Temp\\PlantronicsHub-Uninstall.log\""
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "popchar",
+      "title": "PopChar",
+      "vendor": "Ergonis Software",
+      "sourceUrl": "https://silentinstallhq.com/popchar-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:26:42.562Z",
+      "variants": [
+        {
+          "architecture": "x64",
+          "installerType": "EXE",
+          "silentInstall": "\"PopChar Win_x.y.exe\" /VERYSILENT /NORESTART",
+          "silentUninstall": "\"%ProgramFiles%\\Ergonis\\PopChar\\unins000.exe\" /VERYSILENT /NORESTART",
+          "repair": null,
+          "downloadUrl": "https://ergonis.com/popchar/download",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": "\"PopChar Win_x.y.exe\" /VERYSILENT /NORESTART /LOG=\"%WINDIR%\\Temp\\PopChar-Install.log\"",
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "process-hacker",
+      "title": "Process Hacker",
+      "vendor": "wj32",
+      "sourceUrl": "https://silentinstallhq.com/process-hacker-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:26:44.507Z",
+      "variants": [
+        {
+          "architecture": "x64",
+          "installerType": "EXE",
+          "silentInstall": "processhacker-x.xx-setup.exe /VERYSILENT /NORESTART",
+          "silentUninstall": "\"%ProgramFiles%\\Process Hacker 2\\unins000.exe\" /VERYSILENT /SUPPRESSMSGBOXES /NORESTART",
+          "repair": null,
+          "downloadUrl": "https://processhacker.sourceforge.io/downloads.php",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": "processhacker-x.xx-setup.exe /VERYSILENT /NORESTART /LOG=\"%WINDIR%\\Temp\\ProcessHacker-Install.log\"",
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "proton-drive",
+      "title": "Proton Drive",
+      "vendor": "Proton AG",
+      "sourceUrl": "https://silentinstallhq.com/proton-drive-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:26:47.304Z",
+      "variants": [
+        {
+          "architecture": "x86\\_x64",
+          "installerType": "EXE",
+          "silentInstall": "\"Proton Drive Setup x.y.z.exe\" /install /quiet /norestart",
+          "silentUninstall": "\"Proton Drive Setup x.y.z.exe\" /uninstall /quiet /norestart",
+          "repair": null,
+          "downloadUrl": "https://proton.me/drive/download",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": "\"Proton Drive Setup x.y.z.exe\" /install /quiet /norestart /log \"%WINDIR%\\Temp\\ProtonDrive-Install.log\"",
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "proxifier",
+      "title": "Proxifier",
+      "vendor": "Initex",
+      "sourceUrl": "https://silentinstallhq.com/proxifier-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:26:50.538Z",
+      "variants": [
+        {
+          "architecture": "x86",
+          "installerType": "EXE",
+          "silentInstall": "ProxifierSetup.exe /VERYSILENT /NORESTART",
+          "silentUninstall": "",
+          "repair": null,
+          "downloadUrl": "https://www.proxifier.com/download/ProxifierSetup.exe",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": "ProxifierSetup.exe /VERYSILENT /NORESTART /LOG=\"%WINDIR%\\Temp\\Proxifier-Install.log\"",
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "prtg-desktop",
+      "title": "PRTG Desktop",
+      "vendor": "Paessler AG",
+      "sourceUrl": "https://silentinstallhq.com/prtg-desktop-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:26:53.655Z",
+      "variants": [
+        {
+          "architecture": "x86",
+          "installerType": "EXE",
+          "silentInstall": "prtg-desktop-offline-x.y.z-32bit.exe /install /quiet /norestart",
+          "silentUninstall": "prtg-desktop-offline-x.y.z-32bit.exe /uninstall /quiet /norestart",
+          "repair": "prtg-desktop-offline-x.y.z-32bit.exe /repair /quiet /norestart",
+          "downloadUrl": "https://downloads.paessler.com/prtg_desktop/windows-offline-32bit",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": "prtg-desktop-offline-x.y.z-64bit.exe /install /quiet /norestart /log \"%WINDIR%\\Temp\\PRTGDesktop-Install.log\"",
+          "logUninstall": null
+        },
+        {
+          "architecture": "x64",
+          "installerType": "EXE",
+          "silentInstall": "prtg-desktop-offline-x.y.z-64bit.exe /install /quiet /norestart",
+          "silentUninstall": "prtg-desktop-offline-x.y.z-64bit.exe /uninstall /quiet /norestart",
+          "repair": "prtg-desktop-offline-x.y.z-64bit.exe /repair /quiet /norestart",
+          "downloadUrl": "https://downloads.paessler.com/prtg_desktop/windows-offline",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        },
+        {
+          "architecture": "x86",
+          "installerType": "MSI",
+          "silentInstall": "MsiExec.exe /i PRTG_Desktop_Full_Installer.msi /qn",
+          "silentUninstall": "MsiExec.exe /x PRTG_Desktop_Full_Installer.msi /qn",
+          "repair": "MsiExec.exe /fa PRTG_Desktop_Full_Installer.msi /qn",
+          "downloadUrl": "https://downloads.paessler.com/prtg_desktop/windows-msi-32bit",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        },
+        {
+          "architecture": "x64",
+          "installerType": "MSI",
+          "silentInstall": "MsiExec.exe /i PRTG_Desktop_Full_Installer.msi /qn",
+          "silentUninstall": "MsiExec.exe /x PRTG_Desktop_Full_Installer.msi /qn",
+          "repair": "MsiExec.exe /fa PRTG_Desktop_Full_Installer.msi /qn",
+          "downloadUrl": "https://downloads.paessler.com/prtg_desktop/windows-msi",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "putty-0-79",
+      "title": "PuTTY release 0.79 (32-bit)",
+      "vendor": "Simon Tatham",
+      "sourceUrl": "https://silentinstallhq.com/putty-0-79-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:26:56.479Z",
+      "variants": [
+        {
+          "architecture": "x86",
+          "installerType": "MSI",
+          "silentInstall": "MsiExec.exe /i putty-0.79-installer.msi /qn",
+          "silentUninstall": "MsiExec.exe /x {0FAFE81F-12E1-4E02-89AF-D3876DBA8588} /qn",
+          "repair": "MsiExec.exe /fa {0FAFE81F-12E1-4E02-89AF-D3876DBA8588} /qn",
+          "downloadUrl": "https://the.earth.li/~sgtatham/putty/0.79/w32/putty-0.79-installer.msi",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        },
+        {
+          "architecture": "x64",
+          "installerType": "MSI",
+          "silentInstall": "MsiExec.exe /i putty-64bit-0.79-installer.msi /qn",
+          "silentUninstall": "MsiExec.exe /x {E07417FF-E888-4648-878C-73E25D64D50D} /qn",
+          "repair": "MsiExec.exe /fa {E07417FF-E888-4648-878C-73E25D64D50D} /qn",
+          "downloadUrl": "https://the.earth.li/~sgtatham/putty/0.79/w64/putty-64bit-0.79-installer.msi",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "putty-0-80",
+      "title": "PuTTY release 0.80 (32-bit)",
+      "vendor": "Simon Tatham",
+      "sourceUrl": "https://silentinstallhq.com/putty-0-80-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:26:59.439Z",
+      "variants": [
+        {
+          "architecture": "x86",
+          "installerType": "MSI",
+          "silentInstall": "MsiExec.exe /i putty-0.80-installer.msi /qn",
+          "silentUninstall": "MsiExec.exe /x {BE8E4B58-023F-4B1C-864E-686C003BC8DF} /qn",
+          "repair": "MsiExec.exe /fa {BE8E4B58-023F-4B1C-864E-686C003BC8DF} /qn",
+          "downloadUrl": "https://the.earth.li/~sgtatham/putty/0.80/w32/putty-0.80-installer.msi",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        },
+        {
+          "architecture": "x64",
+          "installerType": "MSI",
+          "silentInstall": "MsiExec.exe /i putty-64bit-0.80-installer.msi /qn",
+          "silentUninstall": "MsiExec.exe /x {98B86AF9-EC3E-49F8-8B34-B48837CC5719} /qn",
+          "repair": "MsiExec.exe /fa {98B86AF9-EC3E-49F8-8B34-B48837CC5719} /qn",
+          "downloadUrl": "https://the.earth.li/~sgtatham/putty/0.80/w64/putty-64bit-0.80-installer.msi",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "raspberry-pi-imager",
+      "title": "Raspberry Pi Imager",
+      "vendor": "Raspberry Pi Ltd",
+      "sourceUrl": "https://silentinstallhq.com/raspberry-pi-imager-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:27:02.315Z",
+      "variants": [
+        {
+          "architecture": "x86",
+          "installerType": "EXE",
+          "silentInstall": "imager_x.y.z.exe /S",
+          "silentUninstall": "",
+          "repair": null,
+          "downloadUrl": "https://downloads.raspberrypi.org/imager/imager_latest.exe",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "realvnc-viewer",
+      "title": "RealVNC Viewer",
+      "vendor": "RealVNC",
+      "sourceUrl": "https://silentinstallhq.com/realvnc-viewer-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:27:05.491Z",
+      "variants": [
+        {
+          "architecture": "x86\\_x64",
+          "installerType": "EXE",
+          "silentInstall": "VNC-Viewer-x.y.z-Windows.exe /qn",
+          "silentUninstall": "VNC-Viewer-x.y.z-Windows.exe /qn REMOVE=ALL",
+          "repair": null,
+          "downloadUrl": "https://www.realvnc.com/en/connect/download/viewer/",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        },
+        {
+          "architecture": "x86",
+          "installerType": "MSI",
+          "silentInstall": "MsiExec.exe /i VNC-Viewer-x.y.z-Windows-en-32bit.msi /qn",
+          "silentUninstall": "MsiExec.exe /x VNC-Viewer-x.y.z-Windows-en-32bit.msi /qn",
+          "repair": "MsiExec.exe /fa VNC-Viewer-x.y.z-Windows-en-32bit.msi /qn",
+          "downloadUrl": "https://downloads.realvnc.com/download/file/viewer.files/VNC-Viewer-Latest-Windows-msi.zip",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        },
+        {
+          "architecture": "x64",
+          "installerType": "MSI",
+          "silentInstall": "MsiExec.exe /i VNC-Viewer-x.y.z-Windows-en-64bit.msi /qn",
+          "silentUninstall": "MsiExec.exe /x VNC-Viewer-x.y.z-Windows-en-64bit.msi /qn",
+          "repair": "MsiExec.exe /fa VNC-Viewer-x.y.z-Windows-en-64bit.msi /qn",
+          "downloadUrl": "https://downloads.realvnc.com/download/file/viewer.files/VNC-Viewer-Latest-Windows-msi.zip",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "remote-desktop-msrdc-client",
+      "title": "Remote Desktop",
+      "vendor": "Microsoft Corporation",
+      "sourceUrl": "https://silentinstallhq.com/remote-desktop-msrdc-client-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:27:11.784Z",
+      "variants": [
+        {
+          "architecture": "x86",
+          "installerType": "MSI",
+          "silentInstall": "MsiExec.exe /i RemoteDesktop_x.y.z_x86.msi ALLUSERS=1 /qn",
+          "silentUninstall": "MsiExec.exe /x RemoteDesktop_x.y.z_x86.msi /qn",
+          "repair": "MsiExec.exe /fa RemoteDesktop_x.y.z_x86.msi ALLUSERS=1 /qn",
+          "downloadUrl": null,
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        },
+        {
+          "architecture": "x64",
+          "installerType": "MSI",
+          "silentInstall": "MsiExec.exe /i RemoteDesktop_x.y.z_x64.msi ALLUSERS=1 /qn",
+          "silentUninstall": "MsiExec.exe /x RemoteDesktop_x.y.z_x64.msi /qn",
+          "repair": "MsiExec.exe /fa RemoteDesktop_x.y.z_x64.msi ALLUSERS=1 /qn",
+          "downloadUrl": null,
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "remote-utilities-viewer",
+      "title": "Remote Utilities Viewer",
+      "vendor": "Remote Utilities Pty (Cy) Ltd.",
+      "sourceUrl": "https://silentinstallhq.com/remote-utilities-viewer-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:27:14.458Z",
+      "variants": [
+        {
+          "architecture": "x86",
+          "installerType": "EXE",
+          "silentInstall": "viewer-w.x.y.z.exe /S /v\"LAUNCHPROGRAM=\\\"\\\" /qn\"",
+          "silentUninstall": "viewer-w.x.y.z.exe /S /x /v/qn",
+          "repair": null,
+          "downloadUrl": "https://www.remoteutilities.com/download/",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        },
+        {
+          "architecture": "x86",
+          "installerType": "MSI",
+          "silentInstall": "MsiExec.exe /i viewer-w.x.y.z.msi LAUNCHPROGRAM=\"\" /qn",
+          "silentUninstall": "MsiExec.exe /x viewer-w.x.y.z.msi /qn",
+          "repair": "MsiExec.exe /fa viewer-w.x.y.z.msi /qn",
+          "downloadUrl": "https://www.remoteutilities.com/download/",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "risa-3d-20-0",
+      "title": "RISA-3D 20.0",
+      "vendor": "RISA Tech, Inc.",
+      "sourceUrl": "https://silentinstallhq.com/risa-3d-20-0-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:27:17.678Z",
+      "variants": [
+        {
+          "architecture": "x64",
+          "installerType": "MSI",
+          "silentInstall": "MsiExec.exe /i install_3d_20.x.y.z.msi TRANSFORMS=install_3d_20.x.y.z.mst /qn",
+          "silentUninstall": "MsiExec.exe /x install_3d_20.x.y.z.msi /qn",
+          "repair": null,
+          "downloadUrl": "https://s3.us-west-1.amazonaws.com/downloads.risa.com/3d/install_3D_2006.exe",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "risa-3d-21-0",
+      "title": "RISA-3D 21.0",
+      "vendor": "RISA Tech, Inc.",
+      "sourceUrl": "https://silentinstallhq.com/risa-3d-21-0-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:27:20.544Z",
+      "variants": [
+        {
+          "architecture": "x64",
+          "installerType": "MSI",
+          "silentInstall": "MsiExec.exe /i install_3d_21.x.y.z.msi TRANSFORMS=install_3d_21.x.y.z.mst /qn",
+          "silentUninstall": "MsiExec.exe /x install_3d_21.x.y.z.msi /qn",
+          "repair": null,
+          "downloadUrl": "https://s3.us-west-1.amazonaws.com/downloads.risa.com/3d/install_3D_2102.exe",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "rustdesk",
+      "title": "RustDesk",
+      "vendor": "RustDesk",
+      "sourceUrl": "https://silentinstallhq.com/rustdesk-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:27:23.507Z",
+      "variants": [
+        {
+          "architecture": "x86\\_x64",
+          "installerType": "EXE",
+          "silentInstall": "rustdesk-x.y.z-x86_64.exe --silent-install",
+          "silentUninstall": "\"%ProgramFiles%\\RustDesk\\RustDesk.exe\" --uninstall",
+          "repair": null,
+          "downloadUrl": "https://github.com/rustdesk/rustdesk/releases/latest",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "seafile",
+      "title": "Seafile",
+      "vendor": "HaiWenHuZhi ltd.",
+      "sourceUrl": "https://silentinstallhq.com/seafile-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:27:29.773Z",
+      "variants": [
+        {
+          "architecture": "x86\\_x64",
+          "installerType": "MSI",
+          "silentInstall": "MsiExec.exe /i seafile-x.y.z-en.msi /qn",
+          "silentUninstall": "MsiExec.exe /x seafile-x.y.z-en.msi UPGRADINGPRODUCTCODE=0 REMOVE=ALL /qn",
+          "repair": null,
+          "downloadUrl": "https://www.seafile.com/en/download/",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "seirich",
+      "title": "Seirich",
+      "vendor": "INRS",
+      "sourceUrl": "https://silentinstallhq.com/seirich-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:27:32.834Z",
+      "variants": [
+        {
+          "architecture": "x86\\_x64",
+          "installerType": "EXE",
+          "silentInstall": "Seirich-x.y.z_xxx.exe /VERYSILENT /NORESTART",
+          "silentUninstall": "\"%LocalAppData%\\Seirich\\x.y.z\\unins000.exe\" /VERYSILENT /NORESTART",
+          "repair": null,
+          "downloadUrl": "https://www.seirich.fr/seirich-web/telechargement.xhtml",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": "Seirich-x.y.z_xxx.exe /VERYSILENT /NORESTART /LOG=\"%WINDIR%\\Temp\\Seirich-Install.log\"",
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "sharex",
+      "title": "ShareX",
+      "vendor": "ShareX Team",
+      "sourceUrl": "https://silentinstallhq.com/sharex-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:27:35.502Z",
+      "variants": [
+        {
+          "architecture": "x86\\_x64",
+          "installerType": "EXE",
+          "silentInstall": "ShareX-x.y.z-setup.exe /SP- /VERYSILENT /NORESTART /NORUN",
+          "silentUninstall": "",
+          "repair": null,
+          "downloadUrl": "https://getsharex.com/downloads",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": "ShareX-x.y.z-setup.exe /SP- /VERYSILENT /NORESTART /NORUN /LOG=\"%WINDIR%\\Temp\\ShareX-Install.log\"",
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "simlab-vr-viewer",
+      "title": "SimLab VR Viewer",
+      "vendor": "SimLab Soft",
+      "sourceUrl": "https://silentinstallhq.com/simlab-vr-viewer-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:27:39.271Z",
+      "variants": [
+        {
+          "architecture": "x64",
+          "installerType": "EXE",
+          "silentInstall": "SimLab_VR_Viewer_latest.exe /exenoui /qn",
+          "silentUninstall": "SimLab_VR_Viewer_latest.exe /exenoui /qn REMOVE=ALL",
+          "repair": null,
+          "downloadUrl": "https://storage.googleapis.com/simlabvr/SimLab_VR_Viewer_latest.exe",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "solution-7-dream-edition",
+      "title": "Solution 7 Dream Edition",
+      "vendor": "Solution 7",
+      "sourceUrl": "https://silentinstallhq.com/solution-7-dream-edition-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:27:44.650Z",
+      "variants": [
+        {
+          "architecture": "x86",
+          "installerType": "EXE",
+          "silentInstall": "Solution7-Dream.exe /install /quiet /norestart",
+          "silentUninstall": "Solution7-Dream.exe /uninstall /quiet /norestart",
+          "repair": "Solution7-Dream.exe /repair /quiet /norestart",
+          "downloadUrl": "https://www.solution7.co.uk/downloads/software/solution7-dream-latest",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": "Solution7-Dream.exe /install /quiet /norestart /log \"%WINDIR%\\Temp\\Solution7-Dream-Install.log\"",
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "solution-7-iris-financials-edition",
+      "title": "Solution 7 IRIS Financials Edition",
+      "vendor": "Solution 7",
+      "sourceUrl": "https://silentinstallhq.com/solution-7-iris-financials-edition-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:27:47.582Z",
+      "variants": [
+        {
+          "architecture": "x86",
+          "installerType": "EXE",
+          "silentInstall": "Solution7-IRIS.exe /install /quiet /norestart",
+          "silentUninstall": "Solution7-IRIS.exe /uninstall /quiet /norestart",
+          "repair": "Solution7-IRIS.exe /repair /quiet /norestart",
+          "downloadUrl": "https://www.solution7.co.uk/downloads/software/solution7-iris-latest",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": "Solution7-IRIS.exe /install /quiet /norestart /log \"%WINDIR%\\Temp\\Solution7-IRIS-Install.log\"",
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "solution-7-netsuite-edition",
+      "title": "Solution 7 NetSuite Edition",
+      "vendor": "Solution 7",
+      "sourceUrl": "https://silentinstallhq.com/solution-7-netsuite-edition-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:27:50.627Z",
+      "variants": [
+        {
+          "architecture": "x86",
+          "installerType": "EXE",
+          "silentInstall": "Solution7-NS.exe /install /quiet /norestart",
+          "silentUninstall": "Solution7-NS.exe /uninstall /quiet /norestart",
+          "repair": "Solution7-NS.exe /repair /quiet /norestart",
+          "downloadUrl": "https://www.solution7.co.uk/downloads/software/solution-7-netsuite-latest",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": "Solution7-NS.exe /install /quiet /norestart /log \"%WINDIR%\\Temp\\Solution7-NS-Install.log\"",
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "microsoft-sql-server-2019-express",
+      "title": "SQL Server 2019 Express",
+      "vendor": "Microsoft Corporation",
+      "sourceUrl": "https://silentinstallhq.com/microsoft-sql-server-2019-express-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:25:32.315Z",
+      "variants": [
+        {
+          "architecture": "x64",
+          "installerType": "EXE",
+          "silentInstall": "SETUP.EXE /ConfigurationFile=ConfigurationFile.ini",
+          "silentUninstall": "SETUP.EXE /ConfigurationFile=ConfigurationFile_Uninstall.ini",
+          "repair": null,
+          "downloadUrl": "https://www.microsoft.com/en-us/download/details.aspx?id=101064",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        },
+        {
+          "architecture": "x64",
+          "installerType": "EXE",
+          "silentInstall": "SETUP.EXE /ConfigurationFile=ConfigurationFile.ini",
+          "silentUninstall": "SETUP.EXE /ConfigurationFile=ConfigurationFile_Uninstall.ini",
+          "repair": null,
+          "downloadUrl": "https://www.microsoft.com/en-us/download/details.aspx?id=101064",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "subsurface",
+      "title": "Subsurface",
+      "vendor": "Subsurface Developer Community",
+      "sourceUrl": "https://silentinstallhq.com/subsurface-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:27:53.936Z",
+      "variants": [
+        {
+          "architecture": "x86\\_x64",
+          "installerType": "EXE",
+          "silentInstall": "subsurface-x.y.z-release-installer.exe /S",
+          "silentUninstall": "\"%ProgramFiles%\\Subsurface\\Uninstall.exe\" /S",
+          "repair": null,
+          "downloadUrl": "https://subsurface-divelog.org/",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "subtitle-edit",
+      "title": "Subtitle Edit",
+      "vendor": "Nikse",
+      "sourceUrl": "https://silentinstallhq.com/subtitle-edit-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:27:56.795Z",
+      "variants": [
+        {
+          "architecture": "x86\\_x64",
+          "installerType": "EXE",
+          "silentInstall": "SubtitleEdit-x.x.x-Setup.exe /VERYSILENT /NORESTART",
+          "silentUninstall": "\"%ProgramFiles%\\Subtitle Edit\\unins000.exe\" /VERYSILENT /SUPPRESSMSGBOXES /NORESTART",
+          "repair": null,
+          "downloadUrl": "https://github.com/SubtitleEdit/subtitleedit/releases",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": "SubtitleEdit-x.x.x-Setup.exe /VERYSILENT /NORESTART /LOG=\"%WINDIR%\\Temp\\SubtitleEdit-Install.log\"",
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "tableau-desktop-2024",
+      "title": "Tableau 2024",
+      "vendor": "Tableau Software, LLC",
+      "sourceUrl": "https://silentinstallhq.com/tableau-desktop-2024-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:27:59.824Z",
+      "variants": [
+        {
+          "architecture": "x64",
+          "installerType": "EXE",
+          "silentInstall": "TableauDesktop-64bit-2024-1-0.exe /install /quiet /norestart ACCEPTEULA=1",
+          "silentUninstall": "TableauDesktop-64bit-2024-1-0.exe /uninstall /quiet /norestart",
+          "repair": "TableauDesktop-64bit-2024-1-0.exe /repair /quiet /norestart",
+          "downloadUrl": "https://downloads.tableau.com/esdalt/2024.1.0/TableauDesktop-64bit-2024-1-0.exe",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": "TableauDesktop-64bit-2024-1-0.exe /install /quiet /norestart /log \"%WINDIR%\\Temp\\TableauReader2024-Install.log\" ACCEPTEULA=1",
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "tailviewer",
+      "title": "Tailviewer",
+      "vendor": "Kittyfisto",
+      "sourceUrl": "https://silentinstallhq.com/tailviewer-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:28:02.866Z",
+      "variants": [
+        {
+          "architecture": "x86\\_x64",
+          "installerType": "EXE",
+          "silentInstall": "Tailviewer-setup-w.x.y.z.exe silentinstall",
+          "silentUninstall": "CMD.exe /C \"C:\\Program Files\\Tailviewer\\Uninstall.cmd\"",
+          "repair": null,
+          "downloadUrl": "https://github.com/Kittyfisto/Tailviewer/releases/latest",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "tigervnc",
+      "title": "TigerVNC",
+      "vendor": "TigerVNC Project",
+      "sourceUrl": "https://silentinstallhq.com/tigervnc-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:28:05.768Z",
+      "variants": [
+        {
+          "architecture": "x86",
+          "installerType": "EXE",
+          "silentInstall": "tigervnc-x.y.z.exe /VERYSILENT /NORESTART",
+          "silentUninstall": "",
+          "repair": null,
+          "downloadUrl": "https://sourceforge.net/projects/tigervnc/files/stable/",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": "tigervnc-x.y.z.exe /VERYSILENT /NORESTART /LOG=\"%WINDIR%\\Temp\\TigerVNC-Install.log\"",
+          "logUninstall": null
+        },
+        {
+          "architecture": "x64",
+          "installerType": "EXE",
+          "silentInstall": "tigervnc64-x.y.z.exe /VERYSILENT /NORESTART",
+          "silentUninstall": "\"%ProgramFiles%\\TigerVNC\\unins000.exe\" /VERYSILENT /NORESTART",
+          "repair": null,
+          "downloadUrl": "https://sourceforge.net/projects/tigervnc/files/stable/",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "trezor-suite",
+      "title": "Trezor Suite",
+      "vendor": "SatoshiLabs",
+      "sourceUrl": "https://silentinstallhq.com/trezor-suite-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:28:11.541Z",
+      "variants": [
+        {
+          "architecture": "x64",
+          "installerType": "EXE",
+          "silentInstall": "Trezor-Suite-x.y.z-win-x64.exe /allusers /S",
+          "silentUninstall": "\"%ProgramFiles%\\Trezor Suite\\Uninstall Trezor Suite.exe\" /allusers /S",
+          "repair": null,
+          "downloadUrl": "https://github.com/trezor/trezor-suite/releases/latest",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "ultravnc",
+      "title": "UltraVNC",
+      "vendor": "uvnc bvba",
+      "sourceUrl": "https://silentinstallhq.com/ultravnc-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:28:11.853Z",
+      "variants": [
+        {
+          "architecture": "x86",
+          "installerType": "EXE",
+          "silentInstall": "UltraVNC_x_y_z_X86_Setup.exe /VERYSILENT /NORESTART",
+          "silentUninstall": "",
+          "repair": null,
+          "downloadUrl": "https://uvnc.com/downloads/ultravnc.html",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": "UltraVNC_x_y_z_Setup.exe /VERYSILENT /NORESTART /LOG=\"%WINDIR%\\Temp\\UltraVNCx86-Install.log\"",
+          "logUninstall": null
+        },
+        {
+          "architecture": "x64",
+          "installerType": "EXE",
+          "silentInstall": "UltraVNC_x_y_z_X64_Setup.exe /VERYSILENT /NORESTART",
+          "silentUninstall": "\"%ProgramFiles%\\uvnc bvba\\UltraVNC\\unins000.exe\" /VERYSILENT /NORESTART",
+          "repair": null,
+          "downloadUrl": "https://uvnc.com/downloads/ultravnc.html",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "univerge-blue-connect",
+      "title": "Univerge Blue Connect",
+      "vendor": "NEC Platforms, Ltd.",
+      "sourceUrl": "https://silentinstallhq.com/univerge-blue-connect-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:28:14.663Z",
+      "variants": [
+        {
+          "architecture": "x64",
+          "installerType": "EXE",
+          "silentInstall": "univerge-blue-connect.exe /allusers /S",
+          "silentUninstall": "\"%ProgramFiles%\\UNIVERGE BLUE CONNECT\\Uninstall UNIVERGE BLUE CONNECT.exe\" /allusers /S",
+          "repair": null,
+          "downloadUrl": "https://admin.univerge.blue/voice/pbx/softphonereleases/blue/latest-win/univerge-blue-connect.exe",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "vectorworks-2024-viewer",
+      "title": "Vectorworks 2024 Viewer",
+      "vendor": "Vectorworks, Inc",
+      "sourceUrl": "https://silentinstallhq.com/vectorworks-2024-viewer-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:28:17.688Z",
+      "variants": [
+        {
+          "architecture": "x64",
+          "installerType": "EXE",
+          "silentInstall": "\".\\resources\\installer\\Install Vectorworks2024.exe\" --unattendedmodeui none --mode unattended",
+          "silentUninstall": "\"%ProgramFiles%\\Vectorworks 2024 Viewer\\Uninstall.exe\" --unattendedmodeui none --mode unattended",
+          "repair": null,
+          "downloadUrl": "https://release.vectorworks.net/latest/Vectorworks/2024-NNA-eng-win-viewer",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "pentalogix-viewmate",
+      "title": "ViewMate",
+      "vendor": "Pentalogix",
+      "sourceUrl": "https://silentinstallhq.com/pentalogix-viewmate-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:26:33.055Z",
+      "variants": [
+        {
+          "architecture": "x86",
+          "installerType": "EXE",
+          "silentInstall": "ViewMate_Setup.exe -s -f1\".\\setup.iss\"",
+          "silentUninstall": "\"%ProgramFiles(x86)%\\InstallShield Installation Information\\{A9D8E557-F988-4E2A-86D1-7637ACB95A79}\\ViewMate_Setup.exe\" -removeall -s -f1\".\\uninstall.iss\"",
+          "repair": null,
+          "downloadUrl": "https://downloads.pentalogix.com/ViewMate_Setup.zip",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "vlc-media-player",
+      "title": "VLC Media Player (32bit)",
+      "vendor": "VideoLAN",
+      "sourceUrl": "https://silentinstallhq.com/vlc-media-player-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:28:23.762Z",
+      "variants": [
+        {
+          "architecture": "32-bit",
+          "installerType": "EXE",
+          "silentInstall": "vlc-x.y.z-win32.exe /S",
+          "silentUninstall": "",
+          "repair": null,
+          "downloadUrl": "https://download.videolan.org/pub/videolan/vlc/",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        },
+        {
+          "architecture": "64-bit",
+          "installerType": "EXE",
+          "silentInstall": "vlc-x.y.z-win64.exe /S",
+          "silentUninstall": "\"%ProgramFiles%\\VideoLAN\\VLC\\uninstall.exe\" /S",
+          "repair": null,
+          "downloadUrl": "https://download.videolan.org/pub/videolan/vlc/",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        },
+        {
+          "architecture": "32-bit",
+          "installerType": "MSI",
+          "silentInstall": "MsiExec.exe /i vlc-x.y.z-win32.msi /qn",
+          "silentUninstall": "MsiExec.exe /x vlc-x.y.z-win32.msi /qn",
+          "repair": "MsiExec.exe /fa vlc-x.y.z-win32.msi /qn",
+          "downloadUrl": "https://download.videolan.org/pub/videolan/vlc/",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        },
+        {
+          "architecture": "64-bit",
+          "installerType": "MSI",
+          "silentInstall": "MsiExec.exe /i vlc-x.y.z-win64.msi /qn",
+          "silentUninstall": "MsiExec.exe /x vlc-x.y.z-win64.msi /qn",
+          "repair": "MsiExec.exe /fa vlc-x.y.z-win64.msi /qn",
+          "downloadUrl": "https://download.videolan.org/pub/videolan/vlc/",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "wireguard",
+      "title": "WireGuard",
+      "vendor": "WireGuard LLC",
+      "sourceUrl": "https://silentinstallhq.com/wireguard-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:28:32.738Z",
+      "variants": [
+        {
+          "architecture": "x86",
+          "installerType": "MSI",
+          "silentInstall": "MsiExec.exe /i wireguard-x86-x.y.z.msi DO_NOT_LAUNCH=1 /qn",
+          "silentUninstall": "MsiExec.exe /x wireguard-x86-x.y.z.msi /qn",
+          "repair": null,
+          "downloadUrl": "https://download.wireguard.com/windows-client/",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        },
+        {
+          "architecture": "x64",
+          "installerType": "MSI",
+          "silentInstall": "MsiExec.exe /i wireguard-amd64-x.y.z.msi DO_NOT_LAUNCH=1 /qn",
+          "silentUninstall": "MsiExec.exe /x wireguard-amd64-x.y.z.msi /qn",
+          "repair": null,
+          "downloadUrl": "https://download.wireguard.com/windows-client/",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "xmeters",
+      "title": "XMeters",
+      "vendor": "Entropy6",
+      "sourceUrl": "https://silentinstallhq.com/xmeters-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:28:36.525Z",
+      "variants": [
+        {
+          "architecture": "x86\\_x64",
+          "installerType": "EXE",
+          "silentInstall": "XMetersSetup.exe /install /quiet /norestart",
+          "silentUninstall": "XMetersSetup.exe /uninstall /quiet /norestart",
+          "repair": "XMetersSetup.exe /repair /quiet /norestart",
+          "downloadUrl": "https://entropy6.com/xmeters/downloads/XMetersSetup.exe",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": "XMetersSetup.exe /install /quiet /norestart /log \"%WINDIR%\\Temp\\XMeters-Install.log\"",
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "xmind-24",
+      "title": "XMind 24",
+      "vendor": "XMind Ltd.",
+      "sourceUrl": "https://silentinstallhq.com/xmind-24-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:28:38.782Z",
+      "variants": [
+        {
+          "architecture": "x64",
+          "installerType": "EXE",
+          "silentInstall": "Xmind-for-Windows-x64bit-24.x.x.exe /S",
+          "silentUninstall": "\"%LocalAppData%\\Programs\\Xmind\\Uninstall Xmind.exe\" /S",
+          "repair": null,
+          "downloadUrl": "https://xmind.app/zen/download/win64/",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": null,
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    },
+    {
+      "slug": "xmla-connect",
+      "title": "XMLA Connector",
+      "vendor": "Arquery Ltd.",
+      "sourceUrl": "https://silentinstallhq.com/xmla-connect-silent-install-how-to-guide",
+      "lastScraped": "2026-03-16T22:28:42.288Z",
+      "variants": [
+        {
+          "architecture": "x86",
+          "installerType": "EXE",
+          "silentInstall": "XMLA_Provider_vw.x.y.z.exe /VERYSILENT /NORESTART",
+          "silentUninstall": "",
+          "repair": null,
+          "downloadUrl": "https://sourceforge.net/projects/xmlaconnect/files/latest/download",
+          "psScriptUrl": null,
+          "detectionScriptUrl": null,
+          "logInstall": "XMLA_Provider_vw.x.y.z.exe /VERYSILENT /NORESTART /LOG=\"%WINDIR%\\Temp\\XMLAConnect-Install.log\"",
+          "logUninstall": null
+        }
+      ],
+      "psadtScript": null
+    }
+  ]
+}
