@@ -1,0 +1,22 @@
+{
+  "slug": "solution-7-iris-financials-edition",
+  "title": "Solution 7 IRIS Financials Edition",
+  "vendor": "Solution 7",
+  "sourceUrl": "https://silentinstallhq.com/solution-7-iris-financials-edition-silent-install-how-to-guide",
+  "lastScraped": "2026-03-16T22:27:47.582Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "Solution7-IRIS.exe /install /quiet /norestart",
+      "silentUninstall": "Solution7-IRIS.exe /uninstall /quiet /norestart",
+      "repair": "Solution7-IRIS.exe /repair /quiet /norestart",
+      "downloadUrl": "https://www.solution7.co.uk/downloads/software/solution7-iris-latest",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": "Solution7-IRIS.exe /install /quiet /norestart /log \"%WINDIR%\\Temp\\Solution7-IRIS-Install.log\"",
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

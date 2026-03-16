@@ -1,0 +1,34 @@
+{
+  "slug": "microsoft-sql-server-2019-express",
+  "title": "SQL Server 2019 Express",
+  "vendor": "Microsoft Corporation",
+  "sourceUrl": "https://silentinstallhq.com/microsoft-sql-server-2019-express-silent-install-how-to-guide",
+  "lastScraped": "2026-03-16T22:25:32.315Z",
+  "variants": [
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "SETUP.EXE /ConfigurationFile=ConfigurationFile.ini",
+      "silentUninstall": "SETUP.EXE /ConfigurationFile=ConfigurationFile_Uninstall.ini",
+      "repair": null,
+      "downloadUrl": "https://www.microsoft.com/en-us/download/details.aspx?id=101064",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "SETUP.EXE /ConfigurationFile=ConfigurationFile.ini",
+      "silentUninstall": "SETUP.EXE /ConfigurationFile=ConfigurationFile_Uninstall.ini",
+      "repair": null,
+      "downloadUrl": "https://www.microsoft.com/en-us/download/details.aspx?id=101064",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

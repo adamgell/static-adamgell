@@ -1,0 +1,22 @@
+{
+  "slug": "meld",
+  "title": "Meld",
+  "vendor": "Kai Willadsen",
+  "sourceUrl": "https://silentinstallhq.com/meld-silent-install-how-to-guide",
+  "lastScraped": "2026-03-16T22:24:44.586Z",
+  "variants": [
+    {
+      "architecture": "x86\\_x64",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i Meld-x.y.z-mingw.msi ALLUSERS=1 /qn",
+      "silentUninstall": "MsiExec.exe /x Meld-x.y.z-mingw.msi /qn",
+      "repair": "MsiExec.exe /fa Meld-x.y.z-mingw.msi /qn",
+      "downloadUrl": "https://meldmerge.org/",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

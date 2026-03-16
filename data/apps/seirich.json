@@ -1,0 +1,22 @@
+{
+  "slug": "seirich",
+  "title": "Seirich",
+  "vendor": "INRS",
+  "sourceUrl": "https://silentinstallhq.com/seirich-silent-install-how-to-guide",
+  "lastScraped": "2026-03-16T22:27:32.834Z",
+  "variants": [
+    {
+      "architecture": "x86\\_x64",
+      "installerType": "EXE",
+      "silentInstall": "Seirich-x.y.z_xxx.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "\"%LocalAppData%\\Seirich\\x.y.z\\unins000.exe\" /VERYSILENT /NORESTART",
+      "repair": null,
+      "downloadUrl": "https://www.seirich.fr/seirich-web/telechargement.xhtml",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": "Seirich-x.y.z_xxx.exe /VERYSILENT /NORESTART /LOG=\"%WINDIR%\\Temp\\Seirich-Install.log\"",
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

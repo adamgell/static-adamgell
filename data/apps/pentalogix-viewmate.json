@@ -1,0 +1,22 @@
+{
+  "slug": "pentalogix-viewmate",
+  "title": "ViewMate",
+  "vendor": "Pentalogix",
+  "sourceUrl": "https://silentinstallhq.com/pentalogix-viewmate-silent-install-how-to-guide",
+  "lastScraped": "2026-03-16T22:26:33.055Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "ViewMate_Setup.exe -s -f1\".\\setup.iss\"",
+      "silentUninstall": "\"%ProgramFiles(x86)%\\InstallShield Installation Information\\{A9D8E557-F988-4E2A-86D1-7637ACB95A79}\\ViewMate_Setup.exe\" -removeall -s -f1\".\\uninstall.iss\"",
+      "repair": null,
+      "downloadUrl": "https://downloads.pentalogix.com/ViewMate_Setup.zip",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

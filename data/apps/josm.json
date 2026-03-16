@@ -1,0 +1,22 @@
+{
+  "slug": "josm",
+  "title": "JOSM",
+  "vendor": "OpenStreetMap JOSM Team",
+  "sourceUrl": "https://silentinstallhq.com/josm-silent-install-how-to-guide",
+  "lastScraped": "2026-03-16T22:24:17.950Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "josm-setup.exe /S",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://josm.openstreetmap.de/download/windows/josm-setup.exe",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

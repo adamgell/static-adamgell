@@ -1,0 +1,22 @@
+{
+  "slug": "lince-plus",
+  "title": "Lince PLUS",
+  "vendor": "Alberto Soto Fernández",
+  "sourceUrl": "https://silentinstallhq.com/lince-plus-silent-install-how-to-guide",
+  "lastScraped": "2026-03-16T22:24:26.357Z",
+  "variants": [
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "Lince-plus_windows-x64_x_y_z.exe -q",
+      "silentUninstall": "\"%ProgramFiles%\\Lince-plus\\uninstall.exe\" -q",
+      "repair": null,
+      "downloadUrl": "https://github.com/observesport/lince-plus/releases/latest",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

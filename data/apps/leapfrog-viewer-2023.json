@@ -1,0 +1,22 @@
+{
+  "slug": "leapfrog-viewer-2023",
+  "title": "Leapfrog Viewer 2023",
+  "vendor": "Seequent Ltd",
+  "sourceUrl": "https://silentinstallhq.com/leapfrog-viewer-2023-silent-install-how-to-guide",
+  "lastScraped": "2026-03-16T22:24:22.975Z",
+  "variants": [
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "LeapfrogSetup-2023.x.x.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "\"%ProgramFiles%\\Seequent\\Leapfrog 2023.x\\unins000.exe\" /VERYSILENT /NORESTART",
+      "repair": null,
+      "downloadUrl": "https://my.seequent.com/products/leapfrog-viewer",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": "LeapfrogSetup-2023.x.x.exe /VERYSILENT /NORESTART /LOG=\"%WINDIR%\\Temp\\LeapfrogViewer2023-Install.log\"",
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "pdfgear",
+  "title": "PDFgear",
+  "vendor": "PDFgear",
+  "sourceUrl": "https://silentinstallhq.com/pdfgear-silent-install-how-to-guide",
+  "lastScraped": "2026-03-16T22:26:29.647Z",
+  "variants": [
+    {
+      "architecture": "x86\\_x64",
+      "installerType": "EXE",
+      "silentInstall": "pdfgear_setup_x.y.z.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "\"%ProgramFiles%\\PDFgear\\unins000.exe\" /VERYSILENT /NORESTART",
+      "repair": null,
+      "downloadUrl": "https://www.pdfgear.com/download/",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": "pdfgear_setup_x.y.z.exe /VERYSILENT /NORESTART /LOG=\"%WINDIR%\\Temp\\PDFgear-Install.log\"",
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

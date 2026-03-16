@@ -1,0 +1,22 @@
+{
+  "slug": "xmeters",
+  "title": "XMeters",
+  "vendor": "Entropy6",
+  "sourceUrl": "https://silentinstallhq.com/xmeters-silent-install-how-to-guide",
+  "lastScraped": "2026-03-16T22:28:36.525Z",
+  "variants": [
+    {
+      "architecture": "x86\\_x64",
+      "installerType": "EXE",
+      "silentInstall": "XMetersSetup.exe /install /quiet /norestart",
+      "silentUninstall": "XMetersSetup.exe /uninstall /quiet /norestart",
+      "repair": "XMetersSetup.exe /repair /quiet /norestart",
+      "downloadUrl": "https://entropy6.com/xmeters/downloads/XMetersSetup.exe",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": "XMetersSetup.exe /install /quiet /norestart /log \"%WINDIR%\\Temp\\XMeters-Install.log\"",
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

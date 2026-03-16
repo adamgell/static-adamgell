@@ -1,0 +1,34 @@
+{
+  "slug": "microsoft-edge-version-115",
+  "title": "Microsoft Edge (32-bit)",
+  "vendor": "Microsoft Corporation",
+  "sourceUrl": "https://silentinstallhq.com/microsoft-edge-version-115-silent-install-how-to-guide",
+  "lastScraped": "2026-03-16T22:24:53.290Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i MicrosoftEdgeEnterpriseX86.msi /qn",
+      "silentUninstall": "MsiExec.exe /x MicrosoftEdgeEnterpriseX86.msi /qn",
+      "repair": "MsiExec.exe /fa MicrosoftEdgeEnterpriseX86.msi /qn",
+      "downloadUrl": "https://www.microsoft.com/en-us/edge/business/download",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x64",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i MicrosoftEdgeEnterpriseX64.msi /qn",
+      "silentUninstall": "MsiExec.exe /x MicrosoftEdgeEnterpriseX64.msi /qn",
+      "repair": "MsiExec.exe /fa MicrosoftEdgeEnterpriseX64.msi /qn",
+      "downloadUrl": "https://www.microsoft.com/en-us/edge/business/download",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

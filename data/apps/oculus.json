@@ -1,0 +1,22 @@
+{
+  "slug": "oculus",
+  "title": "Oculus",
+  "vendor": "Facebook Technologies, LLC",
+  "sourceUrl": "https://silentinstallhq.com/oculus-silent-install-how-to-guide",
+  "lastScraped": "2026-03-16T22:26:20.539Z",
+  "variants": [
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "Setup.exe --unattended",
+      "silentUninstall": "\"%ProgramFiles%\\Meta Horizon\\Setup.exe\" --unattended /uninstall",
+      "repair": null,
+      "downloadUrl": "https://securecdn.oculus.com/binaries/download/?id=4281594222121950",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

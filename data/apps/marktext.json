@@ -1,0 +1,22 @@
+{
+  "slug": "marktext",
+  "title": "MarkText",
+  "vendor": "Jocs",
+  "sourceUrl": "https://silentinstallhq.com/marktext-silent-install-how-to-guide",
+  "lastScraped": "2026-03-16T22:24:35.370Z",
+  "variants": [
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "marktext-setup.exe /allusers /S",
+      "silentUninstall": "\"%ProgramFiles%\\MarkText\\Uninstall MarkText.exe\" /allusers /S",
+      "repair": null,
+      "downloadUrl": "https://github.com/marktext/marktext/releases/latest/download/marktext-setup.exe",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

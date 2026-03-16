@@ -1,0 +1,22 @@
+{
+  "slug": "popchar",
+  "title": "PopChar",
+  "vendor": "Ergonis Software",
+  "sourceUrl": "https://silentinstallhq.com/popchar-silent-install-how-to-guide",
+  "lastScraped": "2026-03-16T22:26:42.562Z",
+  "variants": [
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "\"PopChar Win_x.y.exe\" /VERYSILENT /NORESTART",
+      "silentUninstall": "\"%ProgramFiles%\\Ergonis\\PopChar\\unins000.exe\" /VERYSILENT /NORESTART",
+      "repair": null,
+      "downloadUrl": "https://ergonis.com/popchar/download",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": "\"PopChar Win_x.y.exe\" /VERYSILENT /NORESTART /LOG=\"%WINDIR%\\Temp\\PopChar-Install.log\"",
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

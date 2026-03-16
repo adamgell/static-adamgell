@@ -1,0 +1,22 @@
+{
+  "slug": "msi-kombustor",
+  "title": "MSI Kombustor",
+  "vendor": "MSI and Geeks3D (FurMark)",
+  "sourceUrl": "https://silentinstallhq.com/msi-kombustor-silent-install-how-to-guide",
+  "lastScraped": "2026-03-16T22:26:02.595Z",
+  "variants": [
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "MSI_Kombustor4_Setup_vw.x.y.z_x64.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "\"%ProgramFiles%\\Geeks3D\\MSI Kombustor 4 x64\\unins000.exe\" /VERYSILENT /NORESTART",
+      "repair": null,
+      "downloadUrl": "https://geeks3d.com/furmark/kombustor/downloads/",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": "MSI_Kombustor4_Setup_vw.x.y.z_x64.exe /VERYSILENT /NORESTART /LOG=\"%WINDIR%\\Temp\\MSIKombustor-Install.log\"",
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

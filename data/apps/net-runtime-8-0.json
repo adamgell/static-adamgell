@@ -1,0 +1,34 @@
+{
+  "slug": "net-runtime-8-0",
+  "title": ".NET Runtime 8.0.x (x86)",
+  "vendor": "Microsoft Corporation",
+  "sourceUrl": "https://silentinstallhq.com/net-runtime-8-0-silent-install-how-to-guide",
+  "lastScraped": "2026-03-16T22:26:05.174Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "dotnet-runtime-8.0.x-win-x86.exe /install /quiet /norestart",
+      "silentUninstall": "dotnet-runtime-8.0.x-win-x86.exe /uninstall /quiet /norestart",
+      "repair": "dotnet-runtime-8.0.x-win-x86.exe /repair /quiet /norestart",
+      "downloadUrl": "https://dotnet.microsoft.com/en-us/download/dotnet/8.0",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": "dotnet-runtime-8.0.x-win-x86.exe /install /quiet /norestart /log \"%WINDIR%\\Temp\\DotNet80x86-Install.log\"",
+      "logUninstall": null
+    },
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "dotnet-runtime-8.0.x-win-x64.exe /install /quiet /norestart",
+      "silentUninstall": "dotnet-runtime-8.0.x-win-x64.exe /uninstall /quiet /norestart",
+      "repair": "dotnet-runtime-8.0.x-win-x64.exe /repair /quiet /norestart",
+      "downloadUrl": "https://dotnet.microsoft.com/en-us/download/dotnet/8.0",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": "dotnet-runtime-8.0.x-win-x64.exe /install /quiet /norestart /log \"%WINDIR%\\Temp\\DotNet80x64-Install.log\"",
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

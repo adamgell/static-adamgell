@@ -1,0 +1,22 @@
+{
+  "slug": "solution-7-netsuite-edition",
+  "title": "Solution 7 NetSuite Edition",
+  "vendor": "Solution 7",
+  "sourceUrl": "https://silentinstallhq.com/solution-7-netsuite-edition-silent-install-how-to-guide",
+  "lastScraped": "2026-03-16T22:27:50.627Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "Solution7-NS.exe /install /quiet /norestart",
+      "silentUninstall": "Solution7-NS.exe /uninstall /quiet /norestart",
+      "repair": "Solution7-NS.exe /repair /quiet /norestart",
+      "downloadUrl": "https://www.solution7.co.uk/downloads/software/solution-7-netsuite-latest",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": "Solution7-NS.exe /install /quiet /norestart /log \"%WINDIR%\\Temp\\Solution7-NS-Install.log\"",
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

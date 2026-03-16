@@ -1,0 +1,22 @@
+{
+  "slug": "xmla-connect",
+  "title": "XMLA Connector",
+  "vendor": "Arquery Ltd.",
+  "sourceUrl": "https://silentinstallhq.com/xmla-connect-silent-install-how-to-guide",
+  "lastScraped": "2026-03-16T22:28:42.288Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "XMLA_Provider_vw.x.y.z.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://sourceforge.net/projects/xmlaconnect/files/latest/download",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": "XMLA_Provider_vw.x.y.z.exe /VERYSILENT /NORESTART /LOG=\"%WINDIR%\\Temp\\XMLAConnect-Install.log\"",
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

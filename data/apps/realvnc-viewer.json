@@ -1,0 +1,46 @@
+{
+  "slug": "realvnc-viewer",
+  "title": "RealVNC Viewer",
+  "vendor": "RealVNC",
+  "sourceUrl": "https://silentinstallhq.com/realvnc-viewer-silent-install-how-to-guide",
+  "lastScraped": "2026-03-16T22:27:05.491Z",
+  "variants": [
+    {
+      "architecture": "x86\\_x64",
+      "installerType": "EXE",
+      "silentInstall": "VNC-Viewer-x.y.z-Windows.exe /qn",
+      "silentUninstall": "VNC-Viewer-x.y.z-Windows.exe /qn REMOVE=ALL",
+      "repair": null,
+      "downloadUrl": "https://www.realvnc.com/en/connect/download/viewer/",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x86",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i VNC-Viewer-x.y.z-Windows-en-32bit.msi /qn",
+      "silentUninstall": "MsiExec.exe /x VNC-Viewer-x.y.z-Windows-en-32bit.msi /qn",
+      "repair": "MsiExec.exe /fa VNC-Viewer-x.y.z-Windows-en-32bit.msi /qn",
+      "downloadUrl": "https://downloads.realvnc.com/download/file/viewer.files/VNC-Viewer-Latest-Windows-msi.zip",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x64",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i VNC-Viewer-x.y.z-Windows-en-64bit.msi /qn",
+      "silentUninstall": "MsiExec.exe /x VNC-Viewer-x.y.z-Windows-en-64bit.msi /qn",
+      "repair": "MsiExec.exe /fa VNC-Viewer-x.y.z-Windows-en-64bit.msi /qn",
+      "downloadUrl": "https://downloads.realvnc.com/download/file/viewer.files/VNC-Viewer-Latest-Windows-msi.zip",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

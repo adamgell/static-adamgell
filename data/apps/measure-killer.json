@@ -1,0 +1,22 @@
+{
+  "slug": "measure-killer",
+  "title": "Measure Killer",
+  "vendor": "Brunner BI GmbH",
+  "sourceUrl": "https://silentinstallhq.com/measure-killer-silent-install-how-to-guide",
+  "lastScraped": "2026-03-16T22:24:40.891Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "Measure_Killer_Setup.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://www.measurekiller.com/downloads/",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": "Measure_Killer_Setup.exe /VERYSILENT /NORESTART /LOG=\"%WINDIR%\\Temp\\MeasureKiller-Install.log\"",
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

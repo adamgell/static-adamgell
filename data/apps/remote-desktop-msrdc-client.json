@@ -1,0 +1,34 @@
+{
+  "slug": "remote-desktop-msrdc-client",
+  "title": "Remote Desktop",
+  "vendor": "Microsoft Corporation",
+  "sourceUrl": "https://silentinstallhq.com/remote-desktop-msrdc-client-silent-install-how-to-guide",
+  "lastScraped": "2026-03-16T22:27:11.784Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i RemoteDesktop_x.y.z_x86.msi ALLUSERS=1 /qn",
+      "silentUninstall": "MsiExec.exe /x RemoteDesktop_x.y.z_x86.msi /qn",
+      "repair": "MsiExec.exe /fa RemoteDesktop_x.y.z_x86.msi ALLUSERS=1 /qn",
+      "downloadUrl": null,
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x64",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i RemoteDesktop_x.y.z_x64.msi ALLUSERS=1 /qn",
+      "silentUninstall": "MsiExec.exe /x RemoteDesktop_x.y.z_x64.msi /qn",
+      "repair": "MsiExec.exe /fa RemoteDesktop_x.y.z_x64.msi ALLUSERS=1 /qn",
+      "downloadUrl": null,
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

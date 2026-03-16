@@ -1,0 +1,58 @@
+{
+  "slug": "mozilla-firefox-122",
+  "title": "Mozilla Firefox 122.0 (x86)",
+  "vendor": "Mozilla",
+  "sourceUrl": "https://silentinstallhq.com/mozilla-firefox-122-silent-install-how-to-guide",
+  "lastScraped": "2026-03-16T22:25:59.145Z",
+  "variants": [
+    {
+      "architecture": "32-bit",
+      "installerType": "EXE",
+      "silentInstall": "\"Firefox Setup 122.0.exe\" -ms",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://www.mozilla.org/en-US/firefox/all/",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "64-bit",
+      "installerType": "EXE",
+      "silentInstall": "\"Firefox Setup 122.0.exe\" -ms",
+      "silentUninstall": "\"%ProgramFiles%\\Mozilla Firefox\\uninstall\\helper.exe\" /S",
+      "repair": null,
+      "downloadUrl": "https://www.mozilla.org/en-US/firefox/all/",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "32-bit",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i \"Firefox Setup 122.0.msi\" /qn",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://www.mozilla.org/en-US/firefox/all/",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "64-bit",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i \"Firefox Setup 122.0.msi\" /qn",
+      "silentUninstall": "\"%ProgramFiles%\\Mozilla Firefox\\uninstall\\helper.exe\" /S",
+      "repair": null,
+      "downloadUrl": "https://www.mozilla.org/en-US/firefox/all/",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

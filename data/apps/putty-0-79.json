@@ -1,0 +1,34 @@
+{
+  "slug": "putty-0-79",
+  "title": "PuTTY release 0.79 (32-bit)",
+  "vendor": "Simon Tatham",
+  "sourceUrl": "https://silentinstallhq.com/putty-0-79-silent-install-how-to-guide",
+  "lastScraped": "2026-03-16T22:26:56.479Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i putty-0.79-installer.msi /qn",
+      "silentUninstall": "MsiExec.exe /x {0FAFE81F-12E1-4E02-89AF-D3876DBA8588} /qn",
+      "repair": "MsiExec.exe /fa {0FAFE81F-12E1-4E02-89AF-D3876DBA8588} /qn",
+      "downloadUrl": "https://the.earth.li/~sgtatham/putty/0.79/w32/putty-0.79-installer.msi",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x64",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i putty-64bit-0.79-installer.msi /qn",
+      "silentUninstall": "MsiExec.exe /x {E07417FF-E888-4648-878C-73E25D64D50D} /qn",
+      "repair": "MsiExec.exe /fa {E07417FF-E888-4648-878C-73E25D64D50D} /qn",
+      "downloadUrl": "https://the.earth.li/~sgtatham/putty/0.79/w64/putty-64bit-0.79-installer.msi",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

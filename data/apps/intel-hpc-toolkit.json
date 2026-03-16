@@ -1,0 +1,22 @@
+{
+  "slug": "intel-hpc-toolkit",
+  "title": "Intel HPC Toolkit",
+  "vendor": "Intel Corporation",
+  "sourceUrl": "https://silentinstallhq.com/intel-hpc-toolkit-silent-install-how-to-guide",
+  "lastScraped": "2026-03-16T22:24:01.982Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "w_HPCKit_xxxx.x.x.xx_offline.exe --silent --eula accept",
+      "silentUninstall": "\"%ProgramFiles(x86)%\\Intel\\oneAPI\\Installer\\installer.exe\" --action remove --product-id intel.oneapi.win.hpckit.product --silent",
+      "repair": null,
+      "downloadUrl": "https://www.intel.com/content/www/us/en/developer/tools/oneapi/hpc-toolkit-download.html?operatingsystem=window&distributions=offline",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

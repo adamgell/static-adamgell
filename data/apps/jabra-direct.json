@@ -1,0 +1,22 @@
+{
+  "slug": "jabra-direct",
+  "title": "Jabra Direct",
+  "vendor": "GN Audio A/S",
+  "sourceUrl": "https://silentinstallhq.com/jabra-direct-silent-install-how-to-guide",
+  "lastScraped": "2026-03-16T22:24:10.907Z",
+  "variants": [
+    {
+      "architecture": "x86\\_x64",
+      "installerType": "EXE",
+      "silentInstall": "JabraDirectSetup.exe /install /quiet /norestart",
+      "silentUninstall": "JabraDirectSetup.exe /uninstall /quiet /norestart",
+      "repair": "JabraDirectSetup.exe /repair /quiet /norestart",
+      "downloadUrl": "https://jabraxpressonlineprdstor.blob.core.windows.net/jdo/JabraDirectSetup.exe",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": "JabraDirectSetup.exe /install /quiet /norestart /log \"%WINDIR%\\Temp\\JabraDirect-Install.log\"",
+      "logUninstall": "JabraDirectSetup.exe /uninstall /quiet /norestart /log \"%WINDIR%\\Temp\\JabraDirect-Uninstall.log\""
+    }
+  ],
+  "psadtScript": null
+}

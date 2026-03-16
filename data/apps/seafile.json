@@ -1,0 +1,22 @@
+{
+  "slug": "seafile",
+  "title": "Seafile",
+  "vendor": "HaiWenHuZhi ltd.",
+  "sourceUrl": "https://silentinstallhq.com/seafile-silent-install-how-to-guide",
+  "lastScraped": "2026-03-16T22:27:29.773Z",
+  "variants": [
+    {
+      "architecture": "x86\\_x64",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i seafile-x.y.z-en.msi /qn",
+      "silentUninstall": "MsiExec.exe /x seafile-x.y.z-en.msi UPGRADINGPRODUCTCODE=0 REMOVE=ALL /qn",
+      "repair": null,
+      "downloadUrl": "https://www.seafile.com/en/download/",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

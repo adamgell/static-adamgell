@@ -1,0 +1,22 @@
+{
+  "slug": "tailviewer",
+  "title": "Tailviewer",
+  "vendor": "Kittyfisto",
+  "sourceUrl": "https://silentinstallhq.com/tailviewer-silent-install-how-to-guide",
+  "lastScraped": "2026-03-16T22:28:02.866Z",
+  "variants": [
+    {
+      "architecture": "x86\\_x64",
+      "installerType": "EXE",
+      "silentInstall": "Tailviewer-setup-w.x.y.z.exe silentinstall",
+      "silentUninstall": "CMD.exe /C \"C:\\Program Files\\Tailviewer\\Uninstall.cmd\"",
+      "repair": null,
+      "downloadUrl": "https://github.com/Kittyfisto/Tailviewer/releases/latest",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

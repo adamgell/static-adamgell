@@ -1,0 +1,58 @@
+{
+  "slug": "vlc-media-player",
+  "title": "VLC Media Player (32bit)",
+  "vendor": "VideoLAN",
+  "sourceUrl": "https://silentinstallhq.com/vlc-media-player-silent-install-how-to-guide",
+  "lastScraped": "2026-03-16T22:28:23.762Z",
+  "variants": [
+    {
+      "architecture": "32-bit",
+      "installerType": "EXE",
+      "silentInstall": "vlc-x.y.z-win32.exe /S",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://download.videolan.org/pub/videolan/vlc/",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "64-bit",
+      "installerType": "EXE",
+      "silentInstall": "vlc-x.y.z-win64.exe /S",
+      "silentUninstall": "\"%ProgramFiles%\\VideoLAN\\VLC\\uninstall.exe\" /S",
+      "repair": null,
+      "downloadUrl": "https://download.videolan.org/pub/videolan/vlc/",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "32-bit",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i vlc-x.y.z-win32.msi /qn",
+      "silentUninstall": "MsiExec.exe /x vlc-x.y.z-win32.msi /qn",
+      "repair": "MsiExec.exe /fa vlc-x.y.z-win32.msi /qn",
+      "downloadUrl": "https://download.videolan.org/pub/videolan/vlc/",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "64-bit",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i vlc-x.y.z-win64.msi /qn",
+      "silentUninstall": "MsiExec.exe /x vlc-x.y.z-win64.msi /qn",
+      "repair": "MsiExec.exe /fa vlc-x.y.z-win64.msi /qn",
+      "downloadUrl": "https://download.videolan.org/pub/videolan/vlc/",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

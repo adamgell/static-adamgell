@@ -1,0 +1,22 @@
+{
+  "slug": "tableau-desktop-2024",
+  "title": "Tableau 2024",
+  "vendor": "Tableau Software, LLC",
+  "sourceUrl": "https://silentinstallhq.com/tableau-desktop-2024-silent-install-how-to-guide",
+  "lastScraped": "2026-03-16T22:27:59.824Z",
+  "variants": [
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "TableauDesktop-64bit-2024-1-0.exe /install /quiet /norestart ACCEPTEULA=1",
+      "silentUninstall": "TableauDesktop-64bit-2024-1-0.exe /uninstall /quiet /norestart",
+      "repair": "TableauDesktop-64bit-2024-1-0.exe /repair /quiet /norestart",
+      "downloadUrl": "https://downloads.tableau.com/esdalt/2024.1.0/TableauDesktop-64bit-2024-1-0.exe",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": "TableauDesktop-64bit-2024-1-0.exe /install /quiet /norestart /log \"%WINDIR%\\Temp\\TableauReader2024-Install.log\" ACCEPTEULA=1",
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

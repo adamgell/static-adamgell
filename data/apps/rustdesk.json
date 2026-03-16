@@ -1,0 +1,22 @@
+{
+  "slug": "rustdesk",
+  "title": "RustDesk",
+  "vendor": "RustDesk",
+  "sourceUrl": "https://silentinstallhq.com/rustdesk-silent-install-how-to-guide",
+  "lastScraped": "2026-03-16T22:27:23.507Z",
+  "variants": [
+    {
+      "architecture": "x86\\_x64",
+      "installerType": "EXE",
+      "silentInstall": "rustdesk-x.y.z-x86_64.exe --silent-install",
+      "silentUninstall": "\"%ProgramFiles%\\RustDesk\\RustDesk.exe\" --uninstall",
+      "repair": null,
+      "downloadUrl": "https://github.com/rustdesk/rustdesk/releases/latest",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "ultravnc",
+  "title": "UltraVNC",
+  "vendor": "uvnc bvba",
+  "sourceUrl": "https://silentinstallhq.com/ultravnc-silent-install-how-to-guide",
+  "lastScraped": "2026-03-16T22:28:11.853Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "UltraVNC_x_y_z_X86_Setup.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://uvnc.com/downloads/ultravnc.html",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": "UltraVNC_x_y_z_Setup.exe /VERYSILENT /NORESTART /LOG=\"%WINDIR%\\Temp\\UltraVNCx86-Install.log\"",
+      "logUninstall": null
+    },
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "UltraVNC_x_y_z_X64_Setup.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "\"%ProgramFiles%\\uvnc bvba\\UltraVNC\\unins000.exe\" /VERYSILENT /NORESTART",
+      "repair": null,
+      "downloadUrl": "https://uvnc.com/downloads/ultravnc.html",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

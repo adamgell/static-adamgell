@@ -1,0 +1,22 @@
+{
+  "slug": "iobit-software-updater",
+  "title": "IObit Software Updater",
+  "vendor": "IObit",
+  "sourceUrl": "https://silentinstallhq.com/iobit-software-updater-silent-install-how-to-guide",
+  "lastScraped": "2026-03-16T22:24:08.323Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "iobit-software-updater-setup.exe /SP- /VERYSILENT /SUPPRESSMSGBOXES /NORESTART",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://cdn.iobit.com/dl/iobit-software-updater-setup.exe",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": "iobit-software-updater-setup.exe /SP- /VERYSILENT /SUPPRESSMSGBOXES /NORESTART /LOG=\"%WINDIR%\\Temp\\IObitSoftwareUpdater-Install.log\"",
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

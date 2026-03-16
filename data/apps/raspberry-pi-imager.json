@@ -1,0 +1,22 @@
+{
+  "slug": "raspberry-pi-imager",
+  "title": "Raspberry Pi Imager",
+  "vendor": "Raspberry Pi Ltd",
+  "sourceUrl": "https://silentinstallhq.com/raspberry-pi-imager-silent-install-how-to-guide",
+  "lastScraped": "2026-03-16T22:27:02.315Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "imager_x.y.z.exe /S",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://downloads.raspberrypi.org/imager/imager_latest.exe",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

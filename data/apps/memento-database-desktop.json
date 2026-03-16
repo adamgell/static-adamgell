@@ -1,0 +1,34 @@
+{
+  "slug": "memento-database-desktop",
+  "title": "Memento Database Desktop",
+  "vendor": "MementoDB Inc.",
+  "sourceUrl": "https://silentinstallhq.com/memento-database-desktop-silent-install-how-to-guide",
+  "lastScraped": "2026-03-16T22:24:47.241Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "mementodb-x.y.z-win.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://mementodatabase.com/download.html",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": "mementodb-x.y.z-win64.exe /VERYSILENT /NORESTART /LOG=\"%WINDIR%\\Temp\\MementoDB-Install.log\"",
+      "logUninstall": null
+    },
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "mementodb-x.y.z-win64.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "\"%ProgramFiles%\\Memento Database\\unins000.exe\" /VERYSILENT /NORESTART",
+      "repair": null,
+      "downloadUrl": "https://mementodatabase.com/download.html",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

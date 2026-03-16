@@ -1,0 +1,34 @@
+{
+  "slug": "remote-utilities-viewer",
+  "title": "Remote Utilities Viewer",
+  "vendor": "Remote Utilities Pty (Cy) Ltd.",
+  "sourceUrl": "https://silentinstallhq.com/remote-utilities-viewer-silent-install-how-to-guide",
+  "lastScraped": "2026-03-16T22:27:14.458Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "viewer-w.x.y.z.exe /S /v\"LAUNCHPROGRAM=\\\"\\\" /qn\"",
+      "silentUninstall": "viewer-w.x.y.z.exe /S /x /v/qn",
+      "repair": null,
+      "downloadUrl": "https://www.remoteutilities.com/download/",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x86",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i viewer-w.x.y.z.msi LAUNCHPROGRAM=\"\" /qn",
+      "silentUninstall": "MsiExec.exe /x viewer-w.x.y.z.msi /qn",
+      "repair": "MsiExec.exe /fa viewer-w.x.y.z.msi /qn",
+      "downloadUrl": "https://www.remoteutilities.com/download/",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

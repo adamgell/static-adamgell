@@ -1,0 +1,22 @@
+{
+  "slug": "papercut-mobility-print",
+  "title": "PaperCut Mobility Print",
+  "vendor": "PaperCut Software International Pty Ltd",
+  "sourceUrl": "https://silentinstallhq.com/papercut-mobility-print-silent-install-how-to-guide",
+  "lastScraped": "2026-03-16T22:26:26.934Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "pc-mobility-print-x.y.z.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://www.papercut.com/products/ng/mobility-print/download/server/win/",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": "pc-mobility-print-x.y.z.exe /VERYSILENT /NORESTART /LOG=\"%WINDIR%\\Temp\\PCMobilityPrint-Install.log\"",
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "google-talk",
+  "title": "Google Talk",
+  "vendor": "Google",
+  "sourceUrl": "https://silentinstallhq.com/google-talk-silent-install-how-to-guide",
+  "lastScraped": "2026-03-16T22:23:53.789Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "googletalk-setup.exe /S",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://dl.google.com/googletalk/googletalk-setup.exe",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

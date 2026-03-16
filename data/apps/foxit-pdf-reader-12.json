@@ -1,0 +1,22 @@
+{
+  "slug": "foxit-pdf-reader-12",
+  "title": "Foxit PDF Reader",
+  "vendor": "Foxit Software Inc.",
+  "sourceUrl": "https://silentinstallhq.com/foxit-pdf-reader-12-silent-install-how-to-guide",
+  "lastScraped": "2026-03-16T22:23:34.929Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "FoxitPDFReader12xx_L10N_Setup_Prom.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://cdn01.foxitsoftware.com/product/reader/desktop/win/12.1.3/FoxitPDFReader1213_L10N_Setup_Prom.exe",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": "FoxitPDFReader12xx_L10N_Setup_Prom.exe /VERYSILENT /NORESTART /LOG=\"%WINDIR%\\Temp\\FoxitReader12-Install.log\"",
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}
