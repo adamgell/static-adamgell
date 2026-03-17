@@ -49,16 +49,14 @@ export default function SilentInstallLibrary() {
       )}
 
       <footer className="mt-12 text-center text-sm text-slate-600">
-        Data scraped from{" "}
+        Data sourced from{" "}
         <a
           href="https://silentinstallhq.com"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-slate-400 transition-colors"
         >
-          silentinstallhq.com
-        </a>{" "}
-        · Updated nightly via GitHub Actions
+        silentinstallhq.com
       </footer>
     </div>
   );
