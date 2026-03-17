@@ -8,10 +8,11 @@ import { parseArticle } from './parse.js';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 config({ path: resolve(__dirname, '../.env') });
 
-const DATA_DIR    = resolve(__dirname, '../data/apps');
-const INDEX_FILE  = resolve(__dirname, '../data/index.json');
+const DATA_DIR      = resolve(__dirname, '../data/apps');
+const INDEX_FILE    = resolve(__dirname, '../data/index.json');
+const URL_INDEX     = resolve(__dirname, '../data/silentinstall-url-index.json');
 const COMBINED_FILE = resolve(__dirname, '../data/apps-combined.json');
-const SITE_ORIGIN = 'https://silentinstallhq.com';
+const SITE_ORIGIN   = 'https://silentinstallhq.com';
 
 const CONCURRENCY  = 5;
 // Token bucket: shared across all workers.
@@ -64,9 +65,13 @@ async function main() {
   const fc = new FirecrawlApp({ apiKey });
   mkdirSync(DATA_DIR, { recursive: true });
 
-  // --- URL discovery (cached) ---
+  // --- URL discovery: prefer pre-built index from masterpackager, fallback to Firecrawl map ---
   let articleUrls;
-  if (existsSync(INDEX_FILE)) {
+  if (existsSync(URL_INDEX)) {
+    const index = JSON.parse(readFileSync(URL_INDEX, 'utf8'));
+    articleUrls = index.map(e => e.url).filter(Boolean);
+    console.log(`📋 Using masterpackager URL index: ${articleUrls.length} URLs`);
+  } else if (existsSync(INDEX_FILE)) {
     const cached = JSON.parse(readFileSync(INDEX_FILE, 'utf8'));
     articleUrls = cached.urls;
     console.log(`📋 Cached index: ${articleUrls.length} URLs (${cached.updatedAt})`);
