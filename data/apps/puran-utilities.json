@@ -1,0 +1,22 @@
+{
+  "slug": "puran-utilities",
+  "title": "Puran Utilities",
+  "vendor": "Puran Software",
+  "sourceUrl": "https://silentinstallhq.com/puran-utilities-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:29:49.462Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "PuranUtilitiesSetup.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "\"%ProgramFiles%\\Puran Utilities\\unins000.exe\" /VERYSILENT /NORESTART",
+      "repair": null,
+      "downloadUrl": "http://www.puransoftware.com/PuranUtilitiesSetup.exe",
+      "psScriptUrl": "https://silentinstallhq.com/puran-utilities-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-puran-utilities-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

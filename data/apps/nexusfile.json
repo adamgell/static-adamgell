@@ -1,0 +1,22 @@
+{
+  "slug": "nexusfile",
+  "title": "NexusFile",
+  "vendor": "Xiles",
+  "sourceUrl": "https://silentinstallhq.com/nexusfile-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:28:33.787Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "NexusFileSetupx.x.x.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "http://www.xiles.net/",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

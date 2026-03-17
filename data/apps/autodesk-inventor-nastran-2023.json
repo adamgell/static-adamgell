@@ -1,0 +1,22 @@
+{
+  "slug": "autodesk-inventor-nastran-2023",
+  "title": "Autodesk Inventor Nastran 2023",
+  "vendor": "Autodesk",
+  "sourceUrl": "https://silentinstallhq.com/autodesk-inventor-nastran-2023-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T01:58:51.107Z",
+  "variants": [
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "Setup.exe -q",
+      "silentUninstall": "\"%ProgramFiles%\\Autodesk\\AdODIS\\V1\\Installer.exe\" -i uninstall -q -m C:\\ProgramData\\Autodesk\\ODIS\\metadata\\{18899865-BB1D-36C4-BD5C-FB47CB0D1D48}\\bundleManifest.xml",
+      "repair": null,
+      "downloadUrl": "https://www.autodesk.com/products/inventor-nastran/overview",
+      "psScriptUrl": "https://silentinstallhq.com/autodesk-inventor-nastran-2023-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

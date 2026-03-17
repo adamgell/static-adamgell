@@ -1,0 +1,22 @@
+{
+  "slug": "cura-lulzbot-edition",
+  "title": "Cura LulzBot Edition",
+  "vendor": "LulzBot",
+  "sourceUrl": "https://silentinstallhq.com/cura-lulzbot-edition-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:02:23.926Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "cura-lulzbot-x.y.z-win32.exe /S",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://www.lulzbot.com/learn/tutorials/cura-lulzbot-edition-installation-windows",
+      "psScriptUrl": "https://silentinstallhq.com/cura-lulzbot-edition-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

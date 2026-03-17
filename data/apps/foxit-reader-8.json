@@ -1,0 +1,22 @@
+{
+  "slug": "foxit-reader-8",
+  "title": "Foxit Reader 8",
+  "vendor": "Foxit Software Inc.",
+  "sourceUrl": "https://silentinstallhq.com/foxit-reader-8-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:06:11.915Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "FoxitReader832_L10N_Setup_Prom.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://www.foxitsoftware.com/downloads/latest.php?product=Foxit-Reader&platform=Windows&package_type=exe&language=German&version=8",
+      "psScriptUrl": "https://silentinstallhq.com/foxit-pdf-reader-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-foxit-pdf-reader-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

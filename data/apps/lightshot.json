@@ -1,0 +1,22 @@
+{
+  "slug": "lightshot",
+  "title": "Lightshot",
+  "vendor": "Skillbrains",
+  "sourceUrl": "https://silentinstallhq.com/lightshot-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:26:33.940Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "setup-lightshot.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://app.prntscr.com/build/setup-lightshot.exe",
+      "psScriptUrl": "https://silentinstallhq.com/lightshot-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-lightshot-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

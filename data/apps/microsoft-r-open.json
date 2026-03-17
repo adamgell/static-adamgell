@@ -1,0 +1,22 @@
+{
+  "slug": "microsoft-r-open",
+  "title": "Microsoft R Open",
+  "vendor": "Microsoft Corporation",
+  "sourceUrl": "https://silentinstallhq.com/microsoft-r-open-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:27:41.665Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "microsoft-r-open-x.y.z.exe /install /quiet /norestart",
+      "silentUninstall": "microsoft-r-open-x.y.z.exe /uninstall /quiet /norestart",
+      "repair": null,
+      "downloadUrl": "https://mran.microsoft.com/open",
+      "psScriptUrl": "https://silentinstallhq.com/microsoft-r-open-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

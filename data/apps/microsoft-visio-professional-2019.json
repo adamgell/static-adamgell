@@ -1,0 +1,22 @@
+{
+  "slug": "microsoft-visio-professional-2019",
+  "title": "Microsoft Visio Professional 2019",
+  "vendor": "Microsoft Corporation",
+  "sourceUrl": "https://silentinstallhq.com/microsoft-visio-professional-2019-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:27:54.456Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "setup.exe /configure VisioPro2019.xml",
+      "silentUninstall": "setup.exe /configure VisioPro2019_Uninstall.xml",
+      "repair": null,
+      "downloadUrl": "https://www.microsoft.com/en-us/download/details.aspx?id=49117",
+      "psScriptUrl": "https://silentinstallhq.com/microsoft-visio-professional-2019-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

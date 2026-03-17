@@ -1,0 +1,22 @@
+{
+  "slug": "hashtab",
+  "title": "HashTab",
+  "vendor": "Implbits Software",
+  "sourceUrl": "https://silentinstallhq.com/hashtab-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:08:20.313Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "HashTab_w.x.y.x_Setup.exe /S",
+      "silentUninstall": "\"%ProgramFiles%\\HashTab Shell Extension\\uninst.exe\" /S",
+      "repair": null,
+      "downloadUrl": "https://implbits.com/hashtab",
+      "psScriptUrl": "https://silentinstallhq.com/hashtab-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

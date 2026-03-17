@@ -1,0 +1,22 @@
+{
+  "slug": "openboard",
+  "title": "OpenBoard",
+  "vendor": "Open Education Foundation",
+  "sourceUrl": "https://silentinstallhq.com/openboard-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:28:54.008Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "OpenBoard_Installer_x.y.z.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "\"%ProgramFiles%\\OpenBoard\\unins000.exe\" /VERYSILENT /NORESTART",
+      "repair": null,
+      "downloadUrl": "https://openboard.ch/download.en.html",
+      "psScriptUrl": "https://silentinstallhq.com/openboard-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "pinta",
+  "title": "Pinta",
+  "vendor": "Pinta Community",
+  "sourceUrl": "https://silentinstallhq.com/pinta-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:29:33.986Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "Pinta.exe /install /quiet /norestart",
+      "silentUninstall": "Pinta.exe /uninstall /quiet /norestart",
+      "repair": "Pinta.exe /repair /quiet /norestart",
+      "downloadUrl": "https://github.com/PintaProject/Pinta/releases",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "ironpython",
+  "title": "IronPython",
+  "vendor": "IronPython Team",
+  "sourceUrl": "https://silentinstallhq.com/ironpython-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:16:23.356Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i IronPython-x.y.z.msi /qn",
+      "silentUninstall": "MsiExec.exe /x IronPython-x.y.z.msi /qn",
+      "repair": "MsiExec.exe /fa IronPython-x.y.z.msi /qn",
+      "downloadUrl": "https://ironpython.net/download/",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

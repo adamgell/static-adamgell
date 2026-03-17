@@ -1,0 +1,22 @@
+{
+  "slug": "windows-admin-center-1804",
+  "title": "Windows Admin Center 1804",
+  "vendor": "Microsoft Corporation",
+  "sourceUrl": "https://silentinstallhq.com/windows-admin-center-1804-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:32:11.319Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i WindowsAdminCenter1804.msi SME_PORT=443 SSL_CERTIFICATE_OPTION=generate /qn",
+      "silentUninstall": "MsiExec.exe /x {21CF99D0-E1EE-4883-BC0E-DBFF7A092685} /qn",
+      "repair": "MsiExec.exe /fa {21CF99D0-E1EE-4883-BC0E-DBFF7A092685} /qn",
+      "downloadUrl": "http://aka.ms/WACDownload",
+      "psScriptUrl": "https://silentinstallhq.com/windows-admin-center-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

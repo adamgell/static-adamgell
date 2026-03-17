@@ -1,0 +1,22 @@
+{
+  "slug": "cisco-webex-recorder-and-player",
+  "title": "Cisco Webex Recorder and Player",
+  "vendor": "Cisco Webex LLC",
+  "sourceUrl": "https://silentinstallhq.com/cisco-webex-recorder-and-player-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:01:25.134Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i atrecply.msi ALLUSERS=1 /qn",
+      "silentUninstall": "MsiExec.exe /x atrecply.msi /qn",
+      "repair": "MsiExec.exe /fa atrecply.msi /qn",
+      "downloadUrl": "https://www.webex.com/video-recording.html",
+      "psScriptUrl": "https://silentinstallhq.com/cisco-webex-recorder-and-player-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

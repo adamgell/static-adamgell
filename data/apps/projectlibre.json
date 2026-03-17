@@ -1,0 +1,22 @@
+{
+  "slug": "projectlibre",
+  "title": "ProjectLibre",
+  "vendor": "ProjectLibre",
+  "sourceUrl": "https://silentinstallhq.com/projectlibre-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:29:46.883Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "ProjectLibre-x.y.z.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "\"%ProgramFiles%\\ProjectLibre\\unins000.exe\" /VERYSILENT /NORESTART",
+      "repair": null,
+      "downloadUrl": "https://sourceforge.net/projects/projectlibre/files/latest/download",
+      "psScriptUrl": "https://silentinstallhq.com/projectlibre-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-projectlibre-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

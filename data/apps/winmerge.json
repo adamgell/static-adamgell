@@ -1,0 +1,34 @@
+{
+  "slug": "winmerge",
+  "title": "WinMerge",
+  "vendor": "Thingamahoochie Software",
+  "sourceUrl": "https://silentinstallhq.com/winmerge-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:32:18.481Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "WinMerge-x.y.z-Setup.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://winmerge.org/downloads/",
+      "psScriptUrl": "https://silentinstallhq.com/winmerge-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-winmerge-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "WinMerge-x.y.z-x64-Setup.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "\"%ProgramFiles%\\WinMerge\\unins000.exe\" /VERYSILENT /NORESTART",
+      "repair": null,
+      "downloadUrl": "https://winmerge.org/downloads/",
+      "psScriptUrl": "https://silentinstallhq.com/winmerge-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-winmerge-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

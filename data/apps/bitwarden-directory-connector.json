@@ -8,8 +8,8 @@
     {
       "architecture": "x64",
       "installerType": "EXE",
-      "silentInstall": "**Bitwarden-Connector-Installer-x.y.z.exe /allusers /S**",
-      "silentUninstall": "**\"%ProgramFiles%\\Bitwarden Directory Connector\\Uninstall Bitwarden Directory Connector.exe\" /allusers /S**",
+      "silentInstall": "Bitwarden-Connector-Installer-x.y.z.exe /allusers /S",
+      "silentUninstall": "\"%ProgramFiles%\\Bitwarden Directory Connector\\Uninstall Bitwarden Directory Connector.exe\" /allusers /S",
       "repair": null,
       "downloadUrl": "https://github.com/bitwarden/directory-connector/releases/latest",
       "psScriptUrl": null,

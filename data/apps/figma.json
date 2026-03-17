@@ -1,0 +1,22 @@
+{
+  "slug": "figma",
+  "title": "Figma",
+  "vendor": "Figma, Inc.",
+  "sourceUrl": "https://silentinstallhq.com/figma-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:05:50.729Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "FigmaSetup.exe -s",
+      "silentUninstall": "\"%LocalAppData%\\Figma\\Update.exe\" --uninstall -s",
+      "repair": null,
+      "downloadUrl": "https://www.figma.com/download/desktop/win",
+      "psScriptUrl": "https://silentinstallhq.com/figma-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

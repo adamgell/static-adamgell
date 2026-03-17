@@ -1,0 +1,22 @@
+{
+  "slug": "joplin",
+  "title": "Joplin",
+  "vendor": "Laurent Cozic",
+  "sourceUrl": "https://silentinstallhq.com/joplin-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:26:16.092Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "Joplin-Setup-x.y.z.exe /allusers /S",
+      "silentUninstall": "\"%ProgramFiles%\\Joplin\\Uninstall Joplin.exe\" /allusers /S",
+      "repair": null,
+      "downloadUrl": "https://joplinapp.org/download/",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "drawpad-graphic-design-editor",
+  "title": "DrawPad Graphic Design Editor",
+  "vendor": "NCH Software",
+  "sourceUrl": "https://silentinstallhq.com/drawpad-graphic-design-editor-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:03:37.902Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "DrawPadGraphicEditor.exe -LQUIET",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://www.nchsoftware.com/drawpad/index.html",
+      "psScriptUrl": "https://silentinstallhq.com/drawpad-graphic-design-editor-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

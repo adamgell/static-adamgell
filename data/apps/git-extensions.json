@@ -1,0 +1,22 @@
+{
+  "slug": "git-extensions",
+  "title": "Git Extensions",
+  "vendor": "Git Extensions Team",
+  "sourceUrl": "https://silentinstallhq.com/git-extensions-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:06:40.607Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i GitExtensions-x.y.z.msi /qn",
+      "silentUninstall": "MsiExec.exe /x GitExtensions-x.y.z.msi /qn",
+      "repair": "MsiExec.exe /fa GitExtensions-x.y.z.msi /qn",
+      "downloadUrl": "http://gitextensions.github.io/",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

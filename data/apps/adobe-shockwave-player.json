@@ -1,0 +1,34 @@
+{
+  "slug": "adobe-shockwave-player",
+  "title": "Adobe Shockwave Player",
+  "vendor": "Adobe Systems Incorporated",
+  "sourceUrl": "https://silentinstallhq.com/adobe-shockwave-player-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T01:56:29.283Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "sw_lic_full_installer.exe /S",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://www.adobe.com/go/sw_full_exe_installer",
+      "psScriptUrl": "https://silentinstallhq.com/adobe-shockwave-player-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x86/x64",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i sw_lic_full_installer.msi /qn",
+      "silentUninstall": "MsiExec.exe /x {4487064C-F31E-4499-A1EF-9B8E809A0358} /qn",
+      "repair": "MsiExec.exe /fa {4487064C-F31E-4499-A1EF-9B8E809A0358} /qn",
+      "downloadUrl": "https://www.adobe.com/go/sw_msi_installer",
+      "psScriptUrl": "https://silentinstallhq.com/adobe-shockwave-player-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

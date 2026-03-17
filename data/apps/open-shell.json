@@ -1,0 +1,46 @@
+{
+  "slug": "open-shell",
+  "title": "Open-Shell",
+  "vendor": "The Open-Shell Team",
+  "sourceUrl": "https://silentinstallhq.com/open-shell-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:28:53.523Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "OpenShellSetup_x_y_z.exe /qn",
+      "silentUninstall": "See Uninstall Section Below",
+      "repair": null,
+      "downloadUrl": "https://github.com/Open-Shell/Open-Shell-Menu/releases",
+      "psScriptUrl": "https://silentinstallhq.com/open-shell-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-open-shell-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x86",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i OpenShellSetup32_x_y_z.msi /qn",
+      "silentUninstall": "MsiExec.exe /x OpenShellSetup32_x_y_z.msi /qn",
+      "repair": "MsiExec.exe /fa OpenShellSetup32_x_y_z.msi /qn",
+      "downloadUrl": "https://github.com/Open-Shell/Open-Shell-Menu/releases",
+      "psScriptUrl": "https://silentinstallhq.com/open-shell-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-open-shell-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x64",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i OpenShellSetup64_x_y_z.msi /qn",
+      "silentUninstall": "MsiExec.exe /x OpenShellSetup64_x_y_z.msi /qn",
+      "repair": "MsiExec.exe /fa OpenShellSetup64_x_y_z.msi /qn",
+      "downloadUrl": "https://github.com/Open-Shell/Open-Shell-Menu/releases",
+      "psScriptUrl": "https://silentinstallhq.com/open-shell-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-open-shell-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

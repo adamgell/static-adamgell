@@ -1,0 +1,22 @@
+{
+  "slug": "postgresql-12",
+  "title": "PostgreSQL 12",
+  "vendor": "PostgreSQL Global Development Group",
+  "sourceUrl": "https://silentinstallhq.com/postgresql-12-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:29:39.238Z",
+  "variants": [
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "postgresql-12.x-x-windows-x64.exe --unattendedmodeui none --mode unattended",
+      "silentUninstall": "\"%ProgramFiles%\\PostgreSQL\\12\\uninstall-postgresql.exe\" --mode unattended",
+      "repair": null,
+      "downloadUrl": "https://www.enterprisedb.com/downloads/postgres-postgresql-downloads",
+      "psScriptUrl": "https://silentinstallhq.com/postgresql-12-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-postgresql-12-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

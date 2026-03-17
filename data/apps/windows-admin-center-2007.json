@@ -1,0 +1,22 @@
+{
+  "slug": "windows-admin-center-2007",
+  "title": "Windows Admin Center 2007",
+  "vendor": "Microsoft Corporation",
+  "sourceUrl": "https://silentinstallhq.com/windows-admin-center-2007-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:32:15.470Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i WindowsAdminCenter2007.msi SME_PORT=443 SSL_CERTIFICATE_OPTION=generate /qn",
+      "silentUninstall": "MsiExec.exe /x {925CF8A7-AA21-455B-A042-F209DB0D18E6} /qn",
+      "repair": "MsiExec.exe /fa {925CF8A7-AA21-455B-A042-F209DB0D18E6} /qn",
+      "downloadUrl": "http://aka.ms/WACDownload",
+      "psScriptUrl": "https://silentinstallhq.com/windows-admin-center-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

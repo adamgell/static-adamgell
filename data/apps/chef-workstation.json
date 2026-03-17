@@ -1,0 +1,22 @@
+{
+  "slug": "chef-workstation",
+  "title": "Chef Workstation",
+  "vendor": "Chef Software, Inc.",
+  "sourceUrl": "https://silentinstallhq.com/chef-workstation-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:01:11.503Z",
+  "variants": [
+    {
+      "architecture": "x64",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i chef-workstation-x.y.z-x64.msi /qn",
+      "silentUninstall": "MsiExec.exe /x chef-workstation-x.y.z-x64.msi /qn",
+      "repair": "MsiExec.exe /fa chef-workstation-x.y.z-x64.msi /qn",
+      "downloadUrl": "https://downloads.chef.io/products/workstation",
+      "psScriptUrl": "https://silentinstallhq.com/chef-workstation-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

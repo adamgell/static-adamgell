@@ -1,0 +1,22 @@
+{
+  "slug": "anaconda",
+  "title": "Anaconda",
+  "vendor": "Anaconda, Inc.",
+  "sourceUrl": "https://silentinstallhq.com/anaconda-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T01:57:05.497Z",
+  "variants": [
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "Anaconda3-xxxx.xx-Windows-x86_64.exe /InstallationType=AllUsers /RegisterPython=1 /S",
+      "silentUninstall": "\"%ProgramData%\\Anaconda3\\Uninstall-Anaconda3.exe\" /S",
+      "repair": null,
+      "downloadUrl": "https://www.anaconda.com/download",
+      "psScriptUrl": "https://silentinstallhq.com/anaconda-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-anaconda-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

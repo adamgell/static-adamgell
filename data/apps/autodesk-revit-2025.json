@@ -8,7 +8,7 @@
     {
       "architecture": "x64",
       "installerType": "EXE",
-      "silentInstall": "**Setup.exe -q**",
+      "silentInstall": "Setup.exe -q",
       "silentUninstall": "[CLICK HERE FOR DETAILS](https://silentinstallhq.com/autodesk-revit-2025-silent-install-how-to-guide/#Autodesk_Revit_2025_Uninstall)",
       "repair": null,
       "downloadUrl": "https://www.autodesk.com/products/revit/",

@@ -1,0 +1,34 @@
+{
+  "slug": "amazon-redshift-odbc-driver",
+  "title": "Amazon Redshift ODBC Driver",
+  "vendor": "Amazon Web Services, Inc.",
+  "sourceUrl": "https://silentinstallhq.com/amazon-redshift-odbc-driver-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T01:56:59.495Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i AmazonRedshiftODBC32-w.x.y.z.msi /qn",
+      "silentUninstall": "MsiExec.exe /x AmazonRedshiftODBC32-w.x.y.z.msi /qn",
+      "repair": "MsiExec.exe /fa AmazonRedshiftODBC32-w.x.y.z.msi /qn",
+      "downloadUrl": "https://docs.aws.amazon.com/redshift/latest/mgmt/configure-odbc-connection.html#install-odbc-driver-windows",
+      "psScriptUrl": "https://silentinstallhq.com/amazon-redshift-odbc-driver-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x64",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i AmazonRedshiftODBC64-w.x.y.z.msi /qn",
+      "silentUninstall": "MsiExec.exe /x AmazonRedshiftODBC64-w.x.y.z.msi /qn",
+      "repair": "MsiExec.exe /fa AmazonRedshiftODBC64-w.x.y.z.msi /qn",
+      "downloadUrl": "https://docs.aws.amazon.com/redshift/latest/mgmt/configure-odbc-connection.html#install-odbc-driver-windows",
+      "psScriptUrl": "https://silentinstallhq.com/amazon-redshift-odbc-driver-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

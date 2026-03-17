@@ -1,0 +1,22 @@
+{
+  "slug": "affinity-publisher",
+  "title": "Affinity Publisher",
+  "vendor": "Serif (Europe) Ltd",
+  "sourceUrl": "https://silentinstallhq.com/affinity-publisher-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T01:56:38.338Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i Affinity.msi /qn",
+      "silentUninstall": "MsiExec.exe /x Affinity.msi /qn",
+      "repair": "MsiExec.exe /fa Affinity.msi /qn",
+      "downloadUrl": "https://affinity.serif.com/en-us/publisher/",
+      "psScriptUrl": "https://silentinstallhq.com/affinity-publisher-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

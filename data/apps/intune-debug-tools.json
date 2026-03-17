@@ -1,0 +1,22 @@
+{
+  "slug": "intune-debug-tools",
+  "title": "Intune Debug Tools",
+  "vendor": "MEM Tips and Tricks",
+  "sourceUrl": "https://silentinstallhq.com/intune-debug-tools-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:16:11.262Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i IntuneDebugToolsvx.x.msi /qn",
+      "silentUninstall": "MsiExec.exe /x IntuneDebugToolsvx.x.msi /qn",
+      "repair": "MsiExec.exe /fa IntuneDebugToolsvx.x.msi /qn",
+      "downloadUrl": "https://github.com/mmelkersen/EndpointManager/tree/main/Intune%20Debug%20Tools#what-is-the-intune-debug-tool",
+      "psScriptUrl": "https://silentinstallhq.com/intune-debug-tools-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-intune-debug-tools-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

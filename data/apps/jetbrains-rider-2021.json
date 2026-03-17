@@ -1,0 +1,22 @@
+{
+  "slug": "jetbrains-rider-2021",
+  "title": "JetBrains Rider 2021",
+  "vendor": "JetBrains s.r.o",
+  "sourceUrl": "https://silentinstallhq.com/jetbrains-rider-2021-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:30:10.467Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "JetBrains.Rider-2021.x.x.exe /S /CONFIG=.\\silent.config /D=C:\\Program Files\\JetBrains Rider 2021",
+      "silentUninstall": "\"%ProgramFiles%\\JetBrains Rider 2021\\bin\\Uninstall.exe\" /S",
+      "repair": null,
+      "downloadUrl": "https://www.jetbrains.com/rider/download/#section=windows",
+      "psScriptUrl": "https://silentinstallhq.com/jetbrains-rider-2021-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

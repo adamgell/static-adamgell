@@ -8,9 +8,9 @@
     {
       "architecture": "x64",
       "installerType": "MSI",
-      "silentInstall": "**MsiExec.exe /i charles-proxy-x.y.z-win64.msi ALLUSERS=1 /qn**",
-      "silentUninstall": "**MsiExec.exe /x charles-proxy-x.y.z-win64.msi /qn**",
-      "repair": "**MsiExec.exe /fa charles-proxy-x.y.z-win64.msi /qn**",
+      "silentInstall": "MsiExec.exe /i charles-proxy-x.y.z-win64.msi ALLUSERS=1 /qn",
+      "silentUninstall": "MsiExec.exe /x charles-proxy-x.y.z-win64.msi /qn",
+      "repair": "MsiExec.exe /fa charles-proxy-x.y.z-win64.msi /qn",
       "downloadUrl": "https://www.charlesproxy.com/download/",
       "psScriptUrl": null,
       "detectionScriptUrl": null,

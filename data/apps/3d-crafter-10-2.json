@@ -1,0 +1,22 @@
+{
+  "slug": "3d-crafter-10-2",
+  "title": "3D Crafter 10.2",
+  "vendor": "Amabilis Software",
+  "sourceUrl": "https://silentinstallhq.com/3d-crafter-10-2-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T01:55:18.331Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i 3DCrafter.msi ALLUSERS=1 /qn",
+      "silentUninstall": "MsiExec.exe /x {84212157-440C-4DEB-B622-0CD4E08D6BB9} /qn",
+      "repair": "MsiExec.exe /fa {84212157-440C-4DEB-B622-0CD4E08D6BB9} /qn",
+      "downloadUrl": "http://amabilis.com/downloads/",
+      "psScriptUrl": "https://silentinstallhq.com/3d-crafter-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

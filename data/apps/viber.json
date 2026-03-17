@@ -1,0 +1,22 @@
+{
+  "slug": "viber",
+  "title": "Viber",
+  "vendor": "Viber Media S.a.r.l",
+  "sourceUrl": "https://silentinstallhq.com/viber-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:31:43.838Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "ViberSetup.exe /install /quiet /norestart",
+      "silentUninstall": "ViberSetup.exe /uninstall /quiet /norestart",
+      "repair": "ViberSetup.exe /repair /quiet /norestart",
+      "downloadUrl": "https://download.cdn.viber.com/desktop/windows/ViberSetup.exe",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

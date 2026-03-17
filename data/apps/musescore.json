@@ -1,0 +1,34 @@
+{
+  "slug": "musescore",
+  "title": "MuseScore",
+  "vendor": "Werner Schweer and Others",
+  "sourceUrl": "https://silentinstallhq.com/musescore-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:28:27.643Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i MuseScore-x.y.z-x86.msi ALLUSERS=1 /qn",
+      "silentUninstall": "MsiExec.exe /x MuseScore-x.y.z-x86.msi /qn",
+      "repair": "MsiExec.exe /fa MuseScore-x.y.z-x86.msi ALLUSERS=1 /qn",
+      "downloadUrl": "https://musescore.org/en/download",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x64",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i MuseScore-x.y.z-x86_64.msi ALLUSERS=1 /qn",
+      "silentUninstall": "MsiExec.exe /x MuseScore-x.y.z-x86_64.msi /qn",
+      "repair": "MsiExec.exe /fa MuseScore-x.y.z-x86_64.msi ALLUSERS=1 /qn",
+      "downloadUrl": "https://musescore.org/en/download",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

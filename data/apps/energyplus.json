@@ -1,0 +1,34 @@
+{
+  "slug": "energyplus",
+  "title": "EnergyPlus",
+  "vendor": "US Department of Energy",
+  "sourceUrl": "https://silentinstallhq.com/energyplus-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:05:08.482Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "EnergyPlus-x.y.z-Windows-i386.exe install --auto-answer installationErrorWithCancel=Ignore --accept-licenses --confirm-command",
+      "silentUninstall": "\"C:\\EnergyPlusVx-y-z\\maintenancetool.exe\" purge --confirm-command",
+      "repair": null,
+      "downloadUrl": "https://energyplus.net/downloads",
+      "psScriptUrl": "https://silentinstallhq.com/energyplus-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "EnergyPlus-x.y.z-Windows-x86_64.exe install --auto-answer installationErrorWithCancel=Ignore --accept-licenses --confirm-command",
+      "silentUninstall": "\"C:\\EnergyPlusVx-y-z\\maintenancetool.exe\" purge --confirm-command",
+      "repair": null,
+      "downloadUrl": "https://energyplus.net/downloads",
+      "psScriptUrl": "https://silentinstallhq.com/energyplus-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

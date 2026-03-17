@@ -1,0 +1,34 @@
+{
+  "slug": "citrix-files-for-windows",
+  "title": "Citrix Files for Windows",
+  "vendor": "Citrix Systems, Inc.",
+  "sourceUrl": "https://silentinstallhq.com/citrix-files-for-windows-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:01:29.597Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "CitrixFilesForWindows-vw.x.y.z.exe /install /quiet /norestart",
+      "silentUninstall": "CitrixFilesForWindows-vw.x.y.z.exe /uninstall /quiet /norestart",
+      "repair": "CitrixFilesForWindows-vw.x.y.z.exe /repair /quiet /norestart",
+      "downloadUrl": "https://www.citrix.com/downloads/citrix-content-collaboration/product-software/citrix-files-for-windows.html",
+      "psScriptUrl": "https://silentinstallhq.com/citrix-files-for-windows-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-citrix-files-for-windows-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x64",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i CitrixFilesForWindows_x64_vw.x.y.z.msi /qn",
+      "silentUninstall": "MsiExec.exe /x CitrixFilesForWindows_x64_vw.x.y.z.msi /qn",
+      "repair": "MsiExec.exe /fa CitrixFilesForWindows_x64_vw.x.y.z.msi /qn",
+      "downloadUrl": "https://www.citrix.com/downloads/citrix-content-collaboration/product-software/citrix-files-for-windows.html",
+      "psScriptUrl": "https://silentinstallhq.com/citrix-files-for-windows-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-citrix-files-for-windows-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

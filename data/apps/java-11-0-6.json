@@ -1,0 +1,34 @@
+{
+  "slug": "java-11-0-6",
+  "title": "Java 11.0.6",
+  "vendor": "Oracle Corporation",
+  "sourceUrl": "https://silentinstallhq.com/java-11-0-6-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:16:52.041Z",
+  "variants": [
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "jdk-11.0.6_windows-x64_bin.exe /s",
+      "silentUninstall": "MsiExec.exe /x {FB40F6A5-6A0A-5685-8579-2605295B7BFD} /qn",
+      "repair": "MsiExec.exe /fa {FB40F6A5-6A0A-5685-8579-2605295B7BFD} /qn",
+      "downloadUrl": "https://www.oracle.com/java/technologies/javase/jdk11-archive-downloads.html",
+      "psScriptUrl": "https://silentinstallhq.com/java-11-development-kit-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-java-11-development-kit-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x64",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i jdk11.0.664.msi /qn",
+      "silentUninstall": "MsiExec.exe /x {FB40F6A5-6A0A-5685-8579-2605295B7BFD} /qn",
+      "repair": "MsiExec.exe /fa {FB40F6A5-6A0A-5685-8579-2605295B7BFD} /qn",
+      "downloadUrl": "https://www.oracle.com/java/technologies/javase/jdk11-archive-downloads.html",
+      "psScriptUrl": "https://silentinstallhq.com/java-11-development-kit-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-java-11-development-kit-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

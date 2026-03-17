@@ -1,0 +1,46 @@
+{
+  "slug": "vim",
+  "title": "Vim",
+  "vendor": "Bram Moolenaar",
+  "sourceUrl": "https://silentinstallhq.com/vim-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:31:45.847Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "gvim_x.y.zzzz_x86.exe /S",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://github.com/vim/vim-win32-installer/releases",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "gvim_x.y.zzzz_x64.exe /S",
+      "silentUninstall": "\"%ProgramFiles%\\Vim\\vimXY\\uninstall-gui.exe\" /S",
+      "repair": null,
+      "downloadUrl": "https://github.com/vim/vim-win32-installer/releases",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x86/x64",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i vim-x.y.z.msi /qn",
+      "silentUninstall": "MsiExec.exe /x vim-x.y.z.msi /qn",
+      "repair": "MsiExec.exe /fa vim-x.y.z.msi /qn",
+      "downloadUrl": "https://github.com/petrkle/vim-msi/releases",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

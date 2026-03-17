@@ -1,0 +1,34 @@
+{
+  "slug": "maxima",
+  "title": "Maxima",
+  "vendor": "Maxima Team",
+  "sourceUrl": "https://silentinstallhq.com/maxima-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:26:55.788Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "maxima-clisp-sbcl-x.x.x-win32.exe /S /D=C:\\Program Files\\Maxima",
+      "silentUninstall": "\"%ProgramFiles%\\Maxima\\Uninstall.exe\" /S",
+      "repair": null,
+      "downloadUrl": "http://maxima.sourceforge.net/download.html",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "maxima-clisp-sbcl-x.x.x-win64.exe /S /D=C:\\Program Files\\Maxima",
+      "silentUninstall": "\"%ProgramFiles%\\Maxima\\Uninstall.exe\" /S",
+      "repair": null,
+      "downloadUrl": "http://maxima.sourceforge.net/download.html",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

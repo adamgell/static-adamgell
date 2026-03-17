@@ -1,0 +1,22 @@
+{
+  "slug": "iobit-screen-recorder",
+  "title": "IObit Screen Recorder",
+  "vendor": "IObit",
+  "sourceUrl": "https://silentinstallhq.com/iobit-screen-recorder-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:16:15.910Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "iobit-screen-recorder-setup.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://recorder.iobit.com/",
+      "psScriptUrl": "https://silentinstallhq.com/iobit-screen-recorder-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

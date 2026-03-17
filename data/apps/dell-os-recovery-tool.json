@@ -6,15 +6,15 @@
   "lastScraped": "2026-03-16T21:26:49.685Z",
   "variants": [
     {
-      "architecture": "x86\\_x64",
+      "architecture": "x86/x64",
       "installerType": "EXE",
-      "silentInstall": "**DellOSRecoveryTool.exe /install /quiet /norestart**",
-      "silentUninstall": "**DellOSRecoveryTool.exe /uninstall /quiet /norestart**",
-      "repair": "**DellOSRecoveryTool.exe /repair /quiet /norestart**",
+      "silentInstall": "DellOSRecoveryTool.exe /install /quiet /norestart",
+      "silentUninstall": "DellOSRecoveryTool.exe /uninstall /quiet /norestart",
+      "repair": "DellOSRecoveryTool.exe /repair /quiet /norestart",
       "downloadUrl": "https://www.dell.com/support/home/us-en/drivers/osiso/recoverytool/win",
       "psScriptUrl": null,
       "detectionScriptUrl": null,
-      "logInstall": "**DellOSRecoveryTool.exe /install /quiet /norestart /log \"%WINDIR%\\Temp\\DellOSRecoveryTool-Install.log\"**",
+      "logInstall": "DellOSRecoveryTool.exe /install /quiet /norestart /log \"%WINDIR%\\Temp\\DellOSRecoveryTool-Install.log\"",
       "logUninstall": null
     }
   ]

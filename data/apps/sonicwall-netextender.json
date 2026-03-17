@@ -1,0 +1,58 @@
+{
+  "slug": "sonicwall-netextender",
+  "title": "SonicWall NetExtender",
+  "vendor": "SonicWall Inc.",
+  "sourceUrl": "https://silentinstallhq.com/sonicwall-netextender-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:30:43.384Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "NXSetupU-x86-x.y.z.exe /S",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://www.sonicwall.com/products/remote-access/vpn-clients/",
+      "psScriptUrl": "https://silentinstallhq.com/sonicwall-netextender-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-sonicwall-netextender-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "NXSetupU-x64-x.y.z.exe /S",
+      "silentUninstall": "\"%ProgramFiles(x86)%\\SonicWall\\SSL-VPN\\NetExtender\\uninst.exe\" /S",
+      "repair": null,
+      "downloadUrl": "https://www.sonicwall.com/products/remote-access/vpn-clients/",
+      "psScriptUrl": "https://silentinstallhq.com/sonicwall-netextender-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-sonicwall-netextender-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x86",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i NetExtender-x86-x.y.z.MSI REBOOT=ReallySuppress /qn",
+      "silentUninstall": "MsiExec.exe /x NetExtender-x86-x.y.z.MSI REMOVE=ALL REBOOT=ReallySuppress /qn",
+      "repair": "MsiExec.exe /fa NetExtender-x86-x.y.z.MSI REBOOT=ReallySuppress /qn",
+      "downloadUrl": "https://www.sonicwall.com/products/remote-access/vpn-clients/",
+      "psScriptUrl": "https://silentinstallhq.com/sonicwall-netextender-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-sonicwall-netextender-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x64",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i NetExtender-x64-x.y.z.MSI REBOOT=ReallySuppress /qn",
+      "silentUninstall": "MsiExec.exe /x NetExtender-x64-x.y.z.MSI REMOVE=ALL REBOOT=ReallySuppress /qn",
+      "repair": "MsiExec.exe /fa NetExtender-x64-x.y.z.MSI REBOOT=ReallySuppress /qn",
+      "downloadUrl": "https://www.sonicwall.com/products/remote-access/vpn-clients/",
+      "psScriptUrl": "https://silentinstallhq.com/sonicwall-netextender-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-sonicwall-netextender-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

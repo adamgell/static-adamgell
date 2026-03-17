@@ -1,0 +1,46 @@
+{
+  "slug": "openvpn",
+  "title": "OpenVPN",
+  "vendor": "OpenVPN, Inc.",
+  "sourceUrl": "https://silentinstallhq.com/openvpn-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:28:56.586Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i OpenVPN-x.y.z-x86.msi /qn",
+      "silentUninstall": "MsiExec.exe /x OpenVPN-x.y.z-x86.msi /qn",
+      "repair": "MsiExec.exe /fa OpenVPN-x.y.z-x86.msi /qn",
+      "downloadUrl": "https://openvpn.net/community-downloads/",
+      "psScriptUrl": "https://silentinstallhq.com/openvpn-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-openvpn-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x64",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i OpenVPN-x.y.z-amd64.msi /qn",
+      "silentUninstall": "MsiExec.exe /x OpenVPN-x.y.z-amd64.msi /qn",
+      "repair": "MsiExec.exe /fa OpenVPN-x.y.z-amd64.msi /qn",
+      "downloadUrl": "https://openvpn.net/community-downloads/",
+      "psScriptUrl": "https://silentinstallhq.com/openvpn-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-openvpn-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "openvpn-install-2.4.9-I601-Win10.exe /S",
+      "silentUninstall": "\"%ProgramFiles%\\OpenVPN\\Uninstall.exe\" /S",
+      "repair": null,
+      "downloadUrl": "https://swupdate.openvpn.org/community/releases/openvpn-install-2.4.9-I601-Win10.exe",
+      "psScriptUrl": "https://silentinstallhq.com/openvpn-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-openvpn-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "glasswire",
+  "title": "GlassWire",
+  "vendor": "SecureMix LLC",
+  "sourceUrl": "https://silentinstallhq.com/glasswire-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:06:48.170Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "GlassWireSetup.exe /S",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://www.glasswire.com/",
+      "psScriptUrl": "https://silentinstallhq.com/glasswire-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-glasswire-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

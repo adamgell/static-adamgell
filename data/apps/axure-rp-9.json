@@ -1,0 +1,22 @@
+{
+  "slug": "axure-rp-9",
+  "title": "Axure RP 9",
+  "vendor": "Axure Software Solutions, Inc.",
+  "sourceUrl": "https://silentinstallhq.com/axure-rp-9-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T01:59:46.993Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "AxureRP-Setup.exe /quiet",
+      "silentUninstall": "AxureRP-Setup.exe /uninstall /quiet",
+      "repair": null,
+      "downloadUrl": "https://www.axure.com/download",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "grammarly-for-microsoft-office",
+  "title": "Grammarly for Microsoft Office",
+  "vendor": "Grammarly",
+  "sourceUrl": "https://silentinstallhq.com/grammarly-for-microsoft-office-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:08:02.396Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "GrammarlyAddInSetup.exe /fastforallmode /silent",
+      "silentUninstall": "GrammarlyAddInSetup.exe /fastforallmode /silent /uninstall",
+      "repair": null,
+      "downloadUrl": "https://www.grammarly.com/office-addin",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

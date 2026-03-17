@@ -1,0 +1,22 @@
+{
+  "slug": "kolourpaint",
+  "title": "KolourPaint",
+  "vendor": "KDE e.V.",
+  "sourceUrl": "https://silentinstallhq.com/kolourpaint-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:26:22.406Z",
+  "variants": [
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "kolourpaint-x.y.z-xxx-windows-xxx.exe /S",
+      "silentUninstall": "\"%ProgramFiles%\\Kolourpaint\\uninstall.exe\" /S",
+      "repair": null,
+      "downloadUrl": "https://binary-factory.kde.org/view/Windows%2064-bit/job/Kolourpaint_Nightly_win64/",
+      "psScriptUrl": "https://silentinstallhq.com/kolourpaint-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

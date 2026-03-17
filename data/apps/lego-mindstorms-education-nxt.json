@@ -1,0 +1,22 @@
+{
+  "slug": "lego-mindstorms-education-nxt",
+  "title": "LEGO MINDSTORMS Education NXT",
+  "vendor": "LEGO System A/S",
+  "sourceUrl": "https://silentinstallhq.com/lego-mindstorms-education-nxt-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:26:29.354Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "setup.exe /q /AcceptLicenses yes /r:n",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://education.lego.com/en-us/downloads/retiredproducts/nxt/software",
+      "psScriptUrl": "https://silentinstallhq.com/lego-mindstorms-education-nxt-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

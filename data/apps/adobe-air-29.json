@@ -1,0 +1,22 @@
+{
+  "slug": "adobe-air-29",
+  "title": "Adobe AIR 29",
+  "vendor": "Adobe",
+  "sourceUrl": "https://silentinstallhq.com/adobe-air-29-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T01:56:05.154Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "AdobeAIRInstaller.exe -silent -eulaAccepted",
+      "silentUninstall": "MsiExec.exe /x {7D5344C9-E173-4148-93EC-6137D797835A} /qn",
+      "repair": null,
+      "downloadUrl": "http://airdownload.adobe.com/air/win/download/29.0/AdobeAIRInstaller.exe",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

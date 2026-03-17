@@ -1,0 +1,22 @@
+{
+  "slug": "amis",
+  "title": "AMIS",
+  "vendor": "Daisy Consortium",
+  "sourceUrl": "https://silentinstallhq.com/amis-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T01:57:03.987Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "Setup-amis-U.S.English.exe /S",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://dl.daisy.org/tools/Amis/Setup-amis-U.S.English.exe",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

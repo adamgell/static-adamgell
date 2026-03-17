@@ -1,0 +1,22 @@
+{
+  "slug": "autograph",
+  "title": "Autograph",
+  "vendor": "La Salle Education",
+  "sourceUrl": "https://silentinstallhq.com/autograph-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T01:59:33.409Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "AutographSetup5.x.x.x.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://completemaths.com/autograph",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

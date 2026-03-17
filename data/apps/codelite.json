@@ -1,0 +1,34 @@
+{
+  "slug": "codelite",
+  "title": "CodeLite",
+  "vendor": "Eran Ifrah",
+  "sourceUrl": "https://silentinstallhq.com/codelite-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:01:52.229Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "codelite-i686-x.y.z.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "Requires Scripting",
+      "repair": null,
+      "downloadUrl": "https://downloads.codelite.org/downloads.php?windows",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "codelite-amd64-x.y.z.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "Requires Scripting",
+      "repair": null,
+      "downloadUrl": "https://downloads.codelite.org/downloads.php?windows_64",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

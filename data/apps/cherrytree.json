@@ -1,0 +1,22 @@
+{
+  "slug": "cherrytree",
+  "title": "CherryTree",
+  "vendor": "Giuseppe Penone",
+  "sourceUrl": "https://silentinstallhq.com/cherrytree-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:01:13.002Z",
+  "variants": [
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "cherrytree_w.x.y.z_win64_setup.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "\"%ProgramFiles%\\CherryTree\\unins000.exe\" /VERYSILENT /NORESTART",
+      "repair": null,
+      "downloadUrl": "https://www.giuspen.com/cherrytree/#downl",
+      "psScriptUrl": "https://silentinstallhq.com/cherrytree-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

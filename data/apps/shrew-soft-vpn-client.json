@@ -1,0 +1,22 @@
+{
+  "slug": "shrew-soft-vpn-client",
+  "title": "Shrew Soft VPN Client",
+  "vendor": "Shrew Soft Inc.",
+  "sourceUrl": "https://silentinstallhq.com/shrew-soft-vpn-client-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:30:30.658Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "vpn-client-x.y.z-release.exe /S",
+      "silentUninstall": "\"%ProgramFiles%\\ShrewSoft\\VPN Client\\uninstall.exe\" /S",
+      "repair": null,
+      "downloadUrl": "https://www.shrew.net/download/vpn",
+      "psScriptUrl": "https://silentinstallhq.com/shrew-soft-vpn-client-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

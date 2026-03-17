@@ -1,0 +1,22 @@
+{
+  "slug": "adobe-indesign-cc",
+  "title": "Adobe InDesign Creative Cloud",
+  "vendor": "Adobe",
+  "sourceUrl": "https://silentinstallhq.com/adobe-indesign-cc-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T01:56:20.235Z",
+  "variants": [
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": ".\\Build\\setup.exe --silent",
+      "silentUninstall": "AdobeUninstaller.exe --products=IDSN",
+      "repair": null,
+      "downloadUrl": null,
+      "psScriptUrl": "https://silentinstallhq.com/adobe-indesign-creative-cloud-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-adobe-indesign-creative-cloud-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

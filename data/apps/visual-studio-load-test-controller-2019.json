@@ -1,0 +1,22 @@
+{
+  "slug": "visual-studio-load-test-controller-2019",
+  "title": "Visual Studio Load Test Controller 2019",
+  "vendor": "Microsoft Corporation",
+  "sourceUrl": "https://silentinstallhq.com/visual-studio-load-test-controller-2019-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:31:53.776Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "vs_setup.exe --nocache --wait --noUpdateInstaller --noWeb --allWorkloads --includeRecommended --quiet --norestart",
+      "silentUninstall": "vs_setup.exe uninstall --installPath \"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\TestController\" --quiet --norestart",
+      "repair": null,
+      "downloadUrl": "https://aka.ms/vs/16/release/vs_TestController.exe",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

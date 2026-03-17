@@ -1,0 +1,22 @@
+{
+  "slug": "treesize",
+  "title": "TreeSize",
+  "vendor": "JAM Software",
+  "sourceUrl": "https://silentinstallhq.com/treesize-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:31:29.581Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "TreeSizeFreeSetup.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://www.jam-software.com/treesize_free/TreeSizeFreeSetup.exe",
+      "psScriptUrl": "https://silentinstallhq.com/treesize-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-treesize-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

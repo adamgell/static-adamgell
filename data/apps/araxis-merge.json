@@ -8,9 +8,9 @@
     {
       "architecture": "x64",
       "installerType": "MSI",
-      "silentInstall": "**MsiExec.exe /i Merge202x.xxxx-x64.msi /qn**",
-      "silentUninstall": "**MsiExec.exe /x Merge202x.xxxx-x64.msi /qn**",
-      "repair": "**MsiExec.exe /fa Merge202x.xxxx-x64.msi /qn**",
+      "silentInstall": "MsiExec.exe /i Merge202x.xxxx-x64.msi /qn",
+      "silentUninstall": "MsiExec.exe /x Merge202x.xxxx-x64.msi /qn",
+      "repair": "MsiExec.exe /fa Merge202x.xxxx-x64.msi /qn",
       "downloadUrl": "https://www.araxis.com/merge/download.en",
       "psScriptUrl": null,
       "detectionScriptUrl": null,

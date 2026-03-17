@@ -1,0 +1,34 @@
+{
+  "slug": "ghostscript",
+  "title": "Ghostscript",
+  "vendor": "Artifex Software Inc.",
+  "sourceUrl": "https://silentinstallhq.com/ghostscript-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:06:33.030Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "gs1000w32.exe /S",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs1000/gs1000w32.exe",
+      "psScriptUrl": "https://silentinstallhq.com/ghostscript-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-ghostscript-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "gs1000w64.exe /S",
+      "silentUninstall": "\"%ProgramFiles%\\gs\\gsx.y.z\\uninstgs.exe\" /S",
+      "repair": null,
+      "downloadUrl": "https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs1000/gs1000w64.exe",
+      "psScriptUrl": "https://silentinstallhq.com/ghostscript-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-ghostscript-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

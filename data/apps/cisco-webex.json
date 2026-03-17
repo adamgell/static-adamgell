@@ -1,0 +1,34 @@
+{
+  "slug": "cisco-webex",
+  "title": "Cisco Webex",
+  "vendor": "Cisco Systems, Inc",
+  "sourceUrl": "https://silentinstallhq.com/cisco-webex-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:01:20.556Z",
+  "variants": [
+    {
+      "architecture": "x64",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i Webex.msi ACCEPT_EULA=TRUE ALLUSERS=1 /qn",
+      "silentUninstall": "MsiExec.exe /x Webex.msi /qn",
+      "repair": "MsiExec.exe /fa Webex.msi ACCEPT_EULA=TRUE ALLUSERS=1 /qn",
+      "downloadUrl": "https://binaries.webex.com/WebexOfclDesktop-Win-64-Gold/Webex.msi",
+      "psScriptUrl": "https://silentinstallhq.com/cisco-webex-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-cisco-webex-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x86",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i Webex_x86.msi ACCEPT_EULA=TRUE ALLUSERS=1 /qn",
+      "silentUninstall": "MsiExec.exe /x Webex_x86.msi /qn",
+      "repair": "MsiExec.exe /fa Webex_x86.msi ACCEPT_EULA=TRUE ALLUSERS=1 /qn",
+      "downloadUrl": "https://binaries.webex.com/WebexTeamsDesktop-Windows-Gold/Webex_x86.msi",
+      "psScriptUrl": "https://silentinstallhq.com/cisco-webex-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-cisco-webex-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

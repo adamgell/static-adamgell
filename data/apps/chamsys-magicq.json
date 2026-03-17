@@ -1,0 +1,22 @@
+{
+  "slug": "chamsys-magicq",
+  "title": "ChamSys MagicQ",
+  "vendor": "ChamSys Limited",
+  "sourceUrl": "https://silentinstallhq.com/chamsys-magicq-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:01:07.018Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "magicq_windows_v_x_y_z.exe /S",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://chamsyslighting.com/pages/magicq-downloads",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

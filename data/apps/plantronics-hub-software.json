@@ -2,20 +2,20 @@
   "slug": "plantronics-hub-software",
   "title": "Plantronics Hub Software",
   "vendor": "Plantronics, Inc.",
-  "sourceUrl": "https://silentinstallhq.com/plantronics-hub-software-silent-install-how-to-guide",
-  "lastScraped": "2026-03-16T22:26:38.262Z",
+  "sourceUrl": "https://silentinstallhq.com/plantronics-hub-software-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:29:35.670Z",
   "variants": [
     {
-      "architecture": "x86\\_x64",
+      "architecture": "x86/x64",
       "installerType": "EXE",
       "silentInstall": "PlantronicsHubInstaller.exe /install /quiet /norestart",
       "silentUninstall": "PlantronicsHubInstaller.exe /uninstall /quiet /norestart",
       "repair": "PlantronicsHubInstaller.exe /repair /quiet /norestart",
       "downloadUrl": "https://downloads.poly.com/headsets/PlantronicsHubInstaller.exe",
-      "psScriptUrl": null,
+      "psScriptUrl": "https://silentinstallhq.com/plantronics-hub-software-install-and-uninstall-powershell/",
       "detectionScriptUrl": null,
-      "logInstall": "PlantronicsHubInstaller.exe /install /quiet /norestart /log \"%WINDIR%\\Temp\\PlantronicsHub-Install.log\"",
-      "logUninstall": "PlantronicsHubInstaller.exe /uninstall /quiet /norestart /log \"%WINDIR%\\Temp\\PlantronicsHub-Uninstall.log\""
+      "logInstall": null,
+      "logUninstall": null
     }
   ],
   "psadtScript": null

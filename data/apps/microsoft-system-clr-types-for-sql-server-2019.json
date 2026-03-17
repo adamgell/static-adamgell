@@ -1,0 +1,22 @@
+{
+  "slug": "microsoft-system-clr-types-for-sql-server-2019",
+  "title": "Microsoft System CLR Types for SQL Server 2019",
+  "vendor": "Microsoft Corporation",
+  "sourceUrl": "https://silentinstallhq.com/microsoft-system-clr-types-for-sql-server-2019-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:27:52.368Z",
+  "variants": [
+    {
+      "architecture": "x64",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i SQLSysClrTypes.msi /qn",
+      "silentUninstall": "MsiExec.exe /x {5BC7E9EB-13E8-45DB-8A60-F2481FEB4595} /qn",
+      "repair": "MsiExec.exe /fa {5BC7E9EB-13E8-45DB-8A60-F2481FEB4595} /qn",
+      "downloadUrl": "https://go.microsoft.com/fwlink/?linkid=2108808",
+      "psScriptUrl": "https://silentinstallhq.com/microsoft-system-clr-types-for-sql-server-2019-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

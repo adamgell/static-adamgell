@@ -1,0 +1,22 @@
+{
+  "slug": "tidal",
+  "title": "TIDAL",
+  "vendor": "TIDAL Music AS",
+  "sourceUrl": "https://silentinstallhq.com/tidal-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:31:26.036Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "TIDALSetup.exe -s",
+      "silentUninstall": "\"%LocalAppData%\\TIDAL\\Update.exe\" --uninstall -s",
+      "repair": null,
+      "downloadUrl": "https://tidal.com/download",
+      "psScriptUrl": "https://silentinstallhq.com/tidal-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

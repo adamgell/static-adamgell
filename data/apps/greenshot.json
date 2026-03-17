@@ -1,0 +1,22 @@
+{
+  "slug": "greenshot",
+  "title": "Greenshot",
+  "vendor": "Greenshot",
+  "sourceUrl": "https://silentinstallhq.com/greenshot-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:08:14.185Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "Greenshot-INSTALLER-w.x.y.z-RELEASE.exe /VERYSILENT /NORESTART /ALLUSERS /NORUN",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://getgreenshot.org/downloads/",
+      "psScriptUrl": "https://silentinstallhq.com/greenshot-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-greenshot-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

@@ -6,7 +6,7 @@
   "lastScraped": "2026-03-16T23:47:27.935Z",
   "variants": [
     {
-      "architecture": "x86\\_x64",
+      "architecture": "x86/x64",
       "installerType": "MSI",
       "silentInstall": "MsiExec.exe /i 3CXDesktopApp-x.y.z.msi TRANSFORMS=3CXDesktopApp.mst /qn",
       "silentUninstall": "MsiExec.exe /x 3CXDesktopApp-x.y.z.msi /qn",

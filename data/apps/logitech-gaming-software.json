@@ -1,0 +1,34 @@
+{
+  "slug": "logitech-gaming-software",
+  "title": "Logitech Gaming Software",
+  "vendor": "Logitech Inc.",
+  "sourceUrl": "https://silentinstallhq.com/logitech-gaming-software-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:26:41.550Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "LGS_x.y.z_x86_Logitech.exe /S",
+      "silentUninstall": "\"%ProgramFiles%\\Logitech Gaming Software\\uninstallhlpr.exe\" /bitness=x86 /silentmode=on /langid=ENU /downgrade=no /firstRun=no",
+      "repair": null,
+      "downloadUrl": "https://support.logi.com/hc/en-us/articles/360025298053",
+      "psScriptUrl": "https://silentinstallhq.com/logitech-gaming-software-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-logitech-gaming-software-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "LGS_x.y.z_x64_Logitech.exe /S",
+      "silentUninstall": "\"%ProgramFiles%\\Logitech Gaming Software\\uninstallhlpr.exe\" /bitness=x64 /silentmode=on /langid=ENU /downgrade=no /firstRun=no",
+      "repair": null,
+      "downloadUrl": "https://support.logi.com/hc/en-us/articles/360025298053",
+      "psScriptUrl": "https://silentinstallhq.com/logitech-gaming-software-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-logitech-gaming-software-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

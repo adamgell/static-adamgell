@@ -1,0 +1,22 @@
+{
+  "slug": "adobe-air-16",
+  "title": "Adobe AIR 16",
+  "vendor": "Adobe",
+  "sourceUrl": "https://silentinstallhq.com/adobe-air-16-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T01:55:45.590Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "AdobeAIRInstaller.exe -silent -eulaAccepted",
+      "silentUninstall": "MsiExec.exe /x {7B77622E-DE90-48EA-B2C7-227B1DE58A01} /qn",
+      "repair": null,
+      "downloadUrl": "http://airdownload.adobe.com/air/win/download/16.0/AdobeAIRInstaller.exe",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

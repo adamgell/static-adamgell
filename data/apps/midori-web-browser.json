@@ -1,0 +1,22 @@
+{
+  "slug": "midori-web-browser",
+  "title": "Midori Web Browser",
+  "vendor": "Astian Foundation",
+  "sourceUrl": "https://silentinstallhq.com/midori-web-browser-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:28:01.050Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "\"Midori Web Setup x.x.x.exe\" /S",
+      "silentUninstall": "\"%LocalAppData%\\Programs\\midori\\Uninstall Midori.exe\" /S",
+      "repair": null,
+      "downloadUrl": "https://astian.org/en/midori-browser/download/",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

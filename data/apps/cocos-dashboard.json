@@ -8,8 +8,8 @@
     {
       "architecture": "x86",
       "installerType": "EXE",
-      "silentInstall": "**CocosDashboard-x.y.z-win-xxx.exe /exenoui /qn**",
-      "silentUninstall": "**CocosDashboard-x.y.z-win-xxx.exe /exenoui /qn REMOVE=ALL**",
+      "silentInstall": "CocosDashboard-x.y.z-win-xxx.exe /exenoui /qn",
+      "silentUninstall": "CocosDashboard-x.y.z-win-xxx.exe /exenoui /qn REMOVE=ALL",
       "repair": null,
       "downloadUrl": "https://www.cocos.com/en/creator-download",
       "psScriptUrl": null,

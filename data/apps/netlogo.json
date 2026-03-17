@@ -1,0 +1,34 @@
+{
+  "slug": "netlogo",
+  "title": "NetLogo",
+  "vendor": "CCL",
+  "sourceUrl": "https://silentinstallhq.com/netlogo-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:28:32.192Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i NetLogo-x.y.z-32.msi ALLUSERS=1 ADDLOCAL=BaseInstall /qn",
+      "silentUninstall": "MsiExec.exe /x NetLogo-x.y.z-32.msi /qn",
+      "repair": "MsiExec.exe /fa NetLogo-x.y.z-32.msi /qn",
+      "downloadUrl": "https://ccl.northwestern.edu/netlogo/download.shtml",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x64",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i NetLogo-x.y.z-64.msi ALLUSERS=1 ADDLOCAL=BaseInstall /qn",
+      "silentUninstall": "MsiExec.exe /x NetLogo-x.y.z-64.msi /qn",
+      "repair": "MsiExec.exe /fa NetLogo-x.y.z-64.msi /qn",
+      "downloadUrl": "https://ccl.northwestern.edu/netlogo/download.shtml",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

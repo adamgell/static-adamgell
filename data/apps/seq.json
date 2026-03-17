@@ -1,0 +1,22 @@
+{
+  "slug": "seq",
+  "title": "Seq",
+  "vendor": "Datalust Pty Ltd",
+  "sourceUrl": "https://silentinstallhq.com/seq-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:30:27.639Z",
+  "variants": [
+    {
+      "architecture": "x64",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i Seq-x.y.z.msi /qn",
+      "silentUninstall": "MsiExec.exe /x Seq-x.y.z.msi /qn",
+      "repair": "MsiExec.exe /fa Seq-x.y.z.msi /qn",
+      "downloadUrl": "https://datalust.co/download",
+      "psScriptUrl": "https://silentinstallhq.com/seq-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-seq-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

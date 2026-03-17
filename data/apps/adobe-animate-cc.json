@@ -1,0 +1,22 @@
+{
+  "slug": "adobe-animate-cc",
+  "title": "Adobe Animate Creative Cloud",
+  "vendor": "Adobe",
+  "sourceUrl": "https://silentinstallhq.com/adobe-animate-cc-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T01:56:11.192Z",
+  "variants": [
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": ".\\Build\\setup.exe --silent",
+      "silentUninstall": "AdobeUninstaller.exe --products=FLPR",
+      "repair": null,
+      "downloadUrl": null,
+      "psScriptUrl": "https://silentinstallhq.com/adobe-animate-creative-cloud-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-adobe-animate-creative-cloud-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

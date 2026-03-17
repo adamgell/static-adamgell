@@ -1,0 +1,34 @@
+{
+  "slug": "atom",
+  "title": "Atom",
+  "vendor": "GitHub Inc.",
+  "sourceUrl": "https://silentinstallhq.com/atom-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T01:57:52.290Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "AtomSetup.exe -s",
+      "silentUninstall": "\"%LocalAppData%\\atom\\Update.exe\" --uninstall -s",
+      "repair": null,
+      "downloadUrl": "https://atom.io/download/windows",
+      "psScriptUrl": "https://silentinstallhq.com/atom-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-atom-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "AtomSetup-x64.exe -s",
+      "silentUninstall": "\"%LocalAppData%\\atom\\Update.exe\" --uninstall -s",
+      "repair": null,
+      "downloadUrl": "https://atom.io/download/windows_x64",
+      "psScriptUrl": "https://silentinstallhq.com/atom-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-atom-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

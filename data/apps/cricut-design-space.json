@@ -1,0 +1,22 @@
+{
+  "slug": "cricut-design-space",
+  "title": "Cricut Design Space",
+  "vendor": "Cricut, Inc.",
+  "sourceUrl": "https://silentinstallhq.com/cricut-design-space-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:02:14.909Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "CricutDesignSpace-Install-vx.y.z.exe /S",
+      "silentUninstall": "\"%LocalAppData%\\Programs\\Cricut Design Space\\Uninstall Cricut Design Space.exe\" /S",
+      "repair": null,
+      "downloadUrl": "https://design.cricut.com/",
+      "psScriptUrl": "https://silentinstallhq.com/cricut-design-space-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-cricut-design-space-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

@@ -2,19 +2,19 @@
   "slug": "sharex",
   "title": "ShareX",
   "vendor": "ShareX Team",
-  "sourceUrl": "https://silentinstallhq.com/sharex-silent-install-how-to-guide",
-  "lastScraped": "2026-03-16T22:27:35.502Z",
+  "sourceUrl": "https://silentinstallhq.com/sharex-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:30:29.116Z",
   "variants": [
     {
-      "architecture": "x86\\_x64",
+      "architecture": "x86/x64",
       "installerType": "EXE",
       "silentInstall": "ShareX-x.y.z-setup.exe /SP- /VERYSILENT /NORESTART /NORUN",
       "silentUninstall": "",
       "repair": null,
       "downloadUrl": "https://getsharex.com/downloads",
-      "psScriptUrl": null,
-      "detectionScriptUrl": null,
-      "logInstall": "ShareX-x.y.z-setup.exe /SP- /VERYSILENT /NORESTART /NORUN /LOG=\"%WINDIR%\\Temp\\ShareX-Install.log\"",
+      "psScriptUrl": "https://silentinstallhq.com/sharex-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-sharex-powershell/",
+      "logInstall": null,
       "logUninstall": null
     }
   ],

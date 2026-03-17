@@ -1,0 +1,58 @@
+{
+  "slug": "java-8-update-111",
+  "title": "Java 8 Update 111",
+  "vendor": "Oracle Corporation",
+  "sourceUrl": "https://silentinstallhq.com/java-8-update-111-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:17:31.229Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i jre1.8.0_111.msi /qn",
+      "silentUninstall": "MsiExec.exe /x {26A24AE4-039D-4CA4-87B4-2F32180111F0} /qn",
+      "repair": "MsiExec.exe /fa {26A24AE4-039D-4CA4-87B4-2F32180111F0} /qn",
+      "downloadUrl": "https://download.oracle.com/otn/java/jdk/8u111-b14/jre-8u111-windows-i586.exe",
+      "psScriptUrl": "https://silentinstallhq.com/java-8-runtime-environment-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x64",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i jre1.8.0_11164.msi /qn",
+      "silentUninstall": "MsiExec.exe /x {26A24AE4-039D-4CA4-87B4-2F64180111F0} /qn",
+      "repair": "MsiExec.exe /fa {26A24AE4-039D-4CA4-87B4-2F64180111F0} /qn",
+      "downloadUrl": "https://download.oracle.com/otn/java/jdk/8u111-b14/jre-8u111-windows-x64.exe",
+      "psScriptUrl": "https://silentinstallhq.com/java-8-runtime-environment-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x86",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i jdk1.8.0_111.msi /qn",
+      "silentUninstall": "MsiExec.exe /x {32A3A4F4-B792-11D6-A78A-00B0D0180111} /qn",
+      "repair": "MsiExec.exe /fa {32A3A4F4-B792-11D6-A78A-00B0D0180111} /qn",
+      "downloadUrl": "https://download.oracle.com/otn/java/jdk/8u111-b14/jdk-8u111-windows-i586.exe",
+      "psScriptUrl": "https://silentinstallhq.com/java-8-development-kit-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x64",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i jdk1.8.0_11164.msi /qn",
+      "silentUninstall": "MsiExec.exe /x {64A3A4F4-B792-11D6-A78A-00B0D0180111} /qn",
+      "repair": "MsiExec.exe /fa {64A3A4F4-B792-11D6-A78A-00B0D0180111} /qn",
+      "downloadUrl": "https://download.oracle.com/otn/java/jdk/8u111-b14/jdk-8u111-windows-x64.exe",
+      "psScriptUrl": "https://silentinstallhq.com/java-8-development-kit-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

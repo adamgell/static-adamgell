@@ -1,0 +1,22 @@
+{
+  "slug": "subtitle-workshop",
+  "title": "Subtitle Workshop",
+  "vendor": "Andrey Spiridonov",
+  "sourceUrl": "https://silentinstallhq.com/subtitle-workshop-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:30:59.770Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "SubtitleWorkshop_6.0b_131121_installer.exe /S",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "http://subworkshop.sourceforge.net/",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

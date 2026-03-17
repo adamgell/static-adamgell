@@ -1,0 +1,22 @@
+{
+  "slug": "8gadgetpack",
+  "title": "8GadgetPack",
+  "vendor": "8GadgetPack.net",
+  "sourceUrl": "https://silentinstallhq.com/8gadgetpack-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T01:55:28.917Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i 8GadgetPackSetup.msi /qn",
+      "silentUninstall": "MsiExec.exe /x 8GadgetPackSetup.msi /qn",
+      "repair": "MsiExec.exe /fa 8GadgetPackSetup.msi /qn",
+      "downloadUrl": "https://8gadgetpack.net/",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

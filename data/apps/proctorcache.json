@@ -1,0 +1,22 @@
+{
+  "slug": "proctorcache",
+  "title": "ProctorCache",
+  "vendor": "Pearson",
+  "sourceUrl": "https://silentinstallhq.com/proctorcache-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:29:46.144Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "proctorcache-installer-2020.1.exe -varfile response.varfile -q",
+      "silentUninstall": "\"C:\\ProctorCache\\uninstall.exe\" -q",
+      "repair": null,
+      "downloadUrl": "https://download.testnav.com/",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "autodesk-inventor-view-2021",
+  "title": "Autodesk Inventor View 2021",
+  "vendor": "Autodesk",
+  "sourceUrl": "https://silentinstallhq.com/autodesk-inventor-view-2021-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T01:58:57.158Z",
+  "variants": [
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "Setup.exe /W /Q /I .\\setup.ini",
+      "silentUninstall": "See Uninstall Section Below",
+      "repair": null,
+      "downloadUrl": "https://download.autodesk.com/us/support/autodesk_inventor_view_2021/inventor_view_2021_english_win_64bit_dlm.sfx.exe",
+      "psScriptUrl": "https://silentinstallhq.com/autodesk-inventor-view-2021-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

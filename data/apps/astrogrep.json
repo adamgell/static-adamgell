@@ -1,0 +1,22 @@
+{
+  "slug": "astrogrep",
+  "title": "AstroGrep",
+  "vendor": "AstroComma, Inc.",
+  "sourceUrl": "https://silentinstallhq.com/astrogrep-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T01:57:50.763Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "AstroGrep_Setup_vx.y.z.exe /S",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://sourceforge.net/projects/astrogrep/files/latest/download",
+      "psScriptUrl": "https://silentinstallhq.com/astrogrep-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-astrogrep-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

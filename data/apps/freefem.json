@@ -1,0 +1,22 @@
+{
+  "slug": "freefem",
+  "title": "FreeFem++",
+  "vendor": "Universite Pierre et Marie Curie",
+  "sourceUrl": "https://silentinstallhq.com/freefem-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:06:17.916Z",
+  "variants": [
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "\"FreeFEM-x.x-win64.exe\" /VERYSILENT /NORESTART",
+      "silentUninstall": "\"%ProgramFiles(x86)%\\FreeFem++\\unins000.exe\" /VERYSILENT /NORESTART",
+      "repair": null,
+      "downloadUrl": "https://github.com/FreeFem/FreeFem-sources/releases",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

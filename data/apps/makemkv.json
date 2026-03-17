@@ -1,0 +1,22 @@
+{
+  "slug": "makemkv",
+  "title": "MakeMKV",
+  "vendor": "GuinpinSoft Inc",
+  "sourceUrl": "https://silentinstallhq.com/makemkv-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:26:47.145Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "Setup_MakeMKV_v.x.x.exe /S",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://makemkv.com/",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

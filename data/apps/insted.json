@@ -1,0 +1,22 @@
+{
+  "slug": "insted",
+  "title": "InstEd",
+  "vendor": "Instedit.com",
+  "sourceUrl": "https://silentinstallhq.com/insted-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:15:56.179Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i InstEd-w.x.y.z.msi /qn",
+      "silentUninstall": "MsiExec.exe /x InstEd-w.x.y.z.msi /qn",
+      "repair": "MsiExec.exe /fa InstEd-w.x.y.z.msi /qn",
+      "downloadUrl": "http://www.instedit.com/download.html",
+      "psScriptUrl": "https://silentinstallhq.com/insted-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-insted-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

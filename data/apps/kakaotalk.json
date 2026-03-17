@@ -1,0 +1,22 @@
+{
+  "slug": "kakaotalk",
+  "title": "KakaoTalk",
+  "vendor": "Kakao Corp.",
+  "sourceUrl": "https://silentinstallhq.com/kakaotalk-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:26:17.595Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "KakaoTalk_Setup.exe /S",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://app-pc.kakaocdn.net/talk/win32/KakaoTalk_Setup.exe",
+      "psScriptUrl": "https://silentinstallhq.com/kakaotalk-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-kakaotalk-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

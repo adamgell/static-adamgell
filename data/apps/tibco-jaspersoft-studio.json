@@ -1,0 +1,22 @@
+{
+  "slug": "tibco-jaspersoft-studio",
+  "title": "TIBCO Jaspersoft Studio",
+  "vendor": "TIBCO Software Inc.",
+  "sourceUrl": "https://silentinstallhq.com/tibco-jaspersoft-studio-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:31:25.521Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "TIB_js-studiocomm_x.y.z_windows_x86_64.exe /S",
+      "silentUninstall": "\"%ProgramFiles%\\TIBCO\\Jaspersoft Studio-x.y.z\\uninst.exe\" /S",
+      "repair": null,
+      "downloadUrl": "https://sourceforge.net/projects/jasperstudio/files/latest/download",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

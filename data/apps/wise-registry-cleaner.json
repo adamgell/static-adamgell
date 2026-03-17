@@ -1,0 +1,22 @@
+{
+  "slug": "wise-registry-cleaner",
+  "title": "Wise Registry Cleaner",
+  "vendor": "WiseCleaner.com, Inc.",
+  "sourceUrl": "https://silentinstallhq.com/wise-registry-cleaner-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:32:25.628Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "WRCFree_w.x.y.z.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "See Uninstall Section Below",
+      "repair": null,
+      "downloadUrl": "https://www.wisecleaner.com/wise-registry-cleaner.html",
+      "psScriptUrl": "https://silentinstallhq.com/wise-registry-cleaner-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

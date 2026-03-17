@@ -1,0 +1,130 @@
+{
+  "slug": "amazon-corretto",
+  "title": "Amazon Corretto",
+  "vendor": "Amazon",
+  "sourceUrl": "https://silentinstallhq.com/amazon-corretto-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T01:56:56.483Z",
+  "variants": [
+    {
+      "architecture": "x64",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i amazon-corretto-18.x.y.z-windows-x64.msi /qn",
+      "silentUninstall": "MsiExec.exe /x amazon-corretto-18.x.y.z-windows-x64.msi /qn",
+      "repair": "MsiExec.exe /fa amazon-corretto-18.x.y.z-windows-x64.msi /qn",
+      "downloadUrl": "https://corretto.aws/downloads/latest/amazon-corretto-18-x64-windows-jdk.msi",
+      "psScriptUrl": "https://silentinstallhq.com/amazon-corretto-18-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x64",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i amazon-corretto-17.x.y.z-windows-x64.msi /qn",
+      "silentUninstall": "MsiExec.exe /x amazon-corretto-17.x.y.z-windows-x64.msi /qn",
+      "repair": "MsiExec.exe /fa amazon-corretto-17.x.y.z-windows-x64.msi /qn",
+      "downloadUrl": "https://corretto.aws/downloads/latest/amazon-corretto-17-x64-windows-jdk.msi",
+      "psScriptUrl": "https://silentinstallhq.com/amazon-corretto-17-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x64",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i amazon-corretto-16.x.y.z-windows-x64.msi /qn",
+      "silentUninstall": "MsiExec.exe /x amazon-corretto-16.x.y.z-windows-x64.msi /qn",
+      "repair": "MsiExec.exe /fa amazon-corretto-16.x.y.z-windows-x64.msi /qn",
+      "downloadUrl": "https://corretto.aws/downloads/latest/amazon-corretto-16-x64-windows-jdk.msi",
+      "psScriptUrl": "https://silentinstallhq.com/amazon-corretto-16-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x64",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i amazon-corretto-15.x.y.z-windows-x64.msi /qn",
+      "silentUninstall": "MsiExec.exe /x amazon-corretto-15.x.y.z-windows-x64.msi /qn",
+      "repair": "MsiExec.exe /fa amazon-corretto-15.x.y.z-windows-x64.msi /qn",
+      "downloadUrl": "https://corretto.aws/downloads/latest/amazon-corretto-15-x64-windows-jdk.msi",
+      "psScriptUrl": "https://silentinstallhq.com/amazon-corretto-15-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x86",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i amazon-corretto-11.x.y.z-windows-x86.msi /qn",
+      "silentUninstall": "MsiExec.exe /x amazon-corretto-11.x.y.z-windows-x86.msi /qn",
+      "repair": "MsiExec.exe /fa amazon-corretto-11.x.y.z-windows-x86.msi /qn",
+      "downloadUrl": "https://corretto.aws/downloads/latest/amazon-corretto-11-x86-windows-jdk.msi",
+      "psScriptUrl": "https://silentinstallhq.com/amazon-corretto-11-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x64",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i amazon-corretto-11.x.y.z-windows-x64.msi /qn",
+      "silentUninstall": "MsiExec.exe /x amazon-corretto-11.x.y.z-windows-x64.msi /qn",
+      "repair": "MsiExec.exe /fa amazon-corretto-11.x.y.z-windows-x64.msi /qn",
+      "downloadUrl": "https://corretto.aws/downloads/latest/amazon-corretto-11-x64-windows-jdk.msi",
+      "psScriptUrl": "https://silentinstallhq.com/amazon-corretto-11-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x86",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i amazon-corretto-8.x.y.z-windows-x86-jre.msi /qn",
+      "silentUninstall": "MsiExec.exe /x amazon-corretto-8.x.y.z-windows-x86-jre.msi /qn",
+      "repair": "MsiExec.exe /fa amazon-corretto-8.x.y.z-windows-x86-jre.msi /qn",
+      "downloadUrl": "https://corretto.aws/downloads/latest/amazon-corretto-8-x86-windows-jre.msi",
+      "psScriptUrl": "https://silentinstallhq.com/amazon-corretto-8-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x86",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i amazon-corretto-8.x.y.z-windows-x86-jdk.msi /qn",
+      "silentUninstall": "MsiExec.exe /x amazon-corretto-8.x.y.z-windows-x86-jdk.msi /qn",
+      "repair": "MsiExec.exe /fa amazon-corretto-8.x.y.z-windows-x86-jdk.msi /qn",
+      "downloadUrl": "https://corretto.aws/downloads/latest/amazon-corretto-8-x86-windows-jdk.msi",
+      "psScriptUrl": "https://silentinstallhq.com/amazon-corretto-8-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x64",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i amazon-corretto-8.x.y.z-windows-x64-jre.msi /qn",
+      "silentUninstall": "MsiExec.exe /x amazon-corretto-8.x.y.z-windows-x64-jre.msi /qn",
+      "repair": "MsiExec.exe /fa amazon-corretto-8.x.y.z-windows-x64-jre.msi /qn",
+      "downloadUrl": "https://corretto.aws/downloads/latest/amazon-corretto-8-x64-windows-jre.msi",
+      "psScriptUrl": "https://silentinstallhq.com/amazon-corretto-8-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x64",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i amazon-corretto-8.x.y.z-windows-x64-jdk.msi /qn",
+      "silentUninstall": "MsiExec.exe /x amazon-corretto-8.x.y.z-windows-x64-jdk.msi /qn",
+      "repair": "MsiExec.exe /fa amazon-corretto-8.x.y.z-windows-x64-jdk.msi /qn",
+      "downloadUrl": "https://corretto.aws/downloads/latest/amazon-corretto-8-x64-windows-jdk.msi",
+      "psScriptUrl": "https://silentinstallhq.com/amazon-corretto-8-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

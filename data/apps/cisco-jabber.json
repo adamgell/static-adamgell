@@ -1,0 +1,22 @@
+{
+  "slug": "cisco-jabber",
+  "title": "Cisco Jabber",
+  "vendor": "Cisco Systems, Inc",
+  "sourceUrl": "https://silentinstallhq.com/cisco-jabber-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:01:17.531Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i CiscoJabberSetup.msi /qn",
+      "silentUninstall": "MsiExec.exe /x CiscoJabberSetup.msi /qn",
+      "repair": "MsiExec.exe /fa CiscoJabberSetup.msi /qn",
+      "downloadUrl": "https://www.webex.com/downloads/jabber.html",
+      "psScriptUrl": "https://silentinstallhq.com/cisco-jabber-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-cisco-jabber-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

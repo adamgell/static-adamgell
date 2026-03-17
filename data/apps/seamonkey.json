@@ -1,0 +1,34 @@
+{
+  "slug": "seamonkey",
+  "title": "SeaMonkey",
+  "vendor": "Mozilla",
+  "sourceUrl": "https://silentinstallhq.com/seamonkey-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:30:27.786Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "seamonkey-x.x.x.x.win32.installer.exe /S",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://www.seamonkey-project.org/releases/#official",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "seamonkey-x.x.x.x.win64.installer.exe /S",
+      "silentUninstall": "\"%ProgramFiles%\\SeaMonkey\\uninstall\\helper.exe\" /S",
+      "repair": null,
+      "downloadUrl": "https://www.seamonkey-project.org/releases/#official",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

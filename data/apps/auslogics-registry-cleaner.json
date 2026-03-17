@@ -2,8 +2,8 @@
   "slug": "auslogics-registry-cleaner",
   "title": "Auslogics Registry Cleaner",
   "vendor": "Auslogics Labs Pty Ltd",
-  "sourceUrl": "https://silentinstallhq.com/auslogics-registry-cleaner-silent-install-how-to-guide",
-  "lastScraped": "2026-03-16T23:54:15.112Z",
+  "sourceUrl": "https://silentinstallhq.com/auslogics-registry-cleaner-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T01:57:58.314Z",
   "variants": [
     {
       "architecture": "x86",
@@ -12,9 +12,9 @@
       "silentUninstall": "",
       "repair": null,
       "downloadUrl": "https://www.auslogics.com/software/registry-cleaner/after-download/?m=affiliate_paypro12292&utm_medium=affiliate&utm_source=paypro&utm_campaign=12292&coupon=ACTUAL15&sidstart",
-      "psScriptUrl": null,
-      "detectionScriptUrl": null,
-      "logInstall": "auslogics-registry-cleaner-setup.exe /VERYSILENT /NORESTART /LOG=\"%WINDIR%\\Temp\\RegistryCleaner-Install.log\"",
+      "psScriptUrl": "https://silentinstallhq.com/auslogics-registry-cleaner-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-auslogics-registry-cleaner-powershell/",
+      "logInstall": null,
       "logUninstall": null
     }
   ],

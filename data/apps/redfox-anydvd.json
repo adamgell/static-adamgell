@@ -1,0 +1,22 @@
+{
+  "slug": "redfox-anydvd",
+  "title": "RedFox AnyDVD",
+  "vendor": "RedFox",
+  "sourceUrl": "https://silentinstallhq.com/redfox-anydvd-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T01:57:19.092Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "SetupAnyDVDxxxx.exe /S",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://www.redfox.bz/download/SetupAnyDVD.exe",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

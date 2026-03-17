@@ -1,0 +1,22 @@
+{
+  "slug": "lav-filters",
+  "title": "LAV Filters",
+  "vendor": "Hendrik Leppkes",
+  "sourceUrl": "https://silentinstallhq.com/lav-filters-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:26:25.369Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "LAVFilters-x.y.z-Installer.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://github.com/Nevcairiel/LAVFilters/releases",
+      "psScriptUrl": "https://silentinstallhq.com/lav-filters-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-lav-filters-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

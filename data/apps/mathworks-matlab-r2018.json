@@ -1,0 +1,22 @@
+{
+  "slug": "mathworks-matlab-r2018",
+  "title": "MathWorks MATLAB R2018",
+  "vendor": "MathWorks",
+  "sourceUrl": "https://silentinstallhq.com/mathworks-matlab-r2018-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:26:52.758Z",
+  "variants": [
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "setup.exe -inputFile installer_input.txt -activationPropertiesFile activate.ini",
+      "silentUninstall": "\"%ProgramFiles%\\MATLAB\\R2018x\\uninstall\\bin\\win64\\uninstall.exe\" -mode silent",
+      "repair": null,
+      "downloadUrl": "https://www.mathworks.com/downloads",
+      "psScriptUrl": "https://silentinstallhq.com/mathworks-matlab-r2018-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

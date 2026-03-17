@@ -1,0 +1,34 @@
+{
+  "slug": "node-js",
+  "title": "Node.js",
+  "vendor": "Node.js Foundation",
+  "sourceUrl": "https://silentinstallhq.com/node-js-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:28:36.221Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i node-vxx.y.z-x86.msi /qn",
+      "silentUninstall": "MsiExec.exe /x node-vxx.y.z-x86.msi /qn",
+      "repair": "MsiExec.exe /fa node-vxx.y.z-x86.msi /qn",
+      "downloadUrl": "https://nodejs.org/en/download/",
+      "psScriptUrl": "https://silentinstallhq.com/node-js-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-node-js-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x64",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i node-vxx.y.z-x64.msi /qn",
+      "silentUninstall": "MsiExec.exe /x node-vxx.y.z-x64.msi /qn",
+      "repair": "MsiExec.exe /fa node-vxx.y.z-x64.msi /qn",
+      "downloadUrl": "https://nodejs.org/en/download/",
+      "psScriptUrl": "https://silentinstallhq.com/node-js-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-node-js-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

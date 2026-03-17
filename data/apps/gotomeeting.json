@@ -1,0 +1,22 @@
+{
+  "slug": "gotomeeting",
+  "title": "GoToMeeting",
+  "vendor": "LogMeIn, Inc.",
+  "sourceUrl": "https://silentinstallhq.com/gotomeeting-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:07:59.116Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i G2MSetupXX.XX.XXXXX_IT.msi G2MINSTALLFORALLUSERS=1 /qn",
+      "silentUninstall": "MsiExec.exe /x G2MSetupXX.XX.XXXXX_IT.msi /qn",
+      "repair": "MsiExec.exe /fa G2MSetupXX.XX.XXXXX_IT.msi G2MINSTALLFORALLUSERS=1 /qn",
+      "downloadUrl": "https://link.gotomeeting.com/latest-msi",
+      "psScriptUrl": "https://silentinstallhq.com/gotomeeting-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

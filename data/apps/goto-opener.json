@@ -1,0 +1,22 @@
+{
+  "slug": "goto-opener",
+  "title": "GoTo Opener",
+  "vendor": "LogMeIn, Inc.",
+  "sourceUrl": "https://silentinstallhq.com/goto-opener-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:07:57.590Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i GoToOpenerMultiUser.msi /qn",
+      "silentUninstall": "MsiExec.exe /x GoToOpenerMultiUser.msi /qn",
+      "repair": "MsiExec.exe /fa GoToOpenerMultiUser.msi /qn",
+      "downloadUrl": "https://meet.goto.com/openerbinaries/latest/GoToOpenerMultiUser.msi",
+      "psScriptUrl": "https://silentinstallhq.com/goto-opener-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-goto-opener-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

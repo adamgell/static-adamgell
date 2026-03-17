@@ -1,0 +1,22 @@
+{
+  "slug": "windows-admin-center-1809-5",
+  "title": "Windows Admin Center 1809.5",
+  "vendor": "Microsoft Corporation",
+  "sourceUrl": "https://silentinstallhq.com/windows-admin-center-1809-5-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:32:12.341Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i WindowsAdminCenter1809.5.msi SME_PORT=443 SSL_CERTIFICATE_OPTION=generate /qn",
+      "silentUninstall": "MsiExec.exe /x {4FAE3A2E-4369-490E-97F3-0B3BFF183AB9} /qn",
+      "repair": "MsiExec.exe /fa {4FAE3A2E-4369-490E-97F3-0B3BFF183AB9} /qn",
+      "downloadUrl": "http://aka.ms/WACDownload",
+      "psScriptUrl": "https://silentinstallhq.com/windows-admin-center-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

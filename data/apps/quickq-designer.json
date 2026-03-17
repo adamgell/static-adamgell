@@ -1,0 +1,22 @@
+{
+  "slug": "quickq-designer",
+  "title": "QuickQ Designer",
+  "vendor": "ChamSys Limited",
+  "sourceUrl": "https://silentinstallhq.com/quickq-designer-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:30:01.702Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "quickq_windows_vx.x.exe /S",
+      "silentUninstall": "\"%LocalAppData%\\ChamSys Ltd\\QuickQ Designer\\Uninstall.exe\" /S",
+      "repair": null,
+      "downloadUrl": "https://chamsyslighting.com/pages/quickq-downloads",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

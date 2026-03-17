@@ -1,0 +1,22 @@
+{
+  "slug": "mathcast",
+  "title": "MathCast",
+  "vendor": "Tomer Chakam",
+  "sourceUrl": "https://silentinstallhq.com/mathcast-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:26:51.029Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "\"MathCast 0.92.exe\" /S",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://sourceforge.net/projects/mathcast/files/mathcast/",
+      "psScriptUrl": "https://silentinstallhq.com/mathcast-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

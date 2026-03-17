@@ -1,0 +1,34 @@
+{
+  "slug": "winscp",
+  "title": "WinSCP",
+  "vendor": "Martin Prikryl",
+  "sourceUrl": "https://silentinstallhq.com/winscp-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:32:19.466Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "",
+      "silentInstall": "WinSCP-x.y.z-Setup.exe /VERYSILENT /NORESTART /ALLUSERS",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://winscp.net/eng/download.php",
+      "psScriptUrl": "https://silentinstallhq.com/winscp-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-winscp-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x86",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i WinSCP-x.y.z.msi /qn",
+      "silentUninstall": "MsiExec.exe /x WinSCP-x.y.z.msi /qn",
+      "repair": "MsiExec.exe /fa WinSCP-x.y.z.msi /qn",
+      "downloadUrl": "https://sourceforge.net/projects/winscp/files/WinSCP/",
+      "psScriptUrl": "https://silentinstallhq.com/winscp-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-winscp-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

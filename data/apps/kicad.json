@@ -1,0 +1,34 @@
+{
+  "slug": "kicad",
+  "title": "KiCad",
+  "vendor": "KiCad",
+  "sourceUrl": "https://silentinstallhq.com/kicad-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:26:20.151Z",
+  "variants": [
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "kicad-x.y.z-x86_64.exe /allusers /S",
+      "silentUninstall": "\"%ProgramFiles%\\KiCad\\x.y\\uninstaller.exe\" /allusers /S",
+      "repair": null,
+      "downloadUrl": "https://downloads.kicad.org/kicad/windows/explore/stable",
+      "psScriptUrl": "https://silentinstallhq.com/kicad-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-kicad-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "kicad-x.y.z-i686.exe /S",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://downloads.kicad.org/kicad/windows/explore/stable",
+      "psScriptUrl": "https://silentinstallhq.com/kicad-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-kicad-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

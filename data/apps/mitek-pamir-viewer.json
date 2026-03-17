@@ -1,0 +1,22 @@
+{
+  "slug": "mitek-pamir-viewer",
+  "title": "MiTek Pamir Viewer",
+  "vendor": "MiTek",
+  "sourceUrl": "https://silentinstallhq.com/mitek-pamir-viewer-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:28:04.020Z",
+  "variants": [
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "PamirViewerSetupx.y.exe /i /q /noreboot",
+      "silentUninstall": "PamirViewerSetupx.y.exe /x /q /noreboot",
+      "repair": null,
+      "downloadUrl": "https://resources.csce.se/downloads/pamirviewer",
+      "psScriptUrl": "https://silentinstallhq.com/mitek-pamir-viewer-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

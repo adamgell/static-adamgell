@@ -1,0 +1,22 @@
+{
+  "slug": "s3-browser",
+  "title": "S3 Browser",
+  "vendor": "NetSDK Software",
+  "sourceUrl": "https://silentinstallhq.com/s3-browser-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:30:19.526Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "s3browser-x-y-z.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "\"%ProgramFiles%\\S3 Browser\\unins000.exe\" /VERYSILENT /NORESTART",
+      "repair": null,
+      "downloadUrl": "https://s3browser.com/",
+      "psScriptUrl": "https://silentinstallhq.com/s3-browser-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-s3-browser-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "microsoft-analysis-services-ole-db-provider-msolap",
+  "title": "Microsoft Analysis Services OLE DB Provider (MSOLAP)",
+  "vendor": "Microsoft Corporation",
+  "sourceUrl": "https://silentinstallhq.com/microsoft-analysis-services-ole-db-provider-msolap-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:27:05.015Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i x86_xx.x.xxxx.xxx_SQL_AS_OLEDB.msi /qn",
+      "silentUninstall": "MsiExec.exe /x x86_xx.x.xxxx.xxx_SQL_AS_OLEDB.msi /qn",
+      "repair": "MsiExec.exe /fa x86_xx.x.xxxx.xxx_SQL_AS_OLEDB.msi /qn",
+      "downloadUrl": "https://go.microsoft.com/fwlink/?linkid=829575",
+      "psScriptUrl": "https://silentinstallhq.com/microsoft-analysis-services-ole-db-provider-msolap-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x64",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i x64_xx.x.xxxx.xxx_SQL_AS_OLEDB.msi /qn",
+      "silentUninstall": "MsiExec.exe /x x64_xx.x.xxxx.xxx_SQL_AS_OLEDB.msi /qn",
+      "repair": "MsiExec.exe /fa x64_xx.x.xxxx.xxx_SQL_AS_OLEDB.msi /qn",
+      "downloadUrl": "https://go.microsoft.com/fwlink/?linkid=829576",
+      "psScriptUrl": "https://silentinstallhq.com/microsoft-analysis-services-ole-db-provider-msolap-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

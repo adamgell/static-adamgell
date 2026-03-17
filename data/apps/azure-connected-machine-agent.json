@@ -8,9 +8,9 @@
     {
       "architecture": "x64",
       "installerType": "MSI",
-      "silentInstall": "**MsiExec.exe /i AzureConnectedMachineAgent.msi /qn**",
-      "silentUninstall": "**MsiExec.exe /x AzureConnectedMachineAgent.msi /qn**",
-      "repair": "**MsiExec.exe /fa AzureConnectedMachineAgent.msi /qn**",
+      "silentInstall": "MsiExec.exe /i AzureConnectedMachineAgent.msi /qn",
+      "silentUninstall": "MsiExec.exe /x AzureConnectedMachineAgent.msi /qn",
+      "repair": "MsiExec.exe /fa AzureConnectedMachineAgent.msi /qn",
       "downloadUrl": "https://aka.ms/AzureConnectedMachineAgent",
       "psScriptUrl": null,
       "detectionScriptUrl": null,

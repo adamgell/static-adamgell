@@ -1,0 +1,22 @@
+{
+  "slug": "texworks",
+  "title": "TeXworks",
+  "vendor": "TeX Users Group",
+  "sourceUrl": "https://silentinstallhq.com/texworks-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:31:24.146Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "TeXworks-win-setup-x.y.z.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://github.com/TeXworks/texworks/releases",
+      "psScriptUrl": "https://silentinstallhq.com/texworks-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-texworks-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

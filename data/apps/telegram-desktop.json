@@ -1,0 +1,22 @@
+{
+  "slug": "telegram-desktop",
+  "title": "Telegram Desktop",
+  "vendor": "Telegram FZ-LLC",
+  "sourceUrl": "https://silentinstallhq.com/telegram-desktop-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:31:20.457Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "tsetup.x.y.z.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "\"%AppData%\\Telegram Desktop\\unins000.exe\" /VERYSILENT /NORESTART",
+      "repair": null,
+      "downloadUrl": "https://telegram.org/dl/desktop/win",
+      "psScriptUrl": "https://silentinstallhq.com/telegram-desktop-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-telegram-desktop-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

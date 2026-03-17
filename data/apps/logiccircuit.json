@@ -1,0 +1,22 @@
+{
+  "slug": "logiccircuit",
+  "title": "LogicCircuit",
+  "vendor": "LogicCircuit",
+  "sourceUrl": "https://silentinstallhq.com/logiccircuit-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:26:40.915Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i LogicCircuitSetup.msi /qn",
+      "silentUninstall": "MsiExec.exe /x LogicCircuitSetup.msi /qn",
+      "repair": "MsiExec.exe /fa LogicCircuitSetup.msi /qn",
+      "downloadUrl": "https://www.logiccircuit.org/downloads/",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "logmein-rescue-technician-console",
+  "title": "LogMeIn Rescue Technician Console",
+  "vendor": "LogMeIn, Inc.",
+  "sourceUrl": "https://silentinstallhq.com/logmein-rescue-technician-console-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:26:45.100Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i LogMeInRescueTechnicianConsoleApp.msi /qn",
+      "silentUninstall": "MsiExec.exe /x LogMeInRescueTechnicianConsoleApp.msi /qn",
+      "repair": "MsiExec.exe /fa LogMeInRescueTechnicianConsoleApp.msi /qn",
+      "downloadUrl": "https://secure.logmeinrescue.com/TechConsole/DesktopApp/Download.aspx",
+      "psScriptUrl": "https://silentinstallhq.com/logmein-rescue-technician-console-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

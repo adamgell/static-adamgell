@@ -1,0 +1,22 @@
+{
+  "slug": "artisteer",
+  "title": "Artisteer",
+  "vendor": "Extensoft",
+  "sourceUrl": "https://silentinstallhq.com/artisteer-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T01:57:38.675Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "Artisteer.4.x.y.z.exe /silent",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "http://www.artisteer.com/?p=download_step2",
+      "psScriptUrl": "https://silentinstallhq.com/artisteer-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

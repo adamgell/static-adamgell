@@ -1,0 +1,34 @@
+{
+  "slug": "teamspeak",
+  "title": "TeamSpeak",
+  "vendor": "TeamSpeak Systems GmbH",
+  "sourceUrl": "https://silentinstallhq.com/teamspeak-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:31:09.955Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "TeamSpeak3-Client-win32-3.x.x.exe /S",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://files.teamspeak-services.com/releases/client/",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "TeamSpeak3-Client-win64-3.x.x.exe /S",
+      "silentUninstall": "\"%ProgramFiles%\\TeamSpeak 3 Client\\uninstall.exe\" /S",
+      "repair": null,
+      "downloadUrl": "https://files.teamspeak-services.com/releases/client/",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

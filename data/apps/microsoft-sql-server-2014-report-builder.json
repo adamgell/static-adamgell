@@ -1,0 +1,22 @@
+{
+  "slug": "microsoft-sql-server-2014-report-builder",
+  "title": "Microsoft SQL Server 2014 Report Builder",
+  "vendor": "Microsoft Corporation",
+  "sourceUrl": "https://silentinstallhq.com/microsoft-sql-server-2014-report-builder-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:27:48.800Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i ReportBuilder3.msi /qn",
+      "silentUninstall": "MsiExec.exe /x {35D2D56F-52DD-4463-95B4-A73FE6FA7C28} /qn",
+      "repair": "MsiExec.exe /fa {35D2D56F-52DD-4463-95B4-A73FE6FA7C28} /qn",
+      "downloadUrl": "https://www.microsoft.com/en-us/download/details.aspx?id=42301",
+      "psScriptUrl": "https://silentinstallhq.com/microsoft-sql-server-2014-report-builder-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-microsoft-sql-server-2014-report-builder-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

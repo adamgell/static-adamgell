@@ -1,0 +1,34 @@
+{
+  "slug": "cyberduck",
+  "title": "Cyberduck",
+  "vendor": "iterate GmbH",
+  "sourceUrl": "https://silentinstallhq.com/cyberduck-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:02:26.959Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "Cyberduck-Installer-x.y.z.exe /install /quiet /norestart",
+      "silentUninstall": "Cyberduck-Installer-x.y.z.exe /uninstall /quiet /norestart",
+      "repair": "Cyberduck-Installer-x.y.z.exe /repair /quiet /norestart",
+      "downloadUrl": "https://cyberduck.io/changelog/",
+      "psScriptUrl": "https://silentinstallhq.com/cyberduck-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-cyberduck-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x86/x64",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i Cyberduck-Installer-x.y.z.msi /qn",
+      "silentUninstall": "MsiExec.exe /x Cyberduck-Installer-x.y.z.msi /qn",
+      "repair": "MsiExec.exe /fa Cyberduck-Installer-x.y.z.msi /qn",
+      "downloadUrl": "https://cyberduck.io/changelog/",
+      "psScriptUrl": "https://silentinstallhq.com/cyberduck-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-cyberduck-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

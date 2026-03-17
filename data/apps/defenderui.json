@@ -8,13 +8,13 @@
     {
       "architecture": "x64",
       "installerType": "EXE",
-      "silentInstall": "**InstallDefenderUI.exe /VERYSILENT /NORESTART**",
-      "silentUninstall": "**\"%ProgramFiles%\\DefenderUI\\unins000.exe\" /VERYSILENT /NORESTART**",
+      "silentInstall": "InstallDefenderUI.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "\"%ProgramFiles%\\DefenderUI\\unins000.exe\" /VERYSILENT /NORESTART",
       "repair": null,
       "downloadUrl": "https://www.cyberlock.tech/downloads/InstallDefenderUI.exe",
       "psScriptUrl": null,
       "detectionScriptUrl": null,
-      "logInstall": "**InstallDefenderUI.exe /VERYSILENT /NORESTART /LOG=\"%WINDIR%\\Temp\\DefenderUI-Install.log\"**",
+      "logInstall": "InstallDefenderUI.exe /VERYSILENT /NORESTART /LOG=\"%WINDIR%\\Temp\\DefenderUI-Install.log\"",
       "logUninstall": null
     }
   ]

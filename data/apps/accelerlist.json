@@ -1,0 +1,22 @@
+{
+  "slug": "accelerlist",
+  "title": "Accelerlist",
+  "vendor": "Accelerlist",
+  "sourceUrl": "https://silentinstallhq.com/accelerlist-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T01:55:33.455Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "Accelerlist-win-1.0.0.exe /S",
+      "silentUninstall": "\"%LocalAppData%\\Programs\\accelerlist\\Uninstall Accelerlist.exe\" /S",
+      "repair": null,
+      "downloadUrl": "https://www.accelerlist.com/",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

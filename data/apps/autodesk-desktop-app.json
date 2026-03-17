@@ -1,0 +1,22 @@
+{
+  "slug": "autodesk-desktop-app",
+  "title": "Autodesk Desktop App",
+  "vendor": "Autodesk",
+  "sourceUrl": "https://silentinstallhq.com/autodesk-desktop-app-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T01:58:37.569Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "AdApplicationManager-installer.exe --mode unattended",
+      "silentUninstall": "\"%ProgramFiles(x86)%\\Autodesk\\Autodesk Desktop App\\removeAdAppMgr.exe\" --mode unattended",
+      "repair": null,
+      "downloadUrl": "https://emsfs.autodesk.com/utility/wingman/installer/8_5_0_17/AdApplicationManager-installer.exe",
+      "psScriptUrl": "https://silentinstallhq.com/autodesk-desktop-app-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-the-autodesk-desktop-app-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

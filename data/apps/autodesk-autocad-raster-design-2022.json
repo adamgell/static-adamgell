@@ -1,0 +1,22 @@
+{
+  "slug": "autodesk-autocad-raster-design-2022",
+  "title": "Autodesk AutoCAD Raster Design 2022",
+  "vendor": "Autodesk",
+  "sourceUrl": "https://silentinstallhq.com/autodesk-autocad-raster-design-2022-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T01:58:25.484Z",
+  "variants": [
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "Setup.exe -q",
+      "silentUninstall": "\"%ProgramFiles%\\Autodesk\\AdODIS\\V1\\Installer.exe\" -i uninstall -q -m C:\\ProgramData\\Autodesk\\ODIS\\metadata\\{1A008B84-B302-3FAB-AD26-D598D5D2660D}\\bundleManifest.xml",
+      "repair": null,
+      "downloadUrl": "https://www.autodesk.com/products/autocad/included-toolsets/autocad-raster-design",
+      "psScriptUrl": "https://silentinstallhq.com/autodesk-autocad-raster-design-2022-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

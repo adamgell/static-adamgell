@@ -8,9 +8,9 @@
     {
       "architecture": "x64",
       "installerType": "MSI",
-      "silentInstall": "**MsiExec.exe /i BlueJ-windows-xxx.msi ALLUSERS=1 /qn**",
-      "silentUninstall": "**MsiExec.exe /x BlueJ-windows-xxx.msi /qn**",
-      "repair": "**MsiExec.exe /fa BlueJ-windows-xxx.msi /qn**",
+      "silentInstall": "MsiExec.exe /i BlueJ-windows-xxx.msi ALLUSERS=1 /qn",
+      "silentUninstall": "MsiExec.exe /x BlueJ-windows-xxx.msi /qn",
+      "repair": "MsiExec.exe /fa BlueJ-windows-xxx.msi /qn",
       "downloadUrl": "https://www.bluej.org/",
       "psScriptUrl": null,
       "detectionScriptUrl": null,

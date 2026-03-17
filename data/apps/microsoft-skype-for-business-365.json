@@ -1,0 +1,22 @@
+{
+  "slug": "microsoft-skype-for-business-365",
+  "title": "Microsoft Skype for Business 365",
+  "vendor": "Microsoft Corporation",
+  "sourceUrl": "https://silentinstallhq.com/microsoft-skype-for-business-365-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:27:45.418Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "setup.exe /configure SkypeforBusiness365.xml",
+      "silentUninstall": "setup.exe /configure SkypeforBusiness365_Uninstall.xml",
+      "repair": null,
+      "downloadUrl": "https://www.microsoft.com/en-us/download/details.aspx?id=49117",
+      "psScriptUrl": "https://silentinstallhq.com/microsoft-skype-for-business-365-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

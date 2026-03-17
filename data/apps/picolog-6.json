@@ -1,0 +1,22 @@
+{
+  "slug": "picolog-6",
+  "title": "PicoLog 6",
+  "vendor": "Pico Technology",
+  "sourceUrl": "https://silentinstallhq.com/picolog-6-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:29:31.090Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "picolog-setup-x.y.z.exe /allusers /S",
+      "silentUninstall": "\"%ProgramFiles%\\Pico Technology\\PicoLog\\Uninstall PicoLog.exe\" /allusers /S",
+      "repair": null,
+      "downloadUrl": "https://www.picotech.com/downloads/_lightbox/picolog-6-for-windows",
+      "psScriptUrl": "https://silentinstallhq.com/picolog-6-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

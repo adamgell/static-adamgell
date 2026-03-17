@@ -1,0 +1,22 @@
+{
+  "slug": "dbeaver",
+  "title": "DBeaver",
+  "vendor": "DBeaver Corp",
+  "sourceUrl": "https://silentinstallhq.com/dbeaver-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:02:42.053Z",
+  "variants": [
+    {
+      "architecture": "x64",
+      "installerType": "",
+      "silentInstall": "dbeaver-ce-x.y.z-x86_64-setup.exe /allusers /S",
+      "silentUninstall": "\"%ProgramFiles%\\DBeaver\\Uninstall.exe\" /allusers /S",
+      "repair": null,
+      "downloadUrl": "https://dbeaver.io/files/dbeaver-ce-latest-x86_64-setup.exe",
+      "psScriptUrl": "https://silentinstallhq.com/dbeaver-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-dbeaver-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

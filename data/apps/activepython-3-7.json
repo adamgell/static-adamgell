@@ -1,0 +1,22 @@
+{
+  "slug": "activepython-3-7",
+  "title": "ActivePython 3.7",
+  "vendor": "ActiveState",
+  "sourceUrl": "https://silentinstallhq.com/activepython-3-7-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T01:55:38.017Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i ActivePython-3.7.msi /qn",
+      "silentUninstall": "MsiExec.exe /x ActivePython-3.7.msi /qn",
+      "repair": "MsiExec.exe /fa ActivePython-3.7.msi /qn",
+      "downloadUrl": "https://cli-msi.s3.amazonaws.com/ActivePython-3.7.msi",
+      "psScriptUrl": "https://silentinstallhq.com/activepython-3-7-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

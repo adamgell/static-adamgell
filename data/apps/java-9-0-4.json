@@ -1,0 +1,34 @@
+{
+  "slug": "java-9-0-4",
+  "title": "Java 9.0.4",
+  "vendor": "Oracle Corporation",
+  "sourceUrl": "https://silentinstallhq.com/java-9-0-4-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:26:13.572Z",
+  "variants": [
+    {
+      "architecture": "x64",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i jre9.0.4full64.msi /qn",
+      "silentUninstall": "MsiExec.exe /x {885A3911-0760-5252-92C2-001B92997DEA} /qn",
+      "repair": "MsiExec.exe /fa {885A3911-0760-5252-92C2-001B92997DEA} /qn",
+      "downloadUrl": "https://download.oracle.com/otn/java/jdk/9.0.4+11/c2514751926b4512b076cc82f959763f/jre-9.0.4_windows-x64_bin.exe",
+      "psScriptUrl": null,
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-java-9-runtime-environment-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x64",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i jdk9.0.464.msi /qn",
+      "silentUninstall": "MsiExec.exe /x {1EF87463-0B0F-5B2A-B167-22B5CD371ACD} /qn",
+      "repair": "MsiExec.exe /fa {1EF87463-0B0F-5B2A-B167-22B5CD371ACD} /qn",
+      "downloadUrl": "https://download.oracle.com/otn/java/jdk/9.0.4+11/c2514751926b4512b076cc82f959763f/jdk-9.0.4_windows-x64_bin.exe",
+      "psScriptUrl": null,
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-java-9-development-kit-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

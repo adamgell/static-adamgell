@@ -2,8 +2,8 @@
   "slug": "wireguard",
   "title": "WireGuard",
   "vendor": "WireGuard LLC",
-  "sourceUrl": "https://silentinstallhq.com/wireguard-silent-install-how-to-guide",
-  "lastScraped": "2026-03-16T22:28:32.738Z",
+  "sourceUrl": "https://silentinstallhq.com/wireguard-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:32:21.999Z",
   "variants": [
     {
       "architecture": "x86",

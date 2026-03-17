@@ -1,0 +1,22 @@
+{
+  "slug": "tableau-reader",
+  "title": "Tableau Reader",
+  "vendor": "Tableau Software, LLC",
+  "sourceUrl": "https://silentinstallhq.com/tableau-reader-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:31:07.241Z",
+  "variants": [
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "TableauReader-64bit-20xx-x-x.exe /install /quiet /norestart ACCEPTEULA=1",
+      "silentUninstall": "TableauReader-64bit-20xx-x-x.exe /uninstall /quiet /norestart",
+      "repair": "TableauReader-64bit-20xx-x-x.exe /repair /quiet /norestart",
+      "downloadUrl": "https://www.tableau.com/products/reader/download",
+      "psScriptUrl": "https://silentinstallhq.com/tableau-reader-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

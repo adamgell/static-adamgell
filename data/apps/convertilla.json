@@ -8,13 +8,13 @@
     {
       "architecture": "x86",
       "installerType": "EXE",
-      "silentInstall": "**convertilla.exe /VERYSILENT /NORESTART**",
+      "silentInstall": "convertilla.exe /VERYSILENT /NORESTART",
       "silentUninstall": "",
       "repair": null,
       "downloadUrl": "https://convertilla.com/download/convertilla.exe",
       "psScriptUrl": null,
       "detectionScriptUrl": null,
-      "logInstall": "**convertilla.exe /VERYSILENT /NORESTART /LOG=\"%WINDIR%\\Temp\\Convertilla-Install.log\"**",
+      "logInstall": "convertilla.exe /VERYSILENT /NORESTART /LOG=\"%WINDIR%\\Temp\\Convertilla-Install.log\"",
       "logUninstall": null
     }
   ]

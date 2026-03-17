@@ -1,0 +1,34 @@
+{
+  "slug": "todoist",
+  "title": "Todoist",
+  "vendor": "Doist Ltd.",
+  "sourceUrl": "https://silentinstallhq.com/todoist-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:31:27.601Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "Todoist-x.y.z.exe /S",
+      "silentUninstall": "\"%LocalAppData%\\Programs\\todoist\\Uninstall Todoist.exe\" /S",
+      "repair": null,
+      "downloadUrl": "https://todoist.com/windows_app",
+      "psScriptUrl": "https://silentinstallhq.com/todoist-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-todoist-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "Todoist_for_Windows_Desktop_x_y_z.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "\"%LocalAppData%\\Todoist\\WindowsDesktopApp\\unins000.exe\" /VERYSILENT /NORESTART",
+      "repair": null,
+      "downloadUrl": "https://d2092e1xll5m4f.cloudfront.net/Todoist_for_Windows_Desktop_2_7_6.exe",
+      "psScriptUrl": "https://silentinstallhq.com/todoist-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-todoist-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

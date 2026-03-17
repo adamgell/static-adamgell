@@ -1,0 +1,34 @@
+{
+  "slug": "omegat",
+  "title": "OmegaT",
+  "vendor": "OmegaT",
+  "sourceUrl": "https://silentinstallhq.com/omegat-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:28:52.499Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "OmegaT_x.y.z_Windows_Signed.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://omegat.org/download",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "OmegaT_x.y.z_Windows_64_Signed.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "\"%ProgramFiles%\\OmegaT\\unins000.exe\" /VERYSILENT /NORESTART",
+      "repair": null,
+      "downloadUrl": "https://omegat.org/download",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "stamps-com-software",
+  "title": "Stamps.com Software",
+  "vendor": "Stamps.com, Inc.",
+  "sourceUrl": "https://silentinstallhq.com/stamps-com-software-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:30:53.535Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "stamps.exe /s",
+      "silentUninstall": "stamps.exe REMOVE=TRUE MODIFY=FALSE /s",
+      "repair": null,
+      "downloadUrl": "https://www.stamps.com/download/",
+      "psScriptUrl": "https://silentinstallhq.com/stamps-com-software-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "stamps64.exe /s",
+      "silentUninstall": "stamps64.exe REMOVE=TRUE MODIFY=FALSE /s",
+      "repair": null,
+      "downloadUrl": "https://www.stamps.com/download/",
+      "psScriptUrl": "https://silentinstallhq.com/stamps-com-software-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "java-14",
+  "title": "Java 14",
+  "vendor": "Oracle Corporation",
+  "sourceUrl": "https://silentinstallhq.com/java-14-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:17:07.068Z",
+  "variants": [
+    {
+      "architecture": "x64",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i jdk1464.msi /qn",
+      "silentUninstall": "MsiExec.exe /x {3552AC04-4EFC-51F1-AA92-9D1A99E02C95} /qn",
+      "repair": "MsiExec.exe /fa {3552AC04-4EFC-51F1-AA92-9D1A99E02C95} /qn",
+      "downloadUrl": "https://download.oracle.com/otn/java/jdk/14+36/076bab302c7b4508975440c56f6cc26a/jdk-14_windows-x64_bin.exe",
+      "psScriptUrl": null,
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-java-14-development-kit-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

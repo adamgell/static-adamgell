@@ -1,0 +1,22 @@
+{
+  "slug": "microsoft-report-builder",
+  "title": "Microsoft Report Builder",
+  "vendor": "Microsoft Corporation",
+  "sourceUrl": "https://silentinstallhq.com/microsoft-report-builder-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:27:42.675Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i ReportBuilder.msi /qn",
+      "silentUninstall": "MsiExec.exe /x ReportBuilder.msi /qn",
+      "repair": "MsiExec.exe /fa ReportBuilder.msi /qn",
+      "downloadUrl": "https://www.microsoft.com/en-us/download/details.aspx?id=53613",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

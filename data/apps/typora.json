@@ -1,0 +1,34 @@
+{
+  "slug": "typora",
+  "title": "Typora",
+  "vendor": "Typora.io",
+  "sourceUrl": "https://silentinstallhq.com/typora-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:31:32.734Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "typora-setup-ia32.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://typora.io/#windows",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "typora-setup-x64.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "\"%ProgramFiles%\\Typora\\unins000.exe\" /VERYSILENT /NORESTART",
+      "repair": null,
+      "downloadUrl": "https://typora.io/#windows",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

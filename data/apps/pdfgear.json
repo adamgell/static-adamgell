@@ -6,7 +6,7 @@
   "lastScraped": "2026-03-16T22:26:29.647Z",
   "variants": [
     {
-      "architecture": "x86\\_x64",
+      "architecture": "x86/x64",
       "installerType": "EXE",
       "silentInstall": "pdfgear_setup_x.y.z.exe /VERYSILENT /NORESTART",
       "silentUninstall": "\"%ProgramFiles%\\PDFgear\\unins000.exe\" /VERYSILENT /NORESTART",

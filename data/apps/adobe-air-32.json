@@ -1,0 +1,22 @@
+{
+  "slug": "adobe-air-32",
+  "title": "Adobe AIR 32",
+  "vendor": "Adobe",
+  "sourceUrl": "https://silentinstallhq.com/adobe-air-32-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T01:56:09.671Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "AdobeAIRInstaller.exe -silent -eulaAccepted",
+      "silentUninstall": "MsiExec.exe /x {10E33ABF-D7FB-4F47-900A-7973854AB45A} /qn",
+      "repair": null,
+      "downloadUrl": "https://airdownload.adobe.com/air/win/download/32.0/AdobeAIRInstaller.exe",
+      "psScriptUrl": "https://silentinstallhq.com/adobe-air-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-adobe-air-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

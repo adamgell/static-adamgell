@@ -1,0 +1,34 @@
+{
+  "slug": "winzip-23-0",
+  "title": "WinZip 23.0",
+  "vendor": "Corel Corporation",
+  "sourceUrl": "https://silentinstallhq.com/winzip-23-0-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:32:19.988Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i winzip230-32.msi /qn",
+      "silentUninstall": "MsiExec.exe /x {CD95F661-A5C4-44F5-A6AA-ECDD91C2411E} SHOW_WEBPAGE=0 /qn",
+      "repair": null,
+      "downloadUrl": null,
+      "psScriptUrl": "https://silentinstallhq.com/winzip-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-winzip-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x64",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i winzip230-64.msi /qn",
+      "silentUninstall": "MsiExec.exe /x {CD95F661-A5C4-44F5-A6AA-ECDD91C2411F} SHOW_WEBPAGE=0 /qn",
+      "repair": null,
+      "downloadUrl": null,
+      "psScriptUrl": "https://silentinstallhq.com/winzip-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-winzip-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

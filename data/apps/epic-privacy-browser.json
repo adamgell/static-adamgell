@@ -1,0 +1,22 @@
+{
+  "slug": "epic-privacy-browser",
+  "title": "Epic Privacy Browser",
+  "vendor": "Hidden Reflex",
+  "sourceUrl": "https://silentinstallhq.com/epic-privacy-browser-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:05:14.494Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "epicsetup.exe /silent /install",
+      "silentUninstall": "\"%LocalAppData%\\Epic Privacy Browser\\Application\\xx.x.xxxx.xxx\\Installer\\setup.exe\" --uninstall --force-uninstall",
+      "repair": null,
+      "downloadUrl": "https://cdn.epicbrowser.com/epicsetup.exe",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

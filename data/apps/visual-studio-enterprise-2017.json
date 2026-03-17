@@ -1,0 +1,22 @@
+{
+  "slug": "visual-studio-enterprise-2017",
+  "title": "Visual Studio Enterprise 2017",
+  "vendor": "Microsoft Corporation",
+  "sourceUrl": "https://silentinstallhq.com/visual-studio-enterprise-2017-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:31:51.973Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "vs_setup.exe --nocache --wait --noUpdateInstaller --noWeb --allWorkloads --includeRecommended --includeOptional --quiet --norestart --productKey AAAAABBBBBCCCCCDDDDDEEEEE",
+      "silentUninstall": "vs_setup.exe uninstall --installPath \"C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Enterprise\" --quiet --norestart",
+      "repair": null,
+      "downloadUrl": "https://aka.ms/vs/15/release/vs_Enterprise.exe",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

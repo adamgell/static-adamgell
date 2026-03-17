@@ -1,0 +1,22 @@
+{
+  "slug": "nxlog-community-edition",
+  "title": "NXLog Community Edition",
+  "vendor": "NXLog Ltd",
+  "sourceUrl": "https://silentinstallhq.com/nxlog-community-edition-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:28:51.251Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i nxlog-ce-x.y.z.msi /qn",
+      "silentUninstall": "MsiExec.exe /x nxlog-ce-x.y.z.msi /qn",
+      "repair": "MsiExec.exe /fa nxlog-ce-x.y.z.msi /qn",
+      "downloadUrl": "https://nxlog.co/products/nxlog-community-edition/download",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

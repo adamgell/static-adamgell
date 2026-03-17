@@ -1,0 +1,22 @@
+{
+  "slug": "brave-browser",
+  "title": "Brave Browser",
+  "vendor": "Brave Software Inc",
+  "sourceUrl": "https://silentinstallhq.com/brave-browser-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:00:42.850Z",
+  "variants": [
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "brave_installer-x64.exe --install --silent --system-level",
+      "silentUninstall": "\"%ProgramFiles%\\BraveSoftware\\Brave-Browser\\Application\\w.x.y.z\\Installer\\setup.exe\" --uninstall --system-level --force-uninstall",
+      "repair": null,
+      "downloadUrl": "https://brave-browser-downloads.s3.brave.com/latest/brave_installer-x64.exe",
+      "psScriptUrl": "https://silentinstallhq.com/brave-browser-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-brave-browser-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

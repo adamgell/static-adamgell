@@ -1,0 +1,22 @@
+{
+  "slug": "pixillion-image-converter",
+  "title": "Pixillion Image Converter",
+  "vendor": "NCH Software",
+  "sourceUrl": "https://silentinstallhq.com/pixillion-image-converter-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:29:34.178Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "PixillionImageConverter.exe -LQUIET",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://www.nchsoftware.com/imageconverter/index.html",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

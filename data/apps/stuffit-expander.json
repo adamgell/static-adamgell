@@ -1,0 +1,22 @@
+{
+  "slug": "stuffit-expander",
+  "title": "StuffIt Expander",
+  "vendor": "Smith Micro Software, Inc.",
+  "sourceUrl": "https://silentinstallhq.com/stuffit-expander-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:30:57.492Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "StuffItExpanderx86_x64_XXXX.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://www.stuffit.com/#downloads",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

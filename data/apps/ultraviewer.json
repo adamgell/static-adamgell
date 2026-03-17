@@ -1,0 +1,22 @@
+{
+  "slug": "ultraviewer",
+  "title": "UltraViewer",
+  "vendor": "DucFabulous",
+  "sourceUrl": "https://silentinstallhq.com/ultraviewer-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:31:35.721Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "UltraViewer_setup_x.x_en.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://ultraviewer.net/en/download.html",
+      "psScriptUrl": "https://silentinstallhq.com/ultraviewer-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-ultraviewer-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

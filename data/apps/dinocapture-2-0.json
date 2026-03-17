@@ -1,0 +1,22 @@
+{
+  "slug": "dinocapture-2-0",
+  "title": "DinoCapture 2.0",
+  "vendor": "AnMo Electronics Corporation",
+  "sourceUrl": "https://silentinstallhq.com/dinocapture-2-0-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:03:13.772Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "dnc2_x.y.z_U.exe /s /f1\".\\install.iss\"",
+      "silentUninstall": "See Uninstall Section Below",
+      "repair": null,
+      "downloadUrl": "https://www.dino-lite.com/download01.php",
+      "psScriptUrl": "https://silentinstallhq.com/dinocapture-2-0-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

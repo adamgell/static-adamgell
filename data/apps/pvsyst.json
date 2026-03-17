@@ -1,0 +1,22 @@
+{
+  "slug": "pvsyst",
+  "title": "PVsyst",
+  "vendor": "PVsyst SA",
+  "sourceUrl": "https://silentinstallhq.com/pvsyst-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:29:54.561Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "PVsyst-w.x.y.z-setup.exe /exenoui /qn",
+      "silentUninstall": "MsiExec.exe /x {8B3B7808-1A9B-43E0-8C84-0F1581542F67} /qn REBOOT=ReallySuppress AI_UNINSTALLER_CTP=1",
+      "repair": null,
+      "downloadUrl": "https://www.pvsyst.com/download-pvsyst/",
+      "psScriptUrl": "https://silentinstallhq.com/pvsyst-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

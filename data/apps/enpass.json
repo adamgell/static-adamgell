@@ -1,0 +1,22 @@
+{
+  "slug": "enpass",
+  "title": "Enpass Password Manager",
+  "vendor": "Enpass Technologies Inc.",
+  "sourceUrl": "https://silentinstallhq.com/enpass-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:05:09.982Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "Enpass-setup.exe /install /quiet /norestart",
+      "silentUninstall": "Enpass-setup.exe /uninstall /quiet /norestart",
+      "repair": "Enpass-setup.exe /repair /quiet /norestart",
+      "downloadUrl": "https://www.enpass.io/downloads/",
+      "psScriptUrl": "https://silentinstallhq.com/enpass-password-manager-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

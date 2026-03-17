@@ -1,0 +1,22 @@
+{
+  "slug": "switch-audio-file-converter",
+  "title": "Switch Audio File Converter",
+  "vendor": "NCH Software",
+  "sourceUrl": "https://silentinstallhq.com/switch-audio-file-converter-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:31:03.317Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "SwitchAudioFileConverter.exe -LQUIET",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://www.nch.com.au/switch/index.html",
+      "psScriptUrl": "https://silentinstallhq.com/switch-audio-file-converter-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

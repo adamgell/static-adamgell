@@ -1,9 +1,9 @@
 {
   "slug": "adobe-reader-dc",
-  "title": "Adobe Acrobat Reader DC",
+  "title": "Adobe Reader DC",
   "vendor": "Adobe Systems Incorporated",
-  "sourceUrl": "https://silentinstallhq.com/adobe-reader-dc-silent-install-how-to-guide",
-  "lastScraped": "2026-03-16T23:49:43.730Z",
+  "sourceUrl": "https://silentinstallhq.com/adobe-reader-dc-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T01:56:26.284Z",
   "variants": [
     {
       "architecture": "x86",
@@ -12,8 +12,8 @@
       "silentUninstall": "MsiExec.exe /x {AC76BA86-7AD7-1033-7B44-AC0F074E4100} /qn",
       "repair": "MsiExec.exe /fa {AC76BA86-7AD7-1033-7B44-AC0F074E4100} /qn",
       "downloadUrl": null,
-      "psScriptUrl": null,
-      "detectionScriptUrl": null,
+      "psScriptUrl": "https://silentinstallhq.com/adobe-reader-dc-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-adobe-reader-dc-powershell/",
       "logInstall": null,
       "logUninstall": null
     },
@@ -24,8 +24,8 @@
       "silentUninstall": "MsiExec.exe /x {AC76BA86-7AD7-1033-7B44-AC0F074E4100} /qn",
       "repair": "MsiExec.exe /fa {AC76BA86-7AD7-1033-7B44-AC0F074E4100} /qn",
       "downloadUrl": null,
-      "psScriptUrl": null,
-      "detectionScriptUrl": null,
+      "psScriptUrl": "https://silentinstallhq.com/adobe-reader-dc-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-adobe-reader-dc-powershell/",
       "logInstall": null,
       "logUninstall": null
     }

@@ -1,0 +1,22 @@
+{
+  "slug": "nosqlbooster-for-mongodb",
+  "title": "NoSQLBooster for MongoDB",
+  "vendor": "qinghai",
+  "sourceUrl": "https://silentinstallhq.com/nosqlbooster-for-mongodb-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:28:37.223Z",
+  "variants": [
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "nosqlbooster4mongo-x.y.z.exe /S",
+      "silentUninstall": "\"%LocalAppData%\\Programs\\nosqlbooster4mongo\\Uninstall NoSQLBooster for MongoDB.exe\" /S",
+      "repair": null,
+      "downloadUrl": "https://nosqlbooster.com/downloads",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

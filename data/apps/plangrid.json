@@ -1,0 +1,22 @@
+{
+  "slug": "plangrid",
+  "title": "PlanGrid",
+  "vendor": "PlanGrid",
+  "sourceUrl": "https://silentinstallhq.com/plangrid-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:29:35.490Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "PlanGridSetup.exe /install /quiet /norestart",
+      "silentUninstall": "PlanGridSetup.exe /uninstall /quiet /norestart",
+      "repair": null,
+      "downloadUrl": "https://plangrid-windows-installer.s3-accelerate.amazonaws.com/production/PlanGridSetup.exe",
+      "psScriptUrl": "https://silentinstallhq.com/plangrid-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-plangrid-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

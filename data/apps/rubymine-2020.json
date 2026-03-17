@@ -1,0 +1,22 @@
+{
+  "slug": "rubymine-2020",
+  "title": "RubyMine 2020",
+  "vendor": "JetBrains s.r.o",
+  "sourceUrl": "https://silentinstallhq.com/rubymine-2020-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:30:17.947Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "RubyMine-2020.x.x.exe /S /CONFIG=.\\silent.config /D=C:\\Program Files\\RubyMine 2020",
+      "silentUninstall": "\"%ProgramFiles%\\RubyMine 2020\\bin\\Uninstall.exe\" /S",
+      "repair": null,
+      "downloadUrl": "https://www.jetbrains.com/ruby/download/#section=windows",
+      "psScriptUrl": "https://silentinstallhq.com/rubymine-2020-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

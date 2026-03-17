@@ -1,0 +1,22 @@
+{
+  "slug": "mullvad-vpn",
+  "title": "Mullvad VPN",
+  "vendor": "Mullvad VPN",
+  "sourceUrl": "https://silentinstallhq.com/mullvad-vpn-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:28:27.103Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "MullvadVPN-x.y.exe /allusers /S",
+      "silentUninstall": "\"%ProgramFiles%\\Mullvad VPN\\Uninstall Mullvad VPN.exe\" /allusers /S",
+      "repair": null,
+      "downloadUrl": "https://mullvad.net/en/download/windows/",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

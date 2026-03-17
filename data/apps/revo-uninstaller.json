@@ -1,0 +1,22 @@
+{
+  "slug": "revo-uninstaller",
+  "title": "Revo Uninstaller",
+  "vendor": "VS Revo Group, Ltd.",
+  "sourceUrl": "https://silentinstallhq.com/revo-uninstaller-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:30:08.258Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "revosetup.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "\"%ProgramFiles%\\VS Revo Group\\Revo Uninstaller\\unins000.exe\" /VERYSILENT /NORESTART",
+      "repair": null,
+      "downloadUrl": "https://www.revouninstaller.com/download-freeware-version.php",
+      "psScriptUrl": "https://silentinstallhq.com/revo-uninstaller-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-revo-uninstaller-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

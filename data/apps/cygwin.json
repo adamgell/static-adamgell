@@ -1,0 +1,34 @@
+{
+  "slug": "cygwin",
+  "title": "Cygwin",
+  "vendor": "Cygnus Solutions",
+  "sourceUrl": "https://silentinstallhq.com/cygwin-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:02:28.466Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "setup-x86.exe --quiet-mode --local-install --local-package-dir %~dp0 --root C:\\cygwin",
+      "silentUninstall": "See Uninstall Section Below",
+      "repair": null,
+      "downloadUrl": "https://cygwin.com/setup-x86.exe",
+      "psScriptUrl": "https://silentinstallhq.com/cygwin-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-cygwin-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "setup-x86_64.exe --quiet-mode --local-install --local-package-dir %~dp0 --root C:\\cygwin64",
+      "silentUninstall": "See Uninstall Section Below",
+      "repair": null,
+      "downloadUrl": "https://www.cygwin.com/setup-x86_64.exe",
+      "psScriptUrl": "https://silentinstallhq.com/cygwin-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-cygwin-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

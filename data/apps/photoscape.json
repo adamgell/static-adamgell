@@ -1,0 +1,22 @@
+{
+  "slug": "photoscape",
+  "title": "PhotoScape",
+  "vendor": "MOOII Tech",
+  "sourceUrl": "https://silentinstallhq.com/photoscape-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:29:27.681Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "PhotoScapeSetup_V3.7.exe /S",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "http://photoscape.org/ps/main/download.php",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

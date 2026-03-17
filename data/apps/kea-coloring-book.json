@@ -1,0 +1,22 @@
+{
+  "slug": "kea-coloring-book",
+  "title": "Kea Coloring Book",
+  "vendor": "Kea Software",
+  "sourceUrl": "https://silentinstallhq.com/kea-coloring-book-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:26:18.601Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "dl41colorsetup.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://www.keacoloringbook.com/windows/",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

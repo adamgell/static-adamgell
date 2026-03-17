@@ -1,0 +1,34 @@
+{
+  "slug": "openttd",
+  "title": "OpenTTD",
+  "vendor": "OpenTTD",
+  "sourceUrl": "https://silentinstallhq.com/openttd-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:28:56.418Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "openttd-x.x.x-windows-win32.exe /S",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://cdn.openttd.org/openttd-releases/",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "openttd-x.x.x-windows-win64.exe /S",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://cdn.openttd.org/openttd-releases/",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

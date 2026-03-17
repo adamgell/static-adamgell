@@ -1,0 +1,22 @@
+{
+  "slug": "java-12-0-1",
+  "title": "Java 12.0.1",
+  "vendor": "Oracle Corporation",
+  "sourceUrl": "https://silentinstallhq.com/java-12-0-1-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:16:59.547Z",
+  "variants": [
+    {
+      "architecture": "x64",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i jdk12.0.164.msi /qn",
+      "silentUninstall": "MsiExec.exe /x {0D60E96D-0B74-55A5-ACA5-0F6786FDF256} /qn",
+      "repair": "MsiExec.exe /fa {0D60E96D-0B74-55A5-ACA5-0F6786FDF256} /qn",
+      "downloadUrl": "https://download.oracle.com/otn/java/jdk/12.0.1+12/69cfe15208a647278a19ef0990eea691/jdk-12.0.1_windows-x64_bin.exe",
+      "psScriptUrl": null,
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-java-12-development-kit-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

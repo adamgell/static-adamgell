@@ -1,0 +1,22 @@
+{
+  "slug": "freemat",
+  "title": "FreeMat",
+  "vendor": "Humanity",
+  "sourceUrl": "https://silentinstallhq.com/freemat-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:06:19.440Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "FreeMat-4.2-Setup.exe /S",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "http://freemat.sourceforge.net/",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

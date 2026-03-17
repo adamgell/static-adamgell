@@ -1,0 +1,22 @@
+{
+  "slug": "graphisoft-archicad-24",
+  "title": "Graphisoft Archicad 24",
+  "vendor": "Graphisoft",
+  "sourceUrl": "https://silentinstallhq.com/graphisoft-archicad-24-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T01:57:34.162Z",
+  "variants": [
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "ARCHICAD-24-XXX-xxxx-y.z.exe --mode unattended",
+      "silentUninstall": "\"%ProgramFiles%\\GRAPHISOFT\\ARCHICAD 24\\Uninstall.AC\\Uninstall.exe\" --mode unattended",
+      "repair": null,
+      "downloadUrl": "https://gsdownloads.graphisoft.com/cdn/AC/24/INT/ARCHICAD-24-INT-3008-1.7.exe",
+      "psScriptUrl": "https://silentinstallhq.com/graphisoft-archicad-24-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-archicad-24-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

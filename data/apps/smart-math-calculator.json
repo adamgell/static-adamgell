@@ -1,0 +1,22 @@
+{
+  "slug": "smart-math-calculator",
+  "title": "Smart Math Calculator",
+  "vendor": "Runiter Company",
+  "sourceUrl": "https://silentinstallhq.com/smart-math-calculator-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:30:37.845Z",
+  "variants": [
+    {
+      "architecture": "x64",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i calculator.msi INSTALLDIR=\"%ProgramFiles%\\Smart Math Calculator\" /qn",
+      "silentUninstall": "MsiExec.exe /x calculator.msi /qn",
+      "repair": "MsiExec.exe /fa calculator.msi /qn",
+      "downloadUrl": "https://www.runiter.com/math-calculator/download.htm",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

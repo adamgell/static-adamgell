@@ -1,0 +1,22 @@
+{
+  "slug": "math-editor",
+  "title": "Math Editor",
+  "vendor": "MathiVersity",
+  "sourceUrl": "https://silentinstallhq.com/math-editor-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:26:50.509Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "math_editor_x.y.z_setup.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://sourceforge.net/projects/eqtype/files/latest/download",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

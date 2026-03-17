@@ -1,0 +1,34 @@
+{
+  "slug": "plex-media-server",
+  "title": "Plex Media Server",
+  "vendor": "Plex, Inc.",
+  "sourceUrl": "https://silentinstallhq.com/plex-media-server-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:29:36.855Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "PlexMediaServer-x.y.z-x86_64.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "\"%ProgramFiles%\\Plex\\Plex Media Server\\unins000.exe\" /VERYSILENT /NORESTART",
+      "repair": null,
+      "downloadUrl": "https://www.plex.tv/media-server-downloads/",
+      "psScriptUrl": "https://silentinstallhq.com/plex-media-server-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-plex-media-server-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "PlexMediaServer-x.y.z-x86.exe /install /quiet /norestart",
+      "silentUninstall": "PlexMediaServer-x.y.z-x86.exe /uninstall /quiet /norestart",
+      "repair": "PlexMediaServer-x.y.z-x86.exe /repair /quiet /norestart",
+      "downloadUrl": "https://www.plex.tv/media-server-downloads/",
+      "psScriptUrl": "https://silentinstallhq.com/plex-media-server-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-plex-media-server-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

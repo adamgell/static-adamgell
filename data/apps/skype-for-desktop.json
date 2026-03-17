@@ -1,0 +1,34 @@
+{
+  "slug": "skype-for-desktop",
+  "title": "Skype for Desktop",
+  "vendor": "Skype Technologies S.A.",
+  "sourceUrl": "https://silentinstallhq.com/skype-for-desktop-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:30:35.715Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "Skype-w.x.y.z.exe /VERYSILENT /NORESTART /DL=1",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://go.skype.com/windows.desktop.download",
+      "psScriptUrl": "https://silentinstallhq.com/skype-for-desktop-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-skype-for-desktop-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x86",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i Skype-w.x.y.z.msi /qn",
+      "silentUninstall": "MsiExec.exe /x Skype-w.x.y.z.msi /qn",
+      "repair": "MsiExec.exe /fa Skype-w.x.y.z.msi /qn",
+      "downloadUrl": "https://go.skype.com/msi-download",
+      "psScriptUrl": "https://silentinstallhq.com/skype-for-desktop-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-skype-for-desktop-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

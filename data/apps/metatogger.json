@@ -1,0 +1,22 @@
+{
+  "slug": "metatogger",
+  "title": "Metatogger",
+  "vendor": "Luminescence Software",
+  "sourceUrl": "https://silentinstallhq.com/metatogger-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:27:00.424Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "Metatogger-Installer.exe /install /quiet /norestart",
+      "silentUninstall": "Metatogger-Installer.exe /uninstall /quiet /norestart",
+      "repair": "Metatogger-Installer.exe /repair /quiet /norestart",
+      "downloadUrl": "http://www.luminescence-software.org/download/metatogger/Metatogger-Installer.exe",
+      "psScriptUrl": "https://silentinstallhq.com/metatogger-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

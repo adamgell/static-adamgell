@@ -1,0 +1,22 @@
+{
+  "slug": "sugarsync",
+  "title": "SugarSync",
+  "vendor": "KeepItSafe, Inc.",
+  "sourceUrl": "https://silentinstallhq.com/sugarsync-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:31:00.315Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "SugarSyncSetup.exe /S",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://www.sugarsync.com/pc-download/win",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

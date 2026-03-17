@@ -1,0 +1,22 @@
+{
+  "slug": "windows-admin-center-2103",
+  "title": "Windows Admin Center 2103",
+  "vendor": "Microsoft Corporation",
+  "sourceUrl": "https://silentinstallhq.com/windows-admin-center-2103-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:32:16.425Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i WindowsAdminCenter2103.msi SME_PORT=443 SSL_CERTIFICATE_OPTION=generate /qn",
+      "silentUninstall": "MsiExec.exe /x {8B2F8323-1EE6-461D-9A48-F13C0FD0CB57} /qn",
+      "repair": "MsiExec.exe /fa {8B2F8323-1EE6-461D-9A48-F13C0FD0CB57} /qn",
+      "downloadUrl": "http://aka.ms/WACDownload",
+      "psScriptUrl": "https://silentinstallhq.com/windows-admin-center-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

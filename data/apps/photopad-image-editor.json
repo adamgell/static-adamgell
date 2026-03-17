@@ -1,0 +1,22 @@
+{
+  "slug": "photopad-image-editor",
+  "title": "PhotoPad Image Editor",
+  "vendor": "NCH Software",
+  "sourceUrl": "https://silentinstallhq.com/photopad-image-editor-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:29:26.999Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "PhotoPadPhotoEditingSoftware.exe -LQUIET",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://www.nchsoftware.com/photoeditor/index.html",
+      "psScriptUrl": "https://silentinstallhq.com/photopad-image-editor-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

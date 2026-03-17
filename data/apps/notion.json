@@ -1,0 +1,22 @@
+{
+  "slug": "notion",
+  "title": "Notion",
+  "vendor": "Notion Labs, Inc",
+  "sourceUrl": "https://silentinstallhq.com/notion-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:28:48.396Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "\"Notion Setup x.y.z.exe\" /S",
+      "silentUninstall": "\"%LocalAppData%\\Programs\\Notion\\Uninstall Notion.exe\" /S",
+      "repair": null,
+      "downloadUrl": "https://www.notion.so/desktop/windows/download",
+      "psScriptUrl": "https://silentinstallhq.com/notion-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-notion-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

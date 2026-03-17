@@ -8,13 +8,13 @@
     {
       "architecture": "x86",
       "installerType": "EXE",
-      "silentInstall": "**CADReaderIntl.exe /VERYSILENT /NORESTART**",
+      "silentInstall": "CADReaderIntl.exe /VERYSILENT /NORESTART",
       "silentUninstall": "",
       "repair": null,
       "downloadUrl": "https://yuntu-f.glodon.com/app/CADReaderIntl.exe",
       "psScriptUrl": null,
       "detectionScriptUrl": null,
-      "logInstall": "**CADReaderIntl.exe /VERYSILENT /NORESTART /LOG=\"%WINDIR%\\Temp\\CADReader-Install.log\"**",
+      "logInstall": "CADReaderIntl.exe /VERYSILENT /NORESTART /LOG=\"%WINDIR%\\Temp\\CADReader-Install.log\"",
       "logUninstall": null
     }
   ]

@@ -1,0 +1,46 @@
+{
+  "slug": "microsoft-teams",
+  "title": "Microsoft Teams",
+  "vendor": "Microsoft Corporation",
+  "sourceUrl": "https://silentinstallhq.com/microsoft-teams-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:27:52.873Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "MSTeamsSetup_x_x_.exe -s",
+      "silentUninstall": "\"%LocalAppData%\\Microsoft\\Teams\\Update.exe\" --uninstall -s",
+      "repair": null,
+      "downloadUrl": "https://teams.microsoft.com/downloads#allDevicesSection",
+      "psScriptUrl": "https://silentinstallhq.com/microsoft-teams-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-microsoft-teams-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "MsiExec.exe /i Teams_windows.msi OPTIONS=\"noAutoStart=true\" ALLUSERS=1 /qn",
+      "silentUninstall": "MsiExec.exe /x Teams_windows.msi /qn",
+      "repair": null,
+      "downloadUrl": "https://docs.microsoft.com/en-us/microsoftteams/msi-deployment#msi-files",
+      "psScriptUrl": "https://silentinstallhq.com/microsoft-teams-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-microsoft-teams-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "MsiExec.exe /i Teams_windows_x64.msi OPTIONS=\"noAutoStart=true\" ALLUSERS=1 /qn",
+      "silentUninstall": "MsiExec.exe /x Teams_windows_x64.msi /qn",
+      "repair": null,
+      "downloadUrl": "https://docs.microsoft.com/en-us/microsoftteams/msi-deployment#msi-files",
+      "psScriptUrl": "https://silentinstallhq.com/microsoft-teams-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-microsoft-teams-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

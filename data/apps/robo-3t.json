@@ -1,0 +1,22 @@
+{
+  "slug": "robo-3t",
+  "title": "Robo 3T",
+  "vendor": "3T Software Labs Ltd",
+  "sourceUrl": "https://silentinstallhq.com/robo-3t-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:30:12.455Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "robo3t-x.y.z-windows-x86_64-xxxx.exe /S",
+      "silentUninstall": "\"%ProgramFiles%\\Robo 3T x.y.z\\Uninstall.exe\" /S",
+      "repair": null,
+      "downloadUrl": "https://github.com/Studio3T/robomongo/releases/latest",
+      "psScriptUrl": "https://silentinstallhq.com/robo-3t-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

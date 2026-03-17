@@ -1,0 +1,46 @@
+{
+  "slug": "vivi",
+  "title": "Vivi",
+  "vendor": "Vivi Corporation",
+  "sourceUrl": "https://silentinstallhq.com/vivi-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:31:57.587Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "ViviSetup.exe /exenoui /qn",
+      "silentUninstall": "MsiExec.exe /x {91C09B07-9F8E-4769-8114-2FB13D502518} /qn",
+      "repair": "MsiExec.exe /fa {91C09B07-9F8E-4769-8114-2FB13D502518} /qn",
+      "downloadUrl": "https://www.vivi.io/downloads",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x86",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i ViviSetup.msi /qn",
+      "silentUninstall": "MsiExec.exe /x ViviSetup.msi /qn",
+      "repair": "MsiExec.exe /fa ViviSetup.msi /qn",
+      "downloadUrl": "https://api.vivi.io/windows-msi",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x64",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i ViviSetup64.msi /qn",
+      "silentUninstall": "MsiExec.exe /x ViviSetup64.msi /qn",
+      "repair": "MsiExec.exe /fa ViviSetup64.msi /qn",
+      "downloadUrl": "https://api.vivi.io/windows-msi64",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

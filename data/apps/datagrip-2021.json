@@ -1,0 +1,22 @@
+{
+  "slug": "datagrip-2021",
+  "title": "DataGrip 2021",
+  "vendor": "JetBrains s.r.o",
+  "sourceUrl": "https://silentinstallhq.com/datagrip-2021-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:02:36.009Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "datagrip-2021.x.x.exe /S /CONFIG=.\\silent.config /D=C:\\Program Files\\DataGrip 2021",
+      "silentUninstall": "\"%ProgramFiles%\\DataGrip 2021\\bin\\Uninstall.exe\" /S",
+      "repair": null,
+      "downloadUrl": "https://www.jetbrains.com/datagrip/download/#section=windows",
+      "psScriptUrl": "https://silentinstallhq.com/datagrip-2021-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "vmware-player",
+  "title": "VMware Player",
+  "vendor": "VMware, Inc.",
+  "sourceUrl": "https://silentinstallhq.com/vmware-player-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:31:59.160Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "VMware-player-xx.x.x-xxxxxxxx.exe /s /v/qn EULAS_AGREED=1 AUTOSOFTWAREUPDATE=0 DATACOLLECTION=0 ADDLOCAL=ALL REBOOT=ReallySuppress",
+      "silentUninstall": "See Uninstall Section Below",
+      "repair": null,
+      "downloadUrl": "https://www.vmware.com/go/getplayer-win",
+      "psScriptUrl": "https://silentinstallhq.com/vmware-player-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

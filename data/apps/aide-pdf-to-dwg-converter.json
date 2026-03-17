@@ -1,0 +1,22 @@
+{
+  "slug": "aide-pdf-to-dwg-converter",
+  "title": "Aide PDF to DWG Converter",
+  "vendor": "Aide CAD Systems Incorporated",
+  "sourceUrl": "https://silentinstallhq.com/aide-pdf-to-dwg-converter-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T01:56:41.370Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "pdf-to-dwg.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://www.aidecad.com/download.html",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "autodesk-inventor-view-2022",
+  "title": "Autodesk Inventor View 2022",
+  "vendor": "Autodesk",
+  "sourceUrl": "https://silentinstallhq.com/autodesk-inventor-view-2022-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T01:58:58.644Z",
+  "variants": [
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "Setup.exe -q",
+      "silentUninstall": "\"%ProgramFiles%\\Autodesk\\AdODIS\\V1\\Installer.exe\" -i uninstall -q -m C:\\ProgramData\\Autodesk\\ODIS\\metadata\\{4125E56C-C3F6-3E50-9954-31F229E4A4AD}\\bundleManifest.xml",
+      "repair": null,
+      "downloadUrl": "https://knowledge.autodesk.com/support/inventor/troubleshooting/caas/downloads/content/inventor-view-2022.html",
+      "psScriptUrl": "https://silentinstallhq.com/autodesk-inventor-view-2022-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

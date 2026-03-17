@@ -1,0 +1,22 @@
+{
+  "slug": "kompozer",
+  "title": "KompoZer",
+  "vendor": "KompoZer",
+  "sourceUrl": "https://silentinstallhq.com/kompozer-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:26:22.697Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "kompozer-x.y.en-US.win32.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://sourceforge.net/projects/kompozer/files/latest/download",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

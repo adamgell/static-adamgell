@@ -1,0 +1,34 @@
+{
+  "slug": "microsoft-access-2010-runtime",
+  "title": "Microsoft Access 2010 Runtime",
+  "vendor": "Microsoft Corporation",
+  "sourceUrl": "https://silentinstallhq.com/microsoft-access-2010-runtime-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:27:01.400Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "setup.exe /config .\\Access2010RT.xml",
+      "silentUninstall": "setup.exe /uninstall \"AccessRT\" /config .\\Access2010RT.xml",
+      "repair": "setup.exe /repair \"AccessRT\" /config .\\Access2010RT.xml",
+      "downloadUrl": "https://www.microsoft.com/en-us/download/details.aspx?id=10910",
+      "psScriptUrl": "https://silentinstallhq.com/microsoft-access-2010-runtime-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "setup.exe /config .\\Access2010RT.xml",
+      "silentUninstall": "setup.exe /uninstall \"AccessRT\" /config .\\Access2010RT.xml",
+      "repair": "setup.exe /repair \"AccessRT\" /config .\\Access2010RT.xml",
+      "downloadUrl": "https://www.microsoft.com/en-us/download/details.aspx?id=10910",
+      "psScriptUrl": "https://silentinstallhq.com/microsoft-access-2010-runtime-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

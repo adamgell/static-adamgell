@@ -1,0 +1,22 @@
+{
+  "slug": "process-lasso",
+  "title": "Process Lasso",
+  "vendor": "Bitsum",
+  "sourceUrl": "https://silentinstallhq.com/process-lasso-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:29:45.369Z",
+  "variants": [
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "processlassosetup64.exe /S",
+      "silentUninstall": "\"%ProgramFiles%\\Process Lasso\\uninstall.exe\" /S",
+      "repair": null,
+      "downloadUrl": "https://bitsum.com/",
+      "psScriptUrl": "https://silentinstallhq.com/process-lasso-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

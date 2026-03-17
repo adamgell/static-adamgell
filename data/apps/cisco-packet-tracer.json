@@ -1,33 +1,34 @@
 {
   "slug": "cisco-packet-tracer",
-  "title": "Cisco Packet Tracer 32-bit",
+  "title": "Cisco Packet Tracer",
   "vendor": "Cisco Systems, Inc.",
-  "sourceUrl": "https://silentinstallhq.com/cisco-packet-tracer-silent-install-how-to-guide",
-  "lastScraped": "2026-03-16T21:25:12.255Z",
+  "sourceUrl": "https://silentinstallhq.com/cisco-packet-tracer-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:01:19.062Z",
   "variants": [
     {
       "architecture": "x86",
       "installerType": "EXE",
-      "silentInstall": "**CiscoPacketTracer_XXX_Windows_32bit_setup.exe /VERYSILENT /NORESTART**",
+      "silentInstall": "CiscoPacketTracer_XXX_Windows_32bit_setup.exe /VERYSILENT /NORESTART",
       "silentUninstall": "",
       "repair": null,
       "downloadUrl": "https://www.netacad.com/courses/packet-tracer",
-      "psScriptUrl": null,
-      "detectionScriptUrl": null,
-      "logInstall": "**CiscoPacketTracer_XXX_Windows_64bit_setup.exe /VERYSILENT /NORESTART /LOG=\"%WINDIR%\\Temp\\PacketTracer-Install.log\"**",
+      "psScriptUrl": "https://silentinstallhq.com/cisco-packet-tracer-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-cisco-packet-tracer-powershell/",
+      "logInstall": null,
       "logUninstall": null
     },
     {
       "architecture": "x64",
       "installerType": "EXE",
-      "silentInstall": "**CiscoPacketTracer_XXX_Windows_64bit_setup.exe /VERYSILENT /NORESTART**",
-      "silentUninstall": "**\"%ProgramFiles%\\Cisco Packet Tracer x.x.x\\unins000.exe\" /VERYSILENT /NORESTART**",
+      "silentInstall": "CiscoPacketTracer_XXX_Windows_64bit_setup.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "\"%ProgramFiles%\\Cisco Packet Tracer x.x.x\\unins000.exe\" /VERYSILENT /NORESTART",
       "repair": null,
       "downloadUrl": "https://www.netacad.com/courses/packet-tracer",
-      "psScriptUrl": null,
-      "detectionScriptUrl": null,
+      "psScriptUrl": "https://silentinstallhq.com/cisco-packet-tracer-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-cisco-packet-tracer-powershell/",
       "logInstall": null,
       "logUninstall": null
     }
-  ]
+  ],
+  "psadtScript": null
 }

@@ -1,0 +1,22 @@
+{
+  "slug": "datagrip-2019",
+  "title": "DataGrip 2019",
+  "vendor": "JetBrains s.r.o",
+  "sourceUrl": "https://silentinstallhq.com/datagrip-2019-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:02:32.992Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "datagrip-2019.x.x.exe /S /CONFIG=.\\silent.config /D=C:\\Program Files\\DataGrip 2019",
+      "silentUninstall": "\"%ProgramFiles%\\DataGrip 2019\\bin\\Uninstall.exe\" /S",
+      "repair": null,
+      "downloadUrl": "https://www.jetbrains.com/datagrip/download/#section=windows",
+      "psScriptUrl": "https://silentinstallhq.com/datagrip-2019-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

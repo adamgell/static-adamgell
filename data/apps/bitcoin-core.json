@@ -1,0 +1,22 @@
+{
+  "slug": "bitcoin-core",
+  "title": "Bitcoin Core",
+  "vendor": "Bitcoin Core Project",
+  "sourceUrl": "https://silentinstallhq.com/bitcoin-core-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:00:18.705Z",
+  "variants": [
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "bitcoin-x.y.z-win64-setup.exe /S",
+      "silentUninstall": "\"%ProgramFiles%\\Bitcoin\\uninstall.exe\" /S",
+      "repair": null,
+      "downloadUrl": "https://bitcoin.org/en/download",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

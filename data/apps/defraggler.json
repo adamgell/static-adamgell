@@ -1,0 +1,22 @@
+{
+  "slug": "defraggler",
+  "title": "Defraggler",
+  "vendor": "Piriform",
+  "sourceUrl": "https://silentinstallhq.com/defraggler-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:02:49.605Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "dfsetupxxx.exe /S",
+      "silentUninstall": "\"%ProgramFiles%\\Defraggler\\uninst.exe\" /S",
+      "repair": null,
+      "downloadUrl": "https://www.ccleaner.com/defraggler/download/standard",
+      "psScriptUrl": "https://silentinstallhq.com/defraggler-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

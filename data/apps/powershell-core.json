@@ -1,0 +1,34 @@
+{
+  "slug": "powershell-core",
+  "title": "PowerShell Core",
+  "vendor": "Microsoft Corporation",
+  "sourceUrl": "https://silentinstallhq.com/powershell-core-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:29:43.324Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i PowerShell-x.y.z-win-x86.msi /qn",
+      "silentUninstall": "MsiExec.exe /x PowerShell-x.y.z-win-x86.msi /qn",
+      "repair": "MsiExec.exe /fa PowerShell-x.y.z-win-x86.msi /qn",
+      "downloadUrl": "https://github.com/PowerShell/PowerShell/releases",
+      "psScriptUrl": "https://silentinstallhq.com/powershell-core-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x64",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i PowerShell-x.y.z-win-x64.msi /qn",
+      "silentUninstall": "MsiExec.exe /x PowerShell-x.y.z-win-x64.msi /qn",
+      "repair": "MsiExec.exe /fa PowerShell-x.y.z-win-x64.msi /qn",
+      "downloadUrl": "https://github.com/PowerShell/PowerShell/releases",
+      "psScriptUrl": "https://silentinstallhq.com/powershell-core-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

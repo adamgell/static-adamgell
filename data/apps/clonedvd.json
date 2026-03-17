@@ -1,0 +1,22 @@
+{
+  "slug": "clonedvd",
+  "title": "CloneDVD",
+  "vendor": "Elaborate Bytes",
+  "sourceUrl": "https://silentinstallhq.com/clonedvd-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:01:49.247Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "SetupCloneDVD2XXX.exe /S",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://www.elby.ch/download/SetupCloneDVD.exe",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "simplenote",
+  "title": "Simplenote",
+  "vendor": "Automattic, Inc.",
+  "sourceUrl": "https://silentinstallhq.com/simplenote-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:30:32.239Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "Simplenote-win-x.y.z.exe /allusers /S",
+      "silentUninstall": "\"%ProgramFiles%\\Simplenote\\Uninstall Simplenote.exe\" /allusers /S",
+      "repair": null,
+      "downloadUrl": "https://simplenote.com/",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

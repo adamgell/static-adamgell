@@ -1,0 +1,22 @@
+{
+  "slug": "wise-program-uninstaller",
+  "title": "Wise Program Uninstaller",
+  "vendor": "WiseCleaner.com, Inc.",
+  "sourceUrl": "https://silentinstallhq.com/wise-program-uninstaller-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:32:25.168Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "WFHSetup_w.x.y.z.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://www.wisecleaner.com/wise-program-uninstaller.html",
+      "psScriptUrl": "https://silentinstallhq.com/wise-program-uninstaller-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

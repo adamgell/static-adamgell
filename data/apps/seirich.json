@@ -6,7 +6,7 @@
   "lastScraped": "2026-03-16T22:27:32.834Z",
   "variants": [
     {
-      "architecture": "x86\\_x64",
+      "architecture": "x86/x64",
       "installerType": "EXE",
       "silentInstall": "Seirich-x.y.z_xxx.exe /VERYSILENT /NORESTART",
       "silentUninstall": "\"%LocalAppData%\\Seirich\\x.y.z\\unins000.exe\" /VERYSILENT /NORESTART",

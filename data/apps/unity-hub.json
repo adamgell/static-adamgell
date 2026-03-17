@@ -1,0 +1,22 @@
+{
+  "slug": "unity-hub",
+  "title": "Unity Hub",
+  "vendor": "Unity Technologies Inc.",
+  "sourceUrl": "https://silentinstallhq.com/unity-hub-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:31:37.251Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "UnityHubSetup.exe /allusers /S",
+      "silentUninstall": "\"%ProgramFiles%\\Unity Hub\\Uninstall Unity Hub.exe\" /allusers /S",
+      "repair": null,
+      "downloadUrl": "https://public-cdn.cloud.unity3d.com/hub/prod/UnityHubSetup.exe",
+      "psScriptUrl": "https://silentinstallhq.com/unity-hub-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-unity-hub-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

@@ -1,0 +1,58 @@
+{
+  "slug": "sonos-controller",
+  "title": "Sonos Controller",
+  "vendor": "Sonos, Inc.",
+  "sourceUrl": "https://silentinstallhq.com/sonos-controller-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:30:43.869Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "SonosDesktopController1205.exe /S /v/qn",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://www.sonos.com/redir/controller_software_pc2",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x86/x64",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i Sonos.msi /qn",
+      "silentUninstall": "MsiExec.exe /x {6FB7DAEC-5DAD-491E-9951-4684423F291C} /qn",
+      "repair": null,
+      "downloadUrl": "https://www.sonos.com/redir/controller_software_pc2",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "SonosDesktopController1122.exe /S /v/qn",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://www.sonos.com/redir/controller_software_pc",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x86/x64",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i \"Sonos Controller.msi\" /qn",
+      "silentUninstall": "MsiExec.exe /x {7BBA9BF8-05DF-47D8-8880-82A9B99505B9} /qn",
+      "repair": null,
+      "downloadUrl": "https://www.sonos.com/redir/controller_software_pc",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

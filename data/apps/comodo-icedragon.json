@@ -1,0 +1,34 @@
+{
+  "slug": "comodo-icedragon",
+  "title": "Comodo IceDragon",
+  "vendor": "Comodo",
+  "sourceUrl": "https://silentinstallhq.com/comodo-icedragon-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:01:59.774Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "icedragonsetup.exe /S",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://download.comodo.com/icedragon/update/icedragonsetup.exe",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "icedragonsetup.exe /S",
+      "silentUninstall": "\"%ProgramFiles%\\Comodo\\IceDragon\\uninstall.exe\" /S",
+      "repair": null,
+      "downloadUrl": "https://download.comodo.com/icedragon/update/x64/icedragonsetup.exe",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

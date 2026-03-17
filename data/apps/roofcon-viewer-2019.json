@@ -1,0 +1,22 @@
+{
+  "slug": "roofcon-viewer-2019",
+  "title": "RoofCon Viewer 2019",
+  "vendor": "CSCE AB",
+  "sourceUrl": "https://silentinstallhq.com/roofcon-viewer-2019-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:30:13.850Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "setup.exe -s -f1\".\\setup.iss\"",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://resources.csce.se/roofcon/versions/RcwViewer/RcwViewerSetup.exe",
+      "psScriptUrl": "https://silentinstallhq.com/roofcon-viewer-2019-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

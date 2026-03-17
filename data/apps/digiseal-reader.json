@@ -8,7 +8,7 @@
     {
       "architecture": "x86",
       "installerType": "EXE",
-      "silentInstall": "**setup_digiSeal_reader.exe -silent**",
+      "silentInstall": "setup_digiSeal_reader.exe -silent",
       "silentUninstall": "",
       "repair": null,
       "downloadUrl": "https://www.secrypt.de/downloads/setup_digiSeal_reader.exe",

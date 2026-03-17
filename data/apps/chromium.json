@@ -1,0 +1,22 @@
+{
+  "slug": "chromium",
+  "title": "Chromium",
+  "vendor": "The Chromium Authors",
+  "sourceUrl": "https://silentinstallhq.com/chromium-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:01:14.506Z",
+  "variants": [
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "mini_installer.sync.exe --install --silent --system-level",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://github.com/Hibbiki/chromium-win64/releases",
+      "psScriptUrl": "https://silentinstallhq.com/chromium-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-chromium-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "photofiltre-studio-x",
+  "title": "PhotoFiltre Studio X",
+  "vendor": "Antonio Da Cruz",
+  "sourceUrl": "https://silentinstallhq.com/photofiltre-studio-x-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:29:26.573Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "pfsx-setup-en-10.x.y.exe /S",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "http://www.photofiltre-studio.com/download-en.htm",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

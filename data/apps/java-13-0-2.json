@@ -1,0 +1,22 @@
+{
+  "slug": "java-13-0-2",
+  "title": "Java 13.0.2",
+  "vendor": "Oracle Corporation",
+  "sourceUrl": "https://silentinstallhq.com/java-13-0-2-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:17:05.588Z",
+  "variants": [
+    {
+      "architecture": "x64",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i jdk13.0.264.msi /qn",
+      "silentUninstall": "MsiExec.exe /x {606493F9-D1F1-5355-BB8A-F0E30F1AFFED} /qn",
+      "repair": "MsiExec.exe /fa {606493F9-D1F1-5355-BB8A-F0E30F1AFFED} /qn",
+      "downloadUrl": "https://download.oracle.com/otn/java/jdk/13.0.2+8/d4173c853231432d94f001e99d882ca7/jdk-13.0.2_windows-x64_bin.exe",
+      "psScriptUrl": null,
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-java-13-development-kit-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

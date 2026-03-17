@@ -1,0 +1,22 @@
+{
+  "slug": "autodesk-civil-3d-2020-object-enabler",
+  "title": "Autodesk Civil 3D 2020 Object Enabler",
+  "vendor": "Autodesk, Inc.",
+  "sourceUrl": "https://silentinstallhq.com/autodesk-civil-3d-2020-object-enabler-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T01:58:31.506Z",
+  "variants": [
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "civil3d_2020_x_oe_64bit.exe /install /quiet /norestart",
+      "silentUninstall": "civil3d_2020_x_oe_64bit.exe /uninstall /quiet /norestart",
+      "repair": "civil3d_2020_x_oe_64bit.exe /repair /quiet /norestart",
+      "downloadUrl": "https://knowledge.autodesk.com/support/autocad/downloads/caas/downloads/content/autodesk-civil-3d-2020-object-enabler.html",
+      "psScriptUrl": "https://silentinstallhq.com/autodesk-civil-3d-2020-object-enabler-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

@@ -1,0 +1,46 @@
+{
+  "slug": "edupython",
+  "title": "EduPython",
+  "vendor": "V. MAILLE",
+  "sourceUrl": "https://silentinstallhq.com/edupython-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:04:54.903Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "Setup_EP30.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "\"C:\\EduPython\\unins000.exe\" /VERYSILENT /NORESTART",
+      "repair": null,
+      "downloadUrl": "http://download.tuxfamily.org/edupython/Setup_EP30.exe",
+      "psScriptUrl": "https://silentinstallhq.com/edupython-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-edupython-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "Setup_EP27.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "\"C:\\EduPython\\unins000.exe\" /VERYSILENT /NORESTART",
+      "repair": null,
+      "downloadUrl": "http://download.tuxfamily.org/edupython/Setup_EP27.exe",
+      "psScriptUrl": "https://silentinstallhq.com/edupython-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-edupython-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "Setup_EP26.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "\"C:\\EduPython\\unins000.exe\" /VERYSILENT /NORESTART",
+      "repair": null,
+      "downloadUrl": "http://download.tuxfamily.org/edupython/Setup_EP26.exe",
+      "psScriptUrl": "https://silentinstallhq.com/edupython-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-edupython-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

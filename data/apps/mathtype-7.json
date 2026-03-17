@@ -1,0 +1,22 @@
+{
+  "slug": "mathtype-7",
+  "title": "MathType 7",
+  "vendor": "WIRIS",
+  "sourceUrl": "https://silentinstallhq.com/mathtype-7-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:26:51.255Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "MathType-win-en-7.x.y.z.exe /S",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://store.wiris.com/en/products/mathtype/download/",
+      "psScriptUrl": "https://silentinstallhq.com/mathtype-7-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-mathtype-7-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

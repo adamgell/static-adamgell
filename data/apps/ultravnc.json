@@ -2,8 +2,8 @@
   "slug": "ultravnc",
   "title": "UltraVNC",
   "vendor": "uvnc bvba",
-  "sourceUrl": "https://silentinstallhq.com/ultravnc-silent-install-how-to-guide",
-  "lastScraped": "2026-03-16T22:28:11.853Z",
+  "sourceUrl": "https://silentinstallhq.com/ultravnc-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:31:36.187Z",
   "variants": [
     {
       "architecture": "x86",
@@ -12,9 +12,9 @@
       "silentUninstall": "",
       "repair": null,
       "downloadUrl": "https://uvnc.com/downloads/ultravnc.html",
-      "psScriptUrl": null,
-      "detectionScriptUrl": null,
-      "logInstall": "UltraVNC_x_y_z_Setup.exe /VERYSILENT /NORESTART /LOG=\"%WINDIR%\\Temp\\UltraVNCx86-Install.log\"",
+      "psScriptUrl": "https://silentinstallhq.com/ultravnc-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-ultravnc-powershell/",
+      "logInstall": null,
       "logUninstall": null
     },
     {
@@ -24,8 +24,8 @@
       "silentUninstall": "\"%ProgramFiles%\\uvnc bvba\\UltraVNC\\unins000.exe\" /VERYSILENT /NORESTART",
       "repair": null,
       "downloadUrl": "https://uvnc.com/downloads/ultravnc.html",
-      "psScriptUrl": null,
-      "detectionScriptUrl": null,
+      "psScriptUrl": "https://silentinstallhq.com/ultravnc-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-ultravnc-powershell/",
       "logInstall": null,
       "logUninstall": null
     }

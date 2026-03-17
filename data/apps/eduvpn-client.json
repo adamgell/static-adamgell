@@ -1,0 +1,22 @@
+{
+  "slug": "eduvpn-client",
+  "title": "eduVPN Client",
+  "vendor": "SURF",
+  "sourceUrl": "https://silentinstallhq.com/eduvpn-client-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:04:56.411Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "eduVPNClient_latest.exe /install /quiet /norestart",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://app.eduvpn.org/windows/eduVPNClient_latest.exe",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

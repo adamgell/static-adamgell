@@ -8,13 +8,13 @@
     {
       "architecture": "x64",
       "installerType": "EXE",
-      "silentInstall": "**CarbideCreate-xxx.exe /VERYSILENT /NORESTART**",
-      "silentUninstall": "**\"%ProgramFiles%\\CarbideCreateV7\\unins000.exe\" /VERYSILENT /NORESTART**",
+      "silentInstall": "CarbideCreate-xxx.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "\"%ProgramFiles%\\CarbideCreateV7\\unins000.exe\" /VERYSILENT /NORESTART",
       "repair": null,
       "downloadUrl": "https://carbide3d.com/carbidecreate/download/",
       "psScriptUrl": null,
       "detectionScriptUrl": null,
-      "logInstall": "**CarbideCreate-xxx.exe /VERYSILENT /NORESTART /LOG=\"%WINDIR%\\Temp\\CarbideCreate-Install.log\"**",
+      "logInstall": "CarbideCreate-xxx.exe /VERYSILENT /NORESTART /LOG=\"%WINDIR%\\Temp\\CarbideCreate-Install.log\"",
       "logUninstall": null
     }
   ]

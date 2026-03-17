@@ -1,0 +1,22 @@
+{
+  "slug": "screenrec",
+  "title": "ScreenRec",
+  "vendor": "StreamingVideoProvider",
+  "sourceUrl": "https://silentinstallhq.com/screenrec-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:30:25.446Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "ScreenRec_fullinstall.exe /S",
+      "silentUninstall": "\"%LocalAppData%\\StreamingVideoProvider\\ScreenRec_app\\uninstall.exe\" /S",
+      "repair": null,
+      "downloadUrl": "https://screenrec.com/screenrec-download/ScreenRec_fullinstall.exe",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

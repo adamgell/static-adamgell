@@ -1,0 +1,22 @@
+{
+  "slug": "tupitube-desk",
+  "title": "TupiTube Desk",
+  "vendor": "MaeFloresta",
+  "sourceUrl": "https://silentinstallhq.com/tupitube-desk-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:31:31.135Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "tupitube_desk_x.y.z_windows.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://www.maefloresta.com/downloads/",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

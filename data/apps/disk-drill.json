@@ -1,0 +1,22 @@
+{
+  "slug": "disk-drill",
+  "title": "Disk Drill",
+  "vendor": "CleverFiles",
+  "sourceUrl": "https://silentinstallhq.com/disk-drill-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:03:18.299Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "disk-drill-win.exe /install /quiet /norestart",
+      "silentUninstall": "disk-drill-win.exe /uninstall /quiet /norestart",
+      "repair": "disk-drill-win.exe /repair /quiet /norestart",
+      "downloadUrl": "https://www.cleverfiles.com/download.html",
+      "psScriptUrl": "https://silentinstallhq.com/disk-drill-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

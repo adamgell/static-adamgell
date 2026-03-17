@@ -1,0 +1,22 @@
+{
+  "slug": "gom-inspect-suite-2020",
+  "title": "GOM Inspect Suite 2020",
+  "vendor": "GOM GmbH",
+  "sourceUrl": "https://silentinstallhq.com/gom-inspect-suite-2020-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:07:03.232Z",
+  "variants": [
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "GOM-Inspect-Suite-2020_Hotfix_5.exe /S",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://www.gom.com/goto/nqzd",
+      "psScriptUrl": "https://silentinstallhq.com/gom-inspect-suite-2020-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

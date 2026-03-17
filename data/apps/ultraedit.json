@@ -1,0 +1,22 @@
+{
+  "slug": "ultraedit",
+  "title": "UltraEdit",
+  "vendor": "IDM Computer Solutions, Inc.",
+  "sourceUrl": "https://silentinstallhq.com/ultraedit-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:31:34.192Z",
+  "variants": [
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "ue_allinone.exe /S",
+      "silentUninstall": "\"%ProgramFiles%\\IDM Computer Solutions\\UltraEdit\\uninstall.exe\" \"/U:C:\\Program Files\\IDM Computer Solutions\\UltraEdit\\Uninstall\\uninstall.xml\" /S",
+      "repair": null,
+      "downloadUrl": "https://downloads.ultraedit.com/main/ue/win/ue_allinone.exe",
+      "psScriptUrl": "https://silentinstallhq.com/ultraedit-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

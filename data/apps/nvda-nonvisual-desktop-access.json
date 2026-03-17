@@ -1,0 +1,22 @@
+{
+  "slug": "nvda-nonvisual-desktop-access",
+  "title": "NVDA (NonVisual Desktop Access)",
+  "vendor": "NV Access",
+  "sourceUrl": "https://silentinstallhq.com/nvda-nonvisual-desktop-access-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:28:49.986Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "nvda_20xx.x.exe --minimal --install-silent",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://www.nvaccess.org/download/",
+      "psScriptUrl": "https://silentinstallhq.com/nvda-nonvisual-desktop-access-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

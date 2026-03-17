@@ -1,0 +1,22 @@
+{
+  "slug": "virtual-clonedrive",
+  "title": "Virtual CloneDrive",
+  "vendor": "Elaborate Bytes",
+  "sourceUrl": "https://silentinstallhq.com/virtual-clonedrive-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:31:46.499Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "SetupVCDxxxx.exe /S",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://www.elby.ch/download/SetupVCD.exe",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

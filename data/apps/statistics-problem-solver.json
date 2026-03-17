@@ -1,0 +1,22 @@
+{
+  "slug": "statistics-problem-solver",
+  "title": "Statistics Problem Solver",
+  "vendor": "Runiter Company",
+  "sourceUrl": "https://silentinstallhq.com/statistics-problem-solver-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:30:54.325Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "statistics.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "http://www.runiter.org/files/statistics.exe",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

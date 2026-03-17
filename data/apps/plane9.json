@@ -1,0 +1,22 @@
+{
+  "slug": "plane9",
+  "title": "Plane9",
+  "vendor": "Joakim Dahl / Planestate Software",
+  "sourceUrl": "https://silentinstallhq.com/plane9-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:29:34.667Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "Plane9-w.x.y.z.exe /S",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://www.plane9.com/download",
+      "psScriptUrl": "https://silentinstallhq.com/plane9-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "sweet-home-3d",
+  "title": "Sweet Home 3D",
+  "vendor": "eTeks",
+  "sourceUrl": "https://silentinstallhq.com/sweet-home-3d-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:31:02.670Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "SweetHome3D-x.y.z-windows.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "http://www.sweethome3d.com/download.jsp",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

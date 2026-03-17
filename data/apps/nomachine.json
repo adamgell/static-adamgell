@@ -1,0 +1,22 @@
+{
+  "slug": "nomachine",
+  "title": "NoMachine",
+  "vendor": "NoMachine S.a.r.l.",
+  "sourceUrl": "https://silentinstallhq.com/nomachine-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:28:36.731Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "nomachine_w.x.y_z.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "\"%ProgramData%\\NoMachine\\var\\uninstall\\unins000.exe\" /VERYSILENT /NORESTART",
+      "repair": null,
+      "downloadUrl": "https://www.nomachine.com/",
+      "psScriptUrl": "https://silentinstallhq.com/nomachine-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-nomachine-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

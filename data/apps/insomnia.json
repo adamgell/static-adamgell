@@ -1,0 +1,22 @@
+{
+  "slug": "insomnia",
+  "title": "Insomnia",
+  "vendor": "Kong",
+  "sourceUrl": "https://silentinstallhq.com/insomnia-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:15:54.686Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "Insomnia.Core-xxxx.y.z.exe -s",
+      "silentUninstall": "\"%LocalAppData%\\insomnia\\Update.exe\" --uninstall -s",
+      "repair": null,
+      "downloadUrl": "https://insomnia.rest/download",
+      "psScriptUrl": "https://silentinstallhq.com/insomnia-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-insomnia-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

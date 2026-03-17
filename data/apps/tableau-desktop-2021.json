@@ -1,0 +1,22 @@
+{
+  "slug": "tableau-desktop-2021",
+  "title": "Tableau Desktop 2021",
+  "vendor": "Tableau Software",
+  "sourceUrl": "https://silentinstallhq.com/tableau-desktop-2021-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:31:06.338Z",
+  "variants": [
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "TableauDesktop-64bit-2021-x-x.exe /install /quiet /norestart ACCEPTEULA=1",
+      "silentUninstall": "TableauDesktop-64bit-2021-x-x.exe /uninstall /quiet /norestart",
+      "repair": "TableauDesktop-64bit-2021-x-x.exe /repair /quiet /norestart",
+      "downloadUrl": "https://www.tableau.com/support/releases",
+      "psScriptUrl": "https://silentinstallhq.com/tableau-desktop-2021-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

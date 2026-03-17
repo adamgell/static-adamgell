@@ -1,0 +1,34 @@
+{
+  "slug": "bayden-slickrun",
+  "title": "Bayden SlickRun",
+  "vendor": "Bayden Systems",
+  "sourceUrl": "https://silentinstallhq.com/bayden-slickrun-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:00:03.634Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "sr-setup.exe /S",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://bayden.com/dl/sr-setup.exe",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "sr-setup64.exe /S",
+      "silentUninstall": "\"%ProgramFiles%\\SlickRun\\uninst.exe\" /S",
+      "repair": null,
+      "downloadUrl": "https://bayden.com/dl/sr-setup64.exe",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

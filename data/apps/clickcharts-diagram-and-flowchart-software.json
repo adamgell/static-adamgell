@@ -1,0 +1,22 @@
+{
+  "slug": "clickcharts-diagram-and-flowchart-software",
+  "title": "ClickCharts Diagram and Flowchart Software",
+  "vendor": "NCH Software",
+  "sourceUrl": "https://silentinstallhq.com/clickcharts-diagram-and-flowchart-software-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:01:37.176Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "ClickChartsFlowchartSoftware.exe -LQUIET",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://www.nchsoftware.com/chart/index.html",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

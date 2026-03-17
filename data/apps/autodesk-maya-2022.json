@@ -1,0 +1,22 @@
+{
+  "slug": "autodesk-maya-2022",
+  "title": "Autodesk Maya 2022",
+  "vendor": "Autodesk",
+  "sourceUrl": "https://silentinstallhq.com/autodesk-maya-2022-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T01:59:01.760Z",
+  "variants": [
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "Setup.exe -q",
+      "silentUninstall": "CLICK HERE FOR DETAILS",
+      "repair": null,
+      "downloadUrl": "https://www.autodesk.com/products/maya/overview",
+      "psScriptUrl": "https://silentinstallhq.com/autodesk-maya-2022-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

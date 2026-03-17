@@ -1,0 +1,22 @@
+{
+  "slug": "autodesk-dwg-trueview-2022",
+  "title": "Autodesk DWG TrueView 2022",
+  "vendor": "Autodesk",
+  "sourceUrl": "https://silentinstallhq.com/autodesk-dwg-trueview-2022-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T01:58:45.064Z",
+  "variants": [
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "Setup.exe -q",
+      "silentUninstall": "\"%ProgramFiles%\\Autodesk\\AdODIS\\V1\\Installer.exe\" -i uninstall -q -m C:\\ProgramData\\Autodesk\\ODIS\\metadata\\{E196DF21-D474-3517-A64E-A081C26AF3A8}\\bundleManifest.xml",
+      "repair": null,
+      "downloadUrl": "https://knowledge.autodesk.com/search-result/caas/sfdcarticles/sfdcarticles/Where-to-download-previous-versions-of-DWG-TrueView.html",
+      "psScriptUrl": "https://silentinstallhq.com/autodesk-dwg-trueview-2022-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-autodesk-dwg-trueview-2022-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "notepad-8-1-3",
+  "title": "Notepad++ 8.1.3",
+  "vendor": "Notepad++ Team",
+  "sourceUrl": "https://silentinstallhq.com/notepad-8-1-3-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:28:45.884Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "npp.8.1.3.Installer.exe /S",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://notepad-plus-plus.org/downloads/v8.1.3/",
+      "psScriptUrl": "https://silentinstallhq.com/notepad-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "npp.8.1.3.Installer.x64.exe /S",
+      "silentUninstall": "\"%ProgramFiles%\\Notepad++\\uninstall.exe\" /S",
+      "repair": null,
+      "downloadUrl": "https://notepad-plus-plus.org/downloads/v8.1.3/",
+      "psScriptUrl": "https://silentinstallhq.com/notepad-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

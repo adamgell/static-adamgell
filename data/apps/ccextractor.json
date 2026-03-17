@@ -8,9 +8,9 @@
     {
       "architecture": "x86",
       "installerType": "MSI",
-      "silentInstall": "**MsiExec.exe /i CCExtractor.msi /qn**",
-      "silentUninstall": "**MsiExec.exe /x CCExtractor.msi /qn**",
-      "repair": "**MsiExec.exe /fa CCExtractor.msi /qn**",
+      "silentInstall": "MsiExec.exe /i CCExtractor.msi /qn",
+      "silentUninstall": "MsiExec.exe /x CCExtractor.msi /qn",
+      "repair": "MsiExec.exe /fa CCExtractor.msi /qn",
       "downloadUrl": "https://github.com/CCExtractor/ccextractor/releases/latest",
       "psScriptUrl": null,
       "detectionScriptUrl": null,

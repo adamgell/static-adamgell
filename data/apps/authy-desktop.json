@@ -1,0 +1,34 @@
+{
+  "slug": "authy-desktop",
+  "title": "Authy Desktop",
+  "vendor": "Twilio Inc.",
+  "sourceUrl": "https://silentinstallhq.com/authy-desktop-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T01:57:59.836Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "\"Authy Desktop Setup x.y.z.exe\" -s",
+      "silentUninstall": "\"%LocalAppData%\\authy\\Update.exe\" --uninstall -s",
+      "repair": null,
+      "downloadUrl": "https://authy.com/download/",
+      "psScriptUrl": "https://silentinstallhq.com/authy-desktop-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-authy-desktop-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "\"Authy Desktop Setup x.y.z.exe\" -s",
+      "silentUninstall": "\"%LocalAppData%\\authy\\Update.exe\" --uninstall -s",
+      "repair": null,
+      "downloadUrl": "https://authy.com/download/",
+      "psScriptUrl": "https://silentinstallhq.com/authy-desktop-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-authy-desktop-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

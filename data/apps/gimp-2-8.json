@@ -1,0 +1,22 @@
+{
+  "slug": "gimp-2-8",
+  "title": "GIMP 2.8",
+  "vendor": "The GIMP Team",
+  "sourceUrl": "https://silentinstallhq.com/gimp-2-8-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:06:36.112Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "gimp-2.8.xx-setup.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "\"%ProgramFiles%\\GIMP 2\\uninst\\unins000.exe\" /VERYSILENT /NORESTART",
+      "repair": null,
+      "downloadUrl": "https://www.gimp.org/downloads/",
+      "psScriptUrl": "https://silentinstallhq.com/gimp-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-gimp-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

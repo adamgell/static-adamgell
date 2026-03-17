@@ -1,0 +1,22 @@
+{
+  "slug": "librecad",
+  "title": "LibreCAD",
+  "vendor": "LibreCAD Team",
+  "sourceUrl": "https://silentinstallhq.com/librecad-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:26:32.367Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "LibreCAD-Installer-x.y.z.exe /S",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://github.com/LibreCAD/LibreCAD/releases/latest",
+      "psScriptUrl": "https://silentinstallhq.com/librecad-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-librecad-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

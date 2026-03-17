@@ -1,0 +1,22 @@
+{
+  "slug": "realplayer",
+  "title": "RealPlayer",
+  "vendor": "RealNetworks",
+  "sourceUrl": "https://silentinstallhq.com/realplayer-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:30:05.699Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "RealPlayer.exe -s",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://www.real.com/",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

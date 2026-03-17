@@ -1,0 +1,22 @@
+{
+  "slug": "cadence-pcb-viewer-2019-17-4",
+  "title": "Cadence PCB Viewer 2019 (17.4)",
+  "vendor": "Cadence Design Systems, Inc.",
+  "sourceUrl": "https://silentinstallhq.com/cadence-pcb-viewer-2019-17-4-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:00:53.398Z",
+  "variants": [
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "installsetup.exe -s -f1\".\\setup.iss\"",
+      "silentUninstall": "installsetup.exe /hide_progress /hide_splash Uninstall !Quiet=\".\\silent-uninstall.ini\"",
+      "repair": null,
+      "downloadUrl": "https://www.cadence.com/en_US/home/tools/pcb-design-and-analysis/allegro-downloads-start.html",
+      "psScriptUrl": "https://silentinstallhq.com/cadence-pcb-viewer-2019-17-4-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

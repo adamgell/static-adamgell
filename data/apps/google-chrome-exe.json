@@ -1,0 +1,22 @@
+{
+  "slug": "google-chrome-exe",
+  "title": "Google Chrome (EXE)",
+  "vendor": "Google LLC",
+  "sourceUrl": "https://silentinstallhq.com/google-chrome-exe-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:07:07.770Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "ChromeSetup.exe /silent /install",
+      "silentUninstall": "\"%ProgramFiles%\\Google\\Chrome\\Application\\w.x.y.z\\Installer\\setup.exe\" --uninstall --system-level --multi-install --force-uninstall",
+      "repair": null,
+      "downloadUrl": "https://www.google.com/intl/en_us/chrome/",
+      "psScriptUrl": "https://silentinstallhq.com/google-chrome-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-google-chrome-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

@@ -1,0 +1,46 @@
+{
+  "slug": "asp-net-core-runtime-2-0",
+  "title": "ASP.NET Core Runtime 2.0",
+  "vendor": "Microsoft Corporation",
+  "sourceUrl": "https://silentinstallhq.com/asp-net-core-runtime-2-0-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T01:57:40.185Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "DotNetCore.2.0.x-WindowsHosting.exe /install /quiet /norestart",
+      "silentUninstall": "DotNetCore.2.0.x-WindowsHosting.exe /uninstall /quiet /norestart",
+      "repair": "DotNetCore.2.0.x-WindowsHosting.exe /repair /quiet /norestart",
+      "downloadUrl": "https://dotnet.microsoft.com/download/dotnet/2.0",
+      "psScriptUrl": "https://silentinstallhq.com/asp-net-core-runtime-2-0-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-asp-net-core-runtime-2-0-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "AspNetCore.2.0.x.RuntimePackageStore_x86.exe /install /quiet /norestart",
+      "silentUninstall": "AspNetCore.2.0.x.RuntimePackageStore_x86.exe /uninstall /quiet /norestart",
+      "repair": "AspNetCore.2.0.x.RuntimePackageStore_x86.exe /repair /quiet /norestart",
+      "downloadUrl": "https://dotnet.microsoft.com/download/dotnet/2.0",
+      "psScriptUrl": "https://silentinstallhq.com/asp-net-core-runtime-2-0-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-asp-net-core-runtime-2-0-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "AspNetCore.2.0.x.RuntimePackageStore_x64.exe /install /quiet /norestart",
+      "silentUninstall": "AspNetCore.2.0.x.RuntimePackageStore_x64.exe /uninstall /quiet /norestart",
+      "repair": "AspNetCore.2.0.x.RuntimePackageStore_x64.exe /repair /quiet /norestart",
+      "downloadUrl": "https://dotnet.microsoft.com/download/dotnet/2.0",
+      "psScriptUrl": "https://silentinstallhq.com/asp-net-core-runtime-2-0-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-asp-net-core-runtime-2-0-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

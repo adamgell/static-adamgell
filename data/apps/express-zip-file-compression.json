@@ -1,0 +1,22 @@
+{
+  "slug": "express-zip-file-compression",
+  "title": "Express Zip File Compression",
+  "vendor": "NCH Software",
+  "sourceUrl": "https://silentinstallhq.com/express-zip-file-compression-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:05:34.126Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "ExpressZipFileCompression.exe -LQUIET",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://www.nchsoftware.com/zip/index.html",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "mathworks-matlab-r2022",
+  "title": "MathWorks MATLAB R2022",
+  "vendor": "MathWorks",
+  "sourceUrl": "https://silentinstallhq.com/mathworks-matlab-r2022-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:26:54.795Z",
+  "variants": [
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "setup.exe -inputFile installer_input.txt -activationPropertiesFile activate.ini",
+      "silentUninstall": "\"%ProgramFiles%\\MATLAB\\R2022x\\uninstall\\bin\\win64\\uninstall.exe\" -mode silent",
+      "repair": null,
+      "downloadUrl": "https://www.mathworks.com/downloads",
+      "psScriptUrl": "https://silentinstallhq.com/mathworks-matlab-r2022-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

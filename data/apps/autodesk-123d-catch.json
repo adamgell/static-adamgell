@@ -1,0 +1,22 @@
+{
+  "slug": "autodesk-123d-catch",
+  "title": "Autodesk 123D Catch",
+  "vendor": "Autodesk",
+  "sourceUrl": "https://silentinstallhq.com/autodesk-123d-catch-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T01:58:01.344Z",
+  "variants": [
+    {
+      "architecture": "x64",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i 123DCatch.msi /qn",
+      "silentUninstall": "MsiExec.exe /x {DCA7A8E3-5D4C-4798-86CE-C2F229FA68C1} /qn",
+      "repair": "MsiExec.exe /fa {DCA7A8E3-5D4C-4798-86CE-C2F229FA68C1} /qn",
+      "downloadUrl": "http://labs-download.autodesk.com/us/labs/trials/worldwide/123DCatch.msi",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

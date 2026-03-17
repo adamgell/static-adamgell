@@ -1,0 +1,22 @@
+{
+  "slug": "eschat-pc-client",
+  "title": "ESChat PC Client",
+  "vendor": "SLA Corp.",
+  "sourceUrl": "https://silentinstallhq.com/eschat-pc-client-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:05:20.554Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "ESChatPCClientSetup.exe /S",
+      "silentUninstall": "\"%ProgramFiles%\\ESChatPCClient\\uninstall.exe\" /S",
+      "repair": null,
+      "downloadUrl": "https://download.sla-ptt.com/dispatch/latest/ESChatPCClientSetup.exe",
+      "psScriptUrl": "https://silentinstallhq.com/eschat-pc-client-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

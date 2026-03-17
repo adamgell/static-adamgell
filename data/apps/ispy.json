@@ -1,0 +1,34 @@
+{
+  "slug": "ispy",
+  "title": "iSpy",
+  "vendor": "DeveloperInABox",
+  "sourceUrl": "https://silentinstallhq.com/ispy-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:16:26.361Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "iSpySetup.exe /install /quiet /norestart",
+      "silentUninstall": "iSpySetup.exe /uninstall /quiet /norestart",
+      "repair": "iSpySetup.exe /repair /quiet /norestart",
+      "downloadUrl": "https://ispyfiles.azureedge.net/downloads/iSpy_7_2_1_0.zip",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "iSpySetup.exe /install /quiet /norestart",
+      "silentUninstall": "iSpySetup.exe /uninstall /quiet /norestart",
+      "repair": "iSpySetup.exe /repair /quiet /norestart",
+      "downloadUrl": "https://ispyfiles.azureedge.net/downloads/iSpy64_7_2_1_0.zip",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

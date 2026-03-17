@@ -1,0 +1,22 @@
+{
+  "slug": "photofiltre-6",
+  "title": "PhotoFiltre 6",
+  "vendor": "Antonio Da Cruz",
+  "sourceUrl": "https://silentinstallhq.com/photofiltre-6-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:29:25.561Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "pf-setup-en-653.exe /S",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "http://photofiltre.free.fr/download_en.htm",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

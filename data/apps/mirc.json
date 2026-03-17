@@ -1,0 +1,22 @@
+{
+  "slug": "mirc",
+  "title": "mIRC",
+  "vendor": "mIRC Co. Ltd.",
+  "sourceUrl": "https://silentinstallhq.com/mirc-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:28:03.069Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "mircXXX.exe /S",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://www.mirc.com/get.php",
+      "psScriptUrl": "https://silentinstallhq.com/mirc-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-mirc-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

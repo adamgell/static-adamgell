@@ -1,0 +1,22 @@
+{
+  "slug": "huawei-hisuite",
+  "title": "Huawei HiSuite",
+  "vendor": "Huawei Technologies Co., Ltd.",
+  "sourceUrl": "https://silentinstallhq.com/huawei-hisuite-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:15:36.543Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "HiSuite_w.x.y.z_OVE.exe /S",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://consumer.huawei.com/en/support/hisuite/",
+      "psScriptUrl": "https://silentinstallhq.com/huawei-hisuite-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

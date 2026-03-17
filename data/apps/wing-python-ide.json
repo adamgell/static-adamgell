@@ -1,0 +1,46 @@
+{
+  "slug": "wing-python-ide",
+  "title": "Wing Python IDE",
+  "vendor": "Wingware",
+  "sourceUrl": "https://silentinstallhq.com/wing-python-ide-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:32:17.926Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "wing-101-x.y.y.z.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://wingware.com/downloads/wing-101",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "wing-personal-x.y.y.z.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://wingware.com/downloads/wing-personal",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "wingpro-x.y.y.z.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://wingware.com/downloads/wing-pro",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

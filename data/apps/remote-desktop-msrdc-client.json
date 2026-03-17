@@ -1,9 +1,9 @@
 {
   "slug": "remote-desktop-msrdc-client",
-  "title": "Remote Desktop",
+  "title": "Microsoft Remote Desktop Client",
   "vendor": "Microsoft Corporation",
-  "sourceUrl": "https://silentinstallhq.com/remote-desktop-msrdc-client-silent-install-how-to-guide",
-  "lastScraped": "2026-03-16T22:27:11.784Z",
+  "sourceUrl": "https://silentinstallhq.com/remote-desktop-msrdc-client-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:30:07.269Z",
   "variants": [
     {
       "architecture": "x86",
@@ -11,9 +11,9 @@
       "silentInstall": "MsiExec.exe /i RemoteDesktop_x.y.z_x86.msi ALLUSERS=1 /qn",
       "silentUninstall": "MsiExec.exe /x RemoteDesktop_x.y.z_x86.msi /qn",
       "repair": "MsiExec.exe /fa RemoteDesktop_x.y.z_x86.msi ALLUSERS=1 /qn",
-      "downloadUrl": null,
-      "psScriptUrl": null,
-      "detectionScriptUrl": null,
+      "downloadUrl": "https://learn.microsoft.com/en-us/previous-versions/remote-desktop-client/connect-windows-cloud-services?pivots=remote-desktop-msi&tabs=windows-msrdc-msi#download-and-install-the-remote-desktop-client-for-windows-msi",
+      "psScriptUrl": "https://silentinstallhq.com/remote-desktop-msrdc-client-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-the-remote-desktop-msrdc-client-powershell/",
       "logInstall": null,
       "logUninstall": null
     },
@@ -23,9 +23,9 @@
       "silentInstall": "MsiExec.exe /i RemoteDesktop_x.y.z_x64.msi ALLUSERS=1 /qn",
       "silentUninstall": "MsiExec.exe /x RemoteDesktop_x.y.z_x64.msi /qn",
       "repair": "MsiExec.exe /fa RemoteDesktop_x.y.z_x64.msi ALLUSERS=1 /qn",
-      "downloadUrl": null,
-      "psScriptUrl": null,
-      "detectionScriptUrl": null,
+      "downloadUrl": "https://learn.microsoft.com/en-us/previous-versions/remote-desktop-client/connect-windows-cloud-services?pivots=remote-desktop-msi&tabs=windows-msrdc-msi#download-and-install-the-remote-desktop-client-for-windows-msi",
+      "psScriptUrl": "https://silentinstallhq.com/remote-desktop-msrdc-client-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-the-remote-desktop-msrdc-client-powershell/",
       "logInstall": null,
       "logUninstall": null
     }

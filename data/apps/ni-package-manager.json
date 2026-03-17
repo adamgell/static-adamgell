@@ -1,0 +1,46 @@
+{
+  "slug": "ni-package-manager",
+  "title": "NI Package Manager",
+  "vendor": "National Instruments",
+  "sourceUrl": "https://silentinstallhq.com/ni-package-manager-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:28:34.513Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "NIPackageManagerx.y.z.exe --quiet --accept-eulas --prevent-reboot",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://www.ni.com/en-us/support/downloads/software-products/download.package-manager.html",
+      "psScriptUrl": "https://silentinstallhq.com/ni-package-manager-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "NIPackageManagerx.y.z.exe --passive --accept-eulas --prevent-reboot",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://www.ni.com/en-us/support/downloads/software-products/download.package-manager.html",
+      "psScriptUrl": "https://silentinstallhq.com/ni-package-manager-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "Install.exe --passive --accept-eulas --prevent-reboot",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://www.ni.com/en-us/support/downloads/software-products/download.package-manager.html",
+      "psScriptUrl": "https://silentinstallhq.com/ni-package-manager-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

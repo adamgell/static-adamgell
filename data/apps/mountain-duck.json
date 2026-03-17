@@ -1,0 +1,22 @@
+{
+  "slug": "mountain-duck",
+  "title": "Mountain Duck",
+  "vendor": "iterate GmbH",
+  "sourceUrl": "https://silentinstallhq.com/mountain-duck-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:28:07.654Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "\"Mountain Duck Installer-w.x.y.z.exe\" /install /quiet /norestart",
+      "silentUninstall": "\"Mountain Duck Installer-w.x.y.z.exe\" /uninstall /quiet /norestart",
+      "repair": "\"Mountain Duck Installer-w.x.y.z.exe\" /repair /quiet /norestart",
+      "downloadUrl": "https://mountainduck.io/",
+      "psScriptUrl": "https://silentinstallhq.com/mountain-duck-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

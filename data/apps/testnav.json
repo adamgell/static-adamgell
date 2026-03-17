@@ -1,0 +1,34 @@
+{
+  "slug": "testnav",
+  "title": "TestNav",
+  "vendor": "Pearson",
+  "sourceUrl": "https://silentinstallhq.com/testnav-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:31:22.461Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i testnav-x.y.z.msi /qn",
+      "silentUninstall": "MsiExec.exe /x testnav-x.y.z.msi /qn",
+      "repair": "MsiExec.exe /fa testnav-x.y.z.msi /qn",
+      "downloadUrl": "https://download.testnav.com/",
+      "psScriptUrl": "https://silentinstallhq.com/testnav-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-testnav-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "testnav-x.y.z.exe /SP- /VERYSILENT /NORESTART",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://download.testnav.com/_testnavinstallers/testnav-1.9.7.exe",
+      "psScriptUrl": "https://silentinstallhq.com/testnav-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-testnav-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "vernier-instrumental-analysis",
+  "title": "Vernier Instrumental Analysis",
+  "vendor": "Vernier Software & Technology",
+  "sourceUrl": "https://silentinstallhq.com/vernier-instrumental-analysis-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:31:42.557Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "Vernier-Instrumental-Analysis.exe /allusers /S",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://www.vernier.com/product/instrumental-analysis/",
+      "psScriptUrl": "https://silentinstallhq.com/vernier-instrumental-analysis-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

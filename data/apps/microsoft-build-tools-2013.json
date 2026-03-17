@@ -1,0 +1,22 @@
+{
+  "slug": "microsoft-build-tools-2013",
+  "title": "Microsoft Build Tools 2013",
+  "vendor": "Microsoft Corporation",
+  "sourceUrl": "https://silentinstallhq.com/microsoft-build-tools-2013-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:27:08.533Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "BuildTools_Full.exe /quiet /norestart",
+      "silentUninstall": "BuildTools_Full.exe /uninstall /quiet /norestart",
+      "repair": "BuildTools_Full.exe /repair /quiet /norestart",
+      "downloadUrl": "https://www.microsoft.com/en-US/download/details.aspx?id=40760",
+      "psScriptUrl": "https://silentinstallhq.com/microsoft-build-tools-2013-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

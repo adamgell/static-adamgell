@@ -1,0 +1,34 @@
+{
+  "slug": "autodesk-dwg-trueview-2021",
+  "title": "Autodesk DWG TrueView 2021",
+  "vendor": "Autodesk",
+  "sourceUrl": "https://silentinstallhq.com/autodesk-dwg-trueview-2021-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T01:58:43.581Z",
+  "variants": [
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "Setup.exe /W /Q /I .\\setup.ini",
+      "silentUninstall": "MsiExec.exe /x {28B89EEF-4128-0409-0100-CF3F3A09B77D} /qn",
+      "repair": "MsiExec.exe /fa {28B89EEF-4128-0409-0100-CF3F3A09B77D} /qn",
+      "downloadUrl": "https://knowledge.autodesk.com/search-result/caas/sfdcarticles/sfdcarticles/Where-to-download-previous-versions-of-DWG-TrueView.html",
+      "psScriptUrl": "https://silentinstallhq.com/autodesk-dwg-trueview-2021-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-autodesk-dwg-trueview-2021-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x64",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i dwgviewr.msi ADSK_SETUP_EXE=1 /qn",
+      "silentUninstall": "MsiExec.exe /x {28B89EEF-4128-0409-0100-CF3F3A09B77D} /qn",
+      "repair": "MsiExec.exe /fa {28B89EEF-4128-0409-0100-CF3F3A09B77D} /qn",
+      "downloadUrl": "https://knowledge.autodesk.com/search-result/caas/sfdcarticles/sfdcarticles/Where-to-download-previous-versions-of-DWG-TrueView.html",
+      "psScriptUrl": "https://silentinstallhq.com/autodesk-dwg-trueview-2021-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-autodesk-dwg-trueview-2021-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

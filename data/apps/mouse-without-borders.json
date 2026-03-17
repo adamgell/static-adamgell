@@ -1,0 +1,22 @@
+{
+  "slug": "mouse-without-borders",
+  "title": "Mouse Without Borders",
+  "vendor": "Microsoft Garage",
+  "sourceUrl": "https://silentinstallhq.com/mouse-without-borders-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:28:08.153Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i MouseWithoutBordersSetup.msi /qn",
+      "silentUninstall": "MsiExec.exe /x {D3BC954F-D661-474C-B367-30EB6E56542E} /qn",
+      "repair": "MsiExec.exe /fa {D3BC954F-D661-474C-B367-30EB6E56542E} /qn",
+      "downloadUrl": "https://www.microsoft.com/en-us/download/details.aspx?id=35460",
+      "psScriptUrl": "https://silentinstallhq.com/mouse-without-borders-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-mouse-without-borders-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

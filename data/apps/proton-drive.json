@@ -6,7 +6,7 @@
   "lastScraped": "2026-03-16T22:26:47.304Z",
   "variants": [
     {
-      "architecture": "x86\\_x64",
+      "architecture": "x86/x64",
       "installerType": "EXE",
       "silentInstall": "\"Proton Drive Setup x.y.z.exe\" /install /quiet /norestart",
       "silentUninstall": "\"Proton Drive Setup x.y.z.exe\" /uninstall /quiet /norestart",

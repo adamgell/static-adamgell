@@ -1,0 +1,22 @@
+{
+  "slug": "lego-digital-designer",
+  "title": "LEGO Digital Designer",
+  "vendor": "LEGO A/S",
+  "sourceUrl": "https://silentinstallhq.com/lego-digital-designer-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:26:26.272Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "LDDSetup.exe /S",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://www.lego.com/assets/franchisesites/ldd/installer/setupldd-pc-4_3_12.exe",
+      "psScriptUrl": "https://silentinstallhq.com/lego-digital-designer-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

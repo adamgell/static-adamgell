@@ -1,0 +1,22 @@
+{
+  "slug": "spybot-search-destroy",
+  "title": "Spybot – Search & Destroy",
+  "vendor": "Safer-Networking Ltd.",
+  "sourceUrl": "https://silentinstallhq.com/spybot-search-destroy-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:30:50.041Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "spybotsd-w.x.y.z.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://www.safer-networking.org/products/spybot-free-edition/download-mirror-1/",
+      "psScriptUrl": "https://silentinstallhq.com/spybot-search-destroy-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

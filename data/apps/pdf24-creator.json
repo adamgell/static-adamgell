@@ -1,0 +1,34 @@
+{
+  "slug": "pdf24-creator",
+  "title": "PDF24 Creator",
+  "vendor": "PDF24.org",
+  "sourceUrl": "https://silentinstallhq.com/pdf24-creator-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:29:21.575Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "pdf24-creator-x.y.z.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://creator.pdf24.org/listVersions.php",
+      "psScriptUrl": "https://silentinstallhq.com/pdf24-creator-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-pdf24-creator-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x86/x64",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i pdf24-creator-x.y.z.msi /qn",
+      "silentUninstall": "MsiExec.exe /x pdf24-creator-x.y.z.msi /qn",
+      "repair": "MsiExec.exe /fa pdf24-creator-x.y.z.msi /qn",
+      "downloadUrl": "https://creator.pdf24.org/listVersions.php",
+      "psScriptUrl": "https://silentinstallhq.com/pdf24-creator-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-pdf24-creator-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

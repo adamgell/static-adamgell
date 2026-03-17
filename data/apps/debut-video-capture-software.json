@@ -1,0 +1,22 @@
+{
+  "slug": "debut-video-capture-software",
+  "title": "Debut Video Capture Software",
+  "vendor": "NCH Software",
+  "sourceUrl": "https://silentinstallhq.com/debut-video-capture-software-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:02:45.079Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "DebutVideoCaptureSoftware.exe -LQUIET",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://www.nchsoftware.com/capture/index.html",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

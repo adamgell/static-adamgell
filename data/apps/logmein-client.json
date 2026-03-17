@@ -1,0 +1,22 @@
+{
+  "slug": "logmein-client",
+  "title": "LogMeIn Client",
+  "vendor": "LogMeIn, Inc.",
+  "sourceUrl": "https://silentinstallhq.com/logmein-client-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:26:44.125Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i LogMeInIgnition.msi /qn",
+      "silentUninstall": "MsiExec.exe /x LogMeInIgnition.msi /qn",
+      "repair": "MsiExec.exe /fa LogMeInIgnition.msi /qn",
+      "downloadUrl": "http://secure.logmein.com/LogMeInIgnition.msi",
+      "psScriptUrl": "https://silentinstallhq.com/logmein-client-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

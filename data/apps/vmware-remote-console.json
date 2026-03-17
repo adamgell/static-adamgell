@@ -1,0 +1,22 @@
+{
+  "slug": "vmware-remote-console",
+  "title": "VMware Remote Console",
+  "vendor": "VMware, Inc.",
+  "sourceUrl": "https://silentinstallhq.com/vmware-remote-console-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:31:59.649Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "VMware-VMRC-x.y.z-xxxxxxxx.exe /s /v/qn EULAS_AGREED=1 AUTOSOFTWAREUPDATE=0 DATACOLLECTION=0 REBOOT=ReallySuppress",
+      "silentUninstall": "See Uninstall Section Below",
+      "repair": null,
+      "downloadUrl": "https://www.vmware.com/go/download-vmrc",
+      "psScriptUrl": "https://silentinstallhq.com/vmware-remote-console-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

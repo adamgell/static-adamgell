@@ -1,0 +1,22 @@
+{
+  "slug": "logmein-hamachi",
+  "title": "LogMeIn Hamachi",
+  "vendor": "LogMeIn, Inc.",
+  "sourceUrl": "https://silentinstallhq.com/logmein-hamachi-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:26:44.614Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i hamachi.msi STARTUI=0 /qn",
+      "silentUninstall": "MsiExec.exe /x hamachi.msi /qn",
+      "repair": "MsiExec.exe /fa hamachi.msi /qn",
+      "downloadUrl": "https://secure.logmein.com/hamachi.msi",
+      "psScriptUrl": "https://silentinstallhq.com/logmein-hamachi-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

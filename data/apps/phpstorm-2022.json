@@ -1,0 +1,22 @@
+{
+  "slug": "phpstorm-2022",
+  "title": "PhpStorm 2022",
+  "vendor": "JetBrains s.r.o",
+  "sourceUrl": "https://silentinstallhq.com/phpstorm-2022-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:29:30.106Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "PhpStorm-2022.x.x.exe /S /CONFIG=.\\silent.config /D=C:\\Program Files\\PhpStorm 2022",
+      "silentUninstall": "\"%ProgramFiles%\\PhpStorm 2022\\bin\\Uninstall.exe\" /S",
+      "repair": null,
+      "downloadUrl": "https://www.jetbrains.com/phpstorm/download/#section=windows",
+      "psScriptUrl": "https://silentinstallhq.com/phpstorm-2022-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-phpstorm-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

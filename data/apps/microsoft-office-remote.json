@@ -1,0 +1,22 @@
+{
+  "slug": "microsoft-office-remote",
+  "title": "Microsoft Office Remote",
+  "vendor": "Microsoft Corporation",
+  "sourceUrl": "https://silentinstallhq.com/microsoft-office-remote-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:27:32.282Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "OfficeRemoteSetup.exe /install /quiet /norestart",
+      "silentUninstall": "\"%ProgramData%\\Package Cache{7a1ad515-9199-47d6-aa40-6fdf2c857ff0}\\OfficeRemoteSetup.exe\" /uninstall /quiet",
+      "repair": null,
+      "downloadUrl": "https://www.microsoft.com/en-us/download/details.aspx?id=41149",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

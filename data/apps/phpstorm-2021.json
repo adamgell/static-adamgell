@@ -1,0 +1,22 @@
+{
+  "slug": "phpstorm-2021",
+  "title": "PhpStorm 2021",
+  "vendor": "JetBrains s.r.o",
+  "sourceUrl": "https://silentinstallhq.com/phpstorm-2021-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:29:29.618Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "PhpStorm-2021.x.x.exe /S /CONFIG=.\\silent.config /D=C:\\Program Files\\PhpStorm 2021",
+      "silentUninstall": "\"%ProgramFiles%\\PhpStorm 2021\\bin\\Uninstall.exe\" /S",
+      "repair": null,
+      "downloadUrl": "https://www.jetbrains.com/phpstorm/download/#section=windows",
+      "psScriptUrl": "https://silentinstallhq.com/phpstorm-2021-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

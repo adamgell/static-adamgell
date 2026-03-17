@@ -1,0 +1,34 @@
+{
+  "slug": "visual-studio-code",
+  "title": "Visual Studio Code",
+  "vendor": "Microsoft Corporation",
+  "sourceUrl": "https://silentinstallhq.com/visual-studio-code-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:31:49.484Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "VSCodeSetup-ia32-x.y.z.exe /VERYSILENT /NORESTART /MERGETASKS=!runcode",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://code.visualstudio.com/download",
+      "psScriptUrl": "https://silentinstallhq.com/visual-studio-code-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-visual-studio-code-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "VSCodeSetup-x64-x.y.z.exe /VERYSILENT /NORESTART /MERGETASKS=!runcode",
+      "silentUninstall": "\"%ProgramFiles%\\Microsoft VS Code\\unins000.exe\" /VERYSILENT /NORESTART",
+      "repair": null,
+      "downloadUrl": "https://code.visualstudio.com/docs/?dv=win64",
+      "psScriptUrl": "https://silentinstallhq.com/visual-studio-code-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-visual-studio-code-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

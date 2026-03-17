@@ -1,0 +1,22 @@
+{
+  "slug": "faststone-capture",
+  "title": "FastStone Capture",
+  "vendor": "FastStone Soft",
+  "sourceUrl": "https://silentinstallhq.com/faststone-capture-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:05:43.219Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "FSCaptureSetupXXX.exe /S",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://www.faststone.org/FSCaptureDownload.htm",
+      "psScriptUrl": "https://silentinstallhq.com/faststone-capture-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-faststone-capture-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

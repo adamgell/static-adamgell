@@ -1,0 +1,22 @@
+{
+  "slug": "neo4j-desktop",
+  "title": "Neo4j Desktop",
+  "vendor": "Neo4j Inc.",
+  "sourceUrl": "https://silentinstallhq.com/neo4j-desktop-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:28:30.124Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "\"Neo4j Desktop Setup x.y.z.exe\" /allusers /S",
+      "silentUninstall": "\"%ProgramFiles%\\Neo4j Desktop\\Uninstall Neo4j Desktop.exe\" /allusers /S",
+      "repair": null,
+      "downloadUrl": "https://neo4j.com/download-center/#desktop",
+      "psScriptUrl": "https://silentinstallhq.com/neo4j-desktop-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

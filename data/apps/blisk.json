@@ -1,0 +1,22 @@
+{
+  "slug": "blisk",
+  "title": "Blisk",
+  "vendor": "The Blisk Authors",
+  "sourceUrl": "https://silentinstallhq.com/blisk-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:00:27.771Z",
+  "variants": [
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "blisk_inst.exe --install --silent --system-level",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://blisk.io/Download/LiteInstaller",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

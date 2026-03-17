@@ -1,0 +1,58 @@
+{
+  "slug": "oracle-vm-virtualbox-5-2-34",
+  "title": "Oracle VM VirtualBox 5.2.34",
+  "vendor": "Oracle Corporation",
+  "sourceUrl": "https://silentinstallhq.com/oracle-vm-virtualbox-5-2-34-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:29:15.370Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "VirtualBox-5.2.34-133893-Win.exe --silent --ignore-reboot",
+      "silentUninstall": "MsiExec.exe /x {613B857D-7161-4C66-AE2D-7DF59F9D58F4} /qn",
+      "repair": null,
+      "downloadUrl": "https://www.virtualbox.org/wiki/Download_Old_Builds_5_2",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "VirtualBox-5.2.34-133893-Win.exe --silent --ignore-reboot",
+      "silentUninstall": "MsiExec.exe /x {D5F867A5-B6AB-491E-8BE1-329D4D7C7760} /qn",
+      "repair": null,
+      "downloadUrl": "https://www.virtualbox.org/wiki/Download_Old_Builds_5_2",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x86",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i VirtualBox-5.2.34-r133893-MultiArch_x86.msi /qn",
+      "silentUninstall": "MsiExec.exe /x {613B857D-7161-4C66-AE2D-7DF59F9D58F4} /qn",
+      "repair": null,
+      "downloadUrl": "https://www.virtualbox.org/wiki/Download_Old_Builds_5_2",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x64",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i VirtualBox-5.2.34-r133893-MultiArch_amd64.msi /qn",
+      "silentUninstall": "MsiExec.exe /x {D5F867A5-B6AB-491E-8BE1-329D4D7C7760} /qn",
+      "repair": null,
+      "downloadUrl": "https://www.virtualbox.org/wiki/Download_Old_Builds_5_2",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

@@ -6,7 +6,7 @@
   "lastScraped": "2026-03-16T22:27:05.491Z",
   "variants": [
     {
-      "architecture": "x86\\_x64",
+      "architecture": "x86/x64",
       "installerType": "EXE",
       "silentInstall": "VNC-Viewer-x.y.z-Windows.exe /qn",
       "silentUninstall": "VNC-Viewer-x.y.z-Windows.exe /qn REMOVE=ALL",

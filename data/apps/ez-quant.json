@@ -1,0 +1,22 @@
+{
+  "slug": "ez-quant",
+  "title": "EZ-Quant",
+  "vendor": "DCAA Applications",
+  "sourceUrl": "https://silentinstallhq.com/ez-quant-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:05:37.154Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i EZ-Quant-x.x.msi ALLUSERS=1 /qn",
+      "silentUninstall": "MsiExec.exe /x EZ-Quant-x.x.msi /qn",
+      "repair": "MsiExec.exe /fa EZ-Quant-x.x.msi /qn",
+      "downloadUrl": "https://www.dcaa.mil/Checklists-Tools/EZ-Quant-Applications/",
+      "psScriptUrl": "https://silentinstallhq.com/ez-quant-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-ez-quant-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

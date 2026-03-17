@@ -1,0 +1,22 @@
+{
+  "slug": "microsoft-hyperlapse-pro",
+  "title": "Microsoft Hyperlapse Pro",
+  "vendor": "Microsoft Corporation",
+  "sourceUrl": "https://silentinstallhq.com/microsoft-hyperlapse-pro-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:27:21.304Z",
+  "variants": [
+    {
+      "architecture": "x64",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i Hyperlapse-Pro-for-64-bit-Windows.msi ALLUSERS=1 /qn",
+      "silentUninstall": "MsiExec.exe /x {9B62C270-A729-4759-95D4-E16E5F0DEEED} /qn",
+      "repair": "MsiExec.exe /fa {9B62C270-A729-4759-95D4-E16E5F0DEEED} /qn",
+      "downloadUrl": "https://www.microsoft.com/en-us/download/details.aspx?id=52379",
+      "psScriptUrl": "https://silentinstallhq.com/microsoft-hyperlapse-pro-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

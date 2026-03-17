@@ -1,0 +1,22 @@
+{
+  "slug": "crystaldiskinfo",
+  "title": "CrystalDiskInfo",
+  "vendor": "Crystal Dew World",
+  "sourceUrl": "https://silentinstallhq.com/crystaldiskinfo-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:02:20.910Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "CrystalDiskInfo_x_x.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "\"%ProgramFiles%\\CrystalDiskInfo\\unins000.exe\" /VERYSILENT /NORESTART",
+      "repair": null,
+      "downloadUrl": "https://osdn.net/projects/crystaldiskinfo/releases/",
+      "psScriptUrl": "https://silentinstallhq.com/crystaldiskinfo-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-crystaldiskinfo-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

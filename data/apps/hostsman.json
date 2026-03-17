@@ -1,0 +1,22 @@
+{
+  "slug": "hostsman",
+  "title": "HostsMan",
+  "vendor": "abelhadigital.com",
+  "sourceUrl": "https://silentinstallhq.com/hostsman-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:08:26.274Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "HostsMan_Setup.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "http://www.abelhadigital.com/hostsman/#downloads",
+      "psScriptUrl": "https://silentinstallhq.com/hostsman-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

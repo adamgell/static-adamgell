@@ -1,0 +1,34 @@
+{
+  "slug": "hipchat",
+  "title": "HipChat",
+  "vendor": "Atlassian Inc",
+  "sourceUrl": "https://silentinstallhq.com/hipchat-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:08:24.837Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "HipChat-4.x.y.z.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://atlassian.jfrog.io/atlassian/libqt-hipchat/",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x86",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i HipChat-4.x.y.z-win32.msi ALLUSERS=1 LAUNCHHIPONEXIT=\"\" /qn",
+      "silentUninstall": "MsiExec.exe /x HipChat-4.x.y.z-win32.msi /qn",
+      "repair": "MsiExec.exe /fa HipChat-4.x.y.z-win32.msi /qn",
+      "downloadUrl": "https://atlassian.jfrog.io/atlassian/libqt-hipchat/",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

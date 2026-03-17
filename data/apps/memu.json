@@ -1,0 +1,22 @@
+{
+  "slug": "memu",
+  "title": "MEmu",
+  "vendor": "Microvirt Software Technology Co. Ltd.",
+  "sourceUrl": "https://silentinstallhq.com/memu-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:26:59.562Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "Memu-Setup.exe /S",
+      "silentUninstall": "\"%ProgramFiles%\\Microvirt\\MEmu\\uninstall\\uninstall.exe\" /S",
+      "repair": null,
+      "downloadUrl": "https://www.memuplay.com/download-memu-on-pc.html?from=offline_installer",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "displaycal",
+  "title": "DisplayCAL",
+  "vendor": "Florian Hoch",
+  "sourceUrl": "https://silentinstallhq.com/displaycal-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:03:22.813Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "DisplayCAL-Setup.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://displaycal.net/#download",
+      "psScriptUrl": "https://silentinstallhq.com/displaycal-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-displaycal-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

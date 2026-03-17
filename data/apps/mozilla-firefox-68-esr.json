@@ -1,0 +1,58 @@
+{
+  "slug": "mozilla-firefox-68-esr",
+  "title": "Mozilla Firefox 68 ESR",
+  "vendor": "Mozilla",
+  "sourceUrl": "https://silentinstallhq.com/mozilla-firefox-68-esr-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:28:08.660Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "\"Firefox Setup 68.9.0esr.exe\" -ms",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://ftp.mozilla.org/pub/firefox/releases/68.9.0esr/win32/en-US/",
+      "psScriptUrl": "https://silentinstallhq.com/mozilla-firefox-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "\"Firefox Setup 68.9.0esr.exe\" -ms",
+      "silentUninstall": "\"%ProgramFiles%\\Mozilla Firefox\\uninstall\\helper.exe\" /S",
+      "repair": null,
+      "downloadUrl": "https://ftp.mozilla.org/pub/firefox/releases/68.9.0esr/win64/en-US/",
+      "psScriptUrl": "https://silentinstallhq.com/mozilla-firefox-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x86",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i \"Firefox Setup 68.9.0esr.msi\" /qn",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://ftp.mozilla.org/pub/firefox/releases/68.9.0esr/win32/en-US/",
+      "psScriptUrl": "https://silentinstallhq.com/mozilla-firefox-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x64",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i \"Firefox Setup 68.9.0esr.msi\" /qn",
+      "silentUninstall": "\"%ProgramFiles%\\Mozilla Firefox\\uninstall\\helper.exe\" /S",
+      "repair": null,
+      "downloadUrl": "https://ftp.mozilla.org/pub/firefox/releases/68.9.0esr/win64/en-US/",
+      "psScriptUrl": "https://silentinstallhq.com/mozilla-firefox-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

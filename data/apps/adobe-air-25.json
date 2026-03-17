@@ -1,0 +1,22 @@
+{
+  "slug": "adobe-air-25",
+  "title": "Adobe AIR 25",
+  "vendor": "Adobe",
+  "sourceUrl": "https://silentinstallhq.com/adobe-air-25-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T01:55:59.099Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "AdobeAIRInstaller.exe -silent -eulaAccepted",
+      "silentUninstall": "MsiExec.exe /x {25A60C59-0FDC-4D73-81F4-D4A6D4E0CB92} /qn",
+      "repair": null,
+      "downloadUrl": "http://airdownload.adobe.com/air/win/download/25.0/AdobeAIRInstaller.exe",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

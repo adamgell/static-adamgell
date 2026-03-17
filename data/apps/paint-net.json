@@ -1,0 +1,34 @@
+{
+  "slug": "paint-net",
+  "title": "Paint.NET",
+  "vendor": "dotPDN LLC",
+  "sourceUrl": "https://silentinstallhq.com/paint-net-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:29:18.421Z",
+  "variants": [
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "paint.net.x.y.z.install.x64.exe /auto",
+      "silentUninstall": "MsiExec.exe /x {XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX} /qn",
+      "repair": null,
+      "downloadUrl": "https://github.com/paintdotnet/release/releases/latest",
+      "psScriptUrl": "https://silentinstallhq.com/paint-net-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-paint-net-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x64",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i paint.net.x.y.z.winmsi.x64.msi /qn",
+      "silentUninstall": "MsiExec.exe /x paint.net.x.y.z.winmsi.x64.msi /qn",
+      "repair": "MsiExec.exe /fa paint.net.x.y.z.winmsi.x64.msi /qn",
+      "downloadUrl": "https://github.com/paintdotnet/release/releases/latest",
+      "psScriptUrl": "https://silentinstallhq.com/paint-net-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-paint-net-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

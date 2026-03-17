@@ -1,0 +1,22 @@
+{
+  "slug": "ediview-finder",
+  "title": "EdiView Finder",
+  "vendor": "Edimax Technology Co., Ltd.",
+  "sourceUrl": "https://silentinstallhq.com/ediview-finder-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:04:44.352Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "EdiView_Finder_x.y.z.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://www.edimax.com/EdiViewFinder.htm",
+      "psScriptUrl": "https://silentinstallhq.com/ediview-finder-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

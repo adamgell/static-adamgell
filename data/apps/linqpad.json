@@ -1,0 +1,46 @@
+{
+  "slug": "linqpad",
+  "title": "LINQPad",
+  "vendor": "Joseph Albahari",
+  "sourceUrl": "https://silentinstallhq.com/linqpad-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:26:35.535Z",
+  "variants": [
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "LINQPad7Setup.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "\"%ProgramFiles%\\LINQPad7\\unins000.exe\" /VERYSILENT /NORESTART",
+      "repair": null,
+      "downloadUrl": "https://www.linqpad.net/Download.aspx",
+      "psScriptUrl": "https://silentinstallhq.com/linqpad-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-linqpad-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "LINQPad6Setup.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "\"%ProgramFiles%\\LINQPad6\\unins000.exe\" /VERYSILENT /NORESTART",
+      "repair": null,
+      "downloadUrl": "https://www.linqpad.net/GetFile.aspx?LINQPad6Setup.exe",
+      "psScriptUrl": "https://silentinstallhq.com/linqpad-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-linqpad-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "LINQPad5Setup.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://www.linqpad.net/Download.aspx",
+      "psScriptUrl": "https://silentinstallhq.com/linqpad-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-linqpad-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

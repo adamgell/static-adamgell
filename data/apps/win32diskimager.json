@@ -1,0 +1,22 @@
+{
+  "slug": "win32diskimager",
+  "title": "Win32DiskImager",
+  "vendor": "ImageWriter Developers",
+  "sourceUrl": "https://silentinstallhq.com/win32diskimager-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:32:09.317Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "win32diskimager-x.y.z-install.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://sourceforge.net/projects/win32diskimager/files/latest/download",
+      "psScriptUrl": "https://silentinstallhq.com/win32diskimager-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-win32diskimager-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

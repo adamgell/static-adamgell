@@ -1,0 +1,22 @@
+{
+  "slug": "sketchup-pro-2020",
+  "title": "SketchUp Pro 2020",
+  "vendor": "Trimble, Inc.",
+  "sourceUrl": "https://silentinstallhq.com/sketchup-pro-2020-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:30:33.717Z",
+  "variants": [
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "SketchUpProFull-2020-2-172-37.exe /silent",
+      "silentUninstall": "SketchUpProFull-2020-2-172-37.exe -remove -silent",
+      "repair": null,
+      "downloadUrl": "https://www.sketchup.com/sketchup/2020/SketchUpPro-Full-exe",
+      "psScriptUrl": "https://silentinstallhq.com/sketchup-pro-2020-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-sketchup-pro-2020-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

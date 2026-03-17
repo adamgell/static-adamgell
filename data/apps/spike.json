@@ -1,0 +1,22 @@
+{
+  "slug": "spike",
+  "title": "Spike",
+  "vendor": "Chatflow LTD",
+  "sourceUrl": "https://silentinstallhq.com/spike-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:30:47.580Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "\"Spike Setup x.x.x.exe\" /allusers /S",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://spikenow.com/r/a/?force=all",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "autodesk-meshmixer",
+  "title": "Autodesk Meshmixer",
+  "vendor": "Autodesk, Inc.",
+  "sourceUrl": "https://silentinstallhq.com/autodesk-meshmixer-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T01:59:04.720Z",
+  "variants": [
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "Autodesk_Meshmixer_v3p5_Win64.exe /S",
+      "silentUninstall": "\"%ProgramFiles%\\Autodesk\\Meshmixer\\Uninstall.exe\" /S",
+      "repair": null,
+      "downloadUrl": "https://www.meshmixer.com/downloads/Autodesk_Meshmixer_v3p5_Win64.exe",
+      "psScriptUrl": "https://silentinstallhq.com/autodesk-meshmixer-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-autodesk-meshmixer-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

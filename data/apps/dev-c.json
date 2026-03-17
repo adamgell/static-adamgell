@@ -1,0 +1,22 @@
+{
+  "slug": "dev-c",
+  "title": "Dev-C++",
+  "vendor": "Bloodshed Software",
+  "sourceUrl": "https://silentinstallhq.com/dev-c-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:03:07.756Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "\"Dev-Cpp 5.11 TDM-GCC 4.9.2 Setup.exe\" /S",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://sourceforge.net/projects/orwelldevcpp/",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

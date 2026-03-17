@@ -1,0 +1,22 @@
+{
+  "slug": "microsoft-visual-studio-tools-for-applications-2019",
+  "title": "Microsoft Visual Studio Tools for Applications 2019",
+  "vendor": "Microsoft Corporation",
+  "sourceUrl": "https://silentinstallhq.com/microsoft-visual-studio-tools-for-applications-2019-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:27:58.484Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "vsta_setup.exe /quiet /norestart",
+      "silentUninstall": "vsta_setup.exe /uninstall /quiet /norestart",
+      "repair": null,
+      "downloadUrl": "https://www.microsoft.com/en-us/download/details.aspx?id=58317",
+      "psScriptUrl": "https://silentinstallhq.com/microsoft-visual-studio-tools-for-applications-2019-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

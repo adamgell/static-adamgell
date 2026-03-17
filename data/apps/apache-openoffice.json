@@ -1,0 +1,34 @@
+{
+  "slug": "apache-openoffice",
+  "title": "Apache OpenOffice",
+  "vendor": "Apache Software Foundation",
+  "sourceUrl": "https://silentinstallhq.com/apache-openoffice-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:28:54.541Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "setup.exe /qn",
+      "silentUninstall": "MsiExec.exe /x {A09D951F-4BA3-4383-97B3-D1B91835E779} /qn",
+      "repair": "MsiExec.exe /fa {A09D951F-4BA3-4383-97B3-D1B91835E779} /qn",
+      "downloadUrl": "https://www.openoffice.org/download/index.html",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x86",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i openoffice417.msi SETUP_USED=1 /qn",
+      "silentUninstall": "MsiExec.exe /x {A09D951F-4BA3-4383-97B3-D1B91835E779} /qn",
+      "repair": "MsiExec.exe /fa {A09D951F-4BA3-4383-97B3-D1B91835E779} /qn",
+      "downloadUrl": "https://www.openoffice.org/download/index.html",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

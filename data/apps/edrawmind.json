@@ -2,20 +2,21 @@
   "slug": "edrawmind",
   "title": "EdrawMind",
   "vendor": "EdrawSoft Co.,Ltd.",
-  "sourceUrl": "https://silentinstallhq.com/edrawmind-silent-install-how-to-guide",
-  "lastScraped": "2026-03-16T21:28:57.058Z",
+  "sourceUrl": "https://silentinstallhq.com/edrawmind-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:04:53.404Z",
   "variants": [
     {
       "architecture": "x86",
       "installerType": "EXE",
-      "silentInstall": "**edrawmind_fullxxxx.exe /VERYSILENT /NORESTART**",
+      "silentInstall": "edrawmind_fullxxxx.exe /VERYSILENT /NORESTART",
       "silentUninstall": "",
       "repair": null,
       "downloadUrl": "https://www.edrawsoft.com/edrawmind/",
-      "psScriptUrl": null,
-      "detectionScriptUrl": null,
-      "logInstall": "**edrawmind_fullxxxx.exe /VERYSILENT /NORESTART /LOG=\"%WINDIR%\\Temp\\EdrawMind-Install.log\"**",
+      "psScriptUrl": "https://silentinstallhq.com/edrawmind-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-edrawmind-powershell/",
+      "logInstall": null,
       "logUninstall": null
     }
-  ]
+  ],
+  "psadtScript": null
 }

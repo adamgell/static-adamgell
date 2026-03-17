@@ -1,0 +1,22 @@
+{
+  "slug": "system-center-updates-publisher-2011",
+  "title": "System Center Updates Publisher 2011",
+  "vendor": "Microsoft Corporation",
+  "sourceUrl": "https://silentinstallhq.com/system-center-updates-publisher-2011-silent-install/",
+  "lastScraped": "2026-03-17T02:31:04.863Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i SystemCenterUpdatesPublisher.msi AcceptEULA=1 AcceptPatchEULA=1 /qn",
+      "silentUninstall": "MsiExec.exe /x {8E18AE7B-3C61-4431-9BEA-FA087CE68EA3} /qn",
+      "repair": "MsiExec.exe /fa {8E18AE7B-3C61-4431-9BEA-FA087CE68EA3} /qn",
+      "downloadUrl": "https://www.microsoft.com/en-us/download/details.aspx?id=11940",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

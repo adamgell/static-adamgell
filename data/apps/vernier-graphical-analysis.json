@@ -1,0 +1,22 @@
+{
+  "slug": "vernier-graphical-analysis",
+  "title": "Vernier Graphical Analysis",
+  "vendor": "Vernier Software & Technology",
+  "sourceUrl": "https://silentinstallhq.com/vernier-graphical-analysis-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:31:41.824Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "Vernier-Graphical-Analysis.exe /allusers /S",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://www.vernier.com/product/graphical-analysis-4/",
+      "psScriptUrl": "https://silentinstallhq.com/vernier-graphical-analysis-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

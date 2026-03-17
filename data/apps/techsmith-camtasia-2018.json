@@ -1,0 +1,34 @@
+{
+  "slug": "techsmith-camtasia-2018",
+  "title": "TechSmith Camtasia 2018",
+  "vendor": "TechSmith Corporation",
+  "sourceUrl": "https://silentinstallhq.com/techsmith-camtasia-2018-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:31:10.814Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "camtasia.exe /install /quiet /norestart",
+      "silentUninstall": "camtasia.exe /uninstall /quiet /norestart",
+      "repair": null,
+      "downloadUrl": "https://support.techsmith.com/hc/en-us/articles/360004908652-Desktop-Product-Download-Links",
+      "psScriptUrl": "https://silentinstallhq.com/techsmith-camtasia-2018-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-techsmith-camtasia-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x86",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i camtasia.msi TSC_SOFTWARE_KEY=xxxxx-xxxxx-xxxxx-xxxxx-xxxxx /qn",
+      "silentUninstall": "MsiExec.exe /x camtasia.msi /qn",
+      "repair": "MsiExec.exe /fa camtasia.msi /qn",
+      "downloadUrl": "https://support.techsmith.com/hc/en-us/articles/360004908652-Desktop-Product-Download-Links",
+      "psScriptUrl": "https://silentinstallhq.com/techsmith-camtasia-2018-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-techsmith-camtasia-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

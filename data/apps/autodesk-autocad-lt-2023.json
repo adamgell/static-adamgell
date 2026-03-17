@@ -1,0 +1,22 @@
+{
+  "slug": "autodesk-autocad-lt-2023",
+  "title": "Autodesk AutoCAD LT 2023",
+  "vendor": "Autodesk",
+  "sourceUrl": "https://silentinstallhq.com/autodesk-autocad-lt-2023-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T01:58:17.943Z",
+  "variants": [
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "Setup.exe -q",
+      "silentUninstall": "CLICK HERE FOR DETAILS",
+      "repair": null,
+      "downloadUrl": "https://www.autodesk.com/products/autocad-lt",
+      "psScriptUrl": "https://silentinstallhq.com/autodesk-autocad-lt-2023-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

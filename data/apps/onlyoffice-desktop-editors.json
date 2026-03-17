@@ -1,0 +1,34 @@
+{
+  "slug": "onlyoffice-desktop-editors",
+  "title": "ONLYOFFICE Desktop Editors",
+  "vendor": "Ascensio System SIA",
+  "sourceUrl": "https://silentinstallhq.com/onlyoffice-desktop-editors-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:28:53.001Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "DesktopEditors_x86.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://download.onlyoffice.com/install/desktop/editors/windows/distrib/onlyoffice/DesktopEditors_x86.exe",
+      "psScriptUrl": "https://silentinstallhq.com/onlyoffice-desktop-editors-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "DesktopEditors_x64.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "\"%ProgramFiles%\\ONLYOFFICE\\DesktopEditors\\unins000.exe\" /VERYSILENT /NORESTART",
+      "repair": null,
+      "downloadUrl": "https://download.onlyoffice.com/install/desktop/editors/windows/distrib/onlyoffice/DesktopEditors_x64.exe",
+      "psScriptUrl": "https://silentinstallhq.com/onlyoffice-desktop-editors-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

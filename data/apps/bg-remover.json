@@ -8,13 +8,13 @@
     {
       "architecture": "x86",
       "installerType": "EXE",
-      "silentInstall": "**bg-remover-setup-x.y.z.exe /VERYSILENT /NORESTART**",
+      "silentInstall": "bg-remover-setup-x.y.z.exe /VERYSILENT /NORESTART",
       "silentUninstall": "",
       "repair": null,
       "downloadUrl": "https://github.com/developersharif/bgremover-app#bg-remover-app-offline",
       "psScriptUrl": null,
       "detectionScriptUrl": null,
-      "logInstall": "**bg-remover-setup-x.y.z.exe /VERYSILENT /NORESTART /LOG=\"%WINDIR%\\Temp\\BGRemover-Install.log\"**",
+      "logInstall": "bg-remover-setup-x.y.z.exe /VERYSILENT /NORESTART /LOG=\"%WINDIR%\\Temp\\BGRemover-Install.log\"",
       "logUninstall": null
     }
   ]

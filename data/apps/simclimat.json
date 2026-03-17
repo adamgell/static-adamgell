@@ -1,0 +1,22 @@
+{
+  "slug": "simclimat",
+  "title": "SimClimat",
+  "vendor": "Alain Deseine",
+  "sourceUrl": "https://silentinstallhq.com/simclimat-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:30:31.711Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "SimClimat-Setup-x.y.z.exe /allusers /S",
+      "silentUninstall": "\"%ProgramFiles%\\SimClimat\\Uninstall SimClimat.exe\" /allusers /S",
+      "repair": null,
+      "downloadUrl": "https://www.lmd.jussieu.fr/~crlmd/simclimat/index_english.html",
+      "psScriptUrl": "https://silentinstallhq.com/simclimat-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

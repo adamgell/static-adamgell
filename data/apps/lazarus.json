@@ -1,0 +1,34 @@
+{
+  "slug": "lazarus",
+  "title": "Lazarus",
+  "vendor": "Lazarus Team",
+  "sourceUrl": "https://silentinstallhq.com/lazarus-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:26:26.134Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "lazarus-x.y.z-win32.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "\"C:\\lazarus\\unins000.exe\" /VERYSILENT /NORESTART",
+      "repair": null,
+      "downloadUrl": "https://www.lazarus-ide.org/index.php?page=downloads",
+      "psScriptUrl": "https://silentinstallhq.com/lazarus-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-lazarus-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "lazarus-x.y.z-win64.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "\"C:\\lazarus\\unins000.exe\" /VERYSILENT /NORESTART",
+      "repair": null,
+      "downloadUrl": "https://www.lazarus-ide.org/index.php?page=downloads",
+      "psScriptUrl": "https://silentinstallhq.com/lazarus-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-lazarus-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

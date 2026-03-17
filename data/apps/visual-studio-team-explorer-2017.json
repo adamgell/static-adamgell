@@ -1,0 +1,22 @@
+{
+  "slug": "visual-studio-team-explorer-2017",
+  "title": "Visual Studio Team Explorer 2017",
+  "vendor": "Microsoft Corporation",
+  "sourceUrl": "https://silentinstallhq.com/visual-studio-team-explorer-2017-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:31:55.033Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "vs_setup.exe --nocache --wait --noUpdateInstaller --noWeb --allWorkloads --includeRecommended --includeOptional --quiet --norestart",
+      "silentUninstall": "vs_setup.exe uninstall --installPath \"C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\TeamExplorer\" --quiet --norestart",
+      "repair": null,
+      "downloadUrl": "https://aka.ms/vs/15/release/vs_TeamExplorer.exe",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

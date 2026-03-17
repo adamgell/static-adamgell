@@ -1,0 +1,22 @@
+{
+  "slug": "auslogics-disk-defrag",
+  "title": "Auslogics Disk Defrag",
+  "vendor": "Auslogics Labs Pty Ltd",
+  "sourceUrl": "https://silentinstallhq.com/auslogics-disk-defrag-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T01:57:56.801Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "auslogics-disk-defrag-setup.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://downloads.auslogics.com/en/disk-defrag/auslogics-disk-defrag-setup.exe",
+      "psScriptUrl": "https://silentinstallhq.com/auslogics-disk-defrag-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-auslogics-disk-defrag-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

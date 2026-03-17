@@ -1,0 +1,34 @@
+{
+  "slug": "google-backup-and-sync",
+  "title": "Google Backup and Sync",
+  "vendor": "Google, Inc.",
+  "sourceUrl": "https://silentinstallhq.com/google-backup-and-sync-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:07:06.262Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i gsync_enterprise.msi ALLUSERS=1 REBOOT=ReallySuppress /qn",
+      "silentUninstall": "MsiExec.exe /x gsync_enterprise.msi REBOOT=ReallySuppress /qn",
+      "repair": "MsiExec.exe /fa gsync_enterprise.msi REBOOT=ReallySuppress /qn",
+      "downloadUrl": "https://dl.google.com/drive/gsync_enterprise.msi",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x64",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i gsync_enterprise64.msi ALLUSERS=1 REBOOT=ReallySuppress /qn",
+      "silentUninstall": "MsiExec.exe /x gsync_enterprise64.msi REBOOT=ReallySuppress /qn",
+      "repair": "MsiExec.exe /fa gsync_enterprise64.msi REBOOT=ReallySuppress /qn",
+      "downloadUrl": "https://dl.google.com/drive/gsync_enterprise64.msi",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

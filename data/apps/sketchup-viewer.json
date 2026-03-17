@@ -1,0 +1,22 @@
+{
+  "slug": "sketchup-viewer",
+  "title": "SketchUp Viewer",
+  "vendor": "Trimble, Inc.",
+  "sourceUrl": "https://silentinstallhq.com/sketchup-viewer-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:30:34.780Z",
+  "variants": [
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "SketchUp-Viewer.exe /silent",
+      "silentUninstall": "SketchUp-Viewer.exe -remove -silent",
+      "repair": null,
+      "downloadUrl": "https://download.sketchup.com/SketchUp-Viewer.exe",
+      "psScriptUrl": "https://silentinstallhq.com/sketchup-viewer-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-sketchup-viewer-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

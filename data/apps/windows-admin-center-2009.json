@@ -1,0 +1,22 @@
+{
+  "slug": "windows-admin-center-2009",
+  "title": "Windows Admin Center 2009",
+  "vendor": "Microsoft Corporation",
+  "sourceUrl": "https://silentinstallhq.com/windows-admin-center-2009-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:32:16.029Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i WindowsAdminCenter2009.msi SME_PORT=443 SSL_CERTIFICATE_OPTION=generate /qn",
+      "silentUninstall": "MsiExec.exe /x {E4F7686E-DEC8-46CA-83D0-CB042496DE6B} /qn",
+      "repair": "MsiExec.exe /fa {E4F7686E-DEC8-46CA-83D0-CB042496DE6B} /qn",
+      "downloadUrl": "http://aka.ms/WACDownload",
+      "psScriptUrl": "https://silentinstallhq.com/windows-admin-center-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

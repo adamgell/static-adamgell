@@ -1,0 +1,22 @@
+{
+  "slug": "pdfsam-basic",
+  "title": "PDFsam Basic",
+  "vendor": "Sober Lemur S.r.l.",
+  "sourceUrl": "https://silentinstallhq.com/pdfsam-basic-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:29:22.449Z",
+  "variants": [
+    {
+      "architecture": "x64",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i pdfsam-basic-x.y.z-windows-x64.msi SKIPTHANKSPAGE=Yes /qn",
+      "silentUninstall": "MsiExec.exe /x pdfsam-basic-x.y.z-windows-x64.msi /qn",
+      "repair": "MsiExec.exe /fa pdfsam-basic-x.y.z-windows-x64.msi /qn",
+      "downloadUrl": "https://github.com/torakiki/pdfsam/releases/latest",
+      "psScriptUrl": "https://silentinstallhq.com/pdfsam-basic-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-pdfsam-basic-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

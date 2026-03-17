@@ -1,0 +1,22 @@
+{
+  "slug": "izarc",
+  "title": "IZArc",
+  "vendor": "Ivan Zahariev",
+  "sourceUrl": "https://silentinstallhq.com/izarc-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:16:27.848Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "IZArc_x.y.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://www.izarc.org/downloads",
+      "psScriptUrl": "https://silentinstallhq.com/izarc-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-izarc-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

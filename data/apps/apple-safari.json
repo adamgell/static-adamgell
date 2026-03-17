@@ -1,0 +1,34 @@
+{
+  "slug": "apple-safari",
+  "title": "Apple Safari",
+  "vendor": "Apple Inc.",
+  "sourceUrl": "https://silentinstallhq.com/apple-safari-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T01:57:31.187Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "SafariSetup.exe /qn",
+      "silentUninstall": "MsiExec.exe /x {C779648B-410E-4BBA-B75B-5815BCEFE71D} /qn",
+      "repair": null,
+      "downloadUrl": "http://appldnld.apple.com/Safari5/041-5487.20120509.INU8B/SafariSetup.exe",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "MsiExec.exe /i Safari.msi /qn",
+      "silentUninstall": "MsiExec.exe /x {C779648B-410E-4BBA-B75B-5815BCEFE71D} /qn",
+      "repair": "MsiExec.exe /fa {C779648B-410E-4BBA-B75B-5815BCEFE71D} /qn",
+      "downloadUrl": "http://appldnld.apple.com/Safari5/041-5487.20120509.INU8B/SafariSetup.exe",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "microsoft-sql-server-2012-express-localdb",
+  "title": "Microsoft SQL Server 2012 Express LocalDB",
+  "vendor": "Microsoft Corporation",
+  "sourceUrl": "https://silentinstallhq.com/microsoft-sql-server-2012-express-localdb-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:27:46.738Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i SqlLocalDB.msi IACCEPTSQLLOCALDBLICENSETERMS=YES /qn",
+      "silentUninstall": "MsiExec.exe /x {33500FD1-C09A-4FE3-8B88-9469A7A3892D} /qn",
+      "repair": null,
+      "downloadUrl": "https://www.microsoft.com/en-us/download/details.aspx?id=50003",
+      "psScriptUrl": "https://silentinstallhq.com/microsoft-sql-server-2012-express-localdb-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x64",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i SqlLocalDB.msi IACCEPTSQLLOCALDBLICENSETERMS=YES /qn",
+      "silentUninstall": "MsiExec.exe /x {C3682243-2218-4F80-A94A-EB0D7B7AF739} /qn",
+      "repair": null,
+      "downloadUrl": "https://www.microsoft.com/en-us/download/details.aspx?id=50003",
+      "psScriptUrl": "https://silentinstallhq.com/microsoft-sql-server-2012-express-localdb-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

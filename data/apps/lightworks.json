@@ -1,0 +1,34 @@
+{
+  "slug": "lightworks",
+  "title": "Lightworks",
+  "vendor": "LWKS Software Ltd.",
+  "sourceUrl": "https://silentinstallhq.com/lightworks-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:26:34.570Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "lightworks_xxxx.x_32bit_setup.exe /S",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://app.lwks.com/downloads/lightworks",
+      "psScriptUrl": "https://silentinstallhq.com/lightworks-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-lightworks-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "lightworks_xxxx.x_32bit_setup.exe /S",
+      "silentUninstall": "\"%ProgramFiles%\\Lightworks\\uninstall.exe\" /S",
+      "repair": null,
+      "downloadUrl": "https://app.lwks.com/downloads/lightworks",
+      "psScriptUrl": "https://silentinstallhq.com/lightworks-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-lightworks-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

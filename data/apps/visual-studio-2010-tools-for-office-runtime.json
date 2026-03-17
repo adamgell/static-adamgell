@@ -1,0 +1,22 @@
+{
+  "slug": "visual-studio-2010-tools-for-office-runtime",
+  "title": "Visual Studio 2010 Tools for Office Runtime",
+  "vendor": "Microsoft Corporation",
+  "sourceUrl": "https://silentinstallhq.com/visual-studio-2010-tools-for-office-runtime-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:31:47.425Z",
+  "variants": [
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "vstor_redist.exe /q /norestart",
+      "silentUninstall": "%ProgramFiles%\\Common Files\\Microsoft Shared\\VSTO\\10.0\\Microsoft Visual Studio 2010 Tools for Office Runtime (x64)\\install.exe\" /uninstall /q /norestart",
+      "repair": "%ProgramFiles%\\Common Files\\Microsoft Shared\\VSTO\\10.0\\Microsoft Visual Studio 2010 Tools for Office Runtime (x64)\\install.exe\" /repair /q /norestart",
+      "downloadUrl": "https://aka.ms/VSTORuntimeDownload",
+      "psScriptUrl": "https://silentinstallhq.com/visual-studio-2010-tools-for-office-runtime-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

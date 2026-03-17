@@ -1,0 +1,22 @@
+{
+  "slug": "adobe-digital-editions-4-5",
+  "title": "Adobe Digital Editions 4.5",
+  "vendor": "Adobe Systems Incorporated",
+  "sourceUrl": "https://silentinstallhq.com/adobe-digital-editions-4-5-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T01:56:12.713Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "ADE_4.5_Installer.exe /S",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://adedownload.adobe.com/pub/adobe/digitaleditions/ADE_4.5_Installer.exe",
+      "psScriptUrl": "https://silentinstallhq.com/adobe-digital-editions-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-adobe-digital-editions-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

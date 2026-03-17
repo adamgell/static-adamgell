@@ -1,0 +1,22 @@
+{
+  "slug": "adobe-pdf-ifilter",
+  "title": "Adobe PDF iFilter",
+  "vendor": "Adobe Systems Incorporated",
+  "sourceUrl": "https://silentinstallhq.com/adobe-pdf-ifilter-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T01:56:21.747Z",
+  "variants": [
+    {
+      "architecture": "x64",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i PDFFilter64Setup.msi ALLUSERS=1 /qn",
+      "silentUninstall": "MsiExec.exe /x {BA5C0CC3-421B-4AE5-9370-1650D1941F30} /qn",
+      "repair": "MsiExec.exe /fa {BA5C0CC3-421B-4AE5-9370-1650D1941F30} /qn",
+      "downloadUrl": "http://ardownload.adobe.com/pub/adobe/acrobat/win/11.x/PDFFilter64Setup.msi",
+      "psScriptUrl": "https://silentinstallhq.com/adobe-pdf-ifilter-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

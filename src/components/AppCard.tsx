@@ -3,6 +3,7 @@ import CommandBlock from "./CommandBlock";
 
 interface AppVariant {
   architecture?: string;
+  arch?: string;
   installerType?: string;
   silentInstall?: string;
   silentUninstall?: string;
@@ -18,7 +19,8 @@ interface AppRecord {
   slug: string;
   title: string;
   vendor?: string;
-  sourceUrl: string;
+  sourceUrl?: string;
+  url?: string;
   lastScraped: string;
   variants: AppVariant[];
   psadtScript?: string | null;
@@ -37,6 +39,7 @@ export default function AppCard({ app }: Props) {
   if (!variant) return null;
 
   const hasMultiple = app.variants.length > 1;
+  const sourceUrl = app.sourceUrl ?? app.url ?? "#";
 
   return (
     <article className="border border-slate-800 rounded-lg bg-slate-950/50 overflow-hidden hover:border-slate-700 transition-colors">
@@ -68,7 +71,7 @@ export default function AppCard({ app }: Props) {
                       : "border-slate-800 text-slate-400 hover:border-slate-600 hover:text-white"
                   }`}
                 >
-                  {v.architecture || `Variant ${i + 1}`}
+                  {v.architecture || v.arch || `Variant ${i + 1}`}
                 </button>
               ))}
             </div>
@@ -152,11 +155,11 @@ export default function AppCard({ app }: Props) {
                 🔍 Detection Script
               </a>
             )}
-            <a
-              href={app.sourceUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-slate-400 hover:text-white transition-colors"
+              <a
+                href={sourceUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-slate-400 hover:text-white transition-colors"
             >
               📖 Source Article
             </a>

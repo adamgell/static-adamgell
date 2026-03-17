@@ -1,0 +1,34 @@
+{
+  "slug": "nwea-secure-testing-browser",
+  "title": "NWEA Secure Testing Browser",
+  "vendor": "NWEA",
+  "sourceUrl": "https://silentinstallhq.com/nwea-secure-testing-browser-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:28:50.437Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "\"Setup Lockdown Browser.exe\" /S /v\"ALLUSERS=1 /qn\"",
+      "silentUninstall": "\"Setup Lockdown Browser.exe\" /S /x /v/qn",
+      "repair": null,
+      "downloadUrl": "https://teach.mapnwea.org/contents/partner/Setup%20Lockdown%20Browser.exe",
+      "psScriptUrl": "https://silentinstallhq.com/nwea-secure-testing-browser-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x86",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i \"NWEA Secure Testing Browser.msi\" ALLUSERS=1 /qn",
+      "silentUninstall": "MsiExec.exe /x \"NWEA Secure Testing Browser.msi\" /qn",
+      "repair": "MsiExec.exe /fa \"NWEA Secure Testing Browser.msi\" /qn",
+      "downloadUrl": "https://teach.mapnwea.org/contents/partner/Setup%20Lockdown%20Browser.exe",
+      "psScriptUrl": "https://silentinstallhq.com/nwea-secure-testing-browser-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

@@ -1,0 +1,58 @@
+{
+  "slug": "google-earth-pro-7-3-2",
+  "title": "Google Earth Pro 7.3.2",
+  "vendor": "Google",
+  "sourceUrl": "https://silentinstallhq.com/google-earth-pro-7-3-2-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:07:50.040Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "googleearthprowin-7.3.2.exe OMAHA=1",
+      "silentUninstall": "MsiExec.exe /x {9D524A1E-F2FC-444D-B12A-7592CEB56EB5} /qn",
+      "repair": "MsiExec.exe /fa {9D524A1E-F2FC-444D-B12A-7592CEB56EB5} /qn",
+      "downloadUrl": "https://support.google.com/earth/answer/168344?hl=en",
+      "psScriptUrl": "https://silentinstallhq.com/google-earth-pro-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-google-earth-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "googleearthprowin-7.3.2-x64.exe OMAHA=1",
+      "silentUninstall": "MsiExec.exe /x {70A0F34E-564B-4F93-ADD6-3BAEC6E44075} /qn",
+      "repair": "MsiExec.exe /fa {70A0F34E-564B-4F93-ADD6-3BAEC6E44075} /qn",
+      "downloadUrl": "https://support.google.com/earth/answer/168344?hl=en",
+      "psScriptUrl": "https://silentinstallhq.com/google-earth-pro-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-google-earth-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "MsiExec.exe /i GoogleEarth-EC-x86.msi /qn",
+      "silentUninstall": "MsiExec.exe /x {9D524A1E-F2FC-444D-B12A-7592CEB56EB5} /qn",
+      "repair": "MsiExec.exe /fa {9D524A1E-F2FC-444D-B12A-7592CEB56EB5} /qn",
+      "downloadUrl": "https://support.google.com/earth/answer/168344?hl=en",
+      "psScriptUrl": "https://silentinstallhq.com/google-earth-pro-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-google-earth-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "MsiExec.exe /i GoogleEarth-EC-x64.msi /qn",
+      "silentUninstall": "MsiExec.exe /x {70A0F34E-564B-4F93-ADD6-3BAEC6E44075} /qn",
+      "repair": "MsiExec.exe /fa {70A0F34E-564B-4F93-ADD6-3BAEC6E44075} /qn",
+      "downloadUrl": "https://support.google.com/earth/answer/168344?hl=en",
+      "psScriptUrl": "https://silentinstallhq.com/google-earth-pro-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-google-earth-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

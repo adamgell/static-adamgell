@@ -1,0 +1,34 @@
+{
+  "slug": "room-eq-wizard",
+  "title": "Room EQ Wizard",
+  "vendor": "John Mulcahy",
+  "sourceUrl": "https://silentinstallhq.com/room-eq-wizard-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:30:14.572Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "REW_windows-x32_x_y_z.exe -q",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://www.roomeqwizard.com/",
+      "psScriptUrl": "https://silentinstallhq.com/room-eq-wizard-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "REW_windows-x64_x_y_z.exe -q",
+      "silentUninstall": "\"%ProgramFiles%\\REW\\uninstall.exe\" -q",
+      "repair": null,
+      "downloadUrl": "https://www.roomeqwizard.com/",
+      "psScriptUrl": "https://silentinstallhq.com/room-eq-wizard-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

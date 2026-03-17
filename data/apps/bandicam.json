@@ -1,0 +1,22 @@
+{
+  "slug": "bandicam",
+  "title": "Bandicam",
+  "vendor": "Bandicam Company",
+  "sourceUrl": "https://silentinstallhq.com/bandicam-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T01:59:59.084Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "bdcamsetup.exe /S",
+      "silentUninstall": "\"%ProgramFiles%\\Bandicam\\uninstall.exe\" /S",
+      "repair": null,
+      "downloadUrl": "https://dl.bandicam.com/bdcamsetup.exe",
+      "psScriptUrl": "https://silentinstallhq.com/bandicam-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-bandicam-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

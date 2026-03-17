@@ -1,0 +1,22 @@
+{
+  "slug": "scratchjr",
+  "title": "ScratchJr",
+  "vendor": "ScratchJr – Open Source Community Port",
+  "sourceUrl": "https://silentinstallhq.com/scratchjr-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:30:23.547Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "ScratchJr-x.y.z.Setup.exe -s",
+      "silentUninstall": "\"%LocalAppData%\\ScratchJr\\Update.exe\" --uninstall -s",
+      "repair": null,
+      "downloadUrl": "https://jfo8000.github.io/ScratchJr-Desktop/",
+      "psScriptUrl": "https://silentinstallhq.com/scratchjr-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-scratchjr-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

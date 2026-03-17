@@ -1,0 +1,22 @@
+{
+  "slug": "wampserver",
+  "title": "WampServer",
+  "vendor": "Dominique Ottello aka Otomatic",
+  "sourceUrl": "https://silentinstallhq.com/wampserver-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:32:03.212Z",
+  "variants": [
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "wampserverx.y.z_x64.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "\"C:\\wamp64\\unins000.exe\" /VERYSILENT /NORESTART",
+      "repair": null,
+      "downloadUrl": "https://sourceforge.net/projects/wampserver/",
+      "psScriptUrl": "https://silentinstallhq.com/wampserver-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

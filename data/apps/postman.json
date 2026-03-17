@@ -1,0 +1,34 @@
+{
+  "slug": "postman",
+  "title": "Postman",
+  "vendor": "Postman",
+  "sourceUrl": "https://silentinstallhq.com/postman-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:29:40.753Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "Postman-win32-x.y.z-Setup.exe -s",
+      "silentUninstall": "\"%LocalAppData%\\Postman\\Update\" --uninstall -s",
+      "repair": null,
+      "downloadUrl": "https://dl.pstmn.io/download/latest/win32",
+      "psScriptUrl": "https://silentinstallhq.com/postman-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-postman-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "Postman-win64-x.y.z-Setup.exe -s",
+      "silentUninstall": "\"%LocalAppData%\\Postman\\Update\" --uninstall -s",
+      "repair": null,
+      "downloadUrl": "https://dl.pstmn.io/download/latest/win64",
+      "psScriptUrl": "https://silentinstallhq.com/postman-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-postman-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

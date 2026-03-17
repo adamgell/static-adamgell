@@ -1,0 +1,34 @@
+{
+  "slug": "tsprint-client",
+  "title": "TSPrint Client",
+  "vendor": "TerminalWorks, Ltd.",
+  "sourceUrl": "https://silentinstallhq.com/tsprint-client-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:31:30.610Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "TSPrint_client.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://www.terminalworks.com/downloads/tsprint/TSPrint_client.exe",
+      "psScriptUrl": "https://silentinstallhq.com/tsprint-client-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-the-tsprint-client-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x86",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i TSPrintMSI.msi /qn",
+      "silentUninstall": "MsiExec.exe /x TSPrintMSI.msi /qn",
+      "repair": "MsiExec.exe /fa TSPrintMSI.msi /qn",
+      "downloadUrl": "https://www.terminalworks.com/downloads/tsprint/msi/TSPrintMSI.msi",
+      "psScriptUrl": "https://silentinstallhq.com/tsprint-client-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-the-tsprint-client-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

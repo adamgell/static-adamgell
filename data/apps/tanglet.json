@@ -1,0 +1,22 @@
+{
+  "slug": "tanglet",
+  "title": "Tanglet",
+  "vendor": "Graeme Gott",
+  "sourceUrl": "https://silentinstallhq.com/tanglet-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:31:09.270Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "Tanglet_x.x.x.exe /S",
+      "silentUninstall": "\"%ProgramFiles%\\Tanglet\\Uninstall.exe\" /S",
+      "repair": null,
+      "downloadUrl": "https://gottcode.org/tanglet/",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

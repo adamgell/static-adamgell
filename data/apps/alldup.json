@@ -1,0 +1,22 @@
+{
+  "slug": "alldup",
+  "title": "AllDup",
+  "vendor": "MTSD",
+  "sourceUrl": "https://silentinstallhq.com/alldup-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T01:56:48.892Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "AllDupSetup.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://www.alldup.de/en_download_alldup.php",
+      "psScriptUrl": "https://silentinstallhq.com/alldup-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

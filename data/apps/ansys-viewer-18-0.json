@@ -1,0 +1,22 @@
+{
+  "slug": "ansys-viewer-18-0",
+  "title": "Ansys Viewer 18.0",
+  "vendor": "ANSYS Inc",
+  "sourceUrl": "https://silentinstallhq.com/ansys-viewer-18-0-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T01:57:10.016Z",
+  "variants": [
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "setup.exe -silent",
+      "silentUninstall": "\"%ProgramFiles%\\ANSYS Inc\\v180\\Uninstall.exe\" -silent",
+      "repair": null,
+      "downloadUrl": "https://www.ansys.com/products/platform/ansys-viewer",
+      "psScriptUrl": "https://silentinstallhq.com/ansys-viewer-18-0-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

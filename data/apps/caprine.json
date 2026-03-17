@@ -1,0 +1,22 @@
+{
+  "slug": "caprine",
+  "title": "Caprine",
+  "vendor": "Sindre Sorhus",
+  "sourceUrl": "https://silentinstallhq.com/caprine-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:00:57.887Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "Caprine-Setup-x.y.z.exe /S",
+      "silentUninstall": "\"%LocalAppData%\\Programs\\caprine\\Uninstall Caprine.exe\" /S",
+      "repair": null,
+      "downloadUrl": "https://github.com/sindresorhus/caprine/releases/latest",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

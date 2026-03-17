@@ -1,0 +1,22 @@
+{
+  "slug": "microsoft-access-2019",
+  "title": "Microsoft Access 2019",
+  "vendor": "Microsoft Corporation",
+  "sourceUrl": "https://silentinstallhq.com/microsoft-access-2019-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:27:02.938Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "setup.exe /configure Access2019.xml",
+      "silentUninstall": "setup.exe /configure Access2019_Uninstall.xml",
+      "repair": null,
+      "downloadUrl": "https://www.microsoft.com/en-us/download/details.aspx?id=49117",
+      "psScriptUrl": "https://silentinstallhq.com/microsoft-access-2019-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

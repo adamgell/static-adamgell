@@ -1,0 +1,22 @@
+{
+  "slug": "hardcopy",
+  "title": "Hardcopy",
+  "vendor": "www.hardcopy.de",
+  "sourceUrl": "https://silentinstallhq.com/hardcopy-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:08:18.734Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "hc.exe /InstallSilent /InstallCommonGroup",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://hardcopy.de/hc.exe",
+      "psScriptUrl": "https://silentinstallhq.com/hardcopy-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

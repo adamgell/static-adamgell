@@ -1,0 +1,22 @@
+{
+  "slug": "balsamiq-wireframes",
+  "title": "Balsamiq Wireframes",
+  "vendor": "Balsamiq",
+  "sourceUrl": "https://silentinstallhq.com/balsamiq-wireframes-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T01:59:57.580Z",
+  "variants": [
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "Balsamiq_Wireframes_x.y.z_x64_Setup.exe /VERYSILENT /NORESTART /ALLUSERS",
+      "silentUninstall": "\"%ProgramFiles%\\Balsamiq\\Balsamiq Wireframes\\unins000.exe\" /VERYSILENT /NORESTART",
+      "repair": null,
+      "downloadUrl": "https://balsamiq.com/wireframes/desktop/#",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

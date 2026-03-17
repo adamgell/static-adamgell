@@ -1,0 +1,22 @@
+{
+  "slug": "spark",
+  "title": "Spark",
+  "vendor": "Ignite Realtime",
+  "sourceUrl": "https://silentinstallhq.com/spark-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:30:45.406Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "spark_x_y_z-with-jre.exe -q",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://www.igniterealtime.org/downloads/",
+      "psScriptUrl": "https://silentinstallhq.com/spark-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

@@ -6,7 +6,7 @@
   "lastScraped": "2026-03-16T22:27:23.507Z",
   "variants": [
     {
-      "architecture": "x86\\_x64",
+      "architecture": "x86/x64",
       "installerType": "EXE",
       "silentInstall": "rustdesk-x.y.z-x86_64.exe --silent-install",
       "silentUninstall": "\"%ProgramFiles%\\RustDesk\\RustDesk.exe\" --uninstall",

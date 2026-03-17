@@ -6,7 +6,7 @@
   "lastScraped": "2026-03-16T22:28:02.866Z",
   "variants": [
     {
-      "architecture": "x86\\_x64",
+      "architecture": "x86/x64",
       "installerType": "EXE",
       "silentInstall": "Tailviewer-setup-w.x.y.z.exe silentinstall",
       "silentUninstall": "CMD.exe /C \"C:\\Program Files\\Tailviewer\\Uninstall.cmd\"",

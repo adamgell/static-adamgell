@@ -1,0 +1,34 @@
+{
+  "slug": "java-10-0-2",
+  "title": "Java 10.0.2",
+  "vendor": "Oracle Corporation",
+  "sourceUrl": "https://silentinstallhq.com/java-10-0-2-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:16:33.954Z",
+  "variants": [
+    {
+      "architecture": "x64",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i jre10.0.2full64.msi /qn",
+      "silentUninstall": "MsiExec.exe /x {EECB2736-D013-5AC5-9917-7656712F6931} /qn",
+      "repair": "MsiExec.exe /fa {EECB2736-D013-5AC5-9917-7656712F6931} /qn",
+      "downloadUrl": "https://download.oracle.com/otn/java/jdk/10.0.2+13/19aef61b38124481863b1413dce1855f/jre-10.0.2_windows-x64_bin.exe",
+      "psScriptUrl": null,
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-java-10-runtime-environment-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x64",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i jdk10.0.264.msi /qn",
+      "silentUninstall": "MsiExec.exe /x {71307D56-8005-5F5E-9227-BFA2754D6E54} /qn",
+      "repair": "MsiExec.exe /fa {71307D56-8005-5F5E-9227-BFA2754D6E54} /qn",
+      "downloadUrl": "https://download.oracle.com/otn/java/jdk/10.0.2+13/19aef61b38124481863b1413dce1855f/jdk-10.0.2_windows-x64_bin.exe",
+      "psScriptUrl": null,
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-java-10-development-kit-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

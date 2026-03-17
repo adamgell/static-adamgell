@@ -1,0 +1,22 @@
+{
+  "slug": "wechat",
+  "title": "WeChat",
+  "vendor": "Tencent",
+  "sourceUrl": "https://silentinstallhq.com/wechat-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:32:07.730Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "WeChatSetup.exe /S",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://dldir1.qq.com/weixin/Windows/WeChatSetup.exe",
+      "psScriptUrl": "https://silentinstallhq.com/wechat-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-wechat-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

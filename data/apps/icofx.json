@@ -1,0 +1,22 @@
+{
+  "slug": "icofx",
+  "title": "IcoFX",
+  "vendor": "IcoFX Software S.R.L.",
+  "sourceUrl": "https://silentinstallhq.com/icofx-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:15:44.070Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "icofxsetup.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://icofx.ro/files/icofxsetup.exe",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

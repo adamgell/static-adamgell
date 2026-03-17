@@ -1,0 +1,22 @@
+{
+  "slug": "superputty",
+  "title": "SuperPuTTY",
+  "vendor": "Jim Radford",
+  "sourceUrl": "https://silentinstallhq.com/superputty-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:31:01.980Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i SuperPuttySetup-x.y.z.msi /qn",
+      "silentUninstall": "MsiExec.exe /x SuperPuttySetup-x.y.z.msi /qn",
+      "repair": "MsiExec.exe /fa SuperPuttySetup-x.y.z.msi /qn",
+      "downloadUrl": "https://github.com/jimradford/superputty/releases/latest",
+      "psScriptUrl": "https://silentinstallhq.com/superputty-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

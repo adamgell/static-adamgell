@@ -2,19 +2,19 @@
   "slug": "subtitle-edit",
   "title": "Subtitle Edit",
   "vendor": "Nikse",
-  "sourceUrl": "https://silentinstallhq.com/subtitle-edit-silent-install-how-to-guide",
-  "lastScraped": "2026-03-16T22:27:56.795Z",
+  "sourceUrl": "https://silentinstallhq.com/subtitle-edit-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:30:59.083Z",
   "variants": [
     {
-      "architecture": "x86\\_x64",
+      "architecture": "x86/x64",
       "installerType": "EXE",
       "silentInstall": "SubtitleEdit-x.x.x-Setup.exe /VERYSILENT /NORESTART",
       "silentUninstall": "\"%ProgramFiles%\\Subtitle Edit\\unins000.exe\" /VERYSILENT /SUPPRESSMSGBOXES /NORESTART",
       "repair": null,
       "downloadUrl": "https://github.com/SubtitleEdit/subtitleedit/releases",
-      "psScriptUrl": null,
-      "detectionScriptUrl": null,
-      "logInstall": "SubtitleEdit-x.x.x-Setup.exe /VERYSILENT /NORESTART /LOG=\"%WINDIR%\\Temp\\SubtitleEdit-Install.log\"",
+      "psScriptUrl": "https://silentinstallhq.com/subtitle-edit-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-subtitle-edit-powershell/",
+      "logInstall": null,
       "logUninstall": null
     }
   ],

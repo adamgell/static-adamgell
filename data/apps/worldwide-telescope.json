@@ -1,0 +1,22 @@
+{
+  "slug": "worldwide-telescope",
+  "title": "WorldWide Telescope",
+  "vendor": "American Astronomical Society",
+  "sourceUrl": "https://silentinstallhq.com/worldwide-telescope-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:32:29.183Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i wwtsetup.x.y.z.msi ALLUSERS=1 /qn",
+      "silentUninstall": "MsiExec.exe /x wwtsetup.x.y.z.msi /qn",
+      "repair": "MsiExec.exe /fa wwtsetup.x.y.z.msi /qn",
+      "downloadUrl": "https://www.worldwidetelescope.org/download/",
+      "psScriptUrl": "https://silentinstallhq.com/worldwide-telescope-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

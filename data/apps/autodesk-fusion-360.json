@@ -1,0 +1,22 @@
+{
+  "slug": "autodesk-fusion-360",
+  "title": "Autodesk Fusion 360",
+  "vendor": "Autodesk",
+  "sourceUrl": "https://silentinstallhq.com/autodesk-fusion-360-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T01:58:49.623Z",
+  "variants": [
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "\"Fusion Client Downloader.exe\" --globalinstall --quiet",
+      "silentUninstall": "\"Fusion Client Downloader.exe\" --globalinstall --process uninstall --quiet",
+      "repair": null,
+      "downloadUrl": "https://dl.appstreaming.autodesk.com/production/installers/Fusion%20Client%20Downloader.exe",
+      "psScriptUrl": "https://silentinstallhq.com/autodesk-fusion-360-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

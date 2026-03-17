@@ -1,0 +1,34 @@
+{
+  "slug": "tux-paint",
+  "title": "Tux Paint",
+  "vendor": "New Breed Software",
+  "sourceUrl": "https://silentinstallhq.com/tux-paint-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:31:32.663Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "tuxpaint-w.x.y-z-win32-i686-installer.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "http://www.tuxpaint.org/download/windows/",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "tuxpaint-w.x.y-z-win32-x86_64-installer.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "\"%ProgramFiles(x86)%\\TuxPaint\\unins000.exe\" /VERYSILENT /NORESTART",
+      "repair": null,
+      "downloadUrl": "http://www.tuxpaint.org/download/windows/",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

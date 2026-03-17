@@ -8,9 +8,9 @@
     {
       "architecture": "x64",
       "installerType": "MSI",
-      "silentInstall": "**MsiExec.exe /i Class.msi /qn**",
-      "silentUninstall": "**MsiExec.exe /x Class.msi /qn**",
-      "repair": "**MsiExec.exe /fa Class.msi /qn**",
+      "silentInstall": "MsiExec.exe /i Class.msi /qn",
+      "silentUninstall": "MsiExec.exe /x Class.msi /qn",
+      "repair": "MsiExec.exe /fa Class.msi /qn",
       "downloadUrl": "https://download.class.com/windows/Class.msi",
       "psScriptUrl": null,
       "detectionScriptUrl": null,

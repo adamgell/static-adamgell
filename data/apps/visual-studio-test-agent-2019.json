@@ -1,0 +1,22 @@
+{
+  "slug": "visual-studio-test-agent-2019",
+  "title": "Visual Studio Test Agent 2019",
+  "vendor": "Microsoft Corporation",
+  "sourceUrl": "https://silentinstallhq.com/visual-studio-test-agent-2019-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:31:56.549Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "vs_setup.exe --nocache --wait --noUpdateInstaller --noWeb --allWorkloads --includeRecommended --quiet --norestart",
+      "silentUninstall": "vs_setup.exe uninstall --installPath \"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\TestAgent\" --quiet --norestart",
+      "repair": null,
+      "downloadUrl": "https://aka.ms/vs/16/release/vs_TestAgent.exe",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "microsoft-azure-information-protection",
+  "title": "Microsoft Azure Information Protection",
+  "vendor": "Microsoft Corporation",
+  "sourceUrl": "https://silentinstallhq.com/microsoft-azure-information-protection-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:27:07.007Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "AzInfoProtection_UL.exe /install /quiet /norestart",
+      "silentUninstall": "AzInfoProtection_UL.exe /uninstall /quiet /norestart",
+      "repair": "AzInfoProtection_UL.exe /repair /quiet /norestart",
+      "downloadUrl": "https://www.microsoft.com/download/details.aspx?id=53018",
+      "psScriptUrl": "https://silentinstallhq.com/microsoft-azure-information-protection-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-microsoft-azure-information-protection-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x86/x64",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i AzInfoProtection_UL.msi /qn",
+      "silentUninstall": "MsiExec.exe /x AzInfoProtection_UL.msi /qn",
+      "repair": "MsiExec.exe /fa AzInfoProtection_UL.msi /qn",
+      "downloadUrl": "https://www.microsoft.com/download/details.aspx?id=53018",
+      "psScriptUrl": "https://silentinstallhq.com/microsoft-azure-information-protection-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-microsoft-azure-information-protection-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

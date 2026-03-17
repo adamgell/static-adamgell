@@ -1,0 +1,34 @@
+{
+  "slug": "brackets",
+  "title": "Brackets",
+  "vendor": "brackets.io",
+  "sourceUrl": "https://silentinstallhq.com/brackets-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:00:41.339Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "Brackets.x.y.z.exe /exenoui /qn",
+      "silentUninstall": "Brackets.x.y.z.exe /exenoui /qn REMOVE=ALL",
+      "repair": null,
+      "downloadUrl": "https://brackets.io/",
+      "psScriptUrl": "https://silentinstallhq.com/brackets-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x86/x64",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i Brackets.Release.x.y.z.msi /qn",
+      "silentUninstall": "MsiExec.exe /x Brackets.Release.x.y.z.msi /qn",
+      "repair": "MsiExec.exe /fa Brackets.Release.x.y.z.msi /qn",
+      "downloadUrl": "https://github.com/adobe/brackets/releases",
+      "psScriptUrl": "https://silentinstallhq.com/brackets-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

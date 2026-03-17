@@ -6,7 +6,7 @@
   "lastScraped": "2026-03-16T22:28:36.525Z",
   "variants": [
     {
-      "architecture": "x86\\_x64",
+      "architecture": "x86/x64",
       "installerType": "EXE",
       "silentInstall": "XMetersSetup.exe /install /quiet /norestart",
       "silentUninstall": "XMetersSetup.exe /uninstall /quiet /norestart",

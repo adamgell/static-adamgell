@@ -1,0 +1,34 @@
+{
+  "slug": "python-3-9",
+  "title": "Python 3.9",
+  "vendor": "Python Software Foundation",
+  "sourceUrl": "https://silentinstallhq.com/python-3-9-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:29:59.085Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "python-3.9.x.exe /quiet InstallAllUsers=1 PrependPath=1",
+      "silentUninstall": "python-3.9.x.exe /uninstall /quiet",
+      "repair": "python-3.9.x.exe /repair /quiet",
+      "downloadUrl": "https://www.python.org/ftp/python/",
+      "psScriptUrl": "https://silentinstallhq.com/python-3-9-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-python-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "python-3.9.x-amd64.exe /quiet InstallAllUsers=1 PrependPath=1",
+      "silentUninstall": "python-3.9.x-amd64.exe /uninstall /quiet",
+      "repair": "python-3.9.x-amd64.exe /repair /quiet",
+      "downloadUrl": "https://www.python.org/ftp/python/",
+      "psScriptUrl": "https://silentinstallhq.com/python-3-9-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-python-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

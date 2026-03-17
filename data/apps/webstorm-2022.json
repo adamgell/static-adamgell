@@ -1,0 +1,22 @@
+{
+  "slug": "webstorm-2022",
+  "title": "WebStorm 2022",
+  "vendor": "JetBrains s.r.o",
+  "sourceUrl": "https://silentinstallhq.com/webstorm-2022-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:32:07.269Z",
+  "variants": [
+    {
+      "architecture": "x86/x64",
+      "installerType": "EXE",
+      "silentInstall": "WebStorm-2022.x.x.exe /S /CONFIG=.\\silent.config /D=C:\\Program Files\\WebStorm 2022",
+      "silentUninstall": "\"%ProgramFiles%\\WebStorm 2022\\bin\\Uninstall.exe\" /S",
+      "repair": null,
+      "downloadUrl": "https://www.jetbrains.com/webstorm/download/other.html",
+      "psScriptUrl": "https://silentinstallhq.com/webstorm-2022-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-webstorm-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

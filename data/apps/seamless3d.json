@@ -1,0 +1,22 @@
+{
+  "slug": "seamless3d",
+  "title": "Seamless3d",
+  "vendor": "Seamless3d",
+  "sourceUrl": "https://silentinstallhq.com/seamless3d-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:30:27.273Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "seamless3d-modeller-setup-x.y.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://www.seamless3d.com/download/",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "ti-connect",
+  "title": "TI Connect",
+  "vendor": "Texas Instruments Inc.",
+  "sourceUrl": "https://silentinstallhq.com/ti-connect-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:31:26.161Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "TI-Connect-w.x.y.z.exe /qn",
+      "silentUninstall": "TI-Connect-w.x.y.z.exe /qn /x",
+      "repair": null,
+      "downloadUrl": "https://education.ti.com/en/products/computer-software/ti-connect-sw",
+      "psScriptUrl": "https://silentinstallhq.com/ti-connect-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

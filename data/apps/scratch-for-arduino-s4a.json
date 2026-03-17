@@ -1,0 +1,22 @@
+{
+  "slug": "scratch-for-arduino-s4a",
+  "title": "Scratch for Arduino (S4A)",
+  "vendor": "Citilab (Cornellà)",
+  "sourceUrl": "https://silentinstallhq.com/scratch-for-arduino-s4a-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:30:23.206Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "S4Axx.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "http://s4a.cat/",
+      "psScriptUrl": "https://silentinstallhq.com/scratch-for-arduino-s4a-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

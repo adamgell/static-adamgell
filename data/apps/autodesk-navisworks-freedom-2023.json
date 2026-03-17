@@ -1,0 +1,22 @@
+{
+  "slug": "autodesk-navisworks-freedom-2023",
+  "title": "Autodesk Navisworks Freedom 2023",
+  "vendor": "Autodesk",
+  "sourceUrl": "https://silentinstallhq.com/autodesk-navisworks-freedom-2023-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T01:59:10.937Z",
+  "variants": [
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "Setup.exe -q",
+      "silentUninstall": "\"%ProgramFiles%\\Autodesk\\AdODIS\\V1\\Installer.exe\" -i uninstall -q -m C:\\ProgramData\\Autodesk\\ODIS\\metadata\\{404ED079-9FE3-3739-BA09-0069D1EDDFB6}\\bundleManifest.xml",
+      "repair": null,
+      "downloadUrl": "https://www.autodesk.com/products/navisworks/3d-viewers",
+      "psScriptUrl": "https://silentinstallhq.com/autodesk-navisworks-freedom-2023-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

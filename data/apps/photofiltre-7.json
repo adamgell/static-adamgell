@@ -1,0 +1,22 @@
+{
+  "slug": "photofiltre-7",
+  "title": "PhotoFiltre 7",
+  "vendor": "Antonio Da Cruz",
+  "sourceUrl": "https://silentinstallhq.com/photofiltre-7-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:29:26.000Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "pf7-setup-en-7.x.y.exe /S",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "http://www.photofiltre-studio.com/pf7-en.htm",
+      "psScriptUrl": null,
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

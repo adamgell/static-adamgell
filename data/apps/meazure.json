@@ -1,0 +1,22 @@
+{
+  "slug": "meazure",
+  "title": "Meazure",
+  "vendor": "C Thing Software",
+  "sourceUrl": "https://silentinstallhq.com/meazure-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:26:56.882Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "meazrXXX.exe /VERYSILENT /NORESTART",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://github.com/baron1405/meazure/releases/latest",
+      "psScriptUrl": "https://silentinstallhq.com/meazure-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

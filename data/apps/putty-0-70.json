@@ -1,0 +1,34 @@
+{
+  "slug": "putty-0-70",
+  "title": "PuTTY 0.70",
+  "vendor": "Simon Tatham",
+  "sourceUrl": "https://silentinstallhq.com/putty-0-70-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:29:50.996Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i putty-0.70-installer.msi /qn",
+      "silentUninstall": "MsiExec.exe /x {0B06C05B-0069-4FE8-AC19-AAF6678FD0A8} /qn",
+      "repair": "MsiExec.exe /fa {0B06C05B-0069-4FE8-AC19-AAF6678FD0A8} /qn",
+      "downloadUrl": "https://www.chiark.greenend.org.uk/~sgtatham/putty/releases/0.70.html",
+      "psScriptUrl": "https://silentinstallhq.com/putty-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x64",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i putty-64bit-0.70-installer.msi /qn",
+      "silentUninstall": "MsiExec.exe /x {45B3032F-22CC-40CD-9E97-4DA7095FA5A2} /qn",
+      "repair": "MsiExec.exe /fa {45B3032F-22CC-40CD-9E97-4DA7095FA5A2} /qn",
+      "downloadUrl": "https://www.chiark.greenend.org.uk/~sgtatham/putty/releases/0.70.html",
+      "psScriptUrl": "https://silentinstallhq.com/putty-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

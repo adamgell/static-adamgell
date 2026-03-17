@@ -1,0 +1,22 @@
+{
+  "slug": "faststone-maxview",
+  "title": "FastStone MaxView",
+  "vendor": "FastStone Soft",
+  "sourceUrl": "https://silentinstallhq.com/faststone-maxview-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:05:46.215Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "FSMaxViewSetupXX.exe /S",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://www.faststone.org/FSMaxViewDownload.htm",
+      "psScriptUrl": "https://silentinstallhq.com/faststone-maxview-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-faststone-maxview-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

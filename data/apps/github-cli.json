@@ -1,0 +1,22 @@
+{
+  "slug": "github-cli",
+  "title": "GitHub CLI",
+  "vendor": "GitHub, Inc.",
+  "sourceUrl": "https://silentinstallhq.com/github-cli-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:06:42.128Z",
+  "variants": [
+    {
+      "architecture": "x64",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i gh_x.y.z_windows_amd64.msi /qn",
+      "silentUninstall": "MsiExec.exe /x gh_x.y.z_windows_amd64.msi /qn",
+      "repair": "MsiExec.exe /fa gh_x.y.z_windows_amd64.msi /qn",
+      "downloadUrl": "https://github.com/cli/cli/releases/latest",
+      "psScriptUrl": "https://silentinstallhq.com/github-cli-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-github-cli-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

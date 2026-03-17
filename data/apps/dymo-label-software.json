@@ -1,0 +1,46 @@
+{
+  "slug": "dymo-label-software",
+  "title": "DYMO Label Software",
+  "vendor": "Newell Rubbermaid",
+  "sourceUrl": "https://silentinstallhq.com/dymo-label-software-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:03:45.452Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "DLS8Setup8.7.x.exe /S /v/qn",
+      "silentUninstall": "DLS8Setup8.7.x.exe /S /x /v/qn",
+      "repair": null,
+      "downloadUrl": "https://www.dymo.com/compatibility-chart.html",
+      "psScriptUrl": "https://silentinstallhq.com/dymo-label-software-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x86",
+      "installerType": "MSI",
+      "silentInstall": "MsiExec.exe /i \"DYMO Label.msi\" /qn",
+      "silentUninstall": "MsiExec.exe /x \"DYMO Label.msi\" /qn",
+      "repair": "MsiExec.exe /fa \"DYMO Label.msi\" /qn",
+      "downloadUrl": "https://www.dymo.com/compatibility-chart.html",
+      "psScriptUrl": "https://silentinstallhq.com/dymo-label-software-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "DLS8Setup.8.5.x.exe /S",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://www.dymo.com/compatibility-chart.html",
+      "psScriptUrl": "https://silentinstallhq.com/dymo-label-software-install-and-uninstall-powershell/",
+      "detectionScriptUrl": null,
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}

@@ -1,0 +1,58 @@
+{
+  "slug": "veyon",
+  "title": "Veyon",
+  "vendor": "Veyon Solutions",
+  "sourceUrl": "https://silentinstallhq.com/veyon-silent-install-how-to-guide/",
+  "lastScraped": "2026-03-17T02:31:43.360Z",
+  "variants": [
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "veyon-x.y.z-win32-setup.exe /S /NoMaster",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://veyon.io/download/",
+      "psScriptUrl": "https://silentinstallhq.com/veyon-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-veyon-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "veyon-x.y.z-win64-setup.exe /S /NoMaster",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://veyon.io/download/",
+      "psScriptUrl": "https://silentinstallhq.com/veyon-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-veyon-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x86",
+      "installerType": "EXE",
+      "silentInstall": "veyon-x.y.z-win32-setup.exe /S",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://veyon.io/download/",
+      "psScriptUrl": "https://silentinstallhq.com/veyon-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-veyon-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    },
+    {
+      "architecture": "x64",
+      "installerType": "EXE",
+      "silentInstall": "veyon-x.y.z-win64-setup.exe /S",
+      "silentUninstall": "",
+      "repair": null,
+      "downloadUrl": "https://veyon.io/download/",
+      "psScriptUrl": "https://silentinstallhq.com/veyon-install-and-uninstall-powershell/",
+      "detectionScriptUrl": "https://silentinstallhq.com/create-a-custom-detection-script-for-veyon-powershell/",
+      "logInstall": null,
+      "logUninstall": null
+    }
+  ],
+  "psadtScript": null
+}
