@@ -57,6 +57,7 @@ export default function SilentInstallLibrary() {
           className="hover:text-slate-400 transition-colors"
         >
         silentinstallhq.com
+        </a>
       </footer>
     </div>
   );
