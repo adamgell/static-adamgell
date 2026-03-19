@@ -1,4 +1,4 @@
-name: Nightly Scrape
+name: Nightly Winget Refresh
 
 on:
   schedule:
@@ -27,14 +27,12 @@ jobs:
         run: cd scraper && npm ci
 
       - name: Run scraper
-        env:
-          FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}
-        run: cd scraper && node crawl.js
+        run: cd scraper && npm run scrape:winget
 
       - name: Commit data changes
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/
+          git add data/ public/
           git diff --cached --quiet && echo "No changes to commit" || \
             git commit -m "chore(data): nightly scrape $(date -u +%Y-%m-%d)" && git push

@@ -4,14 +4,15 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "scrape": "node crawl.js",
-    "scrape:direct": "node crawl-direct.js",
-    "scrape:ps": "node crawl-ps-scripts.js"
+    "scrape:winget": "node crawl-winget.js --mode all --concurrency 8",
+    "scrape:winget:bulk": "node crawl-winget.js --mode auto --target-written 1401 --concurrency 8",
+    "scrape:winget:curated": "node crawl-winget.js --mode curated"
   },
   "dependencies": {
     "@mendable/firecrawl-js": "^1.0.0",
     "cheerio": "^1.2.0",
     "dotenv": "^17.3.1",
-    "node-fetch": "^3.3.2"
+    "node-fetch": "^3.3.2",
+    "yaml": "^2.8.2"
   }
 }

@@ -3,9 +3,16 @@ interface Props {
   onChange: (v: string) => void;
   total: number;
   filtered: number;
+  visible: number;
 }
 
-export default function SearchBar({ value, onChange, total, filtered }: Props) {
+export default function SearchBar({
+  value,
+  onChange,
+  total,
+  filtered,
+  visible,
+}: Props) {
   return (
     <div className="mb-8">
       <div className="relative">
@@ -31,7 +38,9 @@ export default function SearchBar({ value, onChange, total, filtered }: Props) {
         )}
       </div>
       <p className="mt-2 text-sm text-slate-500">
-        {value ? `${filtered} of ${total} apps` : `${total} apps indexed`}
+        {value
+          ? `${visible} of ${filtered} matching apps shown`
+          : `${visible} of ${total} apps shown`}
       </p>
     </div>
   );

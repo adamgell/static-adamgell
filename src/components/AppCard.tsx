@@ -6,6 +6,7 @@ interface AppVariant {
   arch?: string;
   installerType?: string;
   silentInstall?: string;
+  silentWithProgress?: string;
   silentUninstall?: string;
   repair?: string;
   logInstall?: string;
@@ -21,6 +22,8 @@ interface AppRecord {
   vendor?: string;
   sourceUrl?: string;
   url?: string;
+  sourceType?: string;
+  sourceName?: string;
   lastScraped: string;
   variants: AppVariant[];
   psadtScript?: string | null;
@@ -40,6 +43,7 @@ export default function AppCard({ app }: Props) {
 
   const hasMultiple = app.variants.length > 1;
   const sourceUrl = app.sourceUrl ?? app.url ?? "#";
+  const sourceLabel = "Winget Manifest";
 
   return (
     <article className="border border-slate-800 rounded-lg bg-slate-950/50 overflow-hidden hover:border-slate-700 transition-colors">
@@ -91,6 +95,12 @@ export default function AppCard({ app }: Props) {
       {/* Expandable section */}
       {expanded && (
         <div className="px-4 pb-4 border-t border-slate-800 pt-3 space-y-3">
+          {variant.silentWithProgress && (
+            <CommandBlock
+              label="Silent Install (Progress)"
+              command={variant.silentWithProgress}
+            />
+          )}
           {variant.logInstall && (
             <CommandBlock label="Install with Logging" command={variant.logInstall} />
           )}
@@ -161,7 +171,7 @@ export default function AppCard({ app }: Props) {
                 rel="noopener noreferrer"
                 className="text-slate-400 hover:text-white transition-colors"
             >
-              📖 Source Article
+              📖 {sourceLabel}
             </a>
           </div>
 

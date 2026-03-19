@@ -1,0 +1,33 @@
+{
+  "packageIds": [
+    "7zip.7zip",
+    "Adobe.Acrobat.Reader.64-bit",
+    "AnyDeskSoftwareGmbH.AnyDesk",
+    "Brave.Brave",
+    "Discord.Discord",
+    "Docker.DockerDesktop",
+    "Git.Git",
+    "GitHub.GitHubDesktop",
+    "Google.Chrome",
+    "KeePassXCTeam.KeePassXC",
+    "Microsoft.PowerShell",
+    "Microsoft.PowerToys",
+    "Microsoft.RemoteDesktopClient",
+    "Microsoft.SQLServerManagementStudio",
+    "Microsoft.Teams",
+    "Microsoft.VisualStudioCode",
+    "Mozilla.Firefox",
+    "Notepad++.Notepad++",
+    "OBSProject.OBSStudio",
+    "OpenJS.NodeJS.LTS",
+    "Postman.Postman",
+    "PuTTY.PuTTY",
+    "RARLab.WinRAR",
+    "ShareX.ShareX",
+    "SlackTechnologies.Slack",
+    "Tailscale.Tailscale",
+    "VideoLAN.VLC",
+    "WinSCP.WinSCP",
+    "Zoom.Zoom"
+  ]
+}
