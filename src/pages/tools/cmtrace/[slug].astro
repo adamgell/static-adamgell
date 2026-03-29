@@ -1,9 +1,9 @@
 ---
-import BaseLayout from "../../layouts/BaseLayout.astro";
+import BaseLayout from "../../../layouts/BaseLayout.astro";
 import { getCollection, render } from "astro:content";
 
 export async function getStaticPaths() {
-  const posts = await getCollection("blog");
+  const posts = await getCollection("cmtrace");
   return posts.map((post) => ({
     params: { slug: post.id },
     props: { post },
@@ -14,10 +14,13 @@ const { post } = Astro.props;
 const { Content } = await render(post);
 ---
 
-<BaseLayout title={`${post.data.title} — Adam Gell`} description={post.data.description}>
+<BaseLayout title={`${post.data.title} — CMTrace Open`} description={post.data.description}>
   <article class="max-w-3xl mx-auto px-6 py-16">
     <header class="mb-10">
-      <time class="text-sm text-slate-500">
+      <a href="/tools/cmtrace" class="text-sm text-slate-500 hover:text-slate-300 transition-colors">
+        &larr; CMTrace Open
+      </a>
+      <time class="block text-sm text-slate-500 mt-4">
         {new Date(post.data.date).toLocaleDateString("en-US", {
           year: "numeric",
           month: "long",

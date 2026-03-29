@@ -12,4 +12,15 @@ const blog = defineCollection({
   }),
 });
 
-export const collections = { blog };
+const cmtrace = defineCollection({
+  loader: glob({ pattern: "**/*.{md,mdx}", base: "./src/content/cmtrace" }),
+  schema: z.object({
+    title: z.string(),
+    description: z.string().optional(),
+    date: z.coerce.date(),
+    draft: z.boolean().default(false),
+    type: z.enum(["post", "release"]).default("post"),
+  }),
+});
+
+export const collections = { blog, cmtrace };

@@ -1,0 +1,195 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+
+const allEntries = await getCollection("cmtrace");
+const published = allEntries
+  .filter((p) => !p.data.draft)
+  .sort((a, b) => new Date(b.data.date).valueOf() - new Date(a.data.date).valueOf());
+
+const sortedPosts = published.filter((p) => p.data.type !== "release");
+const releases = published.filter((p) => p.data.type === "release");
+
+---
+
+<BaseLayout title="CMTrace Open — Adam Gell" description="A modern, cross-platform, Tauri-powered log analyzer.">
+  <div class="max-w-5xl mx-auto px-6 py-16">
+
+    <!-- Hero -->
+    <section class="mb-10">
+      <div class="flex items-center gap-4 mb-4">
+        <img src="/images/cmtrace-logo.png" alt="CMTrace Open logo" class="w-14 h-14" />
+        <div>
+          <h1 class="text-3xl font-bold tracking-tight">CMTrace Open</h1>
+          <p class="text-slate-400">
+            A modern, cross-platform, Tauri-powered log analyzer that leaves the original CMTrace in the dust.
+          </p>
+        </div>
+      </div>
+
+      <div class="flex items-center gap-3 mb-6">
+        <a
+          href="https://github.com/adamgell/cmtraceopen"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex items-center gap-2 px-4 py-2 text-sm font-medium rounded-md bg-slate-800 hover:bg-slate-700 transition-colors"
+        >
+          <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+          GitHub
+        </a>
+        <span id="version-badge" class="px-2.5 py-1 text-xs font-medium rounded-md bg-slate-800 text-slate-300 border border-slate-700">
+          Latest: ...
+        </span>
+        <a
+          href="#posts"
+          class="ml-auto inline-flex items-center gap-2 px-4 py-2 text-sm font-medium rounded-md bg-blue-600 hover:bg-blue-500 text-white transition-colors"
+        >
+          Learn How to Use It &darr;
+        </a>
+      </div>
+
+      <div class="border border-slate-800 rounded-lg overflow-hidden">
+        <img src="/images/cmtrace-screenshot.png" alt="CMTrace Open application screenshot" class="w-full" />
+      </div>
+
+    </section>
+
+    <!-- Why CMTrace Open -->
+    <section class="mb-16">
+      <h2 class="text-xl font-bold tracking-tight mb-4">Why CMTrace Open?</h2>
+
+      <div class="space-y-6 text-slate-400 leading-relaxed mb-10">
+        <p>
+          Microsoft's CMTrace.exe is Windows-only, closed-source, hasn't been updated in years, and only reads CCM-format logs.
+          Admins managing Intune, Autopilot, and modern management need something better.
+        </p>
+        <p>
+          CMTrace Open doesn't just replace CMTrace.exe. It replaces the workflow of opening logs in Notepad,
+          manually searching for error codes, and cross-referencing Microsoft docs.
+        </p>
+      </div>
+
+      <h3 class="text-sm font-semibold uppercase tracking-wider text-slate-500 mb-4">Key Features</h3>
+      <div class="grid gap-4 sm:grid-cols-2">
+        <div class="border border-slate-800 rounded-lg p-4">
+          <h4 class="text-sm font-semibold mb-1">Cross-Platform</h4>
+          <p class="text-sm text-slate-400">Runs natively on Windows, macOS, and Linux.</p>
+        </div>
+        <div class="border border-slate-800 rounded-lg p-4">
+          <h4 class="text-sm font-semibold mb-1">15+ Log Formats</h4>
+          <p class="text-sm text-slate-400">Auto-detects CCM, CBS, DISM, Panther, MSI, PSADT, Burn, ReportingEvents, DHCP, and more.</p>
+        </div>
+        <div class="border border-slate-800 rounded-lg p-4">
+          <h4 class="text-sm font-semibold mb-1">Error Code Database</h4>
+          <p class="text-sm text-slate-400">796 built-in error codes across 14 categories. No more searching docs.</p>
+        </div>
+        <div class="border border-slate-800 rounded-lg p-4">
+          <h4 class="text-sm font-semibold mb-1">Intune Diagnostics</h4>
+          <p class="text-sm text-slate-400">Event timeline, download stats, and confidence scoring for Intune diagnostic packages.</p>
+        </div>
+        <div class="border border-slate-800 rounded-lg p-4">
+          <h4 class="text-sm font-semibold mb-1">DSRegCmd Analysis</h4>
+          <p class="text-sm text-slate-400">Built-in analysis for device join troubleshooting.</p>
+        </div>
+        <div class="border border-slate-800 rounded-lg p-4">
+          <h4 class="text-sm font-semibold mb-1">Real-Time Tailing</h4>
+          <p class="text-sm text-slate-400">Live log tailing with filtering. 28 preset "Known Log Sources" so you never hunt for file paths.</p>
+        </div>
+      </div>
+
+      <div class="mt-8 border border-slate-800 rounded-lg p-5 bg-slate-900/50">
+        <h3 class="text-sm font-semibold mb-2">Built for</h3>
+        <p class="text-sm text-slate-400">
+          Intune admins, SCCM/ConfigMgr engineers, desktop support, MDM engineers — anyone who reads Windows logs.
+        </p>
+      </div>
+    </section>
+
+    <!-- Content Feed -->
+    <section id="posts">
+      <h2 class="text-sm font-semibold uppercase tracking-wider text-slate-500 mb-5">
+        Posts
+      </h2>
+
+      {sortedPosts.length === 0 ? (
+        <p class="text-slate-400">Posts coming soon.</p>
+      ) : (
+        <ul class="space-y-4">
+          {sortedPosts.map((post) => (
+            <li>
+              <a
+                href={`/tools/cmtrace/${post.id}`}
+                class="group block border border-slate-800 rounded-lg p-5 hover:border-slate-600 transition-colors"
+              >
+                <time class="text-xs text-slate-500">
+                  {new Date(post.data.date).toLocaleDateString("en-US", {
+                    year: "numeric",
+                    month: "long",
+                    day: "numeric",
+                  })}
+                </time>
+                <h3 class="text-base font-semibold mt-1 group-hover:text-white transition-colors">
+                  {post.data.title}
+                </h3>
+                {post.data.description && (
+                  <p class="text-sm text-slate-400 mt-1">{post.data.description}</p>
+                )}
+              </a>
+            </li>
+          ))}
+        </ul>
+      )}
+    </section>
+
+    <!-- Release Notes -->
+    <section class="mt-14">
+      <h2 class="text-sm font-semibold uppercase tracking-wider text-slate-500 mb-5">
+        Release Notes
+      </h2>
+
+      {releases.length === 0 ? (
+        <p class="text-slate-400">No release notes yet.</p>
+      ) : (
+        <ul class="space-y-4">
+          {releases.map((release) => (
+            <li>
+              <a
+                href={`/tools/cmtrace/${release.id}`}
+                class="group block border border-slate-800 rounded-lg p-5 hover:border-slate-600 transition-colors"
+              >
+                <div class="flex items-center gap-3">
+                  <span class="px-2 py-0.5 text-xs font-medium rounded bg-slate-800 text-slate-300 border border-slate-700">
+                    {release.data.title}
+                  </span>
+                  <time class="text-xs text-slate-500">
+                    {new Date(release.data.date).toLocaleDateString("en-US", {
+                      year: "numeric",
+                      month: "long",
+                      day: "numeric",
+                    })}
+                  </time>
+                </div>
+                {release.data.description && (
+                  <p class="text-sm text-slate-400 mt-2">{release.data.description}</p>
+                )}
+              </a>
+            </li>
+          ))}
+        </ul>
+      )}
+    </section>
+  </div>
+</BaseLayout>
+
+<script>
+  fetch("https://api.github.com/repos/adamgell/cmtraceopen/releases/latest")
+    .then((res) => res.ok ? res.json() : Promise.reject())
+    .then((data) => {
+      const badge = document.getElementById("version-badge");
+      if (badge) badge.textContent = `Latest: ${data.tag_name}`;
+    })
+    .catch(() => {
+      const badge = document.getElementById("version-badge");
+      if (badge) badge.textContent = "Latest: v1.0.1";
+    });
+</script>
