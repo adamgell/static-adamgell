@@ -110,13 +110,32 @@ const releases = published.filter((p) => p.data.type === "release");
       <h2 class="text-sm font-semibold uppercase tracking-wider text-slate-500 mb-5">
         Posts
       </h2>
+      <div id="keyword-filter-state" class="hidden mb-5 flex items-center gap-3 text-sm text-slate-300">
+        <span>
+          Filtering by keyword:
+          <strong id="keyword-filter-value" class="text-white"></strong>
+        </span>
+        <a
+          id="keyword-filter-clear"
+          href="/tools/cmtrace#posts"
+          class="inline-flex items-center rounded-md border border-slate-700 px-2.5 py-1 text-xs text-slate-300 hover:border-slate-600 hover:text-white transition-colors"
+        >
+          Clear
+        </a>
+      </div>
 
       {sortedPosts.length === 0 ? (
         <p class="text-slate-400">Posts coming soon.</p>
       ) : (
         <ul class="space-y-4">
           {sortedPosts.map((post) => (
-            <li>
+            <li
+              data-cmtrace-item
+              data-keywords={(post.data.keywords ?? [])
+                .map((k) => k.toLowerCase().trim())
+                .filter(Boolean)
+                .join("|")}
+            >
               <a
                 href={`/tools/cmtrace/${post.id}`}
                 class="group block border border-slate-800 rounded-lg p-5 hover:border-slate-600 transition-colors"
@@ -135,6 +154,18 @@ const releases = published.filter((p) => p.data.type === "release");
                   <p class="text-sm text-slate-400 mt-1">{post.data.description}</p>
                 )}
               </a>
+              {post.data.keywords && post.data.keywords.length > 0 && (
+                <div class="mt-2 flex flex-wrap gap-2">
+                  {post.data.keywords.map((keyword) => (
+                    <a
+                      href={`/tools/cmtrace?keyword=${encodeURIComponent(keyword)}#posts`}
+                      class="inline-flex items-center rounded-md border border-slate-700 px-2.5 py-1 text-xs text-slate-300 hover:border-slate-600 hover:text-white transition-colors"
+                    >
+                      {keyword}
+                    </a>
+                  ))}
+                </div>
+              )}
             </li>
           ))}
         </ul>
@@ -152,7 +183,13 @@ const releases = published.filter((p) => p.data.type === "release");
       ) : (
         <ul class="space-y-4">
           {releases.map((release) => (
-            <li>
+            <li
+              data-cmtrace-item
+              data-keywords={(release.data.keywords ?? [])
+                .map((k) => k.toLowerCase().trim())
+                .filter(Boolean)
+                .join("|")}
+            >
               <a
                 href={`/tools/cmtrace/${release.id}`}
                 class="group block border border-slate-800 rounded-lg p-5 hover:border-slate-600 transition-colors"
@@ -173,6 +210,18 @@ const releases = published.filter((p) => p.data.type === "release");
                   <p class="text-sm text-slate-400 mt-2">{release.data.description}</p>
                 )}
               </a>
+              {release.data.keywords && release.data.keywords.length > 0 && (
+                <div class="mt-2 flex flex-wrap gap-2">
+                  {release.data.keywords.map((keyword) => (
+                    <a
+                      href={`/tools/cmtrace?keyword=${encodeURIComponent(keyword)}#posts`}
+                      class="inline-flex items-center rounded-md border border-slate-700 px-2.5 py-1 text-xs text-slate-300 hover:border-slate-600 hover:text-white transition-colors"
+                    >
+                      {keyword}
+                    </a>
+                  ))}
+                </div>
+              )}
             </li>
           ))}
         </ul>
@@ -182,6 +231,29 @@ const releases = published.filter((p) => p.data.type === "release");
 </BaseLayout>
 
 <script>
+  const params = new URLSearchParams(window.location.search);
+  const selectedKeyword = (params.get("keyword") || "").trim().toLowerCase();
+
+  if (selectedKeyword) {
+    const cards = document.querySelectorAll("[data-cmtrace-item]");
+
+    cards.forEach((card) => {
+      const keywordList = (card.getAttribute("data-keywords") || "")
+        .split("|")
+        .filter(Boolean);
+      const isMatch = keywordList.includes(selectedKeyword);
+      card.classList.toggle("hidden", !isMatch);
+    });
+
+    const filterState = document.getElementById("keyword-filter-state");
+    const filterValue = document.getElementById("keyword-filter-value");
+
+    if (filterState && filterValue) {
+      filterValue.textContent = selectedKeyword;
+      filterState.classList.remove("hidden");
+    }
+  }
+
   fetch("https://api.github.com/repos/adamgell/cmtraceopen/releases/latest")
     .then((res) => res.ok ? res.json() : Promise.reject())
     .then((data) => {

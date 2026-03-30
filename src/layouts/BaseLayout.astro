@@ -2,9 +2,14 @@
 interface Props {
   title: string;
   description?: string;
+  keywords?: string[];
 }
 
-const { title, description = "Adam Gell — Tools, diagrams, and blog" } =
+const {
+  title,
+  description = "Adam Gell — Tools, diagrams, and blog",
+  keywords = [],
+} =
   Astro.props;
 ---
 
@@ -14,6 +19,7 @@ const { title, description = "Adam Gell — Tools, diagrams, and blog" } =
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content={description} />
+    {keywords.length > 0 && <meta name="keywords" content={keywords.join(", ")} />}
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <title>{title}</title>
     <Fragment set:html={`<style>
