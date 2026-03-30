@@ -2,7 +2,7 @@
 title: "Known Log Sources: Stop Hunting for File Paths"
 description: "CMTrace Open has 24 preset log sources built in. One click to open any of them. Here's the full catalog."
 date: 2026-04-01
-draft: false
+draft: true
 type: post
 keywords:
   - known log sources

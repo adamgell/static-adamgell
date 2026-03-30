@@ -2,7 +2,7 @@
 title: Your First 5 Minutes with CMTrace Open
 description: Download, install, and find your first error code. Everything you need to go from zero to productive.
 date: 2026-03-30
-draft: true
+draft: false
 type: post
 keywords:
     - cmtrace

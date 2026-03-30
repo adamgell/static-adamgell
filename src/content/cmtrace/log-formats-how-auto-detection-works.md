@@ -2,7 +2,7 @@
 title: "Log Formats: How Auto-Detection Works"
 description: "CMTrace Open reads 15+ log formats out of the box. Here's what it detects, how detection works, and what to expect from each format."
 date: 2026-03-31
-draft: false
+draft: true
 type: post
 keywords:
   - log formats

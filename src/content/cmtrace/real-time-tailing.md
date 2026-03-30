@@ -2,7 +2,7 @@
 title: "Real-Time Tailing: Watch Logs as They Happen"
 description: "CMTrace Open can tail log files in real time. Here's how to use it for live troubleshooting."
 date: 2026-04-02
-draft: false
+draft: true
 type: post
 keywords:
   - real-time tailing
