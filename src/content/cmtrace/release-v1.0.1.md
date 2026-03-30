@@ -4,6 +4,13 @@ description: "Fixes timezone display offset for cross-timezone logs and adds liv
 date: 2026-03-28
 draft: false
 type: release
+keywords:
+  - release
+  - v1.0.1
+  - bugfix
+  - timezone
+  - timestamp
+  - date format
 ---
 
 ## Fixed

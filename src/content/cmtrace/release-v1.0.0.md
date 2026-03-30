@@ -4,6 +4,18 @@ description: "First stable release — complete UX overhaul, eight themes, five 
 date: 2026-03-28
 draft: false
 type: release
+keywords:
+  - release
+  - v1.0.0
+  - themes
+  - parsers
+  - error intelligence
+  - deployment workspace
+  - diagnostics collection
+  - dsregcmd
+  - dhcp
+  - registry viewer
+  - performance
 ---
 
 First stable release. Since v0.5.0, CMTrace Open has received a complete UX overhaul with eight themes, a multi-tab file browser, dynamic parser-aware columns, five new log parsers, an embedded 411-code error intelligence layer, a Software Deployment analysis workspace, a Windows Diagnostics Collection tool, multi-file open and drag-drop, an inline Ctrl+F find bar, timezone-correct timestamps across all parsers, and deeper Windows Setup and DSRegCmd analysis.

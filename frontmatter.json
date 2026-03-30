@@ -1,0 +1,44 @@
+{
+  "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.taxonomy.contentTypes": [
+    {
+      "name": "blog",
+      "pageBundle": false,
+      "previewPath": "/blog/{{slug}}",
+      "fields": [
+        { "title": "Title", "name": "title", "type": "string", "required": true },
+        { "title": "Description", "name": "description", "type": "string" },
+        { "title": "Date", "name": "date", "type": "datetime", "isPublishDate": true },
+        { "title": "Draft", "name": "draft", "type": "draft" },
+        { "title": "Keywords", "name": "keywords", "type": "tags" }
+      ]
+    },
+    {
+      "name": "cmtrace",
+      "pageBundle": false,
+      "previewPath": "/tools/cmtrace/{{slug}}",
+      "fields": [
+        { "title": "Title", "name": "title", "type": "string", "required": true },
+        { "title": "Description", "name": "description", "type": "string" },
+        { "title": "Date", "name": "date", "type": "datetime", "isPublishDate": true },
+        { "title": "Draft", "name": "draft", "type": "draft" },
+        { "title": "Type", "name": "type", "type": "choice", "choices": ["post", "release"], "default": "post" },
+        { "title": "Keywords", "name": "keywords", "type": "tags" }
+      ]
+    }
+  ],
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "Blog",
+      "path": "[[workspace]]/src/content/blog",
+      "contentTypes": ["blog"]
+    },
+    {
+      "title": "CMTrace",
+      "path": "[[workspace]]/src/content/cmtrace",
+      "contentTypes": ["cmtrace"]
+    }
+  ],
+  "frontMatter.framework.id": "astro",
+  "frontMatter.preview.host": "http://localhost:4321"
+}

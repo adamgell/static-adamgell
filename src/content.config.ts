@@ -9,6 +9,7 @@ const blog = defineCollection({
     description: z.string().optional(),
     date: z.coerce.date(),
     draft: z.boolean().default(false),
+    keywords: z.array(z.string()).optional(),
   }),
 });
 
@@ -20,6 +21,7 @@ const cmtrace = defineCollection({
     date: z.coerce.date(),
     draft: z.boolean().default(false),
     type: z.enum(["post", "release"]).default("post"),
+    keywords: z.array(z.string()).optional(),
   }),
 });
 

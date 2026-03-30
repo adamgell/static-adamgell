@@ -4,6 +4,19 @@ description: "Microsoft's CMTrace.exe is stuck in the past. Here's why we built 
 date: 2026-03-29
 draft: false
 type: post
+keywords:
+  - cmtrace
+  - log viewer
+  - intune
+  - autopilot
+  - sccm
+  - configmgr
+  - cross-platform
+  - error codes
+  - windows logs
+  - endpoint management
+  - tauri
+  - open source
 ---
 
 If you're an IT admin who's ever opened a log file in Notepad, scrolled through thousands of lines looking for an error, then copy-pasted a hex code into Google, you already know the problem.
@@ -48,11 +61,11 @@ CMTrace Open was built specifically for the way modern IT admins work. Here's wh
 
 - **Cross-platform.** Runs natively on Windows, macOS, and Linux. Built with Tauri for a fast, native UI on every platform. If you're managing Intune from a Mac, you're no longer left out.
 - **Auto-detects 15+ log formats.** Open any log file and CMTrace Open figures out what it is. CCM, CBS, DISM, Panther, MSI verbose, PSADT, Burn, ReportingEvents, DHCP, timestamped, plain text, and even Windows registry exports. No configuration, no manual format selection.
-- **Built-in error code database.** 796 error codes across 14 categories including Windows, Intune, MSI, PSADT, certificates, networking, Windows Update, BITS, ConfigMgr, and Delivery Optimization. Press `Ctrl+E`, type a hex code or decimal, and get the name, description, and category instantly. No more browser tabs.
+- **Built-in error code database.** 739 error codes across 15 categories including Windows, Intune, MSI, PSADT, certificates, networking, Windows Update, BITS, ConfigMgr, and Delivery Optimization. Press `Ctrl+E`, type a hex code or decimal, and get the name, description, and category instantly. No more browser tabs.
 - **Intune diagnostics workspace.** A dedicated view that analyzes all your IME logs together. Event timeline, download statistics, confidence scoring, and automatic correlation between `IntuneManagementExtension.log`, `AppWorkload.log`, and `AgentExecutor.log`. See the full picture of what happened, not just one log file at a time.
 - **DSRegCmd analysis.** Paste or capture `dsregcmd /status` output and get structured analysis with automatic issue detection. When a device won't Hybrid Join or you're chasing a PRT issue, CMTrace Open tells you exactly which test failed and why.
 - **Real-time log tailing.** Watch logs as they're written. Filters apply to new entries in real-time. Pause and resume. Automatic log rotation detection. Turn CMTrace Open into a live debugger when you need to reproduce a problem.
-- **28 preset Known Log Sources.** Never hunt for file paths again. One click to open the Intune IME logs folder, the Panther logs, the CBS log, MSI temp logs, PSADT deployment logs, or any of the 9 macOS-specific sources. The paths are built in.
+- **24 preset Known Log Sources.** Never hunt for file paths again. One click to open the Intune IME logs folder, the Panther logs, the CBS log, MSI temp logs, PSADT deployment logs, or any of the 9 macOS-specific sources. The paths are built in.
 
 ## Who This Is For
 

@@ -3,6 +3,17 @@ title: "Understanding Intune Compliance Policies — The Foundation of Zero Trus
 description: "Part 1 of a 5-part series covering what Intune compliance policies actually do, how the evaluation engine works, critical global settings, and where compliance fits in Zero Trust."
 date: 2026-03-11
 draft: true
+keywords:
+  - intune
+  - compliance policies
+  - zero trust
+  - conditional access
+  - device management
+  - bitlocker
+  - device health attestation
+  - endpoint security
+  - microsoft intune
+  - configuration profiles
 ---
 
 *This is Part 1 of a 5-part series on designing Microsoft Intune compliance policies for enterprise environments.*
