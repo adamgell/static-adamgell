@@ -2,7 +2,7 @@
 title: "Log Formats: How Auto-Detection Works"
 description: "CMTrace Open reads 15+ log formats out of the box. Here's what it detects, how detection works, and what to expect from each format."
 date: 2026-03-31
-draft: true
+draft: false
 type: post
 keywords:
   - log formats
@@ -32,8 +32,6 @@ When you open a file, CMTrace Open reads the first 20 or so lines and tests them
 The whole thing takes milliseconds. By the time the log renders on screen, the format is already detected, the columns are set, and severity levels are assigned.
 
 The status bar at the bottom shows what format was detected and the parse quality level: Structured (full field extraction), SemiStructured (partial fields), or Unstructured (plain text, line by line).
-
-`[Screenshot: status bar zoomed in showing detected format and parse quality]`
 
 ## Format Reference
 
@@ -73,8 +71,6 @@ Windows uses CBS for servicing operations. When updates install, components get 
 
 **Columns:** Date/Time, Log Text, Severity
 
-`[Screenshot: CBS format log loaded]`
-
 ### DISM (Deployment Image Servicing)
 
 Same structure as CBS but written by DISM operations. Image servicing, driver injection, feature installation.
@@ -97,8 +93,6 @@ This is where Windows Setup and Autopilot write what they're doing. If you're tr
 **Columns:** Date/Time, Log Text, Result Code, GLE Code, Setup Phase, Operation Name, Severity
 
 CMTrace Open extracts extra fields from Panther logs that you don't get anywhere else. Result codes, GLE (GetLastError) values, setup phases, and operation names are pulled out of the message text and put into their own columns.
-
-`[Screenshot: Panther log loaded showing extra columns for result code and setup phase]`
 
 ### MSI (Windows Installer Verbose)
 
@@ -170,8 +164,6 @@ The fallback. No structure detected. Each line is a row. Severity is assigned by
 ### Windows Registry Exports (.reg)
 
 Not technically a log format, but admins export registry keys all the time for troubleshooting. CMTrace Open detects `.reg` files by the `Windows Registry Editor Version 5.00` header and opens them in a dedicated two-pane viewer.
-
-`[Screenshot: registry viewer showing key tree on left, values on right]`
 
 The viewer handles REG_SZ, REG_DWORD, REG_QWORD, REG_BINARY, REG_EXPAND_SZ, REG_MULTI_SZ, REG_NONE, and delete markers. Hex continuations and UTF-16LE values are decoded automatically. It handles files over 20 MB without issues.
 

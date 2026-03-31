@@ -2,7 +2,7 @@
 title: "Real-Time Tailing: Watch Logs as They Happen"
 description: "CMTrace Open can tail log files in real time. Here's how to use it for live troubleshooting."
 date: 2026-04-02
-draft: true
+draft: false
 type: post
 keywords:
   - real-time tailing
@@ -26,8 +26,6 @@ Open any log file the normal way. `Ctrl+O`, Known Log Sources, drag and drop. It
 
 Once the file is loaded, CMTrace Open starts watching it automatically. When something writes a new line to the file, it shows up at the bottom of the log view.
 
-`[Screenshot: log file open with entries, before triggering an event]`
-
 The status bar at the bottom shows when new entries arrive. You'll see the entry count go up as lines come in.
 
 ## Try It
@@ -47,8 +45,6 @@ Every new sync event, policy check, and app evaluation shows up as it happens. Y
 
 Sometimes entries come in faster than you can read them. Press `Ctrl+U` to pause. The status bar shows "Paused" and entries stop scrolling.
 
-`[Screenshot: paused state with status bar showing Paused]`
-
 While paused, the file is still being watched. New entries get buffered. When you press `Ctrl+U` again to resume, all the buffered entries appear at once.
 
 This is useful when you spot something interesting and need time to read it without the log scrolling away from you.
@@ -58,8 +54,6 @@ This is useful when you spot something interesting and need time to read it with
 This is where it gets powerful. Open the filter dialog with `Ctrl+L` and set a filter. For example: Severity = Error.
 
 Now only error entries show up as they arrive. Everything else is hidden in real time. You're watching a live feed of only the things that went wrong.
-
-`[Screenshot: filter active during tail, only error rows appearing]`
 
 You can combine this with the find bar too. `Ctrl+F` to search, and the search works on the current entries while new ones keep coming in below.
 
