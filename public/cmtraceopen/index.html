@@ -25,19 +25,19 @@
 
       <section class="status-strip" aria-label="Current build status">
         <div class="status-card" id="nightly-status">
-          <span class="label">Nightly</span>
+          <span class="label">Nightly workflow</span>
           <strong>Loading</strong>
           <span class="meta">Checking GitHub Actions</span>
         </div>
-        <div class="status-card" id="windows-status">
-          <span class="label">Windows signed</span>
+        <div class="status-card" id="nightly-release-status">
+          <span class="label">Nightly release</span>
           <strong>Loading</strong>
-          <span class="meta">Checking GitHub Actions</span>
+          <span class="meta">Checking prerelease</span>
         </div>
-        <div class="status-card" id="release-status">
-          <span class="label">Release</span>
+        <div class="status-card" id="stable-release-status">
+          <span class="label">Latest stable</span>
           <strong>Loading</strong>
-          <span class="meta">Checking GitHub Actions</span>
+          <span class="meta">Checking release</span>
         </div>
       </section>
 
@@ -72,7 +72,7 @@
           <div class="panel-heading">
             <div>
               <p class="eyebrow">Actions</p>
-              <h2 id="runs-heading">Recent workflow runs</h2>
+              <h2 id="runs-heading">Recent nightly workflow runs</h2>
             </div>
             <button class="button quiet" type="button" id="refresh-button">Refresh</button>
           </div>

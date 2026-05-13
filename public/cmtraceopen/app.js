@@ -6,21 +6,9 @@ const workflows = [
     id: "nightly-status",
     file: "cmtrace-nightly-signed.yml",
     title: "Nightly signed build",
-  },
-  {
-    id: "windows-status",
-    file: "codesign.yml",
-    title: "Windows signed release",
-  },
-  {
-    id: "release-status",
-    file: "cmtrace-release.yml",
-    title: "Release build",
-  },
-  {
-    id: "ci-status",
-    file: "cmtrace-ci.yml",
-    title: "CI",
+    emptyTitle: "Not run yet",
+    emptyMeta: "Manual or scheduled run has not completed yet.",
+    emptyBody: "No nightly runs have completed yet.",
   },
 ];
 
@@ -62,13 +50,15 @@ async function loadBuilds({ force = false } = {}) {
     });
 
     renderWorkflowRuns(runGroups);
-    renderStatusCards(runGroups);
+    renderWorkflowStatusCards(runGroups);
+    renderReleaseStatusCards({ nightly, latest });
     els.apiState.textContent = `Updated ${new Date().toLocaleString()}.`;
   } catch (error) {
     els.apiState.textContent = `GitHub API error: ${error.message}`;
     renderError(els.nightly, error);
     renderError(els.stable, error);
     renderError(els.runs, error);
+    renderStatusError(error);
   } finally {
     els.refresh.disabled = false;
   }
@@ -188,7 +178,8 @@ function renderWorkflowRuns(groups) {
     }
 
     if (!group.runs.length) {
-      card.append(el("p", "No runs found."));
+      card.append(el("p", group.emptyBody || "No runs found."));
+      card.append(link(`https://github.com/${REPO}/actions/workflows/${group.file}`, "Open workflow"));
       els.runs.append(card);
       continue;
     }
@@ -215,7 +206,7 @@ function renderWorkflowRuns(groups) {
   }
 }
 
-function renderStatusCards(groups) {
+function renderWorkflowStatusCards(groups) {
   for (const group of groups) {
     const card = document.querySelector(`#${group.id}`);
     if (!card) {
@@ -223,14 +214,47 @@ function renderStatusCards(groups) {
     }
 
     const latest = group.runs[0];
-    const status = latest ? statusClass(latest) : "pending";
+    const status = latest ? statusClass(latest) : "neutral";
     card.className = `status-card ${status}`;
-    card.querySelector("strong").textContent = latest ? statusText(latest) : group.error ? "Unavailable" : "No runs";
+    card.querySelector("strong").textContent = latest ? statusText(latest) : group.error ? "Unavailable" : group.emptyTitle || "Not run yet";
     card.querySelector(".meta").textContent = latest
       ? `${formatDate(latest.run_started_at || latest.created_at)} on ${latest.head_branch}`
       : group.error
         ? group.error
-        : "No matching workflow runs found.";
+        : group.emptyMeta || "No matching workflow runs found.";
+  }
+}
+
+function renderReleaseStatusCards({ nightly, latest }) {
+  const nightlyCard = document.querySelector("#nightly-release-status");
+  if (nightlyCard) {
+    nightlyCard.className = `status-card ${nightly ? "success" : "neutral"}`;
+    nightlyCard.querySelector("strong").textContent = nightly ? "Published" : "Not published yet";
+    nightlyCard.querySelector(".meta").textContent = nightly
+      ? `${formatDate(nightly.published_at || nightly.created_at)} · ${assetCount(nightly)} assets`
+      : "First successful nightly run will publish this prerelease.";
+  }
+
+  const stableCard = document.querySelector("#stable-release-status");
+  if (stableCard) {
+    stableCard.className = `status-card ${latest ? "success" : "neutral"}`;
+    stableCard.querySelector("strong").textContent = latest ? "Published" : "Unavailable";
+    stableCard.querySelector(".meta").textContent = latest
+      ? `${latest.name || latest.tag_name} · ${formatDate(latest.published_at || latest.created_at)}`
+      : "GitHub did not return a latest release.";
+  }
+}
+
+function renderStatusError(error) {
+  for (const selector of ["#nightly-status", "#nightly-release-status", "#stable-release-status"]) {
+    const card = document.querySelector(selector);
+    if (!card) {
+      continue;
+    }
+
+    card.className = "status-card neutral";
+    card.querySelector("strong").textContent = "Unavailable";
+    card.querySelector(".meta").textContent = error.message;
   }
 }
 
@@ -367,6 +391,10 @@ function assetLabel(name) {
 function assetRank(name) {
   const kind = assetKind(name);
   return ["MSI", "Setup EXE", "Full EXE", "Lite EXE", "DMG", "App TAR", "DEB", "AppImage", "Update JSON", "Asset"].indexOf(kind);
+}
+
+function assetCount(release) {
+  return (release.assets ?? []).filter((asset) => !asset.name.endsWith(".sig")).length;
 }
 
 function statusClass(run) {
