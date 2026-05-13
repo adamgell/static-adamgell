@@ -1,24 +1,19 @@
 const REPO = "adamgell/cmtraceopen";
 const API = `https://api.github.com/repos/${REPO}`;
 
-const workflows = [
-  {
-    id: "nightly-status",
-    file: "cmtrace-nightly-signed.yml",
-    title: "Nightly signed build",
-    emptyTitle: "Not run yet",
-    emptyMeta: "Manual or scheduled run has not completed yet.",
-    emptyBody: "No nightly runs have completed yet.",
-  },
-];
+const NIGHTLY_WORKFLOW = {
+  file: "cmtrace-nightly-signed.yml",
+  title: "Nightly signed build",
+};
 
 const els = {
   nightly: document.querySelector("#nightly-release"),
   stable: document.querySelector("#stable-release"),
-  runs: document.querySelector("#workflow-runs"),
+  publishChip: document.querySelector("#nightly-publish-chip"),
+  publishTitle: document.querySelector("#nightly-publish-title"),
+  publishMeta: document.querySelector("#nightly-publish-meta"),
   apiState: document.querySelector("#api-state"),
   refresh: document.querySelector("#refresh-button"),
-  assetTemplate: document.querySelector("#asset-template"),
 };
 
 els.refresh.addEventListener("click", () => loadBuilds({ force: true }));
@@ -31,47 +26,31 @@ async function loadBuilds({ force = false } = {}) {
   els.refresh.disabled = true;
 
   try {
-    const [nightly, latest, runGroups] = await Promise.all([
+    const [nightly, latest, runs] = await Promise.all([
       fetchMaybe(`${API}/releases/tags/nightly`),
       fetchJson(`${API}/releases/latest`),
-      Promise.all(workflows.map(loadWorkflowRuns)),
+      loadWorkflowRuns(),
     ]);
 
-    renderRelease(els.nightly, nightly, {
-      emptyTitle: "No nightly release yet",
-      emptyBody: "The first successful nightly signed workflow will publish the mutable nightly prerelease.",
-      fallbackHref: `https://github.com/${REPO}/actions/workflows/cmtrace-nightly-signed.yml`,
-    });
-
-    renderRelease(els.stable, latest, {
-      emptyTitle: "No stable release found",
-      emptyBody: "GitHub did not return a latest release.",
-      fallbackHref: `https://github.com/${REPO}/releases`,
-    });
-
-    renderWorkflowRuns(runGroups);
-    renderWorkflowStatusCards(runGroups);
-    renderReleaseStatusCards({ nightly, latest });
+    renderNightly(nightly, runs);
+    renderStable(latest);
+    renderPublishBadge(nightly, runs);
     els.apiState.textContent = `Updated ${new Date().toLocaleString()}.`;
   } catch (error) {
-    els.apiState.textContent = `GitHub API error: ${error.message}`;
-    renderError(els.nightly, error);
-    renderError(els.stable, error);
-    renderError(els.runs, error);
-    renderStatusError(error);
+    renderError(error);
   } finally {
     els.refresh.disabled = false;
   }
 }
 
-async function loadWorkflowRuns(workflow) {
-  const url = `${API}/actions/workflows/${encodeURIComponent(workflow.file)}/runs?branch=main&per_page=5`;
+async function loadWorkflowRuns() {
+  const url = `${API}/actions/workflows/${encodeURIComponent(NIGHTLY_WORKFLOW.file)}/runs?branch=main&per_page=5`;
   try {
     const data = await fetchJson(url);
-    return { ...workflow, runs: data.workflow_runs ?? [] };
+    return data.workflow_runs ?? [];
   } catch (error) {
     if (error.message.startsWith("404")) {
-      return { ...workflow, runs: [], error: "Workflow is not available on main yet." };
+      return [];
     }
 
     throw error;
@@ -112,159 +91,191 @@ async function fetchMaybe(url) {
   return response.json();
 }
 
-function renderRelease(target, release, empty) {
-  target.classList.remove("loading-block");
-  target.replaceChildren();
+function renderNightly(release, runs) {
+  els.nightly.classList.remove("loading-block");
+  els.nightly.replaceChildren();
 
   if (!release) {
-    target.append(emptyRelease(empty));
+    els.nightly.append(emptyRelease({
+      title: "No nightly release yet",
+      body: "The first successful nightly signed workflow will publish the mutable nightly prerelease.",
+      href: `https://github.com/${REPO}/actions/workflows/${NIGHTLY_WORKFLOW.file}`,
+    }));
     return;
   }
 
-  const summary = document.createElement("div");
-  summary.className = "release-summary";
+  const latestRun = runs[0];
+  const visibleAssets = visibleReleaseAssets(release);
+  const groups = groupAssets(visibleAssets);
 
-  const title = document.createElement("div");
-  title.className = "release-title";
-  title.append(el("strong", release.name || release.tag_name));
-  title.append(chip(release.prerelease ? "pre-release" : "stable"));
-  summary.append(title);
+  const summary = el("div", "", "release-summary");
+  summary.append(el("span", "Nightly signed build", "eyebrow"));
 
-  const meta = document.createElement("div");
-  meta.className = "release-meta";
-  meta.append(
-    el("span", `Tag ${release.tag_name}`),
-    el("span", `Published ${formatDate(release.published_at || release.created_at)}`),
-    link(`https://github.com/${REPO}/releases/tag/${release.tag_name}`, "Open on GitHub"),
+  const releaseMain = el("div", "", "release-main");
+  const releaseCopy = el("div", "", "release-copy");
+  const check = el("div", "", "checkmark");
+  check.setAttribute("aria-hidden", "true");
+  check.innerHTML = `<svg viewBox="0 0 24 24"><path d="m9.4 16.8-4.2-4.2 1.9-1.9 2.3 2.3 7.5-7.5 1.9 1.9-9.4 9.4Z" fill="currentColor" /></svg>`;
+
+  const releaseText = el("div", "", "release-text");
+  const heading = el("h2", release.name || release.tag_name);
+  heading.id = "nightly-heading";
+  releaseText.append(
+    heading,
+    el("p", formatDate(release.published_at || release.created_at)),
+    el("p", "Automatically signed and ready to install."),
   );
-  summary.append(meta);
 
-  if (release.target_commitish) {
-    const commit = document.createElement("div");
-    commit.className = "release-meta";
-    commit.append(el("span", `Target ${release.target_commitish}`));
-    summary.append(commit);
-  }
+  releaseCopy.append(check, releaseText);
+  releaseMain.append(releaseCopy, statusChip("Published"));
+  summary.append(releaseMain);
 
-  const groups = groupAssets(release.assets ?? []);
-  for (const group of groups) {
-    summary.append(assetSection(group.title, group.assets));
-  }
+  const stats = el("div", "", "stats");
+  stats.setAttribute("aria-label", "Nightly build metadata");
+  stats.append(
+    stat("Commit", commitLabel(release, latestRun)),
+    stat("Run", latestRun ? link(latestRun.html_url, `#${latestRun.id}`) : link(`https://github.com/${REPO}/actions/workflows/${NIGHTLY_WORKFLOW.file}`, "History")),
+    stat("Artifacts", `${visibleAssets.length} files`),
+    stat("Size", formatBytes(totalAssetBytes(visibleAssets))),
+  );
+  summary.append(stats);
+  els.nightly.append(summary);
+
+  const title = el("div", "", "section-title");
+  title.append(el("h3", "Nightly Downloads"), el("span", `All assets (${visibleAssets.length})`, "asset-count"));
+  els.nightly.append(title);
 
   if (!groups.length) {
-    summary.append(emptyRelease({
-      emptyTitle: "No downloadable assets",
-      emptyBody: "This release exists but does not have assets attached.",
-      fallbackHref: release.html_url,
+    els.nightly.append(emptyRelease({
+      title: "No downloadable assets",
+      body: "The nightly release exists but does not have downloadable assets attached.",
+      href: release.html_url,
     }));
+    return;
   }
 
-  target.append(summary);
-}
-
-function renderWorkflowRuns(groups) {
-  els.runs.classList.remove("loading-block");
-  els.runs.replaceChildren();
-
+  const downloadGroups = el("div", "", "download-groups");
   for (const group of groups) {
-    const card = document.createElement("article");
-    card.className = "run-card";
-    card.append(el("h3", group.title));
-
-    if (group.error) {
-      card.append(el("p", group.error));
-      els.runs.append(card);
-      continue;
-    }
-
-    if (!group.runs.length) {
-      card.append(el("p", group.emptyBody || "No runs found."));
-      card.append(link(`https://github.com/${REPO}/actions/workflows/${group.file}`, "Open workflow"));
-      els.runs.append(card);
-      continue;
-    }
-
-    for (const run of group.runs.slice(0, 4)) {
-      const row = document.createElement("a");
-      row.className = "run-line";
-      row.href = run.html_url;
-      row.innerHTML = `
-        <span class="run-title">${escapeHtml(run.display_title || run.name || "Run")}</span>
-        <span class="run-badge ${statusClass(run)}">${statusText(run)}</span>
-      `;
-
-      const time = document.createElement("span");
-      time.className = "run-time";
-      time.textContent = formatDate(run.run_started_at || run.created_at);
-
-      const wrapper = document.createElement("div");
-      wrapper.append(row, time);
-      card.append(wrapper);
-    }
-
-    els.runs.append(card);
+    downloadGroups.append(assetSection(group.title, group.assets, release));
   }
+  els.nightly.append(downloadGroups);
 }
 
-function renderWorkflowStatusCards(groups) {
-  for (const group of groups) {
-    const card = document.querySelector(`#${group.id}`);
-    if (!card) {
-      continue;
-    }
+function renderStable(release) {
+  els.stable.classList.remove("loading-block");
+  els.stable.replaceChildren();
 
-    const latest = group.runs[0];
-    const status = latest ? statusClass(latest) : "neutral";
-    card.className = `status-card ${status}`;
-    card.querySelector("strong").textContent = latest ? statusText(latest) : group.error ? "Unavailable" : group.emptyTitle || "Not run yet";
-    card.querySelector(".meta").textContent = latest
-      ? `${formatDate(latest.run_started_at || latest.created_at)} on ${latest.head_branch}`
-      : group.error
-        ? group.error
-        : group.emptyMeta || "No matching workflow runs found.";
+  if (!release) {
+    els.stable.append(emptyRelease({
+      title: "No stable release found",
+      body: "GitHub did not return a latest release.",
+      href: `https://github.com/${REPO}/releases`,
+    }));
+    return;
   }
+
+  const copy = el("div", "", "stable-copy");
+  copy.append(el("span", "Latest stable release", "eyebrow"));
+
+  const stableTitle = el("div", "", "stable-title");
+  stableTitle.append(el("strong", release.name || release.tag_name), statusChip("Stable"));
+  copy.append(stableTitle, el("span", formatDate(release.published_at || release.created_at)));
+
+  const actions = el("div", "", "stable-actions");
+  actions.append(link(release.html_url || `https://github.com/${REPO}/releases/latest`, "View stable downloads", "button primary"));
+
+  els.stable.append(copy, actions);
 }
 
-function renderReleaseStatusCards({ nightly, latest }) {
-  const nightlyCard = document.querySelector("#nightly-release-status");
-  if (nightlyCard) {
-    nightlyCard.className = `status-card ${nightly ? "success" : "neutral"}`;
-    nightlyCard.querySelector("strong").textContent = nightly ? "Published" : "Not published yet";
-    nightlyCard.querySelector(".meta").textContent = nightly
-      ? `${formatDate(nightly.published_at || nightly.created_at)} · ${assetCount(nightly)} assets`
-      : "First successful nightly run will publish this prerelease.";
+function renderPublishBadge(nightly, runs) {
+  const latestRun = runs[0];
+
+  if (nightly) {
+    els.publishChip.className = "status-chip";
+    els.publishChip.textContent = "Nightly Published";
+    els.publishTitle.textContent = `Updated ${formatRelative(nightly.published_at || nightly.created_at)}`;
+    els.publishMeta.textContent = latestRun ? `Run #${latestRun.id}` : `Tag ${nightly.tag_name}`;
+    return;
   }
 
-  const stableCard = document.querySelector("#stable-release-status");
-  if (stableCard) {
-    stableCard.className = `status-card ${latest ? "success" : "neutral"}`;
-    stableCard.querySelector("strong").textContent = latest ? "Published" : "Unavailable";
-    stableCard.querySelector(".meta").textContent = latest
-      ? `${latest.name || latest.tag_name} · ${formatDate(latest.published_at || latest.created_at)}`
-      : "GitHub did not return a latest release.";
-  }
+  els.publishChip.className = "status-chip neutral";
+  els.publishChip.textContent = "Not Published";
+  els.publishTitle.textContent = latestRun ? statusText(latestRun) : "No nightly release";
+  els.publishMeta.textContent = latestRun
+    ? `Run #${latestRun.id}`
+    : "Waiting for the first successful nightly run.";
 }
 
-function renderStatusError(error) {
-  for (const selector of ["#nightly-status", "#nightly-release-status", "#stable-release-status"]) {
-    const card = document.querySelector(selector);
-    if (!card) {
-      continue;
-    }
+function assetSection(title, assets, release) {
+  const section = el("section", "", "download-group");
+  section.setAttribute("aria-label", `${title} nightly downloads`);
 
-    card.className = "status-card neutral";
-    card.querySelector("strong").textContent = "Unavailable";
-    card.querySelector(".meta").textContent = error.message;
+  const label = el("div", "", "platform-label");
+  label.append(platformIcon(title), el("span", title));
+
+  const rows = el("div", "", "rows");
+  for (const asset of assets) {
+    rows.append(assetRow(asset, release));
   }
+
+  section.append(label, rows);
+  return section;
+}
+
+function assetRow(asset, release) {
+  const kind = assetKind(asset.name);
+  const row = el("div", "", "download-row");
+  const main = el("div", "", "download-main");
+  main.append(
+    el("strong", assetLabel(asset.name, release), "file-name"),
+    el("span", kind, `asset-kind ${assetKindClass(kind)}`),
+    el("span", formatBytes(asset.size), "file-size"),
+  );
+
+  row.append(main, link(asset.browser_download_url, "Download", "download-action"));
+  return row;
+}
+
+function emptyRelease({ title, body, href }) {
+  const box = el("div", "", "empty-state");
+  box.append(el("h3", title), el("p", body));
+
+  if (href) {
+    box.append(link(href, "Open GitHub"));
+  }
+
+  return box;
+}
+
+function renderError(error) {
+  els.apiState.textContent = `GitHub API error: ${error.message}`;
+  els.publishChip.className = "status-chip failure";
+  els.publishChip.textContent = "Unavailable";
+  els.publishTitle.textContent = "GitHub API error";
+  els.publishMeta.textContent = error.message;
+
+  els.nightly.classList.remove("loading-block");
+  els.stable.classList.remove("loading-block");
+  els.nightly.replaceChildren(emptyRelease({
+    title: "Could not load nightly build data",
+    body: error.message,
+    href: `https://github.com/${REPO}/actions`,
+  }));
+  els.stable.replaceChildren(emptyRelease({
+    title: "Could not load stable release data",
+    body: error.message,
+    href: `https://github.com/${REPO}/releases`,
+  }));
 }
 
 function groupAssets(assets) {
-  const visible = assets
-    .filter((asset) => !asset.name.endsWith(".sig"))
-    .sort((a, b) => assetRank(a.name) - assetRank(b.name) || a.name.localeCompare(b.name));
-
   const groups = new Map();
-  for (const asset of visible) {
+  const sorted = [...assets].sort((a, b) => {
+    const groupDiff = groupRank(assetGroup(a.name)) - groupRank(assetGroup(b.name));
+    return groupDiff || assetRank(a.name) - assetRank(b.name) || a.name.localeCompare(b.name);
+  });
+
+  for (const asset of sorted) {
     const title = assetGroup(asset.name);
     if (!groups.has(title)) {
       groups.set(title, []);
@@ -275,55 +286,13 @@ function groupAssets(assets) {
   return Array.from(groups, ([title, groupAssets]) => ({ title, assets: groupAssets }));
 }
 
-function assetSection(title, assets) {
-  const section = document.createElement("section");
-  section.className = "asset-section";
-  section.append(el("h3", title));
-
-  const list = document.createElement("div");
-  list.className = "asset-list";
-
-  for (const asset of assets) {
-    list.append(assetCard(asset));
-  }
-
-  section.append(list);
-  return section;
-}
-
-function assetCard(asset) {
-  const node = els.assetTemplate.content.firstElementChild.cloneNode(true);
-  node.href = asset.browser_download_url;
-  node.querySelector(".asset-kind").textContent = assetKind(asset.name);
-  node.querySelector("strong").textContent = assetLabel(asset.name);
-  node.querySelector(".asset-meta").textContent = `${formatBytes(asset.size)} · ${formatDate(asset.updated_at || asset.created_at)}`;
-  return node;
-}
-
-function emptyRelease({ emptyTitle, emptyBody, fallbackHref }) {
-  const box = document.createElement("div");
-  box.className = "empty-state";
-  box.append(el("h3", emptyTitle), el("p", emptyBody));
-
-  if (fallbackHref) {
-    box.append(link(fallbackHref, "Open GitHub"));
-  }
-
-  return box;
-}
-
-function renderError(target, error) {
-  target.classList.remove("loading-block");
-  target.replaceChildren(emptyRelease({
-    emptyTitle: "Could not load build data",
-    emptyBody: error.message,
-    fallbackHref: `https://github.com/${REPO}/actions`,
-  }));
+function visibleReleaseAssets(release) {
+  return (release.assets ?? []).filter((asset) => !asset.name.endsWith(".sig"));
 }
 
 function assetGroup(name) {
   if (/macos|darwin|\.dmg$|\.app\.tar\.gz$/i.test(name)) {
-    return "macOS";
+    return /arm64|aarch64/i.test(name) ? "macOS arm64" : "macOS";
   }
 
   if (/linux|appimage|\.deb$/i.test(name)) {
@@ -341,9 +310,19 @@ function assetGroup(name) {
   return "Other assets";
 }
 
+function groupRank(group) {
+  const order = ["Windows x64", "Windows arm64", "macOS arm64", "macOS", "Linux", "Other assets"];
+  const index = order.indexOf(group);
+  return index === -1 ? 99 : index;
+}
+
 function assetKind(name) {
+  if (/\.msix(bundle)?$/i.test(name)) {
+    return "MSIX Package";
+  }
+
   if (/\.msi$/i.test(name)) {
-    return "MSI";
+    return "MSI Installer";
   }
 
   if (/-setup\.exe$/i.test(name)) {
@@ -381,29 +360,91 @@ function assetKind(name) {
   return "Asset";
 }
 
-function assetLabel(name) {
-  return name
+function assetKindClass(kind) {
+  if (kind.startsWith("MSI Installer")) {
+    return "format-msi";
+  }
+
+  if (kind.startsWith("MSIX")) {
+    return "format-msix";
+  }
+
+  if (kind.includes("EXE") && kind.includes("Lite")) {
+    return "format-lite";
+  }
+
+  if (kind.includes("EXE")) {
+    return "format-exe";
+  }
+
+  if (kind === "DMG") {
+    return "format-dmg";
+  }
+
+  return "format-other";
+}
+
+function assetLabel(name, release) {
+  let label = name
     .replace(/^CMTrace-Open[_-]?/i, "")
     .replace(/^Nightly[_-]?/i, "Nightly ")
     .replace(/_/g, " ");
+
+  if (/\.dmg$/i.test(name) && !/\b\d{8}\b/.test(label)) {
+    label = label.replace(/^Nightly\s*/i, `Nightly ${releaseDateStamp(release)} `);
+  }
+
+  return label;
 }
 
 function assetRank(name) {
   const kind = assetKind(name);
-  return ["MSI", "Setup EXE", "Full EXE", "Lite EXE", "DMG", "App TAR", "DEB", "AppImage", "Update JSON", "Asset"].indexOf(kind);
+  const order = ["MSI Installer", "MSIX Package", "Setup EXE", "Full EXE", "Lite EXE", "DMG", "App TAR", "DEB", "AppImage", "Update JSON", "Asset"];
+  const index = order.indexOf(kind);
+  return index === -1 ? 99 : index;
 }
 
-function assetCount(release) {
-  return (release.assets ?? []).filter((asset) => !asset.name.endsWith(".sig")).length;
+function platformIcon(title) {
+  const icon = el("span", "", `os-icon ${/macOS/i.test(title) ? "apple" : "windows"}`);
+  icon.setAttribute("aria-hidden", "true");
+
+  if (/macOS/i.test(title)) {
+    icon.innerHTML = `<svg viewBox="0 0 24 24"><path d="M16.8 12.7c0-2.2 1.8-3.3 1.9-3.4-1-1.5-2.6-1.7-3.1-1.7-1.3-.1-2.6.8-3.3.8-.7 0-1.8-.8-2.9-.8-1.5 0-2.9.9-3.7 2.2-1.6 2.8-.4 6.8 1.1 9.1.8 1.1 1.7 2.3 2.9 2.2 1.2 0 1.6-.7 3-.7s1.8.7 3 .7c1.3 0 2.1-1.1 2.8-2.2.9-1.3 1.2-2.5 1.3-2.6 0-.1-2.9-1.1-3-3.6ZM14.7 6.2c.6-.7 1-1.7.9-2.7-.9 0-2 .6-2.6 1.3-.6.7-1.1 1.7-.9 2.7 1 .1 2-.5 2.6-1.3Z" fill="currentColor" /></svg>`;
+    return icon;
+  }
+
+  icon.innerHTML = `<svg viewBox="0 0 24 24"><path d="M3 4.4 10.7 3v8.2H3V4.4Zm9.4-1.7L21 1.2v10h-8.6V2.7ZM3 12.8h7.7V21L3 19.7v-6.9Zm9.4 0H21v10l-8.6-1.5v-8.5Z" fill="currentColor" /></svg>`;
+  return icon;
 }
 
-function statusClass(run) {
-  return run.conclusion || run.status || "pending";
+function statusChip(text) {
+  return el("span", text, "status-chip");
 }
 
-function statusText(run) {
-  const raw = run.conclusion || run.status || "pending";
-  return raw.replace(/_/g, " ");
+function stat(label, value) {
+  const box = el("div", "", "stat");
+  box.append(el("span", label));
+
+  const strong = el("strong");
+  if (value instanceof Node) {
+    strong.append(value);
+  } else {
+    strong.textContent = value;
+  }
+  box.append(strong);
+  return box;
+}
+
+function commitLabel(release, run) {
+  if (run?.head_sha) {
+    return run.head_sha.slice(0, 12);
+  }
+
+  return release.target_commitish || release.tag_name;
+}
+
+function totalAssetBytes(assets) {
+  return assets.reduce((sum, asset) => sum + (Number.isFinite(asset.size) ? asset.size : 0), 0);
 }
 
 function formatDate(value) {
@@ -420,6 +461,45 @@ function formatDate(value) {
     dateStyle: "medium",
     timeStyle: "short",
   }).format(date);
+}
+
+function releaseDateStamp(release) {
+  const date = new Date(release?.published_at || release?.created_at || Date.now());
+  if (Number.isNaN(date.getTime())) {
+    return "nightly";
+  }
+
+  const year = date.getFullYear();
+  const month = String(date.getMonth() + 1).padStart(2, "0");
+  const day = String(date.getDate()).padStart(2, "0");
+  return `${year}${month}${day}`;
+}
+
+function formatRelative(value) {
+  if (!value) {
+    return "just now";
+  }
+
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) {
+    return "just now";
+  }
+
+  const diffSeconds = Math.max(1, Math.round((Date.now() - date.getTime()) / 1000));
+  const units = [
+    ["day", 86400],
+    ["hour", 3600],
+    ["min", 60],
+  ];
+
+  for (const [label, seconds] of units) {
+    if (diffSeconds >= seconds) {
+      const count = Math.round(diffSeconds / seconds);
+      return `${count} ${label}${count === 1 ? "" : "s"} ago`;
+    }
+  }
+
+  return "just now";
 }
 
 function formatBytes(value) {
@@ -439,32 +519,28 @@ function formatBytes(value) {
   return `${size.toFixed(unit === 0 ? 0 : 1)} ${units[unit]}`;
 }
 
-function el(tag, text) {
+function statusText(run) {
+  const raw = run?.conclusion || run?.status || "pending";
+  return raw.replace(/_/g, " ");
+}
+
+function el(tag, text = "", className = "") {
   const node = document.createElement(tag);
-  node.textContent = text;
+  if (className) {
+    node.className = className;
+  }
+  if (text) {
+    node.textContent = text;
+  }
   return node;
 }
 
-function link(href, text) {
+function link(href, text, className = "") {
   const node = document.createElement("a");
   node.href = href;
   node.textContent = text;
+  if (className) {
+    node.className = className;
+  }
   return node;
-}
-
-function chip(text) {
-  const node = document.createElement("span");
-  node.className = "chip";
-  node.textContent = text;
-  return node;
-}
-
-function escapeHtml(value) {
-  return String(value).replace(/[&<>"']/g, (char) => ({
-    "&": "&amp;",
-    "<": "&lt;",
-    ">": "&gt;",
-    "\"": "&quot;",
-    "'": "&#039;",
-  }[char]));
 }

@@ -7,77 +7,39 @@
     <meta property="og:url" content="https://adamgell.com/cmtraceopen/" />
     <link rel="canonical" href="https://adamgell.com/cmtraceopen/" />
     <title>CMTrace Open Builds</title>
-    <link rel="stylesheet" href="./styles.css?v=20260513-nightly-e2e" />
+    <link rel="stylesheet" href="./styles.css?v=20260513-concept-b-real" />
   </head>
   <body>
     <div class="shell">
-      <header class="masthead">
-        <div>
-          <p class="eyebrow">CMTrace Open</p>
-          <h1>Builds</h1>
+      <header class="page-head">
+        <div class="brand-lockup">
+          <img class="logo-mark" src="../images/cmtrace-logo.png" alt="" />
+          <h1>CMTrace Open Builds</h1>
         </div>
-        <nav class="link-row" aria-label="Project links">
-          <a href="https://github.com/adamgell/cmtraceopen/releases/latest">Latest release</a>
-          <a href="https://github.com/adamgell/cmtraceopen/releases/tag/nightly">Nightly</a>
-          <a href="https://github.com/adamgell/cmtraceopen/actions">Actions</a>
-        </nav>
+        <div class="publish-badge" aria-label="Nightly publication status">
+          <span class="status-chip" id="nightly-publish-chip">Checking</span>
+          <div class="publish-copy">
+            <strong id="nightly-publish-title">Loading GitHub</strong>
+            <span id="nightly-publish-meta">Fetching release data</span>
+          </div>
+          <button class="sync-button" type="button" id="refresh-button" aria-label="Refresh build data">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M20 12a8 8 0 0 1-13.3 6l-1.2 1.2H2v-3.5l1.9-1.9h3.5L5.2 16A6 6 0 0 0 18 12h2ZM4 12A8 8 0 0 1 17.3 6l1.2-1.2H22v3.5l-1.9 1.9h-3.5L18.8 8A6 6 0 0 0 6 12H4Z" fill="currentColor" />
+            </svg>
+          </button>
+        </div>
       </header>
 
-      <section class="status-strip" aria-label="Current build status">
-        <div class="status-card" id="nightly-status">
-          <span class="label">Nightly workflow</span>
-          <strong>Loading</strong>
-          <span class="meta">Checking GitHub Actions</span>
-        </div>
-        <div class="status-card" id="nightly-release-status">
-          <span class="label">Nightly release</span>
-          <strong>Loading</strong>
-          <span class="meta">Checking prerelease</span>
-        </div>
-        <div class="status-card" id="stable-release-status">
-          <span class="label">Latest stable</span>
-          <strong>Loading</strong>
-          <span class="meta">Checking release</span>
-        </div>
-      </section>
-
-      <main class="layout">
-        <section class="panel primary" aria-labelledby="nightly-heading">
-          <div class="panel-heading">
-            <div>
-              <p class="eyebrow">Pre-release channel</p>
-              <h2 id="nightly-heading">Nightly signed build</h2>
-            </div>
-            <a class="button" href="https://github.com/adamgell/cmtraceopen/actions/workflows/cmtrace-nightly-signed.yml">Run history</a>
-          </div>
-          <div id="nightly-release" class="release-body loading-block">
-            <p>Loading nightly release.</p>
+      <main>
+        <section class="build-card" aria-labelledby="nightly-heading">
+          <div id="nightly-release" class="loading-block">
+            <p id="nightly-heading">Loading nightly release.</p>
           </div>
         </section>
 
-        <section class="panel" aria-labelledby="stable-heading">
-          <div class="panel-heading">
-            <div>
-              <p class="eyebrow">Stable channel</p>
-              <h2 id="stable-heading">Latest release</h2>
-            </div>
-            <a class="button quiet" href="https://github.com/adamgell/cmtraceopen/releases/latest">Open release</a>
-          </div>
-          <div id="stable-release" class="release-body loading-block">
+        <section id="stable-release" class="stable-card loading-block" aria-label="Latest stable release">
+          <div>
             <p>Loading latest release.</p>
-          </div>
-        </section>
-
-        <section class="panel wide" aria-labelledby="runs-heading">
-          <div class="panel-heading">
-            <div>
-              <p class="eyebrow">Actions</p>
-              <h2 id="runs-heading">Recent nightly workflow runs</h2>
-            </div>
-            <button class="button quiet" type="button" id="refresh-button">Refresh</button>
-          </div>
-          <div id="workflow-runs" class="run-grid loading-block">
-            <p>Loading workflow runs.</p>
           </div>
         </section>
       </main>
@@ -88,14 +50,6 @@
       </footer>
     </div>
 
-    <template id="asset-template">
-      <a class="asset" href="">
-        <span class="asset-kind"></span>
-        <strong></strong>
-        <span class="asset-meta"></span>
-      </a>
-    </template>
-
-    <script src="./app.js?v=20260513-nightly-e2e" type="module"></script>
+    <script src="./app.js?v=20260513-concept-b-real" type="module"></script>
   </body>
 </html>
