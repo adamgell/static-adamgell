@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640" role="img" aria-labelledby="title desc">
+  <title id="title">Recommended maintenance window policy pattern</title>
+  <desc id="desc">A policy pattern showing Autopatch, custom maintenance window OMA-URI settings, active hours, and pilot assignment.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#020617" flood-opacity="0.34"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="640" rx="28" fill="url(#bg)"/>
+  <text x="70" y="76" fill="#f8fafc" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="34" font-weight="700">The admin pattern I would start with</text>
+  <text x="70" y="114" fill="#cbd5e1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">Pilot first. Keep Autopatch. Add a narrow custom profile for reboot scheduling.</text>
+
+  <g filter="url(#shadow)">
+    <rect x="70" y="165" width="330" height="365" rx="18" fill="#0b1220" stroke="#334155"/>
+    <text x="100" y="214" fill="#f8fafc" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="23" font-weight="700">1. Autopatch group</text>
+    <text x="100" y="258" fill="#cbd5e1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16">Use existing deployment rings</text>
+    <text x="100" y="290" fill="#cbd5e1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16">Keep quality/feature rollout logic</text>
+    <text x="100" y="322" fill="#cbd5e1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16">Keep deadline and grace controls</text>
+    <rect x="95" y="374" width="260" height="70" rx="14" fill="#172554" stroke="#2563eb"/>
+    <text x="225" y="405" text-anchor="middle" fill="#dbeafe" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">Do not create</text>
+    <text x="225" y="427" text-anchor="middle" fill="#dbeafe" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">a competing update ring</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="435" y="165" width="330" height="365" rx="18" fill="#0b1220" stroke="#334155"/>
+    <text x="465" y="214" fill="#f8fafc" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="23" font-weight="700">2. Custom OMA-URI</text>
+    <text x="465" y="258" fill="#cbd5e1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16">MaintenanceWindowEnabled = 1</text>
+    <text x="465" y="290" fill="#cbd5e1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16">StartTime = 02:00</text>
+    <text x="465" y="322" fill="#cbd5e1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16">DurationHours = 4</text>
+    <text x="465" y="354" fill="#cbd5e1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16">RepeatScheduleOption = 2</text>
+    <text x="465" y="386" fill="#cbd5e1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16">UpdateActions = 3</text>
+    <rect x="465" y="434" width="235" height="64" rx="14" fill="#052e2b" stroke="#10b981"/>
+    <text x="582.5" y="473" text-anchor="middle" fill="#d1fae5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">Restart only</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="800" y="165" width="330" height="365" rx="18" fill="#0b1220" stroke="#334155"/>
+    <text x="830" y="214" fill="#f8fafc" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="23" font-weight="700">3. Guardrails</text>
+    <text x="830" y="258" fill="#cbd5e1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16">Active hours cover daylight</text>
+    <text x="830" y="290" fill="#cbd5e1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16">Deadlines allow multiple windows</text>
+    <text x="830" y="322" fill="#cbd5e1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16">Assign Ring 0 / pilot first</text>
+    <text x="830" y="354" fill="#cbd5e1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16">Monitor per-setting status</text>
+    <rect x="820" y="408" width="280" height="92" rx="14" fill="#451a03" stroke="#f97316"/>
+    <text x="960" y="442" text-anchor="middle" fill="#ffedd5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">Deadline is the exception path,</text>
+    <text x="960" y="466" text-anchor="middle" fill="#ffedd5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">not the normal</text>
+    <text x="960" y="490" text-anchor="middle" fill="#ffedd5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">reboot plan.</text>
+  </g>
+
+  <text x="70" y="592" fill="#94a3b8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15">Use the maintenance window to make the restart explainable. Use Autopatch deadlines to keep the fleet honest.</text>
+</svg>

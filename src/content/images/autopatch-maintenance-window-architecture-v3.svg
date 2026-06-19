@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">Windows Autopatch and maintenance window architecture</title>
+  <desc id="desc">Diagram showing Autopatch as the rollout and compliance engine, update ring deadlines as the backstop, maintenance window CSP as the reboot schedule, and the device as the enforcement point.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#2563eb"/>
+    </linearGradient>
+    <linearGradient id="green" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#34d399"/>
+      <stop offset="1" stop-color="#059669"/>
+    </linearGradient>
+    <linearGradient id="amber" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fbbf24"/>
+      <stop offset="1" stop-color="#f97316"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#020617" flood-opacity="0.38"/>
+    </filter>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M2 2 L10 6 L2 10 Z" fill="#94a3b8"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="700" rx="28" fill="url(#bg)"/>
+  <g opacity="0.22">
+    <path d="M-80 500 C180 390 230 610 470 490 C710 370 760 160 1030 250 C1170 296 1250 240 1320 180" fill="none" stroke="#334155" stroke-width="2"/>
+    <path d="M-60 160 C160 50 310 210 470 130 C670 30 820 70 960 170 C1080 255 1140 230 1260 120" fill="none" stroke="#1e293b" stroke-width="2"/>
+  </g>
+
+  <text x="70" y="72" fill="#f8fafc" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="32" font-weight="700">Autopatch stays the engine.</text>
+  <text x="70" y="112" fill="#f8fafc" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="32" font-weight="700">Maintenance windows shape the reboot.</text>
+  <text x="70" y="150" fill="#cbd5e1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">Separate the rollout/compliance plane from the user-impact plane.</text>
+
+  <g filter="url(#shadow)">
+    <rect x="78" y="215" width="285" height="178" rx="18" fill="#0b1220" stroke="#1e3a8a" stroke-width="1.5"/>
+    <rect x="78" y="215" width="285" height="7" rx="3.5" fill="url(#blue)"/>
+    <text x="108" y="267" fill="#f8fafc" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">Windows Autopatch</text>
+    <text x="108" y="306" fill="#cbd5e1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17">Rollout rings</text>
+    <text x="108" y="337" fill="#cbd5e1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17">Deferral cadence</text>
+    <text x="108" y="368" fill="#cbd5e1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17">Compliance reporting</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="450" y="205" width="300" height="178" rx="18" fill="#0b1220" stroke="#92400e" stroke-width="1.5"/>
+    <rect x="450" y="205" width="300" height="7" rx="3.5" fill="url(#amber)"/>
+    <text x="480" y="257" fill="#f8fafc" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">Deadline policy</text>
+    <text x="480" y="296" fill="#cbd5e1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17">Quality/feature deadline</text>
+    <text x="480" y="327" fill="#cbd5e1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17">Grace period</text>
+    <text x="480" y="358" fill="#cbd5e1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17">Hard compliance backstop</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="450" y="450" width="300" height="190" rx="18" fill="#0b1220" stroke="#065f46" stroke-width="1.5"/>
+    <rect x="450" y="450" width="300" height="7" rx="3.5" fill="url(#green)"/>
+    <text x="480" y="503" fill="#f8fafc" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">Maintenance window</text>
+    <text x="480" y="542" fill="#cbd5e1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17">Daily local-time window</text>
+    <text x="480" y="573" fill="#cbd5e1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17">Restart-only action</text>
+    <text x="480" y="604" fill="#cbd5e1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17">Customer-facing</text>
+    <text x="480" y="627" fill="#cbd5e1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17">reboot schedule</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="805" y="335" width="300" height="180" rx="18" fill="#0b1220" stroke="#475569" stroke-width="1.5"/>
+    <rect x="805" y="335" width="300" height="7" rx="3.5" fill="#64748b"/>
+    <text x="835" y="388" fill="#f8fafc" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">Windows device</text>
+    <text x="835" y="427" fill="#cbd5e1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17">Downloads and installs</text>
+    <text x="835" y="458" fill="#cbd5e1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17">Waits for reboot window</text>
+    <text x="835" y="489" fill="#cbd5e1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17">Forces only if deadline wins</text>
+  </g>
+
+  <line x1="363" y1="305" x2="430" y2="285" stroke="#94a3b8" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="363" y1="330" x2="430" y2="500" stroke="#94a3b8" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="750" y1="295" x2="785" y2="390" stroke="#94a3b8" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="750" y1="545" x2="785" y2="470" stroke="#94a3b8" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <g>
+    <rect x="88" y="475" width="280" height="96" rx="14" fill="#111827" stroke="#334155"/>
+    <text x="113" y="512" fill="#e2e8f0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="700">Admin promise</text>
+    <text x="113" y="541" fill="#cbd5e1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15">Predictable overnight</text>
+    <text x="113" y="563" fill="#cbd5e1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15">restarts</text>
+  </g>
+</svg>
