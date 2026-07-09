@@ -122,7 +122,7 @@ function renderNightly(release, runs) {
   heading.id = "nightly-heading";
   releaseText.append(
     heading,
-    el("p", formatDate(release.published_at || release.created_at)),
+    el("p", formatDate(buildTime(release))),
     el("p", "Automatically signed and ready to install."),
   );
 
@@ -193,7 +193,7 @@ function renderPublishBadge(nightly, runs) {
   if (nightly) {
     els.publishChip.className = "status-chip";
     els.publishChip.textContent = "Nightly Published";
-    els.publishTitle.textContent = `Updated ${formatRelative(nightly.published_at || nightly.created_at)}`;
+    els.publishTitle.textContent = `Updated ${formatRelative(buildTime(nightly))}`;
     els.publishMeta.textContent = latestRun ? `Run #${latestRun.id}` : `Tag ${nightly.tag_name}`;
     return;
   }
@@ -463,8 +463,19 @@ function formatDate(value) {
   }).format(date);
 }
 
+// The mutable `nightly` release keeps its original published_at forever, so
+// derive the true build time from the newest asset upload instead.
+function buildTime(release) {
+  const times = (release?.assets ?? [])
+    .map((asset) => new Date(asset.updated_at || asset.created_at).getTime())
+    .filter((time) => !Number.isNaN(time));
+  return times.length
+    ? new Date(Math.max(...times)).toISOString()
+    : release?.published_at || release?.created_at || null;
+}
+
 function releaseDateStamp(release) {
-  const date = new Date(release?.published_at || release?.created_at || Date.now());
+  const date = new Date(buildTime(release) || Date.now());
   if (Number.isNaN(date.getTime())) {
     return "nightly";
   }
