@@ -13,6 +13,7 @@ from pypdf import PdfReader
 ROOT = Path(__file__).resolve().parents[1]
 GENERATOR = ROOT / "scripts" / "generate-resume-pdf.py"
 DATA = ROOT / "src" / "data" / "resume.json"
+PUBLIC_PDF = ROOT / "public" / "resume" / "adam-gell-resume.pdf"
 
 FORBIDDEN_PATTERNS = (
     re.compile(
@@ -75,6 +76,10 @@ class ResumePdfTests(unittest.TestCase):
             0.25,
             f"trailing page contains only {trailing_page_share:.1%} of the PDF text",
         )
+
+    def test_public_pdf_matches_fresh_deterministic_generation(self) -> None:
+        self.assertTrue(PUBLIC_PDF.is_file())
+        self.assertEqual(PUBLIC_PDF.read_bytes(), self.output.read_bytes())
 
     def test_pdf_has_expected_ats_reading_order(self) -> None:
         sections = (

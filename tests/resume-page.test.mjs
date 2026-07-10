@@ -7,8 +7,24 @@ import { before, test } from "node:test";
 
 const root = fileURLToPath(new URL("..", import.meta.url));
 let resumePage;
+let resumeMain;
 let homePage;
 let publishedPdf;
+
+const approvedHeadline =
+  "Microsoft endpoint strategy, from assessment to adoption.";
+
+function escapeRegex(value) {
+  return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+function elementContent(html, tagName) {
+  const match = html.match(
+    new RegExp(`<${tagName}\\b[^>]*>([\\s\\S]*?)<\\/${tagName}>`, "i"),
+  );
+  assert.ok(match, `expected built HTML to contain <${tagName}>`);
+  return match[1];
+}
 
 before(() => {
   execFileSync("npm", ["run", "build"], {
@@ -20,6 +36,7 @@ before(() => {
     path.join(root, "dist", "resume", "index.html"),
     "utf8",
   );
+  resumeMain = elementContent(resumePage, "main");
   homePage = readFileSync(path.join(root, "dist", "index.html"), "utf8");
   publishedPdf = path.join(
     root,
@@ -29,20 +46,62 @@ before(() => {
   );
 });
 
-test("renders one semantic resume heading and the approved sections", () => {
-  assert.equal((resumePage.match(/<h1\b/gi) ?? []).length, 1);
+test("renders the approved h1 and labelled h2 section structure", () => {
+  assert.equal((resumeMain.match(/<h1\b/gi) ?? []).length, 1);
   assert.match(
-    resumePage,
-    /Microsoft endpoint strategy, from assessment to adoption\./,
+    resumeMain,
+    new RegExp(
+      `<h1\\b[^>]*>\\s*${escapeRegex(approvedHeadline)}\\s*<\\/h1>`,
+      "i",
+    ),
   );
-  for (const heading of [
-    "Core expertise",
-    "Experience",
-    "Education &amp; credentials",
-    "Contact",
+
+  for (const [id, heading] of [
+    ["impact-heading", "Consulting impact"],
+    ["expertise-heading", "Core expertise"],
+    ["experience-heading", "Experience"],
+    ["education-heading", "Education &amp; credentials"],
+    ["contact-heading", "Contact"],
   ]) {
-    assert.match(resumePage, new RegExp(heading, "i"));
+    assert.match(
+      resumeMain,
+      new RegExp(
+        `<section\\b(?=[^>]*\\baria-labelledby="${id}")[^>]*>\\s*` +
+          `<h2\\b(?=[^>]*\\bid="${id}")[^>]*>\\s*` +
+          `${escapeRegex(heading)}\\s*<\\/h2>`,
+        "i",
+      ),
+      `${id} must label its section through an h2`,
+    );
   }
+});
+
+test("renders the canonical identity before the approved headline", () => {
+  const name = /<p\b[^>]*>\s*Adam Gell\s*<\/p>/i.exec(resumeMain);
+  const positioning =
+    /<p\b[^>]*>\s*Senior Microsoft Intune Consultant \| Consulting Leader\s*<\/p>/i.exec(
+      resumeMain,
+    );
+  const headline = new RegExp(
+    `<h1\\b[^>]*>\\s*${escapeRegex(approvedHeadline)}\\s*<\\/h1>`,
+    "i",
+  ).exec(resumeMain);
+
+  assert.ok(name, "expected canonical name in a visible identity line");
+  assert.ok(positioning, "expected canonical positioning in a supporting line");
+  assert.ok(headline, "expected the approved headline in the h1");
+  assert.ok(
+    name.index < positioning.index && positioning.index < headline.index,
+    "expected name and positioning before the approved headline",
+  );
+  assert.doesNotMatch(
+    resumeMain,
+    /Managing Consultant Engineer \| Microsoft Intune/i,
+  );
+});
+
+test("uses no low-contrast slate-500 copy inside main", () => {
+  assert.doesNotMatch(resumeMain, /\btext-slate-500\b/);
 });
 
 test("publishes descriptive contact and PDF actions without an embed", () => {
