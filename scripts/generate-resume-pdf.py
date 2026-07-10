@@ -5,6 +5,7 @@ import argparse
 import json
 from html import escape
 from pathlib import Path
+from urllib.parse import urljoin
 
 try:
     from pypdf import PdfReader, PdfWriter
@@ -30,6 +31,7 @@ except ModuleNotFoundError as exc:
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_DATA = ROOT / "src" / "data" / "resume.json"
 DEFAULT_OUTPUT = ROOT / "public" / "resume" / "adam-gell-resume.pdf"
+PUBLIC_SITE_ORIGIN = "https://adamgell.com/"
 
 NAVY = colors.HexColor("#162033")
 ACCENT = colors.HexColor("#28506E")
@@ -150,8 +152,9 @@ def build_styles() -> dict[str, ParagraphStyle]:
 
 
 def link(url: str, label: str) -> str:
+    portable_url = urljoin(PUBLIC_SITE_ORIGIN, url)
     return (
-        f'<link href="{escape(url)}" color="#28506E">'
+        f'<link href="{escape(portable_url)}" color="#28506E">'
         f"{escape(label)}</link>"
     )
 

@@ -25,7 +25,12 @@ FORBIDDEN_PATTERNS = (
         re.IGNORECASE,
     ),
     re.compile(r"\bF\d{3}-\d{4}\b", re.IGNORECASE),
-    re.compile(r"OneDrive-Personal|Resume_202[24]_v\d|/Users/", re.IGNORECASE),
+    re.compile(
+        r"OneDrive(?:-Personal)?|CloudStorage|"
+        r"Resume_[^\"'<>/\\]+\.(?:docx?|pdf)|"
+        r"/(?:Users|home)/|[A-Za-z]:\\",
+        re.IGNORECASE,
+    ),
 )
 
 
@@ -109,6 +114,23 @@ class ResumePdfTests(unittest.TestCase):
         )
         self.assertIn("Earned August 2025", self.text)
         self.assertNotRegex(self.text, r"\d+[★⭐]|GitHub stars?")
+
+    def test_pdf_links_are_portable_outside_the_website(self) -> None:
+        link_targets = []
+        for page in self.reader.pages:
+            for annotation_ref in page.get("/Annots", []):
+                annotation = annotation_ref.get_object()
+                action = annotation.get("/A")
+                if action and action.get("/URI"):
+                    link_targets.append(action["/URI"])
+
+        self.assertIn(
+            "https://adamgell.com/tools/cmtrace",
+            link_targets,
+        )
+        self.assertNotIn("/tools/cmtrace", link_targets)
+        for target in link_targets:
+            self.assertRegex(target, r"^(?:https://|mailto:)")
 
     def test_pdf_text_contains_no_private_identifiers(self) -> None:
         for pattern in FORBIDDEN_PATTERNS:

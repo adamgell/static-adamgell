@@ -20,7 +20,8 @@ const forbiddenPatterns = [
   { label: "credential identifier", pattern: /\bF\d{3}-\d{4}\b/i },
   {
     label: "local path or source filename",
-    pattern: /OneDrive-Personal|Resume_202[24]_v\d|\/Users\//i,
+    pattern:
+      /OneDrive(?:-Personal)?|CloudStorage|Resume_[^"'<>/\\]+\.(?:docx?|pdf)|\/(?:Users|home)\/|[A-Za-z]:\\/i,
   },
 ];
 

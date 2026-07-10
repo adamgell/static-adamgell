@@ -13,6 +13,12 @@ let publishedPdf;
 
 const approvedHeadline =
   "Microsoft endpoint strategy, from assessment to adoption.";
+const sourcePdf = path.join(
+  root,
+  "public",
+  "resume",
+  "adam-gell-resume.pdf",
+);
 
 function escapeRegex(value) {
   return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
@@ -156,8 +162,9 @@ test("links to the resume from shared navigation and the homepage card", () => {
   );
 });
 
-test("copies the non-empty PDF into the built stable URL", () => {
+test("copies the verified PDF unchanged into the built stable URL", () => {
   assert.ok(statSync(publishedPdf).size > 0);
+  assert.deepEqual(readFileSync(publishedPdf), readFileSync(sourcePdf));
 });
 
 test("publishes no private identifiers in the resume HTML", () => {
@@ -165,7 +172,7 @@ test("publishes no private identifiers in the resume HTML", () => {
     /\b(?:\+?1[ .-]?)?(?:\(\d{3}\)|\d{3})[ .-]\d{3}[ .-]\d{4}\b/,
     /\b\d{1,5}\s+[A-Za-z][A-Za-z .'-]+\s(?:Avenue|Ave|Street|St|Road|Rd|Lane|Ln|Drive|Dr)\b/i,
     /\bF\d{3}-\d{4}\b/i,
-    /OneDrive-Personal|Resume_202[24]_v\d|\/Users\//i,
+    /OneDrive(?:-Personal)?|CloudStorage|Resume_[^"'<>/\\]+\.(?:docx?|pdf)|\/(?:Users|home)\/|[A-Za-z]:\\/i,
   ];
   for (const pattern of forbiddenPatterns) {
     assert.doesNotMatch(resumePage, pattern, pattern.source);
