@@ -20,3 +20,7 @@ scraper/node_modules/
 *.swp
 *.swo
 .claude/settings.local.json
+
+# agent workspaces and scratch state
+.worktrees/
+.superpowers/
