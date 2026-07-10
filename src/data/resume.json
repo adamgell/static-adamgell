@@ -3,7 +3,7 @@
   "positioning": "Senior Microsoft Intune Consultant | Consulting Leader",
   "roleLabel": "Managing Consultant Engineer | Microsoft Intune",
   "headline": "Microsoft endpoint strategy, from assessment to adoption.",
-  "summary": "Senior Microsoft Intune consultant with 15 years of experience translating complex endpoint requirements into secure, supportable programs. Combines hands-on engineering across Microsoft Intune, Windows Autopilot, Microsoft Entra ID, Windows 365, and PowerShell with client advisory, pre-sales discovery, and delivery leadership.",
+  "summary": "Senior Microsoft Intune consultant with 15+ years of enterprise IT experience translating complex endpoint and Windows deployment requirements into secure, supportable programs. Combines hands-on engineering across Microsoft Intune, Windows Autopilot, Microsoft Entra ID, Windows 365, PowerShell, and Microsoft Graph with client advisory, pre-sales discovery, delivery leadership, and knowledge transfer.",
   "pdfFileName": "adam-gell-resume.pdf",
   "contact": {
     "email": "me@adamgell.com",
@@ -48,37 +48,74 @@
       "description": "Supports pre-sales engagements and creates reusable PowerShell automation to improve delivery."
     }
   ],
-  "expertise": [
+  "consultingImpact": {
+    "value": "$373K",
+    "label": "consulting revenue delivered in 2025",
+    "context": "132% of annual plan",
+    "roleId": "cdw"
+  },
+  "technicalDepth": [
     {
-      "title": "Endpoint strategy",
-      "items": [
-        "Assessments",
-        "Target-state design",
-        "Implementation roadmaps",
-        "Client recommendations"
-      ]
-    },
-    {
-      "title": "Intune engineering",
+      "title": "Modern management and identity",
+      "description": "Cloud-native endpoint, access, and security policy across diverse platforms.",
       "items": [
         "Microsoft Intune",
-        "Windows Autopilot",
         "Microsoft Entra ID",
+        "Conditional Access",
+        "Compliance and configuration policy",
+        "LAPS and BitLocker",
+        "Win32 apps",
         "Windows 365",
-        "Endpoint Privilege Management",
-        "Endpoint Analytics",
-        "Remote Help"
+        "Intune Suite"
       ]
     },
     {
-      "title": "Consulting leadership",
+      "title": "Autopilot and OS deployment",
+      "description": "Provisioning strategy across cloud-native and traditional deployment workflows.",
       "items": [
-        "Discovery and pre-sales",
-        "Stakeholder alignment",
-        "Endpoint security",
-        "PowerShell automation",
-        "Change management",
-        "Technical guidance"
+        "Windows Autopilot",
+        "Windows Autopilot device preparation",
+        "Enrollment Status Page",
+        "Microsoft Entra join",
+        "Hybrid Microsoft Entra join",
+        "ConfigMgr and MDT task sequences",
+        "WDS and PXE",
+        "WIM servicing",
+        "OEM driver integration",
+        "Windows imaging",
+        "Language-pack provisioning"
+      ]
+    },
+    {
+      "title": "Automation, analytics, and troubleshooting",
+      "description": "Repeatable administration, security insight, and evidence-led diagnosis.",
+      "items": [
+        "PowerShell",
+        "Microsoft Graph",
+        "Azure REST APIs",
+        "KQL",
+        "Log Analytics and Microsoft Sentinel",
+        "Advanced Hunting",
+        "CMTrace",
+        "CBS and DISM",
+        "Panther",
+        "Intune Management Extension",
+        "SetupDiag"
+      ]
+    },
+    {
+      "title": "Patching and content delivery",
+      "description": "Update compliance and bandwidth-aware software delivery at scale.",
+      "items": [
+        "Intune update rings",
+        "WSUS and SUPs",
+        "Third-party patching",
+        "Compliance remediation",
+        "Vulnerability-management workflows",
+        "Distribution points",
+        "Cloud delivery",
+        "Peer-to-peer delivery",
+        "Bandwidth-aware design"
       ]
     }
   ],
@@ -92,11 +129,11 @@
       "end": null,
       "dateLabel": "June 2022 - Present",
       "achievements": [
-        "Leads comprehensive Microsoft Intune assessments, translating current-state findings into target-state recommendations and practical implementation roadmaps.",
-        "Designs and implements Microsoft Intune and Microsoft Entra ID solutions, including Windows Autopilot for Microsoft Entra joined and hybrid Microsoft Entra joined devices.",
-        "Delivers cross-platform endpoint management for Windows, iOS/iPadOS, Android, macOS, Linux, and Windows 365 environments.",
-        "Deploys Intune Suite capabilities including Endpoint Privilege Management, Endpoint Analytics, and Remote Help.",
-        "Shapes solutions during pre-sales engagements and develops PowerShell automation to improve recurring device-management work."
+        "Leads end-to-end Microsoft Intune and Windows Autopilot engagements for enterprise and mid-market clients, spanning assessment, architecture, implementation, Tier 3 escalation, and knowledge transfer.",
+        "Architects provisioning for Microsoft Entra joined and hybrid Microsoft Entra joined devices, advises on Windows Autopilot device preparation, and guides migrations from traditional deployment workflows.",
+        "Designs and automates an endpoint-health assessment and reporting service with PowerShell and Microsoft Graph, reducing manual data collection and improving consistency across engagements.",
+        "Delivers Intune Suite and security capabilities including Endpoint Privilege Management, Endpoint Analytics, Remote Help, Conditional Access, compliance policy, and configuration profiles.",
+        "Supports pre-sales and bid assurance through discovery, scope review, and solution design while mentoring peers, contributing knowledge-base guidance, and participating in service development."
       ]
     },
     {
@@ -123,11 +160,35 @@
       "end": "2021-12",
       "dateLabel": "October 2013 - December 2021",
       "achievements": [
-        "Delivered consulting and technical support across 40+ client environments, advising leaders on goals, budgets, business processes, and technology transitions.",
-        "Led four Microsoft Azure migrations and more than 15 transitions from on-premises systems to modern management with Microsoft 365, Microsoft Intune, and Azure.",
-        "Designed solutions around SLAs, security, uptime, patch management, preventive maintenance, backup and disaster recovery, and remote monitoring.",
-        "Applied Microsoft security capabilities, including Microsoft Defender for Endpoint, and established metrics to identify vulnerabilities and improve security practices.",
-        "Implemented Citrix and Microsoft virtual desktop solutions, including Azure Virtual Desktop and Windows 365."
+        "Delivered consulting and managed IT services across 40+ client environments, serving as the primary technical resource and advising leaders on roadmaps, budgets, business processes, and technology transitions.",
+        "Built and maintained Windows deployment workflows with MDT, WDS/PXE, Windows imaging, OEM driver integration, and language-pack provisioning across diverse hardware fleets.",
+        "Managed WSUS and third-party patch distribution, audited deployment failures and compliance, and remediated vulnerabilities across the client base.",
+        "Led four Microsoft Azure migrations and more than 15 transitions from on-premises systems to Microsoft 365, Microsoft Intune, and Azure, including moves from traditional imaging to Windows Autopilot.",
+        "Integrated remote monitoring and management tooling with Microsoft Intune and Windows Autopilot to automate device lifecycle work.",
+        "Deployed Microsoft Defender for Endpoint and implemented Citrix, Azure Virtual Desktop, and Windows 365 solutions."
+      ]
+    }
+  ],
+  "selectedWork": [
+    {
+      "id": "cmtrace-open",
+      "title": "CMTrace Open",
+      "subtitle": "Open-source, cross-platform log viewer and Windows troubleshooting tool",
+      "description": "Built as a modern replacement for CMTrace.exe with dedicated Intune diagnostics, device-registration analysis, and real-time log tailing.",
+      "capabilities": [
+        "Automatically detects and parses common Windows log formats, including CCM, CBS, DISM, Panther, MSI, and plain text.",
+        "Combines Intune Management Extension logs into a dedicated diagnostic workspace and structures DSRegCmd evidence for join and identity troubleshooting.",
+        "Handles large files, supports live tailing and filtering, and exports investigation context for case handoff."
+      ],
+      "links": [
+        {
+          "label": "Explore CMTrace Open",
+          "url": "/tools/cmtrace"
+        },
+        {
+          "label": "View source on GitHub",
+          "url": "https://github.com/adamgell/cmtraceopen"
+        }
       ]
     }
   ],
@@ -139,6 +200,10 @@
     }
   ],
   "credentials": [
+    {
+      "name": "Microsoft 365 Certified: Endpoint Administrator Associate",
+      "year": "Earned August 2025"
+    },
     {
       "name": "Microsoft 365 Identity and Services (MS-100)",
       "year": "2021"

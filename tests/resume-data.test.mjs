@@ -71,10 +71,72 @@ test("publishes only approved contact channels", () => {
   );
 });
 
+test("pins the approved consulting metric and technical-depth groups", () => {
+  assert.deepEqual(resume.consultingImpact, {
+    value: "$373K",
+    label: "consulting revenue delivered in 2025",
+    context: "132% of annual plan",
+    roleId: "cdw",
+  });
+  assert.deepEqual(
+    resume.technicalDepth.map(({ title, description }) => ({ title, description })),
+    [
+      {
+        title: "Modern management and identity",
+        description: "Cloud-native endpoint, access, and security policy across diverse platforms.",
+      },
+      {
+        title: "Autopilot and OS deployment",
+        description: "Provisioning strategy across cloud-native and traditional deployment workflows.",
+      },
+      {
+        title: "Automation, analytics, and troubleshooting",
+        description: "Repeatable administration, security insight, and evidence-led diagnosis.",
+      },
+      {
+        title: "Patching and content delivery",
+        description: "Update compliance and bandwidth-aware software delivery at scale.",
+      },
+    ],
+  );
+});
+
+test("pins the approved source-supported expansion without private detail", () => {
+  const cdw = resume.experience.find(({ id }) => id === "cdw");
+  const nextstep = resume.experience.find(({ id }) => id === "nextstep");
+
+  assert.deepEqual(cdw.achievements, [
+    "Leads end-to-end Microsoft Intune and Windows Autopilot engagements for enterprise and mid-market clients, spanning assessment, architecture, implementation, Tier 3 escalation, and knowledge transfer.",
+    "Architects provisioning for Microsoft Entra joined and hybrid Microsoft Entra joined devices, advises on Windows Autopilot device preparation, and guides migrations from traditional deployment workflows.",
+    "Designs and automates an endpoint-health assessment and reporting service with PowerShell and Microsoft Graph, reducing manual data collection and improving consistency across engagements.",
+    "Delivers Intune Suite and security capabilities including Endpoint Privilege Management, Endpoint Analytics, Remote Help, Conditional Access, compliance policy, and configuration profiles.",
+    "Supports pre-sales and bid assurance through discovery, scope review, and solution design while mentoring peers, contributing knowledge-base guidance, and participating in service development.",
+  ]);
+  assert.deepEqual(nextstep.achievements, [
+    "Delivered consulting and managed IT services across 40+ client environments, serving as the primary technical resource and advising leaders on roadmaps, budgets, business processes, and technology transitions.",
+    "Built and maintained Windows deployment workflows with MDT, WDS/PXE, Windows imaging, OEM driver integration, and language-pack provisioning across diverse hardware fleets.",
+    "Managed WSUS and third-party patch distribution, audited deployment failures and compliance, and remediated vulnerabilities across the client base.",
+    "Led four Microsoft Azure migrations and more than 15 transitions from on-premises systems to Microsoft 365, Microsoft Intune, and Azure, including moves from traditional imaging to Windows Autopilot.",
+    "Integrated remote monitoring and management tooling with Microsoft Intune and Windows Autopilot to automate device lifecycle work.",
+    "Deployed Microsoft Defender for Endpoint and implemented Citrix, Azure Virtual Desktop, and Windows 365 solutions.",
+  ]);
+  assert.deepEqual(resume.selectedWork.map(({ id, title }) => ({ id, title })), [
+    { id: "cmtrace-open", title: "CMTrace Open" },
+  ]);
+  assert.deepEqual(resume.credentials[0], {
+    name: "Microsoft 365 Certified: Endpoint Administrator Associate",
+    year: "Earned August 2025",
+  });
+
+  const emails = [...new Set(serialized.match(/[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}/gi) ?? [])];
+  assert.deepEqual(emails, ["me@adamgell.com"]);
+  assert.doesNotMatch(serialized, /"(?:clientNames|performanceRating|internalInitiative)"/i);
+});
+
 test("pins supported consulting scale and content groups", () => {
   assert.equal(resume.lifecycle.length, 4);
   assert.equal(resume.impactPillars.length, 3);
-  assert.equal(resume.expertise.length, 3);
+  assert.equal(resume.technicalDepth.length, 4);
   assert.match(serialized, /40\+ client environments/);
   assert.match(serialized, /four Microsoft Azure migrations/);
   assert.match(serialized, /more than 15 transitions/);
