@@ -1,0 +1,171 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import resume from "../data/resume.json";
+
+const pdfHref = `/resume/${resume.pdfFileName}`;
+const mailtoHref = `mailto:${resume.contact.email}`;
+---
+
+<BaseLayout
+  title="Resume — Adam Gell"
+  description="Adam Gell is a senior Microsoft Intune consultant and consulting leader focused on endpoint strategy, delivery, and adoption."
+  keywords={[
+    "Adam Gell",
+    "Microsoft Intune consultant",
+    "endpoint management",
+    "Windows Autopilot",
+    "Microsoft Entra ID",
+    "Windows 365",
+  ]}
+>
+  <article class="max-w-5xl mx-auto px-6 py-12 sm:py-16">
+    <header class="grid gap-10 lg:grid-cols-[minmax(0,1fr)_14rem] lg:gap-16">
+      <div>
+        <p class="text-xs font-semibold uppercase tracking-[0.18em] text-sky-300">
+          {resume.roleLabel}
+        </p>
+        <h1 class="mt-4 max-w-3xl text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl">
+          {resume.headline}
+        </h1>
+        <p class="mt-6 max-w-2xl text-lg leading-8 text-slate-400">
+          {resume.summary}
+        </p>
+        <div class="mt-8 flex flex-wrap gap-3">
+          <a
+            href={pdfHref}
+            download={resume.pdfFileName}
+            class="inline-flex items-center rounded-md bg-slate-100 px-4 py-2.5 text-sm font-semibold text-slate-950 transition-colors hover:bg-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-300"
+          >
+            Download resume (PDF)
+          </a>
+          <a
+            href={mailtoHref}
+            class="inline-flex items-center rounded-md border border-slate-700 px-4 py-2.5 text-sm font-semibold text-slate-200 transition-colors hover:border-slate-500 hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-300"
+          >
+            Email Adam
+          </a>
+        </div>
+      </div>
+
+      <ol
+        aria-label="Consulting lifecycle"
+        class="relative space-y-6 border-l border-slate-700 pl-6"
+      >
+        {resume.lifecycle.map((stage) => (
+          <li class="relative">
+            <span
+              aria-hidden="true"
+              class="absolute -left-[1.78rem] top-1 h-2.5 w-2.5 rounded-full bg-sky-400 ring-4 ring-sky-400/10"
+            ></span>
+            <h2 class="text-sm font-semibold text-slate-100">{stage.name}</h2>
+            <p class="mt-1 text-sm leading-6 text-slate-500">
+              {stage.description}
+            </p>
+          </li>
+        ))}
+      </ol>
+    </header>
+
+    <section aria-labelledby="impact-heading" class="mt-14 border-y border-slate-800">
+      <h2 id="impact-heading" class="sr-only">Consulting impact</h2>
+      <div class="grid divide-y divide-slate-800 md:grid-cols-3 md:divide-x md:divide-y-0">
+        {resume.impactPillars.map((pillar) => (
+          <div class="py-6 md:px-6 md:first:pl-0 md:last:pr-0">
+            <h3 class="font-semibold text-slate-100">{pillar.title}</h3>
+            <p class="mt-2 text-sm leading-6 text-slate-500">
+              {pillar.description}
+            </p>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <section aria-labelledby="expertise-heading" class="mt-16">
+      <h2 id="expertise-heading" class="text-xs font-semibold uppercase tracking-[0.18em] text-sky-300">
+        Core expertise
+      </h2>
+      <div class="mt-6 grid gap-5 md:grid-cols-3">
+        {resume.expertise.map((group) => (
+          <article class="rounded-lg border border-slate-800 bg-slate-900/30 p-5">
+            <h3 class="font-semibold text-white">{group.title}</h3>
+            <ul class="mt-3 space-y-1.5 text-sm leading-6 text-slate-400">
+              {group.items.map((item) => <li>{item}</li>)}
+            </ul>
+          </article>
+        ))}
+      </div>
+    </section>
+
+    <section aria-labelledby="experience-heading" class="mt-20 grid gap-8 md:grid-cols-[10rem_minmax(0,1fr)]">
+      <h2 id="experience-heading" class="text-xs font-semibold uppercase tracking-[0.18em] text-sky-300">
+        Experience
+      </h2>
+      <div class="space-y-10">
+        {resume.experience.map((role) => (
+          <article
+            aria-labelledby={`role-${role.id}`}
+            class="border-b border-slate-800 pb-10 last:border-0 last:pb-0"
+          >
+            <p class="text-sm text-slate-500">{role.dateLabel}</p>
+            <h3 id={`role-${role.id}`} class="mt-1 text-xl font-semibold text-white">
+              {role.title}
+            </h3>
+            <p class="mt-1 text-sm font-medium text-sky-300">
+              {role.company} · {role.location}
+            </p>
+            <ul class="mt-5 space-y-3 text-sm leading-7 text-slate-400">
+              {role.achievements.map((achievement) => (
+                <li class="relative pl-5 before:absolute before:left-0 before:text-slate-600 before:content-['—']">
+                  {achievement}
+                </li>
+              ))}
+            </ul>
+          </article>
+        ))}
+      </div>
+    </section>
+
+    <section aria-labelledby="education-heading" class="mt-20 grid gap-8 md:grid-cols-[10rem_minmax(0,1fr)]">
+      <h2 id="education-heading" class="text-xs font-semibold uppercase tracking-[0.18em] text-sky-300">
+        Education &amp; credentials
+      </h2>
+      <div class="grid gap-8 sm:grid-cols-2">
+        <div>
+          <h3 class="font-semibold text-white">Education</h3>
+          {resume.education.map((item) => (
+            <p class="mt-3 text-sm leading-6 text-slate-400">
+              <span class="text-slate-200">{item.degree}</span><br />
+              {item.institution} · {item.year}
+            </p>
+          ))}
+        </div>
+        <div>
+          <h3 class="font-semibold text-white">Selected credentials</h3>
+          <ul class="mt-3 space-y-2 text-sm leading-6 text-slate-400">
+            {resume.credentials.map((credential) => (
+              <li>{credential.name} · {credential.year}</li>
+            ))}
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section aria-labelledby="contact-heading" class="mt-20 rounded-lg border border-slate-800 p-6 sm:p-8">
+      <h2 id="contact-heading" class="text-xl font-semibold text-white">Contact</h2>
+      <p class="mt-2 text-sm leading-6 text-slate-400">
+        Connect by email or view more of Adam's work and professional history.
+      </p>
+      <div class="mt-5 flex flex-wrap gap-x-6 gap-y-3 text-sm">
+        <a class="text-sky-300 hover:text-sky-200 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-sky-300" href={mailtoHref}>
+          {resume.contact.email}
+        </a>
+        <a class="text-sky-300 hover:text-sky-200 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-sky-300" href={resume.contact.github.url} target="_blank" rel="noopener noreferrer">
+          GitHub profile
+        </a>
+        <a class="text-sky-300 hover:text-sky-200 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-sky-300" href={resume.contact.linkedin.url} target="_blank" rel="noopener noreferrer">
+          LinkedIn profile
+        </a>
+      </div>
+    </section>
+  </article>
+</BaseLayout>
