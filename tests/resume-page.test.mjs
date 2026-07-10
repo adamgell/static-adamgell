@@ -58,8 +58,9 @@ test("renders the approved h1 and labelled h2 section structure", () => {
 
   for (const [id, heading] of [
     ["impact-heading", "Consulting impact"],
-    ["expertise-heading", "Core expertise"],
+    ["technical-depth-heading", "Technical depth"],
     ["experience-heading", "Experience"],
+    ["selected-work-heading", "Selected work"],
     ["education-heading", "Education &amp; credentials"],
     ["contact-heading", "Contact"],
   ]) {
@@ -74,6 +75,32 @@ test("renders the approved h1 and labelled h2 section structure", () => {
       `${id} must label its section through an h2`,
     );
   }
+});
+
+test("renders the approved consulting metric and technical-depth groups", () => {
+  assert.match(resumeMain, /\$373K/);
+  assert.match(resumeMain, /consulting revenue delivered in 2025/i);
+  assert.match(resumeMain, /132% of annual plan/i);
+  for (const heading of [
+    "Modern management and identity",
+    "Autopilot and OS deployment",
+    "Automation, analytics, and troubleshooting",
+    "Patching and content delivery",
+  ]) {
+    assert.match(resumeMain, new RegExp(`>\\s*${escapeRegex(heading)}\\s*<`, "i"));
+  }
+  assert.match(resumeMain, /Windows Autopilot device preparation/);
+  assert.match(resumeMain, /WDS and PXE/);
+  assert.match(resumeMain, /Microsoft Graph/);
+});
+
+test("renders CMTrace Open and the 2025 credential with stable links", () => {
+  assert.match(resumeMain, /CMTrace Open/);
+  assert.match(resumeMain, /href="\/tools\/cmtrace"/);
+  assert.match(resumeMain, /href="https:\/\/github\.com\/adamgell\/cmtraceopen"/);
+  assert.match(resumeMain, /Microsoft 365 Certified: Endpoint Administrator Associate/);
+  assert.match(resumeMain, /Earned August 2025/);
+  assert.doesNotMatch(resumeMain, /\d+[★⭐]|GitHub stars?/i);
 });
 
 test("renders the canonical identity before the approved headline", () => {
