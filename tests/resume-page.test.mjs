@@ -4,6 +4,7 @@ import { readFileSync, statSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import path from "node:path";
 import { before, test } from "node:test";
+import { localPathOrSourcePattern } from "./resume-privacy-patterns.mjs";
 
 const root = fileURLToPath(new URL("..", import.meta.url));
 let resumePage;
@@ -172,7 +173,7 @@ test("publishes no private identifiers in the resume HTML", () => {
     /\b(?:\+?1[ .-]?)?(?:\(\d{3}\)|\d{3})[ .-]\d{3}[ .-]\d{4}\b/,
     /\b\d{1,5}\s+[A-Za-z][A-Za-z .'-]+\s(?:Avenue|Ave|Street|St|Road|Rd|Lane|Ln|Drive|Dr)\b/i,
     /\bF\d{3}-\d{4}\b/i,
-    /OneDrive(?:-Personal)?|CloudStorage|Resume_[^"'<>/\\]+\.(?:docx?|pdf)|\/(?:Users|home)\/|[A-Za-z]:\\/i,
+    localPathOrSourcePattern,
   ];
   for (const pattern of forbiddenPatterns) {
     assert.doesNotMatch(resumePage, pattern, pattern.source);

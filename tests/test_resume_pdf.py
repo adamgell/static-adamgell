@@ -26,9 +26,12 @@ FORBIDDEN_PATTERNS = (
     ),
     re.compile(r"\bF\d{3}-\d{4}\b", re.IGNORECASE),
     re.compile(
-        r"OneDrive(?:-Personal)?|CloudStorage|"
-        r"Resume_[^\"'<>/\\]+\.(?:docx?|pdf)|"
-        r"/(?:Users|home)/|[A-Za-z]:\\",
+        r"""\bResume_[^"'<>/\\]+\.(?:docx?|pdf)\b|"""
+        r"""(?:^|[\s"'(<])(?:"""
+        r"""/(?:Users|home|Volumes)/[^/"'<>\\\s]+|"""
+        r"""~[\\/][^/"'<>\\\s]+|"""
+        r"""[A-Za-z]:[\\/][^/"'<>\\\s]+|"""
+        r"""\\\\[^\\\s"'<>]+\\[^\\\s"'<>]+)""",
         re.IGNORECASE,
     ),
 )
@@ -124,13 +127,44 @@ class ResumePdfTests(unittest.TestCase):
                 if action and action.get("/URI"):
                     link_targets.append(action["/URI"])
 
-        self.assertIn(
-            "https://adamgell.com/tools/cmtrace",
+        self.assertCountEqual(
             link_targets,
+            (
+                "mailto:me@adamgell.com",
+                "https://github.com/adamgell",
+                "https://linkedin.com/in/adamgell",
+                "https://adamgell.com/tools/cmtrace",
+                "https://github.com/adamgell/cmtraceopen",
+            ),
         )
         self.assertNotIn("/tools/cmtrace", link_targets)
         for target in link_targets:
             self.assertRegex(target, r"^(?:https://|mailto:)")
+
+    def test_privacy_guard_distinguishes_local_artifacts_from_public_wording(
+        self,
+    ) -> None:
+        path_guard = FORBIDDEN_PATTERNS[-1]
+        for value in (
+            "/Users/adam/Documents/Resume.docx",
+            "/home/adam/Resume.docx",
+            "/Volumes/Work/Resume.docx",
+            "~/Documents/Resume.docx",
+            r"C:\Users\Adam\Resume.docx",
+            "C:/Documents/Resume.docx",
+            r"\\fileserver\resumes\Resume.docx",
+            "Resume_Adam_Gell_2025.docx",
+        ):
+            self.assertRegex(value, path_guard)
+
+        for value in (
+            "OneDrive administration",
+            "https://example.com/home/about",
+            "https://example.com/Volumes/guide",
+            "/resume/adam-gell-resume.pdf",
+            "adam-gell-resume.pdf",
+        ):
+            self.assertNotRegex(value, path_guard)
 
     def test_pdf_text_contains_no_private_identifiers(self) -> None:
         for pattern in FORBIDDEN_PATTERNS:

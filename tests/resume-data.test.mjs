@@ -1,6 +1,7 @@
 import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
 import test from "node:test";
+import { localPathOrSourcePattern } from "./resume-privacy-patterns.mjs";
 
 const resumeUrl = new URL("../src/data/resume.json", import.meta.url);
 const resume = JSON.parse(await readFile(resumeUrl, "utf8"));
@@ -20,8 +21,7 @@ const forbiddenPatterns = [
   { label: "credential identifier", pattern: /\bF\d{3}-\d{4}\b/i },
   {
     label: "local path or source filename",
-    pattern:
-      /OneDrive(?:-Personal)?|CloudStorage|Resume_[^"'<>/\\]+\.(?:docx?|pdf)|\/(?:Users|home)\/|[A-Za-z]:\\/i,
+    pattern: localPathOrSourcePattern,
   },
 ];
 
@@ -146,5 +146,38 @@ test("pins supported consulting scale and content groups", () => {
 test("contains no private or source-only identifiers", () => {
   for (const { label, pattern } of forbiddenPatterns) {
     assert.doesNotMatch(serialized, pattern, `unexpected ${label}`);
+  }
+});
+
+test("privacy guard distinguishes local artifacts from public wording", () => {
+  const pathGuard = forbiddenPatterns.find(
+    ({ label }) => label === "local path or source filename",
+  ).pattern;
+
+  for (const value of [
+    "/Users/adam/Documents/Resume.docx",
+    "/home/adam/Resume.docx",
+    "/Volumes/Work/Resume.docx",
+    "~/Documents/Resume.docx",
+    String.raw`C:\Users\Adam\Resume.docx`,
+    "C:/Documents/Resume.docx",
+    String.raw`\\fileserver\resumes\Resume.docx`,
+    "Resume_Adam_Gell_2025.docx",
+  ]) {
+    assert.match(value, pathGuard, `expected local artifact guard for ${value}`);
+  }
+
+  for (const value of [
+    "OneDrive administration",
+    "https://example.com/home/about",
+    "https://example.com/Volumes/guide",
+    "/resume/adam-gell-resume.pdf",
+    "adam-gell-resume.pdf",
+  ]) {
+    assert.doesNotMatch(
+      value,
+      pathGuard,
+      `unexpected local artifact match for ${value}`,
+    );
   }
 });
