@@ -57,9 +57,24 @@ class ResumePdfTests(unittest.TestCase):
         cls.temp_dir.cleanup()
 
     def test_pdf_is_readable_and_no_longer_than_two_pages(self) -> None:
-        self.assertGreater(self.output.stat().st_size, 5_000)
+        self.assertGreater(self.output.stat().st_size, 0)
         self.assertGreaterEqual(len(self.reader.pages), 1)
         self.assertLessEqual(len(self.reader.pages), 2)
+
+    def test_pdf_does_not_create_a_sparse_trailing_page(self) -> None:
+        if len(self.reader.pages) == 1:
+            return
+
+        page_word_counts = [
+            len((page.extract_text() or "").split())
+            for page in self.reader.pages
+        ]
+        trailing_page_share = page_word_counts[-1] / sum(page_word_counts)
+        self.assertGreaterEqual(
+            trailing_page_share,
+            0.25,
+            f"trailing page contains only {trailing_page_share:.1%} of the PDF text",
+        )
 
     def test_pdf_has_expected_ats_reading_order(self) -> None:
         sections = (

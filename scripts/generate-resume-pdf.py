@@ -88,8 +88,8 @@ def build_styles() -> dict[str, ParagraphStyle]:
             fontSize=8,
             leading=10,
             textColor=ACCENT,
-            spaceBefore=9,
-            spaceAfter=4,
+            spaceBefore=7,
+            spaceAfter=3,
             keepWithNext=True,
         ),
         "body": ParagraphStyle(
@@ -98,7 +98,7 @@ def build_styles() -> dict[str, ParagraphStyle]:
             fontSize=9,
             leading=11.5,
             textColor=NAVY,
-            spaceAfter=4,
+            spaceAfter=3,
         ),
         "role": ParagraphStyle(
             "Role",
@@ -106,7 +106,7 @@ def build_styles() -> dict[str, ParagraphStyle]:
             fontSize=10,
             leading=12,
             textColor=NAVY,
-            spaceBefore=4,
+            spaceBefore=3,
             spaceAfter=1,
             keepWithNext=True,
         ),
@@ -116,7 +116,7 @@ def build_styles() -> dict[str, ParagraphStyle]:
             fontSize=8,
             leading=10,
             textColor=MUTED,
-            spaceAfter=3,
+            spaceAfter=2,
             keepWithNext=True,
         ),
         "bullet": ParagraphStyle(
@@ -127,7 +127,7 @@ def build_styles() -> dict[str, ParagraphStyle]:
             textColor=NAVY,
             leftIndent=11,
             firstLineIndent=-8,
-            spaceAfter=2,
+            spaceAfter=1,
         ),
         "footer": ParagraphStyle(
             "Footer",
@@ -144,7 +144,7 @@ def build_styles() -> dict[str, ParagraphStyle]:
             leading=11,
             textColor=NAVY,
             alignment=TA_LEFT,
-            spaceAfter=3,
+            spaceAfter=2,
         ),
     }
 
@@ -284,8 +284,8 @@ def generate(data_path: Path, output_path: Path) -> None:
         pagesize=LETTER,
         leftMargin=0.62 * inch,
         rightMargin=0.62 * inch,
-        topMargin=0.52 * inch,
-        bottomMargin=0.52 * inch,
+        topMargin=0.42 * inch,
+        bottomMargin=0.42 * inch,
         title="Adam Gell Resume",
         author="",
         allowSplitting=True,

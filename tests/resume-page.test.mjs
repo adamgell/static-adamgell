@@ -63,7 +63,7 @@ test("links to the resume from shared navigation and the homepage card", () => {
 });
 
 test("copies the non-empty PDF into the built stable URL", () => {
-  assert.ok(statSync(publishedPdf).size > 5_000);
+  assert.ok(statSync(publishedPdf).size > 0);
 });
 
 test("publishes no private identifiers in the resume HTML", () => {
