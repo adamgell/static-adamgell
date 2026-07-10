@@ -54,10 +54,12 @@ test("publishes descriptive contact and PDF actions without an embed", () => {
   assert.doesNotMatch(resumePage, /<(?:iframe|object)\b/i);
 });
 
-test("links to the resume from shared navigation and the homepage", () => {
+test("links to the resume from shared navigation and the homepage card", () => {
   assert.match(resumePage, /href="\/resume"[^>]*>\s*Resume\s*</i);
-  assert.match(homePage, /href="\/resume"/i);
-  assert.match(homePage, />\s*Resume\s*</i);
+  assert.match(
+    homePage,
+    /<a\b[^>]*href="\/resume"[^>]*>(?:(?!<\/a>)[\s\S])*Microsoft Intune consulting, endpoint strategy, and technical leadership experience\.(?:(?!<\/a>)[\s\S])*<\/a>/i,
+  );
 });
 
 test("copies the non-empty PDF into the built stable URL", () => {
