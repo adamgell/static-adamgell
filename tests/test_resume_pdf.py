@@ -85,8 +85,9 @@ class ResumePdfTests(unittest.TestCase):
         sections = (
             "PROFESSIONAL SUMMARY",
             "CONSULTING IMPACT",
-            "CORE EXPERTISE",
+            "TECHNICAL DEPTH",
             "PROFESSIONAL EXPERIENCE",
+            "SELECTED WORK",
             "EDUCATION",
             "SELECTED CREDENTIALS",
         )
@@ -97,10 +98,31 @@ class ResumePdfTests(unittest.TestCase):
         self.assertIn("me@adamgell.com", self.text)
         self.assertIn("github.com/adamgell", self.text)
         self.assertIn("linkedin.com/in/adamgell", self.text)
+        self.assertIn("$373K", self.text)
+        self.assertIn("132% of annual plan", self.text)
+        self.assertIn("Windows Autopilot device preparation", self.text)
+        self.assertIn("WDS and PXE", self.text)
+        self.assertIn("CMTrace Open", self.text)
+        self.assertIn(
+            "Microsoft 365 Certified: Endpoint Administrator Associate",
+            self.text,
+        )
+        self.assertIn("Earned August 2025", self.text)
+        self.assertNotRegex(self.text, r"\d+[★⭐]|GitHub stars?")
 
     def test_pdf_text_contains_no_private_identifiers(self) -> None:
         for pattern in FORBIDDEN_PATTERNS:
             self.assertIsNone(pattern.search(self.text), pattern.pattern)
+        emails = sorted(
+            set(
+                re.findall(
+                    r"[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}",
+                    self.text,
+                    re.IGNORECASE,
+                )
+            )
+        )
+        self.assertEqual(emails, ["me@adamgell.com"])
 
     def test_pdf_metadata_is_scrubbed(self) -> None:
         metadata = self.reader.metadata or {}

@@ -209,19 +209,20 @@ def build_story(data: dict, styles: dict[str, ParagraphStyle]) -> list:
             )
         )
 
-    story.append(section("Core expertise", styles))
-    for group in data["expertise"]:
+    story.append(section("Technical depth", styles))
+    for group in data["technicalDepth"]:
         items = ", ".join(escape(item) for item in group["items"])
         story.append(
             Paragraph(
-                f'<b>{escape(group["title"])}</b>: {items}',
+                f'<b>{escape(group["title"])}</b> - '
+                f'{escape(group["description"])} {items}',
                 styles["left"],
             )
         )
 
     story.append(section("Professional experience", styles))
     for role in data["experience"]:
-        story.append(CondPageBreak(0.8 * inch))
+        story.append(CondPageBreak(2.0 * inch))
         story.append(
             Paragraph(
                 f'{escape(role["title"])} | {escape(role["company"])}',
@@ -234,10 +235,37 @@ def build_story(data: dict, styles: dict[str, ParagraphStyle]) -> list:
                 styles["role_meta"],
             )
         )
+        impact = data["consultingImpact"]
+        if role["id"] == impact["roleId"]:
+            story.append(
+                Paragraph(
+                    f'- {escape(impact["value"])} '
+                    f'{escape(impact["label"])} '
+                    f'({escape(impact["context"])}).',
+                    styles["bullet"],
+                )
+            )
         for achievement in role["achievements"]:
             story.append(
                 Paragraph(f'- {escape(achievement)}', styles["bullet"])
             )
+
+    story.append(section("Selected work", styles))
+    for project in data["selectedWork"]:
+        story.append(CondPageBreak(0.7 * inch))
+        story.append(Paragraph(escape(project["title"]), styles["role"]))
+        story.append(
+            Paragraph(escape(project["subtitle"]), styles["role_meta"])
+        )
+        story.append(Paragraph(escape(project["description"]), styles["body"]))
+        for capability in project["capabilities"]:
+            story.append(
+                Paragraph(f'- {escape(capability)}', styles["bullet"])
+            )
+        links = " | ".join(
+            link(item["url"], item["label"]) for item in project["links"]
+        )
+        story.append(Paragraph(links, styles["left"]))
 
     story.append(section("Education", styles))
     for item in data["education"]:
