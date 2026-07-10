@@ -54,6 +54,14 @@ test("publishes descriptive contact and PDF actions without an embed", () => {
   assert.doesNotMatch(resumePage, /<(?:iframe|object)\b/i);
 });
 
+test("publishes no executable scripts or Astro hydration markup", () => {
+  assert.doesNotMatch(resumePage, /<script\b/i);
+  assert.doesNotMatch(
+    resumePage,
+    /<astro-(?:island|slot|static-slot)\b|\b(?:component-url|renderer-url|client:(?:load|idle|visible|media|only))=/i,
+  );
+});
+
 test("links to the resume from shared navigation and the homepage card", () => {
   assert.match(resumePage, /href="\/resume"[^>]*>\s*Resume\s*</i);
   assert.match(
