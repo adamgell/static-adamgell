@@ -7,6 +7,17 @@ const resumeUrl = new URL("../src/data/resume.json", import.meta.url);
 const resume = JSON.parse(await readFile(resumeUrl, "utf8"));
 const serialized = JSON.stringify(resume);
 
+function collectStringValues(value) {
+  if (typeof value === "string") return [value];
+  if (Array.isArray(value)) return value.flatMap(collectStringValues);
+  if (value && typeof value === "object") {
+    return Object.values(value).flatMap(collectStringValues);
+  }
+  return [];
+}
+
+const resumeStrings = collectStringValues(resume);
+
 const forbiddenPatterns = [
   {
     label: "phone number",
@@ -145,7 +156,9 @@ test("pins supported consulting scale and content groups", () => {
 
 test("contains no private or source-only identifiers", () => {
   for (const { label, pattern } of forbiddenPatterns) {
-    assert.doesNotMatch(serialized, pattern, `unexpected ${label}`);
+    for (const value of resumeStrings) {
+      assert.doesNotMatch(value, pattern, `unexpected ${label}`);
+    }
   }
 });
 
@@ -165,11 +178,17 @@ test("privacy guard distinguishes local artifacts from public wording", () => {
     "Resume_Adam_Gell_2025.docx",
   ]) {
     assert.match(value, pathGuard, `expected local artifact guard for ${value}`);
+    assert.match(
+      JSON.stringify({ value }),
+      pathGuard,
+      `expected serialized local artifact guard for ${value}`,
+    );
   }
 
   for (const value of [
     "OneDrive administration",
     "https://example.com/home/about",
+    "/home/about",
     "https://example.com/Volumes/guide",
     "/resume/adam-gell-resume.pdf",
     "adam-gell-resume.pdf",
@@ -178,6 +197,11 @@ test("privacy guard distinguishes local artifacts from public wording", () => {
       value,
       pathGuard,
       `unexpected local artifact match for ${value}`,
+    );
+    assert.doesNotMatch(
+      JSON.stringify({ value }),
+      pathGuard,
+      `unexpected serialized local artifact match for ${value}`,
     );
   }
 });

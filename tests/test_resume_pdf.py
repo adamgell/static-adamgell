@@ -28,10 +28,10 @@ FORBIDDEN_PATTERNS = (
     re.compile(
         r"""\bResume_[^"'<>/\\]+\.(?:docx?|pdf)\b|"""
         r"""(?:^|[\s"'(<])(?:"""
-        r"""/(?:Users|home|Volumes)/[^/"'<>\\\s]+|"""
-        r"""~[\\/][^/"'<>\\\s]+|"""
-        r"""[A-Za-z]:[\\/][^/"'<>\\\s]+|"""
-        r"""\\\\[^\\\s"'<>]+\\[^\\\s"'<>]+)""",
+        r"""/(?:Users|home|Volumes)/[^/"'<>\\\s]+/[^/"'<>\\\s]+|"""
+        r"""~[\\/]{1,2}[^/"'<>\\\s]+|"""
+        r"""[A-Za-z]:[\\/]{1,2}[^/"'<>\\\s]+|"""
+        r"""\\{2,4}[^\\\s"'<>]+\\{1,2}[^\\\s"'<>]+)""",
         re.IGNORECASE,
     ),
 )
@@ -120,12 +120,20 @@ class ResumePdfTests(unittest.TestCase):
 
     def test_pdf_links_are_portable_outside_the_website(self) -> None:
         link_targets = []
+        link_annotation_count = 0
         for page in self.reader.pages:
             for annotation_ref in page.get("/Annots", []):
                 annotation = annotation_ref.get_object()
+                if annotation.get("/Subtype") != "/Link":
+                    continue
+                link_annotation_count += 1
                 action = annotation.get("/A")
-                if action and action.get("/URI"):
-                    link_targets.append(action["/URI"])
+                self.assertIsNotNone(action)
+                self.assertEqual(action.get("/S"), "/URI")
+                self.assertTrue(action.get("/URI"))
+                link_targets.append(action["/URI"])
+
+        self.assertEqual(link_annotation_count, len(link_targets))
 
         self.assertCountEqual(
             link_targets,
@@ -160,6 +168,7 @@ class ResumePdfTests(unittest.TestCase):
         for value in (
             "OneDrive administration",
             "https://example.com/home/about",
+            "/home/about",
             "https://example.com/Volumes/guide",
             "/resume/adam-gell-resume.pdf",
             "adam-gell-resume.pdf",
