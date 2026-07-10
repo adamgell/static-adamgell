@@ -1,0 +1,155 @@
+{
+  "name": "Adam Gell",
+  "positioning": "Senior Microsoft Intune Consultant | Consulting Leader",
+  "roleLabel": "Managing Consultant Engineer | Microsoft Intune",
+  "headline": "Microsoft endpoint strategy, from assessment to adoption.",
+  "summary": "Senior Microsoft Intune consultant with 15 years of experience translating complex endpoint requirements into secure, supportable programs. Combines hands-on engineering across Microsoft Intune, Windows Autopilot, Microsoft Entra ID, Windows 365, and PowerShell with client advisory, pre-sales discovery, and delivery leadership.",
+  "pdfFileName": "adam-gell-resume.pdf",
+  "contact": {
+    "email": "me@adamgell.com",
+    "github": {
+      "label": "github.com/adamgell",
+      "url": "https://github.com/adamgell"
+    },
+    "linkedin": {
+      "label": "linkedin.com/in/adamgell",
+      "url": "https://linkedin.com/in/adamgell"
+    }
+  },
+  "lifecycle": [
+    {
+      "name": "Assess",
+      "description": "Current state and priorities"
+    },
+    {
+      "name": "Design",
+      "description": "Architecture and roadmap"
+    },
+    {
+      "name": "Deliver",
+      "description": "Configuration and automation"
+    },
+    {
+      "name": "Adopt",
+      "description": "Enablement and outcomes"
+    }
+  ],
+  "impactPillars": [
+    {
+      "title": "Cross-platform delivery",
+      "description": "Designs and implements endpoint solutions across Windows, iOS/iPadOS, Android, macOS, Linux, and Windows 365."
+    },
+    {
+      "title": "Trusted client advisor",
+      "description": "Leads assessments, turns findings into practical recommendations, and aligns technical decisions with customer priorities."
+    },
+    {
+      "title": "Practice contribution",
+      "description": "Supports pre-sales engagements and creates reusable PowerShell automation to improve delivery."
+    }
+  ],
+  "expertise": [
+    {
+      "title": "Endpoint strategy",
+      "items": [
+        "Assessments",
+        "Target-state design",
+        "Implementation roadmaps",
+        "Client recommendations"
+      ]
+    },
+    {
+      "title": "Intune engineering",
+      "items": [
+        "Microsoft Intune",
+        "Windows Autopilot",
+        "Microsoft Entra ID",
+        "Windows 365",
+        "Endpoint Privilege Management",
+        "Endpoint Analytics",
+        "Remote Help"
+      ]
+    },
+    {
+      "title": "Consulting leadership",
+      "items": [
+        "Discovery and pre-sales",
+        "Stakeholder alignment",
+        "Endpoint security",
+        "PowerShell automation",
+        "Change management",
+        "Technical guidance"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "id": "cdw",
+      "company": "CDW",
+      "location": "Remote",
+      "title": "Managing Consultant Engineer",
+      "start": "2022-06",
+      "end": null,
+      "dateLabel": "June 2022 - Present",
+      "achievements": [
+        "Leads comprehensive Microsoft Intune assessments, translating current-state findings into target-state recommendations and practical implementation roadmaps.",
+        "Designs and implements Microsoft Intune and Microsoft Entra ID solutions, including Windows Autopilot for Microsoft Entra joined and hybrid Microsoft Entra joined devices.",
+        "Delivers cross-platform endpoint management for Windows, iOS/iPadOS, Android, macOS, Linux, and Windows 365 environments.",
+        "Deploys Intune Suite capabilities including Endpoint Privilege Management, Endpoint Analytics, and Remote Help.",
+        "Shapes solutions during pre-sales engagements and develops PowerShell automation to improve recurring device-management work."
+      ]
+    },
+    {
+      "id": "applied-microsystems",
+      "company": "Applied Microsystems",
+      "location": "Remote | Anchorage, Alaska",
+      "title": "Senior Systems Engineer",
+      "start": "2022-01",
+      "end": "2022-04",
+      "dateLabel": "January 2022 - April 2022",
+      "achievements": [
+        "Led a Qualys Vulnerability Management, Detection and Response program and strengthened patch-cycle auditing, reporting, and reboot enforcement across the MSP client base.",
+        "Served as the primary escalation point for infrastructure security investigations and remediation across customer environments.",
+        "Reviewed Mimecast policies and introduced CIPP-based tenant audits to surface Microsoft 365 security and baseline gaps.",
+        "Improved authentication processes and documentation practices to strengthen change management and operational consistency."
+      ]
+    },
+    {
+      "id": "nextstep",
+      "company": "NextStep Technology Advisors",
+      "location": "Lancaster, Pennsylvania",
+      "title": "IT Consultant",
+      "start": "2013-10",
+      "end": "2021-12",
+      "dateLabel": "October 2013 - December 2021",
+      "achievements": [
+        "Delivered consulting and technical support across 40+ client environments, advising leaders on goals, budgets, business processes, and technology transitions.",
+        "Led four Microsoft Azure migrations and more than 15 transitions from on-premises systems to modern management with Microsoft 365, Microsoft Intune, and Azure.",
+        "Designed solutions around SLAs, security, uptime, patch management, preventive maintenance, backup and disaster recovery, and remote monitoring.",
+        "Applied Microsoft security capabilities, including Microsoft Defender for Endpoint, and established metrics to identify vulnerabilities and improve security practices.",
+        "Implemented Citrix and Microsoft virtual desktop solutions, including Azure Virtual Desktop and Windows 365."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "AAS, Information Systems Administration",
+      "institution": "ITT Technical School Online",
+      "year": "2011"
+    }
+  ],
+  "credentials": [
+    {
+      "name": "Microsoft 365 Identity and Services (MS-100)",
+      "year": "2021"
+    },
+    {
+      "name": "Microsoft Certified Professional",
+      "year": "2014"
+    },
+    {
+      "name": "Datto Certified Advanced Technician",
+      "year": "2014"
+    }
+  ]
+}
